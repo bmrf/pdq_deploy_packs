@@ -1,0 +1,96 @@
+﻿Windows Registry Editor Version 5.00
+
+; Sets the TightVNC control panel password to 'nettech2'
+; Sets the TightVNC remote connection password to 'nettech2'
+
+;
+; This section is for 32-bit or 64-bit versions of TightVNC installed on matching architecture versions of Windows
+; e.g. TightVNC 64-bit installed on Windows 64-bit
+;
+[HKEY_LOCAL_MACHINE\SOFTWARE\TightVNC\Server]
+"ExtraPorts"=""
+"QueryTimeout"=dword:0000001e
+"QueryAcceptOnTimeout"=dword:00000000
+"LocalInputPriorityTimeout"=dword:00000003
+"LocalInputPriority"=dword:00000000
+"BlockRemoteInput"=dword:00000000
+"BlockLocalInput"=dword:00000000
+"IpAccessControl"=""
+"RfbPort"=dword:0000170c
+"HttpPort"=dword:000016a8
+"DisconnectAction"=dword:00000000
+"AcceptRfbConnections"=dword:00000001
+"UseVncAuthentication"=dword:00000001
+"UseControlAuthentication"=dword:00000001
+"LoopbackOnly"=dword:00000000
+"AcceptHttpConnections"=dword:00000001
+"LogLevel"=dword:00000000
+"EnableFileTransfers"=dword:00000001
+"RemoveWallpaper"=dword:00000000
+"UseMirrorDriver"=dword:00000001
+"EnableUrlParams"=dword:00000001
+
+; nettech
+;"Password"=hex:fe,f7,00,ef,4a,82,88,38
+;"ControlPassword"=hex:fe,f7,00,ef,4a,82,88,38
+
+; nettech2
+"Password"=hex:03,59,b0,07,d2,ce,ef,79
+"ControlPassword"=hex:03,59,b0,07,d2,ce,ef,79
+
+"AlwaysShared"=dword:00000000
+"NeverShared"=dword:00000000
+"DisconnectClients"=dword:00000001
+"PollingInterval"=dword:000003e8
+"AllowLoopback"=dword:00000000
+"VideoRecognitionInterval"=dword:00000bb8
+"GrabTransparentWindows"=dword:00000001
+"SaveLogToAllUsersPath"=dword:00000000
+"RunControlInterface"=dword:00000000
+"VideoClasses"=""
+
+;
+; This section is for 32-bit copies of TightVNC installed on 64-bit copies of Windows
+; e.g. TightVNC 32-bit installed on Windows 64-bit
+;
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\TightVNC\Server]
+"ExtraPorts"=""
+"QueryTimeout"=dword:0000001e
+"QueryAcceptOnTimeout"=dword:00000000
+"LocalInputPriorityTimeout"=dword:00000003
+"LocalInputPriority"=dword:00000000
+"BlockRemoteInput"=dword:00000000
+"BlockLocalInput"=dword:00000000
+"IpAccessControl"=""
+"RfbPort"=dword:0000170c
+"HttpPort"=dword:000016a8
+"DisconnectAction"=dword:00000000
+"AcceptRfbConnections"=dword:00000001
+"UseVncAuthentication"=dword:00000001
+"UseControlAuthentication"=dword:00000001
+"LoopbackOnly"=dword:00000000
+"AcceptHttpConnections"=dword:00000001
+"LogLevel"=dword:00000000
+"EnableFileTransfers"=dword:00000001
+"RemoveWallpaper"=dword:00000000
+"UseMirrorDriver"=dword:00000001
+"EnableUrlParams"=dword:00000001
+
+; nettech
+;"Password"=hex:fe,f7,00,ef,4a,82,88,38
+;"ControlPassword"=hex:fe,f7,00,ef,4a,82,88,38
+
+; nettech2
+"Password"=hex:03,59,b0,07,d2,ce,ef,79
+"ControlPassword"=hex:03,59,b0,07,d2,ce,ef,79
+
+"AlwaysShared"=dword:00000000
+"NeverShared"=dword:00000000
+"DisconnectClients"=dword:00000001
+"PollingInterval"=dword:000003e8
+"AllowLoopback"=dword:00000000
+"VideoRecognitionInterval"=dword:00000bb8
+"GrabTransparentWindows"=dword:00000001
+"SaveLogToAllUsersPath"=dword:00000000
+"RunControlInterface"=dword:00000000
+"VideoClasses"=""
