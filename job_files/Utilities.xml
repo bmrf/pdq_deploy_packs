@@ -1,0 +1,681 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AdminArsenal.Export Code="PDQDeploy" Name="PDQ Deploy" Version="6.1.0.0" MinimumVersion="3.1">
+  <Folder>
+    <Created>2014-09-05T07:57:24.0000000-07:00</Created>
+    <Id value="50" />
+    <Modified>2014-09-05T07:57:24.0000000-07:00</Modified>
+    <Name>Utilities</Name>
+    <ParentId value="null" />
+    <Path>Utilities</Path>
+    <FolderDisplaySettings name="DisplaySettings">
+      <DisplayType>Normal</DisplayType>
+      <IconKey></IconKey>
+      <SortOrder value="8" />
+    </FolderDisplaySettings>
+    <Children type="list">
+      <Package>
+        <Description>Removes all printers, unused print drivers, and unused printer ports from a target machine. Useful if printing functionality is messed up on a target.
+
+Thanks to reddit.com/user/Calvus for this script, which he originally posted to reddit.com/r/usefulscripts</Description>
+        <FolderId value="50" />
+        <Name>Clean Up All Printers</Name>
+        <Path>Utilities\Clean Up All Printers</Path>
+        <Version>1.0</Version>
+        <PackageDefinition name="Definition">
+          <CopyMode>Default</CopyMode>
+          <InventoryScanProfileId value="null" />
+          <RunAs value="null" />
+          <ScanAfterDeployment value="null" />
+          <Timeout value="60" />
+          <UseCustomTimeout value="false" />
+          <Steps type="list">
+            <InstallStep>
+              <CustomCommandLine></CustomCommandLine>
+              <FileName>$(Repository)\utilities\cleanup_all_printers\remove_all_printers_and_unused_drivers_and_ports.bat</FileName>
+              <Files></Files>
+              <IncludeDirectory value="false" />
+              <MsiOperation>Install</MsiOperation>
+              <MsiQuiet value="true" />
+              <MsiRestart>Never</MsiRestart>
+              <Parameters></Parameters>
+              <SuccessCodes>0,1641,3010</SuccessCodes>
+              <RunAs value="null" />
+              <ErrorMode>StopDeploymentFail</ErrorMode>
+              <IsEnabled value="true" />
+              <Title></Title>
+              <TypeName>Install</TypeName>
+              <Conditions type="list">
+                <PackageStepCondition>
+                  <Architecture>Both</Architecture>
+                  <Version>All</Version>
+                  <TypeName>OperatingSystem</TypeName>
+                </PackageStepCondition>
+                <PackageStepCondition>
+                  <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
+                  <TypeName>LoggedOnUser</TypeName>
+                </PackageStepCondition>
+              </Conditions>
+            </InstallStep>
+          </Steps>
+        </PackageDefinition>
+        <PackageDisplaySettings name="DisplaySettings">
+          <DisplayType>Normal</DisplayType>
+          <IconKey></IconKey>
+          <SortOrder value="6" />
+        </PackageDisplaySettings>
+      </Package>
+      <Package>
+        <Description>This script cleans out all orphaned (non-existent) printers in the Print Spooler, which frees up RAM.</Description>
+        <FolderId value="50" />
+        <Name>Clean Up Orphaned Printers</Name>
+        <Path>Utilities\Clean Up Orphaned Printers</Path>
+        <Version></Version>
+        <PackageDefinition name="Definition">
+          <CopyMode>Default</CopyMode>
+          <InventoryScanProfileId value="null" />
+          <RunAs value="null" />
+          <ScanAfterDeployment value="null" />
+          <Timeout value="60" />
+          <UseCustomTimeout value="false" />
+          <Steps type="list">
+            <InstallStep>
+              <CustomCommandLine></CustomCommandLine>
+              <FileName>$(Repository)\utilities\cleanup_orphaned_printers\Cleanup_Orphaned_Printers_execute.bat</FileName>
+              <Files></Files>
+              <IncludeDirectory value="true" />
+              <MsiOperation>Install</MsiOperation>
+              <MsiQuiet value="true" />
+              <MsiRestart>Never</MsiRestart>
+              <Parameters></Parameters>
+              <SuccessCodes>0,1641,3010</SuccessCodes>
+              <RunAs value="null" />
+              <ErrorMode>StopDeploymentFail</ErrorMode>
+              <IsEnabled value="true" />
+              <Title></Title>
+              <TypeName>Install</TypeName>
+              <Conditions type="list">
+                <PackageStepCondition>
+                  <Architecture>Both</Architecture>
+                  <Version>All</Version>
+                  <TypeName>OperatingSystem</TypeName>
+                </PackageStepCondition>
+                <PackageStepCondition>
+                  <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
+                  <TypeName>LoggedOnUser</TypeName>
+                </PackageStepCondition>
+              </Conditions>
+            </InstallStep>
+          </Steps>
+        </PackageDefinition>
+        <PackageDisplaySettings name="DisplaySettings">
+          <DisplayType>Normal</DisplayType>
+          <IconKey></IconKey>
+          <SortOrder value="6" />
+        </PackageDisplaySettings>
+      </Package>
+      <Package>
+        <Description>Forces an emptying of all recycle bins on the target. Supports Windows XP/2003 and up.</Description>
+        <FolderId value="50" />
+        <Name>Empty All Recycle Bins</Name>
+        <Path>Utilities\Empty All Recycle Bins</Path>
+        <Version></Version>
+        <PackageDefinition name="Definition">
+          <CopyMode>Default</CopyMode>
+          <InventoryScanProfileId value="null" />
+          <RunAs value="null" />
+          <ScanAfterDeployment value="null" />
+          <Timeout value="60" />
+          <UseCustomTimeout value="false" />
+          <Steps type="list">
+            <InstallStep>
+              <CustomCommandLine></CustomCommandLine>
+              <FileName>$(Repository)\utilities\empty_all_recycle_bins\empty_all_recycle_bins.bat</FileName>
+              <Files></Files>
+              <IncludeDirectory value="false" />
+              <MsiOperation>Install</MsiOperation>
+              <MsiQuiet value="true" />
+              <MsiRestart>Never</MsiRestart>
+              <Parameters></Parameters>
+              <SuccessCodes>0,1641,3010</SuccessCodes>
+              <RunAs value="null" />
+              <ErrorMode>StopDeploymentFail</ErrorMode>
+              <IsEnabled value="true" />
+              <Title></Title>
+              <TypeName>Install</TypeName>
+              <Conditions type="list">
+                <PackageStepCondition>
+                  <Architecture>Both</Architecture>
+                  <Version>All</Version>
+                  <TypeName>OperatingSystem</TypeName>
+                </PackageStepCondition>
+                <PackageStepCondition>
+                  <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
+                  <TypeName>LoggedOnUser</TypeName>
+                </PackageStepCondition>
+              </Conditions>
+            </InstallStep>
+          </Steps>
+        </PackageDefinition>
+        <PackageDisplaySettings name="DisplaySettings">
+          <DisplayType>Normal</DisplayType>
+          <IconKey></IconKey>
+          <SortOrder value="6" />
+        </PackageDisplaySettings>
+      </Package>
+      <Package>
+        <Description>Enables Remote Desktop on a target machine by performing the following steps:
+ - Adds firewall exception called "Remote Desktop"
+ - Sets fDenyTSConnections to 0 in the registry
+ - Sets the TermService service to auto-start at boot
+ - Starts the TermService service
+
+Thanks to reddit.com/user/diggity801 for idea and script</Description>
+        <FolderId value="50" />
+        <Name>Enable Remote Desktop</Name>
+        <Path>Utilities\Enable Remote Desktop</Path>
+        <Version>1.0</Version>
+        <PackageDefinition name="Definition">
+          <CopyMode>Default</CopyMode>
+          <InventoryScanProfileId value="null" />
+          <RunAs value="null" />
+          <ScanAfterDeployment value="null" />
+          <Timeout value="60" />
+          <UseCustomTimeout value="false" />
+          <Steps type="list">
+            <InstallStep>
+              <CustomCommandLine></CustomCommandLine>
+              <FileName>$(Repository)\utilities\enable_remote_desktop\Enable RDP.bat</FileName>
+              <Files></Files>
+              <IncludeDirectory value="false" />
+              <MsiOperation>Install</MsiOperation>
+              <MsiQuiet value="true" />
+              <MsiRestart>Never</MsiRestart>
+              <Parameters></Parameters>
+              <SuccessCodes>0,1641,3010</SuccessCodes>
+              <RunAs value="null" />
+              <ErrorMode>StopDeploymentFail</ErrorMode>
+              <IsEnabled value="true" />
+              <Title></Title>
+              <TypeName>Install</TypeName>
+              <Conditions type="list">
+                <PackageStepCondition>
+                  <Architecture>Both</Architecture>
+                  <Version>All</Version>
+                  <TypeName>OperatingSystem</TypeName>
+                </PackageStepCondition>
+                <PackageStepCondition>
+                  <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
+                  <TypeName>LoggedOnUser</TypeName>
+                </PackageStepCondition>
+              </Conditions>
+            </InstallStep>
+          </Steps>
+        </PackageDefinition>
+        <PackageDisplaySettings name="DisplaySettings">
+          <DisplayType>Normal</DisplayType>
+          <IconKey></IconKey>
+          <SortOrder value="6" />
+        </PackageDisplaySettings>
+      </Package>
+      <Package>
+        <Description>Installs all .cer PKI certificate files located in the same directory as the script to the target machine, with the following customizations:
+ - Installs all .cer files to the "LocalMachine root" certificate store (installs system-wide)
+ - Fails with error code 1 if any of the following files cannot be found:
+    - certmgr.exe  (from Microsoft)
+    - forfiles.exe   (from Microsoft, included in Windows Vista and up)
+    - .cer files       (certs to install; must be in same directory as the script)
+
+Note: certmgr.exe was incredibly hard to track down - recommend not deleting it unless you're SURE you'll never need it.</Description>
+        <FolderId value="50" />
+        <Name>Install PKI Certificates</Name>
+        <Path>Utilities\Install PKI Certificates</Path>
+        <Version>1.0.0</Version>
+        <PackageDefinition name="Definition">
+          <CopyMode>Default</CopyMode>
+          <InventoryScanProfileId value="null" />
+          <RunAs value="null" />
+          <ScanAfterDeployment value="null" />
+          <Timeout value="60" />
+          <UseCustomTimeout value="false" />
+          <Steps type="list">
+            <InstallStep>
+              <CustomCommandLine></CustomCommandLine>
+              <FileName>$(Repository)\utilities\install_pki_certs\install_pki_certificates.bat</FileName>
+              <Files></Files>
+              <IncludeDirectory value="true" />
+              <MsiOperation>Install</MsiOperation>
+              <MsiQuiet value="true" />
+              <MsiRestart>Never</MsiRestart>
+              <Parameters></Parameters>
+              <SuccessCodes>0,1641,3010</SuccessCodes>
+              <RunAs value="null" />
+              <ErrorMode>StopDeploymentFail</ErrorMode>
+              <IsEnabled value="true" />
+              <Title></Title>
+              <TypeName>Install</TypeName>
+              <Conditions type="list">
+                <PackageStepCondition>
+                  <Architecture>Both</Architecture>
+                  <Version>All</Version>
+                  <TypeName>OperatingSystem</TypeName>
+                </PackageStepCondition>
+                <PackageStepCondition>
+                  <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
+                  <TypeName>LoggedOnUser</TypeName>
+                </PackageStepCondition>
+              </Conditions>
+            </InstallStep>
+          </Steps>
+        </PackageDefinition>
+        <PackageDisplaySettings name="DisplaySettings">
+          <DisplayType>Normal</DisplayType>
+          <IconKey></IconKey>
+          <SortOrder value="6" />
+        </PackageDisplaySettings>
+      </Package>
+      <Package>
+        <Description>Deletes cached user profiles on the target that haven't been logged into in the specified number of days.
+
+Use:
+ - Specify age in days after the word "localhost" in the Parameters field of Step 1 (on the left)
+ - Ensure the "Parameters" field looks like this:
+      localhost &lt;days&gt; auto
+ - Saves a log file (on target) to %SystemDrive%\Logs\%ComputerName%_OCPN3.log (configurable)
+  
+Requirements:
+ - psexec.exe (included)
+ - delprof2.exe (included)
+
+
+Note: 
+ Script is capable of running standalone (e.g. without PDQ Deploy) against an arbitrary number of systems. Read the comments in the script for a description of other ways to use it. Most up-to-date version can always be found here:
+    http://www.reddit.com/r/usefulscripts/comments/22oxf6/batch_orbital_cached_profile_nuker_delete_old/</Description>
+        <FolderId value="50" />
+        <Name>Orbital Cached Profile Nuker</Name>
+        <Path>Utilities\Orbital Cached Profile Nuker</Path>
+        <Version>3.2.2</Version>
+        <PackageDefinition name="Definition">
+          <CopyMode>Default</CopyMode>
+          <InventoryScanProfileId value="null" />
+          <RunAs value="null" />
+          <ScanAfterDeployment value="null" />
+          <Timeout value="60" />
+          <UseCustomTimeout value="false" />
+          <Steps type="list">
+            <InstallStep>
+              <CustomCommandLine></CustomCommandLine>
+              <FileName>$(Repository)\utilities\orbital_cached_profile_nuker\OCPN3.bat</FileName>
+              <Files></Files>
+              <IncludeDirectory value="true" />
+              <MsiOperation>Install</MsiOperation>
+              <MsiQuiet value="true" />
+              <MsiRestart>Never</MsiRestart>
+              <Parameters>localhost 60 auto</Parameters>
+              <SuccessCodes>0,1641,3010</SuccessCodes>
+              <RunAs value="null" />
+              <ErrorMode>StopDeploymentFail</ErrorMode>
+              <IsEnabled value="true" />
+              <Title></Title>
+              <TypeName>Install</TypeName>
+              <Conditions type="list">
+                <PackageStepCondition>
+                  <Architecture>Both</Architecture>
+                  <Version>All</Version>
+                  <TypeName>OperatingSystem</TypeName>
+                </PackageStepCondition>
+                <PackageStepCondition>
+                  <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
+                  <TypeName>LoggedOnUser</TypeName>
+                </PackageStepCondition>
+              </Conditions>
+            </InstallStep>
+          </Steps>
+        </PackageDefinition>
+        <PackageDisplaySettings name="DisplaySettings">
+          <DisplayType>Normal</DisplayType>
+          <IconKey></IconKey>
+          <SortOrder value="6" />
+        </PackageDisplaySettings>
+      </Package>
+      <Package>
+        <Description>Displays a warning for the specified number of seconds and then reboots the computer it was deployed to.
+
+Edit "Parameters" under Step 1 of this job to specify the number of seconds to wait before rebooting.</Description>
+        <FolderId value="50" />
+        <Name>Reboot</Name>
+        <Path>Utilities\Reboot</Path>
+        <Version></Version>
+        <PackageDefinition name="Definition">
+          <CopyMode>Default</CopyMode>
+          <InventoryScanProfileId value="null" />
+          <RunAs value="null" />
+          <ScanAfterDeployment value="null" />
+          <Timeout value="60" />
+          <UseCustomTimeout value="false" />
+          <Steps type="list">
+            <InstallStep>
+              <CustomCommandLine></CustomCommandLine>
+              <FileName>$(Repository)\utilities\reboot\reboot.bat</FileName>
+              <Files></Files>
+              <IncludeDirectory value="false" />
+              <MsiOperation>Install</MsiOperation>
+              <MsiQuiet value="true" />
+              <MsiRestart>Never</MsiRestart>
+              <Parameters>15</Parameters>
+              <SuccessCodes>0,1641,3010</SuccessCodes>
+              <RunAs value="null" />
+              <ErrorMode>StopDeploymentFail</ErrorMode>
+              <IsEnabled value="true" />
+              <Title></Title>
+              <TypeName>Install</TypeName>
+              <Conditions type="list">
+                <PackageStepCondition>
+                  <Architecture>Both</Architecture>
+                  <Version>All</Version>
+                  <TypeName>OperatingSystem</TypeName>
+                </PackageStepCondition>
+                <PackageStepCondition>
+                  <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
+                  <TypeName>LoggedOnUser</TypeName>
+                </PackageStepCondition>
+              </Conditions>
+            </InstallStep>
+          </Steps>
+        </PackageDefinition>
+        <PackageDisplaySettings name="DisplaySettings">
+          <DisplayType>Normal</DisplayType>
+          <IconKey></IconKey>
+          <SortOrder value="6" />
+        </PackageDisplaySettings>
+      </Package>
+      <Package>
+        <Description>Removes ALL versions of Adobe Flash Player, by performing the following steps:
+
+ 1. Runs the Adobe uninstaller, to remove versions v11.4.402.265 and earlier
+ 2. Runs the Microsoft WMIC command to remove all other versions:
+      wmic product where "name like 'Adobe Flash Player%%'" uninstall /nointeractive
+ 3. Deletes the Adobe Flash Player Update Service
+ 4. Deletes the Adobe Flash Player Update scheduled task
+ 5. By default logs to 'C:\Logs\%COMPUTERNAME%_adobe_flash_player_removal.log'
+
+Script also available here:
+http://www.reddit.com/r/usefulscripts/comments/1v4qus/batch_adobe_flash_removal_purge_all_versions_of/</Description>
+        <FolderId value="50" />
+        <Name>Remove Adobe Flash Player (all versions)</Name>
+        <Path>Utilities\Remove Adobe Flash Player (all versions)</Path>
+        <Version>1.1.1</Version>
+        <PackageDefinition name="Definition">
+          <CopyMode>Default</CopyMode>
+          <InventoryScanProfileId value="null" />
+          <RunAs value="null" />
+          <ScanAfterDeployment value="null" />
+          <Timeout value="60" />
+          <UseCustomTimeout value="false" />
+          <Steps type="list">
+            <InstallStep>
+              <CustomCommandLine></CustomCommandLine>
+              <FileName>$(Repository)\utilities\remove_adobe_flash_player\remove_flash_player_all_versions.bat</FileName>
+              <Files></Files>
+              <IncludeDirectory value="true" />
+              <MsiOperation>Install</MsiOperation>
+              <MsiQuiet value="true" />
+              <MsiRestart>Never</MsiRestart>
+              <Parameters>-uninstall</Parameters>
+              <SuccessCodes>0,1641,3010</SuccessCodes>
+              <RunAs value="null" />
+              <ErrorMode>StopDeploymentFail</ErrorMode>
+              <IsEnabled value="true" />
+              <Title>Remove Flash Player</Title>
+              <TypeName>Install</TypeName>
+              <Conditions type="list">
+                <PackageStepCondition>
+                  <Architecture>Both</Architecture>
+                  <Version>All</Version>
+                  <TypeName>OperatingSystem</TypeName>
+                </PackageStepCondition>
+                <PackageStepCondition>
+                  <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
+                  <TypeName>LoggedOnUser</TypeName>
+                </PackageStepCondition>
+              </Conditions>
+            </InstallStep>
+          </Steps>
+        </PackageDefinition>
+        <PackageDisplaySettings name="DisplaySettings">
+          <DisplayType>Normal</DisplayType>
+          <IconKey></IconKey>
+          <SortOrder value="6" />
+        </PackageDisplaySettings>
+      </Package>
+      <Package>
+        <Description>This script will:
+
+ - Remove all versions of the Java Runtime (series 3-8, x64 and x86)
+ - Remove JavaFX
+ - Remove Java Update Scheduler service and associated registry entries
+ - Remove Java Quickstart service and associated registry entries
+ - Repair WMI if it is broken (in order to use WMI wildcards to uninstall Java)
+ - Leave all Java Development Kit (JDK) installations intact
+ - Write log file to C:\Logs\&lt;hostname&gt;_java_runtime_remover.txt
+
+Script is also available here:
+http://www.reddit.com/r/usefulscripts/comments/2hzt5c/batch_java_runtime_nuker_purge_all_versions_of/</Description>
+        <FolderId value="50" />
+        <Name>Remove Java Runtime (all versions)</Name>
+        <Path>Utilities\Remove Java Runtime (all versions)</Path>
+        <Version>1.8.1</Version>
+        <PackageDefinition name="Definition">
+          <CopyMode>Default</CopyMode>
+          <InventoryScanProfileId value="null" />
+          <RunAs value="null" />
+          <ScanAfterDeployment value="null" />
+          <Timeout value="60" />
+          <UseCustomTimeout value="false" />
+          <Steps type="list">
+            <InstallStep>
+              <CustomCommandLine></CustomCommandLine>
+              <FileName>$(Repository)\utilities\remove_java_runtime\java_runtime_nuker.bat</FileName>
+              <Files></Files>
+              <IncludeDirectory value="true" />
+              <MsiOperation>Install</MsiOperation>
+              <MsiQuiet value="true" />
+              <MsiRestart>Never</MsiRestart>
+              <Parameters></Parameters>
+              <SuccessCodes>0,1641,3010</SuccessCodes>
+              <RunAs value="null" />
+              <ErrorMode>StopDeploymentFail</ErrorMode>
+              <IsEnabled value="true" />
+              <Title></Title>
+              <TypeName>Install</TypeName>
+              <Conditions type="list">
+                <PackageStepCondition>
+                  <Architecture>Both</Architecture>
+                  <Version>All</Version>
+                  <TypeName>OperatingSystem</TypeName>
+                </PackageStepCondition>
+                <PackageStepCondition>
+                  <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
+                  <TypeName>LoggedOnUser</TypeName>
+                </PackageStepCondition>
+              </Conditions>
+            </InstallStep>
+          </Steps>
+        </PackageDefinition>
+        <PackageDisplaySettings name="DisplaySettings">
+          <DisplayType>Normal</DisplayType>
+          <IconKey></IconKey>
+          <SortOrder value="6" />
+        </PackageDisplaySettings>
+      </Package>
+      <Package>
+        <Description>Original script by Gregory Strike:
+   http://www.gregorystrike.com/2012/02/29/script-to-uninstallremove-vnc-passively/
+
+Modified by vocatus for use in PDQ.
+
+This script will:
+
+ - Remove TightVNC, UltraVNC and RealVNC viewers and servers
+ - Clean up program files and registry entries left over
+ - Remove all VNC services 
+ - Write a log file to C:\Logs\&lt;computername&gt;_remove_all_vnc_servers.log *
+
+* Configurable. Change the LOGPATH and LOGFILE variables in the script if you want to log to a different location</Description>
+        <FolderId value="50" />
+        <Name>Remove VNC Servers (TightVNC, UltraVNC, RealVNC)</Name>
+        <Path>Utilities\Remove VNC Servers (TightVNC, UltraVNC, RealVNC)</Path>
+        <Version>1.1</Version>
+        <PackageDefinition name="Definition">
+          <CopyMode>Default</CopyMode>
+          <InventoryScanProfileId value="null" />
+          <RunAs value="null" />
+          <ScanAfterDeployment value="null" />
+          <Timeout value="60" />
+          <UseCustomTimeout value="false" />
+          <Steps type="list">
+            <InstallStep>
+              <CustomCommandLine></CustomCommandLine>
+              <FileName>$(Repository)\utilities\remove_vnc_servers\remove_all_vnc_servers.bat</FileName>
+              <Files></Files>
+              <IncludeDirectory value="true" />
+              <MsiOperation>Install</MsiOperation>
+              <MsiQuiet value="true" />
+              <MsiRestart>Never</MsiRestart>
+              <Parameters></Parameters>
+              <SuccessCodes>0,1641,3010</SuccessCodes>
+              <RunAs value="null" />
+              <ErrorMode>StopDeploymentFail</ErrorMode>
+              <IsEnabled value="true" />
+              <Title></Title>
+              <TypeName>Install</TypeName>
+              <Conditions type="list">
+                <PackageStepCondition>
+                  <Architecture>Both</Architecture>
+                  <Version>All</Version>
+                  <TypeName>OperatingSystem</TypeName>
+                </PackageStepCondition>
+                <PackageStepCondition>
+                  <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
+                  <TypeName>LoggedOnUser</TypeName>
+                </PackageStepCondition>
+              </Conditions>
+            </InstallStep>
+          </Steps>
+        </PackageDefinition>
+        <PackageDisplaySettings name="DisplaySettings">
+          <DisplayType>Normal</DisplayType>
+          <IconKey></IconKey>
+          <SortOrder value="6" />
+        </PackageDisplaySettings>
+      </Package>
+      <Package>
+        <Description>Forces a temp file cleanup on the target(s). Edit the batch file that is called to see what is cleaned up.
+
+Uses TempFileCleanup script, available here:
+http://www.reddit.com/r/usefulscripts/comments/2gk3v6/batch_tempfilecleanup/</Description>
+        <FolderId value="50" />
+        <Name>Temp File Cleanup</Name>
+        <Path>Utilities\Temp File Cleanup</Path>
+        <Version>3.6.0</Version>
+        <PackageDefinition name="Definition">
+          <CopyMode>Default</CopyMode>
+          <InventoryScanProfileId value="null" />
+          <RunAs value="null" />
+          <ScanAfterDeployment value="null" />
+          <Timeout value="60" />
+          <UseCustomTimeout value="false" />
+          <Steps type="list">
+            <InstallStep>
+              <CustomCommandLine></CustomCommandLine>
+              <FileName>$(Repository)\utilities\tempfilecleanup\TempFileCleanup.bat</FileName>
+              <Files></Files>
+              <IncludeDirectory value="false" />
+              <MsiOperation>Install</MsiOperation>
+              <MsiQuiet value="true" />
+              <MsiRestart>Never</MsiRestart>
+              <Parameters></Parameters>
+              <SuccessCodes>0,1641,3010</SuccessCodes>
+              <RunAs value="null" />
+              <ErrorMode>StopDeploymentFail</ErrorMode>
+              <IsEnabled value="true" />
+              <Title></Title>
+              <TypeName>Install</TypeName>
+              <Conditions type="list">
+                <PackageStepCondition>
+                  <Architecture>Both</Architecture>
+                  <Version>All</Version>
+                  <TypeName>OperatingSystem</TypeName>
+                </PackageStepCondition>
+                <PackageStepCondition>
+                  <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
+                  <TypeName>LoggedOnUser</TypeName>
+                </PackageStepCondition>
+              </Conditions>
+            </InstallStep>
+          </Steps>
+        </PackageDefinition>
+        <PackageDisplaySettings name="DisplaySettings">
+          <DisplayType>Normal</DisplayType>
+          <IconKey></IconKey>
+          <SortOrder value="6" />
+        </PackageDisplaySettings>
+      </Package>
+      <Package>
+        <Description>Uninstalls non-present USB hubs, USB storage devices and their storage volumes, Disks, CDROMs, Floppies, WPD devices
+and deletes their associated registry items.
+
+Does not permanently remove drives; devices will be re-initialized when plugged back in.
+
+Saves log to C:\Logs\&lt;computername&gt;_usb_device_cleanup.log
+
+Thanks to Uwe Sieber ( www.uwe-sieber.de ) for DeviceCleanup.exe</Description>
+        <FolderId value="50" />
+        <Name>USB Device Cleanup</Name>
+        <Path>Utilities\USB Device Cleanup</Path>
+        <Version>1.2.0</Version>
+        <PackageDefinition name="Definition">
+          <CopyMode>Default</CopyMode>
+          <InventoryScanProfileId value="null" />
+          <RunAs value="null" />
+          <ScanAfterDeployment value="null" />
+          <Timeout value="60" />
+          <UseCustomTimeout value="false" />
+          <Steps type="list">
+            <InstallStep>
+              <CustomCommandLine></CustomCommandLine>
+              <FileName>$(Repository)\utilities\usb_device_cleanup\USBDriveCleanup.bat</FileName>
+              <Files></Files>
+              <IncludeDirectory value="true" />
+              <MsiOperation>Install</MsiOperation>
+              <MsiQuiet value="true" />
+              <MsiRestart>Never</MsiRestart>
+              <Parameters></Parameters>
+              <SuccessCodes>0,1641,3010</SuccessCodes>
+              <RunAs value="null" />
+              <ErrorMode>StopDeploymentFail</ErrorMode>
+              <IsEnabled value="true" />
+              <Title></Title>
+              <TypeName>Install</TypeName>
+              <Conditions type="list">
+                <PackageStepCondition>
+                  <Architecture>Both</Architecture>
+                  <Version>All</Version>
+                  <TypeName>OperatingSystem</TypeName>
+                </PackageStepCondition>
+                <PackageStepCondition>
+                  <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
+                  <TypeName>LoggedOnUser</TypeName>
+                </PackageStepCondition>
+              </Conditions>
+            </InstallStep>
+          </Steps>
+        </PackageDefinition>
+        <PackageDisplaySettings name="DisplaySettings">
+          <DisplayType>Normal</DisplayType>
+          <IconKey></IconKey>
+          <SortOrder value="6" />
+        </PackageDisplaySettings>
+      </Package>
+    </Children>
+  </Folder>
+</AdminArsenal.Export>
