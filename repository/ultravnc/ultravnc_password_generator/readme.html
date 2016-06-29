@@ -1,0 +1,274 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+
+<HEAD>
+  <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+  <TITLE>VNCPWD.EXE - v1.1.1</TITLE>
+</HEAD>
+
+<BODY>
+<h1><font face="Verdana, Arial, Hevetica" size="5">VNCPWD.EXE utility</font></h1>
+<hr>
+
+<H2><font face="Verdana, Arial, Hevetica" size="2" color="#003399">Contents</font></H2>
+
+<UL>
+  <LI><A HREF="#Description" target="_self"><font face="Verdana, Arial, Hevetica" size="2">Description</font></A>
+  <LI><A HREF="#Compatibility" target="_self"><font face="Verdana, Arial, Hevetica" size="2">Compatibility</font></A>
+  <LI><A HREF="#Installation" target="_self"><font face="Verdana, Arial, Hevetica" size="2">Installation</font></A>
+  <LI><a href="#Use"><font face="Verdana, Arial, Hevetica" size="2">Use</font></a>
+  <LI><a href="#Examples"><font face="Verdana, Arial, Hevetica" size="2">Examples</font></a>
+  <LI><a HREF="#Known Issues" target="_self"><font face="Verdana, Arial, Hevetica" size="2">Known Issues</font></a>
+  <LI><a HREF="#Update History" target="_self"><font face="Verdana, Arial, Hevetica" size="2">Update History</font></a>
+  <LI><a href="#Links"><font face="Verdana, Arial, Hevetica" size="2">Links</font></a>
+  <LI><a HREF="#License &amp; Disclaimer" target="_self"><font face="Verdana, Arial, Hevetica" size="2">License and Disclaimer</font></a>
+  <LI><a HREF="#About the Author" target="_self"><font face="Verdana, Arial, Hevetica" size="2">About the Author</font></a>
+</UL>
+
+<p>&nbsp;</p>
+<hr>
+
+<H2><a name="Description"><font face="Verdana, Arial, Hevetica" size="2" color="#003399">Description</font></a></H2>
+
+<p><b>
+<font face="Verdana, Arial, Hevetica" size="2">VNCPWD.EXE</font></b> 
+<font face="Verdana, Arial, Hevetica" size="2"> is a small command-line utility which gives you the ability to
+change the password used by VNC servers (WinVNC only, i.e. win32 platforms
+only). It may change local computer and also remote computer passwords, as well
+as password included into .vnc files.</font>
+</P>
+
+<p>
+&nbsp;
+</P>
+<hr>
+
+<H2><a name="Compatibility"><font face="Verdana, Arial, Hevetica" size="2" color="#003399">Compatibility</font></a></H2>
+
+<P><font size="2" face="Verdana, Arial, Hevetica">This program may be run on Microsoft Windows &reg; operating systems
+(Windows XP/2000/NT). Please note that no tests have been performed for older OS
+like 9x/Me.<br>
+</font></P>
+
+<hr>
+
+<H2><a name="Installation"><font face="Verdana, Arial, Hevetica" size="2" color="#003399">Installation</font></a></H2>
+
+<P><font face="Verdana, Arial, Hevetica" size="2">Extract all files from the zip file to a folder on your computer.
+You may also copy <b>vncpwd.dll</b> to the <b>%windir%</b> folder or any path
+included in the <b>%path%</b> environment var. Then open a
+command-line box and just launch the program.<br>
+</font>
+</P>
+<hr>
+
+<H2><a name="Use"><font face="Verdana, Arial, Hevetica" size="2" color="#003399">Use</font></a></H2>
+
+<p><font face="Verdana, Arial, Hevetica" size="2">The syntax to use VNCPWD.EXE is:</font></p>
+
+<p><b><font size="2" face="Verdana, Arial, Hevetica">VNCPWD.EXE</font></b><font size="2" face="Verdana, Arial, Hevetica"> &lt;/h:hostname> &lt;/u:username> &lt;/p:password> &lt;/f:filename> &lt;/v:vncpassword><br>
+&lt;/l[:username]&gt; &lt;/e:password> &lt;/> &lt;/y> &lt;/g> &lt;/?></font>
+
+<p><font face="Verdana, Arial, Hevetica" size="2">
+<br>
+Where :
+</font>
+
+<p>&nbsp;
+<table border="0" cellpadding="0" cellspacing="0" width="80%">
+  <tr>
+    <td width="132">
+
+<p>
+<font size="2" face="Verdana, Arial, Hevetica">/h:hostname</font></td>
+    <td width="648">
+
+<p>
+<font size="2" face="Verdana, Arial, Hevetica">           "hostname" is a remote computer name</font></td>
+  </tr>
+  <tr>
+    <td width="132">
+
+<p>
+<font size="2" face="Verdana, Arial, Hevetica">/u:username</font></td>
+    <td width="648">
+
+<p>
+<font size="2" face="Verdana, Arial, Hevetica">           "username" should be in form domain\user</font></td>
+  </tr>
+  <tr>
+    <td width="132">
+
+<p>
+<font size="2" face="Verdana, Arial, Hevetica">/p:password</font></td>
+    <td width="648">
+
+<p>
+<font size="2" face="Verdana, Arial, Hevetica">           "password" is the password associated with username</font></td>
+  </tr>
+  <tr>
+    <td width="132">
+
+<p>
+<font size="2" face="Verdana, Arial, Hevetica">/f:filename</font></td>
+    <td width="648">
+
+<p>
+<font size="2" face="Verdana, Arial, Hevetica">           "filename" is the VNC Option filename</font></td>
+  </tr>
+  <tr>
+    <td width="132">
+
+<p>
+<font size="2" face="Verdana, Arial, Hevetica">/v:vncpassword</font></td>
+    <td width="648">
+
+<p>
+<font size="2" face="Verdana, Arial, Hevetica">&quot;vncpassword&quot; is the new VNC password to set</font></td>
+  </tr>
+  <tr>
+    <td width="132">
+
+<p>
+<font size="2" face="Verdana, Arial, Hevetica">/l[:username]</font></td>
+    <td width="648">
+
+<p>
+<font size="2" face="Verdana, Arial, Hevetica">         Change password for remote "username"</font></td>
+  </tr>
+  <tr>
+    <td width="132">
+
+<p>
+<font size="2" face="Verdana, Arial, Hevetica">/e:password</font></td>
+    <td width="648">
+
+<p>
+<font size="2" face="Verdana, Arial, Hevetica">           Encrypt the clear text "password"</font></td>
+  </tr>
+  <tr>
+    <td width="132">
+
+<p>
+<font size="2" face="Verdana, Arial, Hevetica">/y</font></td>
+    <td width="648">
+
+<p>
+<font size="2" face="Verdana, Arial, Hevetica">                    Force changes to be applied</font></td>
+  </tr>
+  <tr>
+    <td width="132">
+
+<p>
+<font size="2" face="Verdana, Arial, Hevetica">/g</font></td>
+    <td width="648">
+
+<p>
+<font size="2" face="Verdana, Arial, Hevetica">                    Change password also for the HKCU hive</font></td>
+  </tr>
+  <tr>
+    <td width="132">
+
+<p>
+<font size="2" face="Verdana, Arial, Hevetica">/?</font></td>
+    <td width="648">
+
+<p>
+<font size="2" face="Verdana, Arial, Hevetica">                    Show this help</font></td>
+  </tr>
+</table>
+<p><font face="Verdana, Arial, Hevetica" size="2"><b>Notes:</b></font></p>
+<p><font size="2" face="Verdana, Arial, Hevetica">The /g switch is not compatible with /h switch, as the HKCU hive is not
+accessible through the network.<br>
+With /l switch if no "username" is given the local one will be used.</font></p>
+<p>&nbsp;</p>
+
+<hr>
+<H2><font size="2" face="Verdana, Arial, Hevetica"><a name="Examples"><font color="#003399">Examples</font></a><br>
+</font>
+</H2>
+
+<p>     <font face="Verdana, Arial, Hevetica"><b><font size="2">C:\&gt;VNCPWD /v:test</font></b><font size="2"><br>
+Will change the local computer VNC password to &quot;test&quot;.<br>
+<br>
+<b>C:\&gt;VNCPWD /v:test /h:snoopy</b><br>
+Will change \\snoopy workstation VNC password to "test". You need to have administrator access to this computer.<br>
+<br>
+<b>C:\&gt;VNCPWD /v:test /h:snoopy /u:mydomain\smithj /p:123qwerty</b><br>
+Will change \\snoopy workstation VNC password to "test" using mydomain\smithj domain account associated with "123qwerty" password. You can
+omit the password if you want, you will be prompted to enter it later.<br>
+<br>
+<b>C:\&gt;VNCPWD /e:test</b><br>
+Will encrypt "test" using the VNC password encryption and then show you the result as an hexadecimal string.</font>     <br>
+</font>
+</p>
+
+<hr>
+
+<H2><a name="Known Issues"><font face="Verdana, Arial, Hevetica" size="2" color="#003399">Known Issues</font></a></H2>
+<p><font face="Verdana, Arial, Hevetica" size="2">No bugs reported to date.</font> </p>
+
+<P>
+<hr>
+
+<H2><a name="Update History"><font face="Verdana, Arial, Hevetica" size="2" color="#003399">Update History</font></a></H2>
+<P><font size="2" face="Verdana, Arial, Hevetica"><b>Release 1.1.1 of 02/15/2003</b><em><b><br>
+</b>VNCPWD.EXE v1.1.1 of 02/15/2003</em></font></P>
+<ul>
+  <li><font face="Verdana, Arial, Hevetica" size="2">Correct a display issue in the help message.</font></li>
+</ul>
+<P><font size="2" face="Verdana, Arial, Hevetica"><b>Release 1.1.0 of 11/17/2002</b><em><b><br>
+</b>VNCPWD.EXE v1.1.0 of 11/17/2002</em></font></P>
+<ul>
+  <li><font face="Verdana, Arial, Hevetica" size="2">First public release posted on my web site.</font></li>
+</ul>
+<P><font size="2" face="Verdana, Arial, Hevetica"><STRONG><br>
+Release 1.0 of 10/19/2002</STRONG><BR>
+<em>VNCPWD.EXE v1.0 of 10/19/2002</em></font></P>
+<UL>
+  <LI><font face="Verdana, Arial, Hevetica" size="2">Original version with HTML documentation. Not published on
+    the Internet.</font> 
+</UL>
+
+<hr>
+<h2><a name="Links"><font face="Verdana, Arial, Hevetica" size="2" color="#003399">Links</font></a></h2>
+<ul>
+  <li><font face="Verdana, Arial, Hevetica" size="2">Home page for VNCPWD.EXE:</font></li>
+</ul>
+<blockquote>
+  <blockquote>
+    <p><font size="2" face="Verdana, Arial, Hevetica"><a href="http://www.sysworksoft.net/products/vncpwd.html">http://www.sysworksoft.net/products/vncpwd.html</a>
+    (English)</font></p>
+    <p><font size="2" face="Verdana, Arial, Hevetica"><a href="http://www.sysworksoft.net/products/vncpwd_fr.html">http://www.sysworksoft.net/products/vncpwd_fr.html</a>
+    (French)</font></p>
+  </blockquote>
+</blockquote>
+<ul>
+  <li><font face="Verdana, Arial, Hevetica" size="2">Send Bug Report Form to: <a href="mailto:bugs@sysworksoft.net">bugs@sysworksoft.net</a></font></li>
+</ul>
+<hr>
+
+<H2><a name="License &amp; Disclaimer"><font face="Verdana, Arial, Hevetica" size="2" color="#003399">License &amp; Disclaimer</font></a></H2>
+
+<P><font face="Verdana, Arial, Hevetica" size="2">All files are copyright &copy; Patrick
+Garnier - SysWorkSoft.net, 2003.</font></P>
+
+<P><font face="Verdana, Arial, Hevetica" size="2">This software is provided as is - no warranty is given as to its suitability for any purposes to which you may wish to put it.</font></P>
+
+<P>
+<hr>
+
+<H2><a name="About the Author"><font face="Verdana, Arial, Hevetica" size="2" color="#003399">About the Author</font></a></H2>
+
+<P><font face="Verdana, Arial, Hevetica" size="2">I'm Patrick Garnier - a hobbyist programmer living in France. 
+  I write mainly in Delphi, but also dabble in C, C++ and Java. My 
+  programs are available for download on my web-site: <a href="http://www.sysworksoft.net">http://www.sysworksoft.net</a></font></P>
+
+<P><font face="Verdana, Arial, Hevetica" size="2">I can be contacted by e-mail on
+<a HREF="mailto:patrick.garnier@sysworksoft.net">patrick.garnier@sysworksoft.net</a></font>
+
+</BODY>
+
+</HTML>
+
+
