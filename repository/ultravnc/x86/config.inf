@@ -1,0 +1,8 @@
+[Setup]
+Lang=en
+Dir=C:\Program Files\UltraVNC
+Group=UltraVNC
+NoIcons=1
+SetupType=server
+Components=ultravnc_server
+Tasks=installservice,startservice
