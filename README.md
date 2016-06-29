@@ -11,11 +11,11 @@ Please submit fixes and suggestions either in the reddit thread or here on Githu
 
 0. You must be running at least version 3.2 release 1 (v3.2.1.0) of PDQ Deploy; perform a database upgrade if required.
 
-1. Import the .xml file(s) from the "\job_files" directory into PDQ deploy.
+1. Import the `.xml` file(s) from the `\job_files` directory into PDQ deploy.
 
-2. Copy everything from the "\repository" directory to wherever your repository is. 
+2. Copy everything from the `\repository` directory to wherever your repository is. 
 
-3. Your screen should look roughly like the included .PNG screenshot of my console.
+3. Your screen should look roughly like the included `.PNG` screenshot of my console.
 
 
 # Notes
