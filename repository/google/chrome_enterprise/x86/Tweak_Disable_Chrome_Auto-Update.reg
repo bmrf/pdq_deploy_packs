@@ -1,0 +1,13 @@
+Windows Registry Editor Version 5.00
+
+; Disables Google Chrome update checks
+
+; For matching architecture installations
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Google\Update] 
+"UpdateDefault"=dword:00000000
+"DisableAutoUpdateChecksCheckboxValue"=dword:00000001
+
+; For 32-bit installs on 64-bit Windows
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Policies\Google\Update] 
+"UpdateDefault"=dword:00000000
+"DisableAutoUpdateChecksCheckboxValue"=dword:00000001
