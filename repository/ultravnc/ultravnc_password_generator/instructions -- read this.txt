@@ -1,0 +1,35 @@
+Run this command from a command-prompt, specifying your new password. 
+
+The program will calculate the hash and spit it out for you.
+You can then paste that hash into the INI file that's included with the installer package.
+
+==================================================================
+Example: Password is MySuperSecretPassword
+==================================================================
+C:\> vncpwd.exe /e:MySuperSecretPassword
+
+VNCPWD.EXE - v1.1.1
+Copyright (c) 2002, 2003 by Patrick Garnier
+
+This program is freeware - http://www.sysworksoft.net
+Feel free to send any comments to patrick.garnier@sysworksoft.net
+
+Encrypted VNC password is: f41bce5eb76d65f3
+
+
+==================================================================
+Example: Password is nettech2
+==================================================================
+C:\> vncpwd.exe /e:nettech2
+
+VNCPWD.EXE - v1.1.1
+Copyright (c) 2002, 2003 by Patrick Garnier
+
+This program is freeware - http://www.sysworksoft.net
+Feel free to send any comments to patrick.garnier@sysworksoft.net
+
+Encrypted VNC password is: 0359b007d2ceef79
+
+
+
+
