@@ -1,4 +1,4 @@
-pdq
+Vocatus' PDQ Deploy Packs
 ===
 
 This repository contains all the scripts used in Vocatus' [PDQ Deploy packs](https://www.reddit.com/r/sysadmin/comments/4jl2yb/pdq_deploy_packs_v410_20160515_aq_edition/).
