@@ -1,0 +1,5 @@
+﻿Windows Registry Editor Version 5.00
+
+; This disables Shockwaves auto-update function on 64-bit versions of Windows with a 32-bit version of Shockwave installed
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Adobe\Shockwave 11\AutoUpdate]
+@="n"
