@@ -1,15 +1,17 @@
 :: Purpose:       Installs a package
 :: Requirements:  Run this script with Administrator rights
 :: Author:        vocatus on reddit.com/r/sysadmin ( vocatus.gate@gmail.com ) // PGP key ID: 0x07d1490f82a211a2
-:: Version:       1.0.0 + Initial write
+:: Version:       1.0.1 + Add killing of additional Task Scheduler job
+::                      + Add killing of Adobe ARM directory
+::                1.0.0 + Initial write
 
 
 ::::::::::
 :: Prep :: -- Don't change anything in this section
 ::::::::::
 @echo off
-set SCRIPT_VERSION=1.0.0
-set SCRIPT_UPDATED=2015-12-30
+set SCRIPT_VERSION=1.0.1
+set SCRIPT_UPDATED=2016-07-10
 :: Get the date into ISO 8601 standard date format (yyyy-mm-dd) so we can use it
 FOR /f %%a in ('WMIC OS GET LocalDateTime ^| find "."') DO set DTS=%%a
 set CUR_DATE=%DTS:~0,4%-%DTS:~4,2%-%DTS:~6,2%
@@ -26,8 +28,8 @@ set LOGPATH=%SystemDrive%\Logs
 set LOGFILE=%COMPUTERNAME%_Adobe_Acrobat_DC_install.log
 
 :: Package to install. Do not use trailing slashes (\)
-set BINARY_VERSION=15.009.20069
-set PATCH_VERSION=15.010.20056
+set BINARY_VERSION=15.007.20033
+set PATCH_VERSION=15.016.20039
 set FLAGS=ALLUSERS=1 /qn /norestart TRANSFORMS="Adobe Acrobat Reader DC v%BINARY_VERSION%_customizations.mst"
 
 :: Create the log directory if it doesn't exist
@@ -41,7 +43,7 @@ if not exist %LOGPATH% mkdir %LOGPATH%
 msiexec /i "Adobe Acrobat Reader DC v%BINARY_VERSION%.msi" %FLAGS% >> "%LOGPATH%\%LOGFILE%" 2>NUL
 
 :: Install patch
-msiexec /p "Adobe Acrobat Reader DC v%PATCH_VERSION%_patch.msp" REINSTALL=ALL REINSTALLMODE=omus /qn
+msiexec /p "Adobe Acrobat Reader DC v%PATCH_VERSION%_patch.msp" REINSTALL=ALL REINSTALLMODE=omus /qn >> "%LOGPATH%\%LOGFILE%" 2>NUL
 
 :: Delete the Adobe Acrobat Update Service
 net stop AdobeARMservice >> "%LOGPATH%\%LOGFILE%" 2>NUL
@@ -56,8 +58,13 @@ net stop AdobeFlashPlayerUpdateSvc >> "%LOGPATH%\%LOGFILE%" 2>NUL
 sc delete AdobeFlashPlayerUpdateSvc >> "%LOGPATH%\%LOGFILE%" 2>NUL
 
 :: Delete the annoying Scheduler update jobs Adobe installs against our wishes
-if exist "%WINDIR%\tasks\Adobe Acrobat Update Task" del /f /q "%WINDIR%\tasks\Adobe Acrobat Update Task" >nul
-if exist "%WINDIR%\system32\tasks\Adobe Acrobat Update Task" del /f /q "%WINDIR%\system32\tasks\Adobe Acrobat Update Task" >nul
+if exist "%WINDIR%\tasks\Adobe Acrobat Update Task" del /f /q "%WINDIR%\tasks\Adobe Acrobat Update Task" >> "%LOGPATH%\%LOGFILE%" 2>NUL
+if exist "%WINDIR%\system32\tasks\Adobe Acrobat Update Task" del /f /q "%WINDIR%\system32\tasks\Adobe Acrobat Update Task" >> "%LOGPATH%\%LOGFILE%" 2>NUL
+schtasks /delete /tn "Adobe Acrobat Update Task" /f >> "%LOGPATH%\%LOGFILE%" 2>NUL
+
+:: Delete the stupid ARM updater Adobe installs even when we say not to install it
+if exist "%ProgramFiles(x86)%\common files\adobe\arm" rmdir /s /q "%ProgramFiles(x86)%\common files\adobe\arm"
+if exist "%ProgramFiles%\common files\adobe\arm" rmdir /s /q "%ProgramFiles%\common files\adobe\arm"
 
 :: Delete the annoying Acrobat tray icon
 if exist "%ProgramFiles(x86)%\Adobe\Acrobat 7.0\Distillr\acrotray.exe" (
