@@ -38,6 +38,9 @@ if not exist %LOGPATH% mkdir %LOGPATH%
 ::::::::::::::::::
 :: INSTALLATION ::
 ::::::::::::::::::
+:: Remove existing installation first
+wmic product where "name like 'CDBurner%%'" uninstall /nointeractive
+
 :: Install the package from a local directory (if all files are in the same directory)
 "%BINARY%" %FLAGS%
 
