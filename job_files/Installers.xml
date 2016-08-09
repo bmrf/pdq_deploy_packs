@@ -1,34 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<AdminArsenal.Export Code="PDQDeploy" Name="PDQ Deploy" Version="5.1.0.0" MinimumVersion="3.1">
+<AdminArsenal.Export Code="PDQDeploy" Name="PDQ Deploy" Version="9.2.0.0" MinimumVersion="7.0">
   <Folder>
-    <Created>2016-06-17T14:43:57.0000000-04:00</Created>
-    <Id value="10" />
-    <Modified>2016-06-17T14:43:57.0000000-04:00</Modified>
+    <Created>2016-08-02T14:05:53.0000000-04:00</Created>
+    <Id value="17" />
+    <Modified>2016-08-02T14:05:58.0000000-04:00</Modified>
     <Name>Installers</Name>
     <ParentId value="null" />
     <Path>Installers</Path>
     <FolderDisplaySettings name="DisplaySettings">
       <DisplayType>Normal</DisplayType>
       <IconKey></IconKey>
-      <SortOrder value="6" />
+      <SortOrder value="5" />
     </FolderDisplaySettings>
     <Children type="list">
       <Package>
-        <Description>Installs Igor Pavlov's 7-Zip file compression utility, with the following modifications:
- - Associates the following file extensions with 7-Zip: 7z,bz2,bzip2,gz,gzip,lzh,lzma,rar,tar,tgz,zip  *
-
-* If you wish to associate with ALL the file extensions 7-Zip supports, go to "Step 1" of this installer and change the argument that's passed to the installer from "associate_common" to "associate_all"</Description>
-        <FolderId value="10" />
-        <Name>7-Zip v16.02 (x64)</Name>
-        <Path>Installers\7-Zip v16.02 (x64)</Path>
-        <Version>16.02</Version>
         <PackageDefinition name="Definition">
           <CopyMode>Default</CopyMode>
           <InventoryScanProfileId value="null" />
           <RunAs value="null" />
           <ScanAfterDeployment value="null" />
-          <Timeout value="60" />
-          <UseCustomTimeout value="false" />
           <Steps type="list">
             <InstallStep>
               <CustomCommandLine></CustomCommandLine>
@@ -58,7 +48,17 @@
               </Conditions>
             </InstallStep>
           </Steps>
+          <Timeout value="60" />
+          <UseCustomTimeout value="false" />
         </PackageDefinition>
+        <Description>Installs Igor Pavlov's 7-Zip file compression utility, with the following modifications:
+ - Associates the following file extensions with 7-Zip: 7z,bz2,bzip2,gz,gzip,lzh,lzma,rar,tar,tgz,zip  *
+
+* If you wish to associate with ALL the file extensions 7-Zip supports, go to "Step 1" of this installer and change the argument that's passed to the installer from "associate_common" to "associate_all"</Description>
+        <FolderId value="17" />
+        <Name>7-Zip v16.02 (x64)</Name>
+        <Path>Installers\7-Zip v16.02 (x64)</Path>
+        <Version>16.02</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -66,23 +66,11 @@
         </PackageDisplaySettings>
       </Package>
       <Package>
-        <Description>Installs Igor Pavlov's 7-Zip file compression utility, with the following modifications:
- - Associates the following file extensions with 7-Zip: 7z,bz2,bzip2,gz,gzip,lzh,lzma,rar,tar,tgz,zip  *
- ! Must be installed to matching architecture for File Associations to work! e.g. if you install 7-Zip x86 version to Windows x64, file associations will have to be manually set on a per-user basis
-
-
-* If you wish to associate with ALL the file extensions 7-Zip supports, go to "Step 1" of this installer and change the argument that's passed to the installer from "associate_common" to "associate_all"</Description>
-        <FolderId value="10" />
-        <Name>7-Zip v16.02 (x86)</Name>
-        <Path>Installers\7-Zip v16.02 (x86)</Path>
-        <Version>16.02</Version>
         <PackageDefinition name="Definition">
           <CopyMode>Default</CopyMode>
           <InventoryScanProfileId value="null" />
           <RunAs value="null" />
           <ScanAfterDeployment value="null" />
-          <Timeout value="60" />
-          <UseCustomTimeout value="false" />
           <Steps type="list">
             <InstallStep>
               <CustomCommandLine></CustomCommandLine>
@@ -112,7 +100,19 @@
               </Conditions>
             </InstallStep>
           </Steps>
+          <Timeout value="60" />
+          <UseCustomTimeout value="false" />
         </PackageDefinition>
+        <Description>Installs Igor Pavlov's 7-Zip file compression utility, with the following modifications:
+ - Associates the following file extensions with 7-Zip: 7z,bz2,bzip2,gz,gzip,lzh,lzma,rar,tar,tgz,zip  *
+ ! Must be installed to matching architecture for File Associations to work! e.g. if you install 7-Zip x86 version to Windows x64, file associations will have to be manually set on a per-user basis
+
+
+* If you wish to associate with ALL the file extensions 7-Zip supports, go to "Step 1" of this installer and change the argument that's passed to the installer from "associate_common" to "associate_all"</Description>
+        <FolderId value="17" />
+        <Name>7-Zip v16.02 (x86)</Name>
+        <Path>Installers\7-Zip v16.02 (x86)</Path>
+        <Version>16.02</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -120,22 +120,11 @@
         </PackageDisplaySettings>
       </Package>
       <Package>
-        <Description>Installs Adobe Acrobat Reader DC, with the following changes:
- - Removes all prior versions of Adobe Acrobat Reader DC
- - Removes the Adobe Acrobat Update Service ( AdobeARMservice )
- - Removes the Adobe Update scheduled task that gets installed (C:\Windows\tasks\Adobe Acrobat Update Task.job)
- - Disables all auto-update and telemetry collection options I could find via the bundled customization file</Description>
-        <FolderId value="10" />
-        <Name>Adobe Acrobat Reader DC</Name>
-        <Path>Installers\Adobe Acrobat Reader DC</Path>
-        <Version>15.010.20056</Version>
         <PackageDefinition name="Definition">
           <CopyMode>Default</CopyMode>
           <InventoryScanProfileId value="null" />
           <RunAs value="null" />
           <ScanAfterDeployment value="null" />
-          <Timeout value="60" />
-          <UseCustomTimeout value="false" />
           <Steps type="list">
             <InstallStep>
               <CustomCommandLine></CustomCommandLine>
@@ -165,7 +154,19 @@
               </Conditions>
             </InstallStep>
           </Steps>
+          <Timeout value="60" />
+          <UseCustomTimeout value="false" />
         </PackageDefinition>
+        <Description>Installs Adobe Acrobat Reader DC, with the following changes:
+ - Remove all prior versions of Adobe Reader from 6.x and up
+ - Remove the Adobe Acrobat Update Service ( AdobeARMservice )
+ - Remove the Adobe Update scheduled task that gets installed (C:\Windows\tasks\Adobe Acrobat Update Task.job)
+ - Disable all auto-update and telemetry collection options I could find via the bundled customization file
+ - Disable all third-party service connectors (Dropbox, Google Drive, SharePoint, etc) via the bundled customization file</Description>
+        <FolderId value="17" />
+        <Name>Adobe Acrobat Reader DC</Name>
+        <Path>Installers\Adobe Acrobat Reader DC</Path>
+        <Version>15.016.20039</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -173,23 +174,11 @@
         </PackageDisplaySettings>
       </Package>
       <Package>
-        <Description>Installs Adobe AIR with the following customizations:
-
- - No desktop or Start Menu shortcuts
- - Accepts the EULA for all users
- - Deletes Adobe Update service
- - Deletes Adobe Update Task Scheduler jobs</Description>
-        <FolderId value="10" />
-        <Name>Adobe AIR v21.0.0.215</Name>
-        <Path>Installers\Adobe AIR v21.0.0.215</Path>
-        <Version>21.0.0.215</Version>
         <PackageDefinition name="Definition">
           <CopyMode>Default</CopyMode>
           <InventoryScanProfileId value="null" />
           <RunAs value="null" />
           <ScanAfterDeployment value="null" />
-          <Timeout value="60" />
-          <UseCustomTimeout value="false" />
           <Steps type="list">
             <InstallStep>
               <CustomCommandLine></CustomCommandLine>
@@ -219,7 +208,19 @@
               </Conditions>
             </InstallStep>
           </Steps>
+          <Timeout value="60" />
+          <UseCustomTimeout value="false" />
         </PackageDefinition>
+        <Description>Installs Adobe AIR with the following customizations:
+
+ - No desktop or Start Menu shortcuts
+ - Accepts the EULA for all users
+ - Deletes Adobe Update service
+ - Deletes Adobe Update Task Scheduler jobs</Description>
+        <FolderId value="17" />
+        <Name>Adobe AIR v22.0.0.153</Name>
+        <Path>Installers\Adobe AIR v22.0.0.153</Path>
+        <Version>22.0.0.153</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -227,22 +228,11 @@
         </PackageDisplaySettings>
       </Package>
       <Package>
-        <Description>Installs Adobe Flash Player for Chrome, with the following changes:
- ! Kills running instances of Chrome
- - Removes all prior versions of Adobe Flash, Chrome version
- - Removes the Adobe Acrobat Update Service (AdobeFlashPlayerUpdateSvc)
- - Removes the Adobe Update scheduled task that gets installed (C:\Windows\tasks\Adobe Flash Player Updater.job)</Description>
-        <FolderId value="10" />
-        <Name>Adobe Flash Player v22.0.0.192 (Chrome)</Name>
-        <Path>Installers\Adobe Flash Player v22.0.0.192 (Chrome)</Path>
-        <Version>22.0.0.192</Version>
         <PackageDefinition name="Definition">
           <CopyMode>Default</CopyMode>
           <InventoryScanProfileId value="null" />
           <RunAs value="null" />
           <ScanAfterDeployment value="null" />
-          <Timeout value="60" />
-          <UseCustomTimeout value="false" />
           <Steps type="list">
             <InstallStep>
               <CustomCommandLine></CustomCommandLine>
@@ -272,7 +262,18 @@
               </Conditions>
             </InstallStep>
           </Steps>
+          <Timeout value="60" />
+          <UseCustomTimeout value="false" />
         </PackageDefinition>
+        <Description>Installs Adobe Flash Player for Chrome, with the following changes:
+ ! Kills running instances of Chrome
+ - Removes all prior versions of Adobe Flash, Chrome version
+ - Removes the Adobe Acrobat Update Service (AdobeFlashPlayerUpdateSvc)
+ - Removes the Adobe Update scheduled task that gets installed (C:\Windows\tasks\Adobe Flash Player Updater.job)</Description>
+        <FolderId value="17" />
+        <Name>Adobe Flash Player v22.0.0.209 (Chrome)</Name>
+        <Path>Installers\Adobe Flash Player v22.0.0.209 (Chrome)</Path>
+        <Version>22.0.0.209</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -280,22 +281,11 @@
         </PackageDisplaySettings>
       </Package>
       <Package>
-        <Description>Installs Adobe Flash Player for Firefox (as a plugin), with the following changes:
- ! Kills running instances of Firefox
- - Removes all prior versions of Adobe Flash, Firefox/plugin version
- - Removes the Adobe Acrobat Update Service (AdobeFlashPlayerUpdateSvc)
- - Removes the Adobe Update scheduled task that gets installed (C:\Windows\tasks\Adobe Flash Player Updater.job)</Description>
-        <FolderId value="10" />
-        <Name>Adobe Flash Player v22.0.0.192 (Firefox)</Name>
-        <Path>Installers\Adobe Flash Player v22.0.0.192 (Firefox)</Path>
-        <Version>22.0.0.192</Version>
         <PackageDefinition name="Definition">
           <CopyMode>Default</CopyMode>
           <InventoryScanProfileId value="null" />
           <RunAs value="null" />
           <ScanAfterDeployment value="null" />
-          <Timeout value="60" />
-          <UseCustomTimeout value="false" />
           <Steps type="list">
             <InstallStep>
               <CustomCommandLine></CustomCommandLine>
@@ -325,7 +315,18 @@
               </Conditions>
             </InstallStep>
           </Steps>
+          <Timeout value="60" />
+          <UseCustomTimeout value="false" />
         </PackageDefinition>
+        <Description>Installs Adobe Flash Player for Firefox (as a plugin), with the following changes:
+ ! Kills running instances of Firefox
+ - Removes all prior versions of Adobe Flash, Firefox/plugin version
+ - Removes the Adobe Acrobat Update Service (AdobeFlashPlayerUpdateSvc)
+ - Removes the Adobe Update scheduled task that gets installed (C:\Windows\tasks\Adobe Flash Player Updater.job)</Description>
+        <FolderId value="17" />
+        <Name>Adobe Flash Player v22.0.0.209 (Firefox)</Name>
+        <Path>Installers\Adobe Flash Player v22.0.0.209 (Firefox)</Path>
+        <Version>22.0.0.209</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -333,22 +334,11 @@
         </PackageDisplaySettings>
       </Package>
       <Package>
-        <Description>Installs Adobe Flash Player for Internet Explorer (as an ActiveX plugin), with the following changes:
- ! Kills running instances of Internet Explorer
- - Removes all prior versions of Adobe Flash, ActiveX version
- - Removes the Adobe Acrobat Update Service (AdobeFlashPlayerUpdateSvc)
- - Removes the Adobe Update scheduled task that gets installed (C:\Windows\tasks\Adobe Flash Player Updater.job)</Description>
-        <FolderId value="10" />
-        <Name>Adobe Flash Player v22.0.0.192 (IE)</Name>
-        <Path>Installers\Adobe Flash Player v22.0.0.192 (IE)</Path>
-        <Version>22.0.0.192</Version>
         <PackageDefinition name="Definition">
           <CopyMode>Default</CopyMode>
           <InventoryScanProfileId value="null" />
           <RunAs value="null" />
           <ScanAfterDeployment value="null" />
-          <Timeout value="60" />
-          <UseCustomTimeout value="false" />
           <Steps type="list">
             <InstallStep>
               <CustomCommandLine></CustomCommandLine>
@@ -378,7 +368,18 @@
               </Conditions>
             </InstallStep>
           </Steps>
+          <Timeout value="60" />
+          <UseCustomTimeout value="false" />
         </PackageDefinition>
+        <Description>Installs Adobe Flash Player for Internet Explorer (as an ActiveX plugin), with the following changes:
+ ! Kills running instances of Internet Explorer
+ - Removes all prior versions of Adobe Flash, ActiveX version
+ - Removes the Adobe Acrobat Update Service (AdobeFlashPlayerUpdateSvc)
+ - Removes the Adobe Update scheduled task that gets installed (C:\Windows\tasks\Adobe Flash Player Updater.job)</Description>
+        <FolderId value="17" />
+        <Name>Adobe Flash Player v22.0.0.209 (IE)</Name>
+        <Path>Installers\Adobe Flash Player v22.0.0.209 (IE)</Path>
+        <Version>22.0.0.209</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -386,20 +387,11 @@
         </PackageDisplaySettings>
       </Package>
       <Package>
-        <Description>Installs Adobe Reader XI, with the following customizations:
- - Deletes the "All Users" desktop link to Reader XI
- - Deletes the Adobe Acrobat Reader Update service ( AdobeARMservice )</Description>
-        <FolderId value="10" />
-        <Name>Adobe Reader XI v11.0.16</Name>
-        <Path>Installers\Adobe Reader XI v11.0.16</Path>
-        <Version>11.0.16</Version>
         <PackageDefinition name="Definition">
           <CopyMode>Default</CopyMode>
           <InventoryScanProfileId value="null" />
           <RunAs value="null" />
           <ScanAfterDeployment value="null" />
-          <Timeout value="60" />
-          <UseCustomTimeout value="false" />
           <Steps type="list">
             <InstallStep>
               <CustomCommandLine></CustomCommandLine>
@@ -429,7 +421,16 @@
               </Conditions>
             </InstallStep>
           </Steps>
+          <Timeout value="60" />
+          <UseCustomTimeout value="false" />
         </PackageDefinition>
+        <Description>Installs Adobe Reader XI, with the following customizations:
+ - Deletes the "All Users" desktop link to Reader XI
+ - Deletes the Adobe Acrobat Reader Update service ( AdobeARMservice )</Description>
+        <FolderId value="17" />
+        <Name>Adobe Reader XI v11.0.17</Name>
+        <Path>Installers\Adobe Reader XI v11.0.17</Path>
+        <Version>11.0.17</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -437,20 +438,11 @@
         </PackageDisplaySettings>
       </Package>
       <Package>
-        <Description>Installs Adobe Shockwave with the following customizations:
- - Disables auto-updater
- - Disables automatic statistics collection and submission</Description>
-        <FolderId value="10" />
-        <Name>Adobe Shockwave v12.2.4.194</Name>
-        <Path>Installers\Adobe Shockwave v12.2.4.194</Path>
-        <Version>12.2.4.194</Version>
         <PackageDefinition name="Definition">
           <CopyMode>Default</CopyMode>
           <InventoryScanProfileId value="null" />
           <RunAs value="null" />
           <ScanAfterDeployment value="null" />
-          <Timeout value="60" />
-          <UseCustomTimeout value="false" />
           <Steps type="list">
             <InstallStep>
               <CustomCommandLine></CustomCommandLine>
@@ -480,7 +472,16 @@
               </Conditions>
             </InstallStep>
           </Steps>
+          <Timeout value="60" />
+          <UseCustomTimeout value="false" />
         </PackageDefinition>
+        <Description>Installs Adobe Shockwave with the following customizations:
+ - Disables auto-updater
+ - Disables automatic statistics collection and submission</Description>
+        <FolderId value="17" />
+        <Name>Adobe Shockwave v12.2.4.194</Name>
+        <Path>Installers\Adobe Shockwave v12.2.4.194</Path>
+        <Version>12.2.4.194</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -488,22 +489,11 @@
         </PackageDisplaySettings>
       </Package>
       <Package>
-        <Description>Installs Apple iTunes 64-bit, with the following customizations:
- - Uninstalls all prior versions first
- - Stops and deletes the "iPod Service"
- - Stops iTunesHelper
- - Deletes Public desktop iTunes.lnk</Description>
-        <FolderId value="10" />
-        <Name>Apple iTunes v12.4.0.119 (x64)</Name>
-        <Path>Installers\Apple iTunes v12.4.0.119 (x64)</Path>
-        <Version>12.4.0.119</Version>
         <PackageDefinition name="Definition">
           <CopyMode>Default</CopyMode>
           <InventoryScanProfileId value="null" />
           <RunAs value="null" />
           <ScanAfterDeployment value="null" />
-          <Timeout value="60" />
-          <UseCustomTimeout value="false" />
           <Steps type="list">
             <InstallStep>
               <CustomCommandLine></CustomCommandLine>
@@ -533,7 +523,18 @@
               </Conditions>
             </InstallStep>
           </Steps>
+          <Timeout value="60" />
+          <UseCustomTimeout value="false" />
         </PackageDefinition>
+        <Description>Installs Apple iTunes 64-bit, with the following customizations:
+ - Uninstalls all prior versions first
+ - Stops and deletes the "iPod Service"
+ - Stops iTunesHelper
+ - Deletes Public desktop iTunes.lnk</Description>
+        <FolderId value="17" />
+        <Name>Apple iTunes v12.4.0.119 (x64)</Name>
+        <Path>Installers\Apple iTunes v12.4.0.119 (x64)</Path>
+        <Version>12.4.0.119</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -541,22 +542,11 @@
         </PackageDisplaySettings>
       </Package>
       <Package>
-        <Description>Installs CDBurnerXP (x64), with the following customizations:
- - Removes desktop icon
- - Associates ISO files with CDBurnerXP
- - Associates some other CD-related files with CDBurnerXP
- - Disables the background online update checker</Description>
-        <FolderId value="10" />
-        <Name>CDBurnerXP v4.5.7.6139 (x64)</Name>
-        <Path>Installers\CDBurnerXP v4.5.7.6139 (x64)</Path>
-        <Version>4.5.7.6139</Version>
         <PackageDefinition name="Definition">
           <CopyMode>Default</CopyMode>
           <InventoryScanProfileId value="null" />
           <RunAs value="null" />
           <ScanAfterDeployment value="null" />
-          <Timeout value="60" />
-          <UseCustomTimeout value="false" />
           <Steps type="list">
             <InstallStep>
               <CustomCommandLine></CustomCommandLine>
@@ -586,7 +576,18 @@
               </Conditions>
             </InstallStep>
           </Steps>
+          <Timeout value="60" />
+          <UseCustomTimeout value="false" />
         </PackageDefinition>
+        <Description>Installs CDBurnerXP (x64), with the following customizations:
+ - Removes desktop icon
+ - Associates ISO files with CDBurnerXP
+ - Associates some other CD-related files with CDBurnerXP
+ - Disables the background online update checker</Description>
+        <FolderId value="17" />
+        <Name>CDBurnerXP v4.5.7.6282 (x64)</Name>
+        <Path>Installers\CDBurnerXP v4.5.7.6282 (x64)</Path>
+        <Version>4.5.7.6282</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -594,23 +595,11 @@
         </PackageDisplaySettings>
       </Package>
       <Package>
-        <Description>Installs CutePDF Writer with the following customizations:
- - Installs GhostScript v8.13 (can be disabled if you ONLY want PDF print functionality)
- - Disables the Ask toolbar
- - Deletes Start Menu shortcuts for CutePDF
-
-Thanks to reddit.com/user/b0park for this package.</Description>
-        <FolderId value="10" />
-        <Name>CutePDF Writer v3.0 (x86)</Name>
-        <Path>Installers\CutePDF Writer v3.0 (x86)</Path>
-        <Version>3.0</Version>
         <PackageDefinition name="Definition">
           <CopyMode>Default</CopyMode>
           <InventoryScanProfileId value="null" />
           <RunAs value="null" />
           <ScanAfterDeployment value="null" />
-          <Timeout value="60" />
-          <UseCustomTimeout value="false" />
           <Steps type="list">
             <InstallStep>
               <CustomCommandLine></CustomCommandLine>
@@ -640,7 +629,19 @@ Thanks to reddit.com/user/b0park for this package.</Description>
               </Conditions>
             </InstallStep>
           </Steps>
+          <Timeout value="60" />
+          <UseCustomTimeout value="false" />
         </PackageDefinition>
+        <Description>Installs CutePDF Writer with the following customizations:
+ - Installs GhostScript v8.13 (can be disabled if you ONLY want PDF print functionality)
+ - Disables the Ask toolbar
+ - Deletes Start Menu shortcuts for CutePDF
+
+Thanks to reddit.com/user/b0park for this package.</Description>
+        <FolderId value="17" />
+        <Name>CutePDF Writer v3.0 (x86)</Name>
+        <Path>Installers\CutePDF Writer v3.0 (x86)</Path>
+        <Version>3.0</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -648,19 +649,11 @@ Thanks to reddit.com/user/b0park for this package.</Description>
         </PackageDisplaySettings>
       </Package>
       <Package>
-        <Description>Installs the FileZilla client with the following customizations:
- - Removes any previous versions before installing</Description>
-        <FolderId value="10" />
-        <Name>FileZilla Client v3.18.0</Name>
-        <Path>Installers\FileZilla Client v3.18.0</Path>
-        <Version>3.18.0</Version>
         <PackageDefinition name="Definition">
           <CopyMode>Default</CopyMode>
           <InventoryScanProfileId value="null" />
           <RunAs value="null" />
           <ScanAfterDeployment value="null" />
-          <Timeout value="60" />
-          <UseCustomTimeout value="false" />
           <Steps type="list">
             <InstallStep>
               <CustomCommandLine></CustomCommandLine>
@@ -680,7 +673,7 @@ Thanks to reddit.com/user/b0park for this package.</Description>
               <Conditions type="list">
                 <PackageStepCondition>
                   <Architecture>Bits64</Architecture>
-                  <Version>WindowsVista, Windows7, Windows8, Server2003R2, Server2008, Server2008R2, Server2012, Windows81, Server2012R2</Version>
+                  <Version>WindowsVista, Windows7, Windows8, Server2003R2, Server2008, Server2008R2, Server2012, Windows81, Server2012R2, Windows10</Version>
                   <TypeName>OperatingSystem</TypeName>
                 </PackageStepCondition>
                 <PackageStepCondition>
@@ -690,7 +683,15 @@ Thanks to reddit.com/user/b0park for this package.</Description>
               </Conditions>
             </InstallStep>
           </Steps>
+          <Timeout value="60" />
+          <UseCustomTimeout value="false" />
         </PackageDefinition>
+        <Description>Installs the FileZilla client with the following customizations:
+ - Removes any previous versions before installing</Description>
+        <FolderId value="17" />
+        <Name>FileZilla Client v3.20.1</Name>
+        <Path>Installers\FileZilla Client v3.20.1</Path>
+        <Version>3.20.1</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -698,24 +699,15 @@ Thanks to reddit.com/user/b0park for this package.</Description>
         </PackageDisplaySettings>
       </Package>
       <Package>
-        <Description>Installs Gimp silently with the following flags:
-
-Gimp v2.8.16 x86.exe /verysilent /norestart</Description>
-        <FolderId value="10" />
-        <Name>Gimp v2.8.16 x86</Name>
-        <Path>Installers\Gimp v2.8.16 x86</Path>
-        <Version>2.8.16</Version>
         <PackageDefinition name="Definition">
           <CopyMode>Default</CopyMode>
           <InventoryScanProfileId value="null" />
           <RunAs value="null" />
           <ScanAfterDeployment value="null" />
-          <Timeout value="60" />
-          <UseCustomTimeout value="false" />
           <Steps type="list">
             <InstallStep>
               <CustomCommandLine></CustomCommandLine>
-              <FileName>$(Repository)\gimp\x86\Gimp v2.8.16 x86.exe</FileName>
+              <FileName>$(Repository)\gimp\x86\Gimp v2.8.18 x86.exe</FileName>
               <Files></Files>
               <IncludeDirectory value="true" />
               <MsiOperation>Install</MsiOperation>
@@ -741,7 +733,16 @@ Gimp v2.8.16 x86.exe /verysilent /norestart</Description>
               </Conditions>
             </InstallStep>
           </Steps>
+          <Timeout value="60" />
+          <UseCustomTimeout value="false" />
         </PackageDefinition>
+        <Description>Installs Gimp silently with the following flags:
+
+Gimp v2.8.18 x86.exe /verysilent /norestart</Description>
+        <FolderId value="17" />
+        <Name>Gimp v2.8.18 x86</Name>
+        <Path>Installers\Gimp v2.8.18 x86</Path>
+        <Version>2.8.18</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -749,25 +750,11 @@ Gimp v2.8.16 x86.exe /verysilent /norestart</Description>
         </PackageDisplaySettings>
       </Package>
       <Package>
-        <Description>Installs Google Chrome Enterprise 64-bit, with the following customizations:
- ! Kills all running Chrome instances before beginning installation
- - Installs system-wide (vs. standard Chrome, which installs per-user)
- - Disables Google Update registry keys
- - Removes Google Update jobs in Task Scheduler
- ! Removes Google Update services  (gupdatem and gupdate) *
-
- * If you wish to disable this behavior, edit the batch file and remove the two lines that start with "sc delete"</Description>
-        <FolderId value="10" />
-        <Name>Google Chrome v51.0.2704.84 (Enterprise)</Name>
-        <Path>Installers\Google Chrome v51.0.2704.84 (Enterprise)</Path>
-        <Version>51.0.2704.84</Version>
         <PackageDefinition name="Definition">
           <CopyMode>Default</CopyMode>
           <InventoryScanProfileId value="null" />
           <RunAs value="null" />
           <ScanAfterDeployment value="null" />
-          <Timeout value="60" />
-          <UseCustomTimeout value="false" />
           <Steps type="list">
             <InstallStep>
               <CustomCommandLine></CustomCommandLine>
@@ -797,15 +784,10 @@ Gimp v2.8.16 x86.exe /verysilent /norestart</Description>
               </Conditions>
             </InstallStep>
           </Steps>
+          <Timeout value="60" />
+          <UseCustomTimeout value="false" />
         </PackageDefinition>
-        <PackageDisplaySettings name="DisplaySettings">
-          <DisplayType>Normal</DisplayType>
-          <IconKey></IconKey>
-          <SortOrder value="6" />
-        </PackageDisplaySettings>
-      </Package>
-      <Package>
-        <Description>Installs Google Chrome Enterprise 32-bit, with the following customizations:
+        <Description>Installs Google Chrome Enterprise 64-bit, with the following customizations:
  ! Kills all running Chrome instances before beginning installation
  - Installs system-wide (vs. standard Chrome, which installs per-user)
  - Disables Google Update registry keys
@@ -813,17 +795,22 @@ Gimp v2.8.16 x86.exe /verysilent /norestart</Description>
  ! Removes Google Update services  (gupdatem and gupdate) *
 
  * If you wish to disable this behavior, edit the batch file and remove the two lines that start with "sc delete"</Description>
-        <FolderId value="10" />
-        <Name>Google Chrome v51.0.2704.84 (Enterprise) (x86)</Name>
-        <Path>Installers\Google Chrome v51.0.2704.84 (Enterprise) (x86)</Path>
-        <Version>51.0.2704.84</Version>
+        <FolderId value="17" />
+        <Name>Google Chrome v52.0.2743.116 (Enterprise)</Name>
+        <Path>Installers\Google Chrome v52.0.2743.116 (Enterprise)</Path>
+        <Version>52.0.2743.116</Version>
+        <PackageDisplaySettings name="DisplaySettings">
+          <DisplayType>Normal</DisplayType>
+          <IconKey></IconKey>
+          <SortOrder value="6" />
+        </PackageDisplaySettings>
+      </Package>
+      <Package>
         <PackageDefinition name="Definition">
           <CopyMode>Default</CopyMode>
           <InventoryScanProfileId value="null" />
           <RunAs value="null" />
           <ScanAfterDeployment value="null" />
-          <Timeout value="60" />
-          <UseCustomTimeout value="false" />
           <Steps type="list">
             <InstallStep>
               <CustomCommandLine></CustomCommandLine>
@@ -853,7 +840,21 @@ Gimp v2.8.16 x86.exe /verysilent /norestart</Description>
               </Conditions>
             </InstallStep>
           </Steps>
+          <Timeout value="60" />
+          <UseCustomTimeout value="false" />
         </PackageDefinition>
+        <Description>Installs Google Chrome Enterprise 32-bit, with the following customizations:
+ ! Kills all running Chrome instances before beginning installation
+ - Installs system-wide (vs. standard Chrome, which installs per-user)
+ - Disables Google Update registry keys
+ - Removes Google Update jobs in Task Scheduler
+ ! Removes Google Update services  (gupdatem and gupdate) *
+
+ * If you wish to disable this behavior, edit the batch file and remove the two lines that start with "sc delete"</Description>
+        <FolderId value="17" />
+        <Name>Google Chrome v52.0.2743.116 (Enterprise) (x86)</Name>
+        <Path>Installers\Google Chrome v52.0.2743.116 (Enterprise) (x86)</Path>
+        <Version>52.0.2743.116</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -861,25 +862,11 @@ Gimp v2.8.16 x86.exe /verysilent /norestart</Description>
         </PackageDisplaySettings>
       </Package>
       <Package>
-        <Description>Installs Google Earth, with the following customizations:
- - Installs for All Users
- - Disables Google Update registry keys
- - Removes Google Update jobs in Task Scheduler
- - Removes desktop shortcut
- ! Removes Google Update services (gupdatem and gupdate) **
-
- ** If you wish to disable this behavior, edit the batch file and remove the two lines that start with "sc delete"</Description>
-        <FolderId value="10" />
-        <Name>Google Earth v7.1.5.1557</Name>
-        <Path>Installers\Google Earth v7.1.5.1557</Path>
-        <Version>7.1.5.1557</Version>
         <PackageDefinition name="Definition">
           <CopyMode>Default</CopyMode>
           <InventoryScanProfileId value="null" />
           <RunAs value="null" />
           <ScanAfterDeployment value="null" />
-          <Timeout value="60" />
-          <UseCustomTimeout value="false" />
           <Steps type="list">
             <InstallStep>
               <CustomCommandLine></CustomCommandLine>
@@ -909,7 +896,21 @@ Gimp v2.8.16 x86.exe /verysilent /norestart</Description>
               </Conditions>
             </InstallStep>
           </Steps>
+          <Timeout value="60" />
+          <UseCustomTimeout value="false" />
         </PackageDefinition>
+        <Description>Installs Google Earth, with the following customizations:
+ - Installs for All Users
+ - Disables Google Update registry keys
+ - Removes Google Update jobs in Task Scheduler
+ - Removes desktop shortcut
+ ! Removes Google Update services (gupdatem and gupdate) **
+
+ ** If you wish to disable this behavior, edit the batch file and remove the two lines that start with "sc delete"</Description>
+        <FolderId value="17" />
+        <Name>Google Earth v7.1.5.1557</Name>
+        <Path>Installers\Google Earth v7.1.5.1557</Path>
+        <Version>7.1.5.1557</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -917,21 +918,11 @@ Gimp v2.8.16 x86.exe /verysilent /norestart</Description>
         </PackageDisplaySettings>
       </Package>
       <Package>
-        <Description>Installes Java Development Kit 6, with the following customizations:
- - Disables auto-update
-
-NOTE: The JDK installer will sometimes toss error 1603 (the generic MSI code for "some sort of error happened") even though the install completed successfully. I've been able to reproduce this and it only seems to happen if there is a prior version of the JDK installed and you install on top of it. The install still goes through OK, but MSI will toss error 1603. In my experience you can safely ignore this error.</Description>
-        <FolderId value="10" />
-        <Name>Java Development Kit 6 update 45 (x64)</Name>
-        <Path>Installers\Java Development Kit 6 update 45 (x64)</Path>
-        <Version>1.6.0.450</Version>
         <PackageDefinition name="Definition">
           <CopyMode>Default</CopyMode>
           <InventoryScanProfileId value="null" />
           <RunAs value="null" />
           <ScanAfterDeployment value="null" />
-          <Timeout value="60" />
-          <UseCustomTimeout value="false" />
           <Steps type="list">
             <InstallStep>
               <CustomCommandLine></CustomCommandLine>
@@ -961,7 +952,17 @@ NOTE: The JDK installer will sometimes toss error 1603 (the generic MSI code for
               </Conditions>
             </InstallStep>
           </Steps>
+          <Timeout value="60" />
+          <UseCustomTimeout value="false" />
         </PackageDefinition>
+        <Description>Installes Java Development Kit 6, with the following customizations:
+ - Disables auto-update
+
+NOTE: The JDK installer will sometimes toss error 1603 (the generic MSI code for "some sort of error happened") even though the install completed successfully. I've been able to reproduce this and it only seems to happen if there is a prior version of the JDK installed and you install on top of it. The install still goes through OK, but MSI will toss error 1603. In my experience you can safely ignore this error.</Description>
+        <FolderId value="17" />
+        <Name>Java Development Kit 6 update 45 (x64)</Name>
+        <Path>Installers\Java Development Kit 6 update 45 (x64)</Path>
+        <Version>1.6.0.450</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -969,21 +970,11 @@ NOTE: The JDK installer will sometimes toss error 1603 (the generic MSI code for
         </PackageDisplaySettings>
       </Package>
       <Package>
-        <Description>Installes Java Development Kit 6, with the following customizations:
- - Disables auto-update
-
-NOTE: The JDK installer will sometimes toss error 1603 (the generic MSI code for "some sort of error happened") even though the install completed successfully. I've been able to reproduce this and it only seems to happen if there is a prior version of the JDK installed and you install on top of it. The install still goes through OK, but MSI will toss error 1603. In my experience you can safely ignore this error.</Description>
-        <FolderId value="10" />
-        <Name>Java Development Kit 6 update 45 (x86)</Name>
-        <Path>Installers\Java Development Kit 6 update 45 (x86)</Path>
-        <Version>1.6.0.450</Version>
         <PackageDefinition name="Definition">
           <CopyMode>Default</CopyMode>
           <InventoryScanProfileId value="null" />
           <RunAs value="null" />
           <ScanAfterDeployment value="null" />
-          <Timeout value="60" />
-          <UseCustomTimeout value="false" />
           <Steps type="list">
             <InstallStep>
               <CustomCommandLine></CustomCommandLine>
@@ -1013,7 +1004,17 @@ NOTE: The JDK installer will sometimes toss error 1603 (the generic MSI code for
               </Conditions>
             </InstallStep>
           </Steps>
+          <Timeout value="60" />
+          <UseCustomTimeout value="false" />
         </PackageDefinition>
+        <Description>Installes Java Development Kit 6, with the following customizations:
+ - Disables auto-update
+
+NOTE: The JDK installer will sometimes toss error 1603 (the generic MSI code for "some sort of error happened") even though the install completed successfully. I've been able to reproduce this and it only seems to happen if there is a prior version of the JDK installed and you install on top of it. The install still goes through OK, but MSI will toss error 1603. In my experience you can safely ignore this error.</Description>
+        <FolderId value="17" />
+        <Name>Java Development Kit 6 update 45 (x86)</Name>
+        <Path>Installers\Java Development Kit 6 update 45 (x86)</Path>
+        <Version>1.6.0.450</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -1021,22 +1022,11 @@ NOTE: The JDK installer will sometimes toss error 1603 (the generic MSI code for
         </PackageDisplaySettings>
       </Package>
       <Package>
-        <Description>Installs Java Development Kit 7, with the following customizations:
- - Adds the "Development Tools" feature
- - Removes any previous versions of the series 7 JDK (JDK 7 Update XX); leaves other JDK installations intact
- - Disables Java's auto-updater
- - Does not reboot</Description>
-        <FolderId value="10" />
-        <Name>Java Development Kit 7 update 80 (x64)</Name>
-        <Path>Installers\Java Development Kit 7 update 80 (x64)</Path>
-        <Version>1.7.0.800</Version>
         <PackageDefinition name="Definition">
           <CopyMode>Default</CopyMode>
           <InventoryScanProfileId value="null" />
           <RunAs value="null" />
           <ScanAfterDeployment value="null" />
-          <Timeout value="60" />
-          <UseCustomTimeout value="false" />
           <Steps type="list">
             <InstallStep>
               <CustomCommandLine></CustomCommandLine>
@@ -1066,7 +1056,18 @@ NOTE: The JDK installer will sometimes toss error 1603 (the generic MSI code for
               </Conditions>
             </InstallStep>
           </Steps>
+          <Timeout value="60" />
+          <UseCustomTimeout value="false" />
         </PackageDefinition>
+        <Description>Installs Java Development Kit 7, with the following customizations:
+ - Adds the "Development Tools" feature
+ - Removes any previous versions of the series 7 JDK (JDK 7 Update XX); leaves other JDK installations intact
+ - Disables Java's auto-updater
+ - Does not reboot</Description>
+        <FolderId value="17" />
+        <Name>Java Development Kit 7 update 80 (x64)</Name>
+        <Path>Installers\Java Development Kit 7 update 80 (x64)</Path>
+        <Version>1.7.0.800</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -1074,22 +1075,11 @@ NOTE: The JDK installer will sometimes toss error 1603 (the generic MSI code for
         </PackageDisplaySettings>
       </Package>
       <Package>
-        <Description>Installs Java Development Kit 7, with the following customizations:
- - Adds the "Development Tools" feature
- - Removes any previous versions of the series 7 JDK (JDK 7 Update XX); leaves other JDK installations intact
- - Disables Java's auto-updater
- - Does not reboot</Description>
-        <FolderId value="10" />
-        <Name>Java Development Kit 7 update 80 (x86)</Name>
-        <Path>Installers\Java Development Kit 7 update 80 (x86)</Path>
-        <Version>1.7.0.800</Version>
         <PackageDefinition name="Definition">
           <CopyMode>Default</CopyMode>
           <InventoryScanProfileId value="null" />
           <RunAs value="null" />
           <ScanAfterDeployment value="null" />
-          <Timeout value="60" />
-          <UseCustomTimeout value="false" />
           <Steps type="list">
             <InstallStep>
               <CustomCommandLine></CustomCommandLine>
@@ -1119,7 +1109,18 @@ NOTE: The JDK installer will sometimes toss error 1603 (the generic MSI code for
               </Conditions>
             </InstallStep>
           </Steps>
+          <Timeout value="60" />
+          <UseCustomTimeout value="false" />
         </PackageDefinition>
+        <Description>Installs Java Development Kit 7, with the following customizations:
+ - Adds the "Development Tools" feature
+ - Removes any previous versions of the series 7 JDK (JDK 7 Update XX); leaves other JDK installations intact
+ - Disables Java's auto-updater
+ - Does not reboot</Description>
+        <FolderId value="17" />
+        <Name>Java Development Kit 7 update 80 (x86)</Name>
+        <Path>Installers\Java Development Kit 7 update 80 (x86)</Path>
+        <Version>1.7.0.800</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -1127,34 +1128,11 @@ NOTE: The JDK installer will sometimes toss error 1603 (the generic MSI code for
         </PackageDisplaySettings>
       </Package>
       <Package>
-        <Description>Installs Java Development Kit 8, with the following customizations:
- - Removes all previous JDK8 x64 installations first (leaves any JDK7 or JDK8 x86 installations intact)
- - Adds "Development Tools" feature
- * Installs matching JRE 8 version ("PublicJreFeature feature")
- - Disables Java's auto-updater
- - Does not reboot
-
-* Due to changes in the JDK installer by Oracle in this release, there are two options when installing the JDK:
-  1. Install JDK8 + the "public" JRE (aka standard/machine-wide) at the same time as the JDK, or
-  2. Install only JDK8 and wipe out any existing JRE8 installations.
-
-Thus, if you already had JRE8 installed when you install JDK and instruct it not to install the "public" JRE, it will REMOVE any existing JRE8 installations that have matching architecture (e.g. JDK8 x64 will remove all JRE8 x64 installations). So your options are either:
-
-  a) let the JDK8 installer load the matching JRE8 binary to Program Files, or
-  b) let the JDK8 installer blow away any matching-architecture JRE8 installations
-
-There is no option to JUST install JDK8 without touching JRE8 installations.</Description>
-        <FolderId value="10" />
-        <Name>Java Development Kit 8 update 92 (x64)</Name>
-        <Path>Installers\Java Development Kit 8 update 92 (x64)</Path>
-        <Version>8.0.720</Version>
         <PackageDefinition name="Definition">
           <CopyMode>Default</CopyMode>
           <InventoryScanProfileId value="null" />
           <RunAs value="null" />
           <ScanAfterDeployment value="null" />
-          <Timeout value="60" />
-          <UseCustomTimeout value="false" />
           <Steps type="list">
             <InstallStep>
               <CustomCommandLine></CustomCommandLine>
@@ -1184,16 +1162,11 @@ There is no option to JUST install JDK8 without touching JRE8 installations.</De
               </Conditions>
             </InstallStep>
           </Steps>
+          <Timeout value="60" />
+          <UseCustomTimeout value="false" />
         </PackageDefinition>
-        <PackageDisplaySettings name="DisplaySettings">
-          <DisplayType>Normal</DisplayType>
-          <IconKey></IconKey>
-          <SortOrder value="6" />
-        </PackageDisplaySettings>
-      </Package>
-      <Package>
         <Description>Installs Java Development Kit 8, with the following customizations:
- - Removes all previous JDK8 x86 installations first (leaves any JDK7 or JDK8 x64 installations intact)
+ - Removes all previous JDK8 x64 installations first (leaves any JDK7 or JDK8 x86 installations intact)
  - Adds "Development Tools" feature
  * Installs matching JRE 8 version ("PublicJreFeature feature")
  - Disables Java's auto-updater
@@ -1209,17 +1182,22 @@ Thus, if you already had JRE8 installed when you install JDK and instruct it not
   b) let the JDK8 installer blow away any matching-architecture JRE8 installations
 
 There is no option to JUST install JDK8 without touching JRE8 installations.</Description>
-        <FolderId value="10" />
-        <Name>Java Development Kit 8 update 92 (x86)</Name>
-        <Path>Installers\Java Development Kit 8 update 92 (x86)</Path>
+        <FolderId value="17" />
+        <Name>Java Development Kit 8 update 102 (x64)</Name>
+        <Path>Installers\Java Development Kit 8 update 102 (x64)</Path>
         <Version>8.0.720</Version>
+        <PackageDisplaySettings name="DisplaySettings">
+          <DisplayType>Normal</DisplayType>
+          <IconKey></IconKey>
+          <SortOrder value="6" />
+        </PackageDisplaySettings>
+      </Package>
+      <Package>
         <PackageDefinition name="Definition">
           <CopyMode>Default</CopyMode>
           <InventoryScanProfileId value="null" />
           <RunAs value="null" />
           <ScanAfterDeployment value="null" />
-          <Timeout value="60" />
-          <UseCustomTimeout value="false" />
           <Steps type="list">
             <InstallStep>
               <CustomCommandLine></CustomCommandLine>
@@ -1249,7 +1227,30 @@ There is no option to JUST install JDK8 without touching JRE8 installations.</De
               </Conditions>
             </InstallStep>
           </Steps>
+          <Timeout value="60" />
+          <UseCustomTimeout value="false" />
         </PackageDefinition>
+        <Description>Installs Java Development Kit 8, with the following customizations:
+ - Removes all previous JDK8 x86 installations first (leaves any JDK7 or JDK8 x64 installations intact)
+ - Adds "Development Tools" feature
+ * Installs matching JRE 8 version ("PublicJreFeature feature")
+ - Disables Java's auto-updater
+ - Does not reboot
+
+* Due to changes in the JDK installer by Oracle in this release, there are two options when installing the JDK:
+  1. Install JDK8 + the "public" JRE (aka standard/machine-wide) at the same time as the JDK, or
+  2. Install only JDK8 and wipe out any existing JRE8 installations.
+
+Thus, if you already had JRE8 installed when you install JDK and instruct it not to install the "public" JRE, it will REMOVE any existing JRE8 installations that have matching architecture (e.g. JDK8 x64 will remove all JRE8 x64 installations). So your options are either:
+
+  a) let the JDK8 installer load the matching JRE8 binary to Program Files, or
+  b) let the JDK8 installer blow away any matching-architecture JRE8 installations
+
+There is no option to JUST install JDK8 without touching JRE8 installations.</Description>
+        <FolderId value="17" />
+        <Name>Java Development Kit 8 update 102 (x86)</Name>
+        <Path>Installers\Java Development Kit 8 update 102 (x86)</Path>
+        <Version>8.0.720</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -1257,22 +1258,11 @@ There is no option to JUST install JDK8 without touching JRE8 installations.</De
         </PackageDisplaySettings>
       </Package>
       <Package>
-        <Description>Installs Java Runtime 6, with the following customizations:
- - Removes all previous JRE6 installations (leaves JRE7 installations intact)
- - Disables Java's auto-updater
- - Does not reboot
- - NOTE: JRE6 u45 was the final public release of the 6-series JRE. This binary is from Sun but was not widely disseminated. It is the same as JRE6u45 with security fixes from JRE7 backported.</Description>
-        <FolderId value="10" />
-        <Name>Java Runtime 6 update 115 (x64)</Name>
-        <Path>Installers\Java Runtime 6 update 115 (x64)</Path>
-        <Version>6.0.115</Version>
         <PackageDefinition name="Definition">
           <CopyMode>Default</CopyMode>
           <InventoryScanProfileId value="null" />
           <RunAs value="null" />
           <ScanAfterDeployment value="null" />
-          <Timeout value="60" />
-          <UseCustomTimeout value="false" />
           <Steps type="list">
             <InstallStep>
               <CustomCommandLine></CustomCommandLine>
@@ -1302,7 +1292,18 @@ There is no option to JUST install JDK8 without touching JRE8 installations.</De
               </Conditions>
             </InstallStep>
           </Steps>
+          <Timeout value="60" />
+          <UseCustomTimeout value="false" />
         </PackageDefinition>
+        <Description>Installs Java Runtime 6, with the following customizations:
+ - Removes all previous JRE6 installations (leaves JRE7 installations intact)
+ - Disables Java's auto-updater
+ - Does not reboot
+ - NOTE: JRE6 u45 was the final public release of the 6-series JRE. This binary is from Sun but was not widely disseminated. It is the same as JRE6u45 with security fixes from JRE7 backported.</Description>
+        <FolderId value="17" />
+        <Name>Java Runtime 6 update 115 (x64)</Name>
+        <Path>Installers\Java Runtime 6 update 115 (x64)</Path>
+        <Version>6.0.115</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -1310,22 +1311,11 @@ There is no option to JUST install JDK8 without touching JRE8 installations.</De
         </PackageDisplaySettings>
       </Package>
       <Package>
-        <Description>Installs Java Runtime 6, with the following customizations:
- - Removes all previous JRE6 installations (leaves JRE7 installations intact)
- - Disables Java's auto-updater
- - Does not reboot
- - NOTE: JRE6 u45 was the final public release of the 6-series JRE. This binary is from Sun but was not widely disseminated. It is the same as JRE6u45 with security fixes from JRE7 backported.</Description>
-        <FolderId value="10" />
-        <Name>Java Runtime 6 update 115 (x86)</Name>
-        <Path>Installers\Java Runtime 6 update 115 (x86)</Path>
-        <Version>6.0.115</Version>
         <PackageDefinition name="Definition">
           <CopyMode>Default</CopyMode>
           <InventoryScanProfileId value="null" />
           <RunAs value="null" />
           <ScanAfterDeployment value="null" />
-          <Timeout value="60" />
-          <UseCustomTimeout value="false" />
           <Steps type="list">
             <InstallStep>
               <CustomCommandLine></CustomCommandLine>
@@ -1355,7 +1345,18 @@ There is no option to JUST install JDK8 without touching JRE8 installations.</De
               </Conditions>
             </InstallStep>
           </Steps>
+          <Timeout value="60" />
+          <UseCustomTimeout value="false" />
         </PackageDefinition>
+        <Description>Installs Java Runtime 6, with the following customizations:
+ - Removes all previous JRE6 installations (leaves JRE7 installations intact)
+ - Disables Java's auto-updater
+ - Does not reboot
+ - NOTE: JRE6 u45 was the final public release of the 6-series JRE. This binary is from Sun but was not widely disseminated. It is the same as JRE6u45 with security fixes from JRE7 backported.</Description>
+        <FolderId value="17" />
+        <Name>Java Runtime 6 update 115 (x86)</Name>
+        <Path>Installers\Java Runtime 6 update 115 (x86)</Path>
+        <Version>6.0.115</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -1363,21 +1364,11 @@ There is no option to JUST install JDK8 without touching JRE8 installations.</De
         </PackageDisplaySettings>
       </Package>
       <Package>
-        <Description>Installs Java Runtime 7, with the following customizations:
- - Removes all previous JRE7 x64 installations first (leaves any JRE6 or JRE7 x86 installations intact)
- - Disables Java's auto-updater
- - Does not reboot</Description>
-        <FolderId value="10" />
-        <Name>Java Runtime 7 update 80 (x64)</Name>
-        <Path>Installers\Java Runtime 7 update 80 (x64)</Path>
-        <Version>7.0.800</Version>
         <PackageDefinition name="Definition">
           <CopyMode>Default</CopyMode>
           <InventoryScanProfileId value="null" />
           <RunAs value="null" />
           <ScanAfterDeployment value="null" />
-          <Timeout value="60" />
-          <UseCustomTimeout value="false" />
           <Steps type="list">
             <InstallStep>
               <CustomCommandLine></CustomCommandLine>
@@ -1407,7 +1398,17 @@ There is no option to JUST install JDK8 without touching JRE8 installations.</De
               </Conditions>
             </InstallStep>
           </Steps>
+          <Timeout value="60" />
+          <UseCustomTimeout value="false" />
         </PackageDefinition>
+        <Description>Installs Java Runtime 7, with the following customizations:
+ - Removes all previous JRE7 x64 installations first (leaves any JRE6 or JRE7 x86 installations intact)
+ - Disables Java's auto-updater
+ - Does not reboot</Description>
+        <FolderId value="17" />
+        <Name>Java Runtime 7 update 80 (x64)</Name>
+        <Path>Installers\Java Runtime 7 update 80 (x64)</Path>
+        <Version>7.0.800</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -1415,21 +1416,11 @@ There is no option to JUST install JDK8 without touching JRE8 installations.</De
         </PackageDisplaySettings>
       </Package>
       <Package>
-        <Description>Installs Java Runtime 7, with the following options:
- - Removes all previous JRE7 x86 installations first (leaves any JRE6 or JRE7 x64 installations intact)
- - Disables Java's auto-updater
- - Does not reboot</Description>
-        <FolderId value="10" />
-        <Name>Java Runtime 7 update 80 (x86)</Name>
-        <Path>Installers\Java Runtime 7 update 80 (x86)</Path>
-        <Version>7.0.800</Version>
         <PackageDefinition name="Definition">
           <CopyMode>Default</CopyMode>
           <InventoryScanProfileId value="null" />
           <RunAs value="null" />
           <ScanAfterDeployment value="null" />
-          <Timeout value="60" />
-          <UseCustomTimeout value="false" />
           <Steps type="list">
             <InstallStep>
               <CustomCommandLine></CustomCommandLine>
@@ -1459,7 +1450,17 @@ There is no option to JUST install JDK8 without touching JRE8 installations.</De
               </Conditions>
             </InstallStep>
           </Steps>
+          <Timeout value="60" />
+          <UseCustomTimeout value="false" />
         </PackageDefinition>
+        <Description>Installs Java Runtime 7, with the following options:
+ - Removes all previous JRE7 x86 installations first (leaves any JRE6 or JRE7 x64 installations intact)
+ - Disables Java's auto-updater
+ - Does not reboot</Description>
+        <FolderId value="17" />
+        <Name>Java Runtime 7 update 80 (x86)</Name>
+        <Path>Installers\Java Runtime 7 update 80 (x86)</Path>
+        <Version>7.0.800</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -1467,24 +1468,11 @@ There is no option to JUST install JDK8 without touching JRE8 installations.</De
         </PackageDisplaySettings>
       </Package>
       <Package>
-        <Description>Installs Java Runtime 8, with the following options:
- - Removes all previous JRE8 x64 installations first (leaves any JRE7 or JRE8 x86 installations intact)
- - Disables Java's auto-updater
- - Does not reboot
- - Forces Java Web Security level to MEDIUM* (default in all prior versions of JRE). Thanks to reddit.com/user/matt314159 for this contribution.
-
- * If you wish to disable this behavior, edit the 'deployment.properties' file and comment out or delete the line that reads 'deployment.security.level.locked'</Description>
-        <FolderId value="10" />
-        <Name>Java Runtime 8 update 92 (x64)</Name>
-        <Path>Installers\Java Runtime 8 update 92 (x64)</Path>
-        <Version>8.0.720</Version>
         <PackageDefinition name="Definition">
           <CopyMode>Default</CopyMode>
           <InventoryScanProfileId value="null" />
           <RunAs value="null" />
           <ScanAfterDeployment value="null" />
-          <Timeout value="60" />
-          <UseCustomTimeout value="false" />
           <Steps type="list">
             <InstallStep>
               <CustomCommandLine></CustomCommandLine>
@@ -1514,7 +1502,20 @@ There is no option to JUST install JDK8 without touching JRE8 installations.</De
               </Conditions>
             </InstallStep>
           </Steps>
+          <Timeout value="60" />
+          <UseCustomTimeout value="false" />
         </PackageDefinition>
+        <Description>Installs Java Runtime 8, with the following options:
+ - Removes all previous JRE8 x64 installations first (leaves any JRE7 or JRE8 x86 installations intact)
+ - Disables Java's auto-updater
+ - Does not reboot
+ - Forces Java Web Security level to MEDIUM* (default in all prior versions of JRE). Thanks to reddit.com/user/matt314159 for this contribution.
+
+ * If you wish to disable this behavior, edit the 'deployment.properties' file and comment out or delete the line that reads 'deployment.security.level.locked'</Description>
+        <FolderId value="17" />
+        <Name>Java Runtime 8 update 102 (x64)</Name>
+        <Path>Installers\Java Runtime 8 update 102 (x64)</Path>
+        <Version>8.0.720</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -1522,24 +1523,11 @@ There is no option to JUST install JDK8 without touching JRE8 installations.</De
         </PackageDisplaySettings>
       </Package>
       <Package>
-        <Description>Installs Java Runtime 8, with the following options:
- - Removes all previous JRE8 x86 installations first (leaves any JRE7 or JRE8 x64 installations intact)
- - Disables Java's auto-updater
- - Does not reboot
- - Forces Java Web Security level to MEDIUM* (default in all prior versions of JRE). Thanks to reddit.com/user/matt314159 for this contribution.
-
- * If you wish to disable this behavior, edit the 'deployment.properties' file and comment out or delete the line that reads 'deployment.security.level.locked'</Description>
-        <FolderId value="10" />
-        <Name>Java Runtime 8 update 92 (x86)</Name>
-        <Path>Installers\Java Runtime 8 update 92 (x86)</Path>
-        <Version>8.0.720</Version>
         <PackageDefinition name="Definition">
           <CopyMode>Default</CopyMode>
           <InventoryScanProfileId value="null" />
           <RunAs value="null" />
           <ScanAfterDeployment value="null" />
-          <Timeout value="60" />
-          <UseCustomTimeout value="false" />
           <Steps type="list">
             <InstallStep>
               <CustomCommandLine></CustomCommandLine>
@@ -1569,7 +1557,20 @@ There is no option to JUST install JDK8 without touching JRE8 installations.</De
               </Conditions>
             </InstallStep>
           </Steps>
+          <Timeout value="60" />
+          <UseCustomTimeout value="false" />
         </PackageDefinition>
+        <Description>Installs Java Runtime 8, with the following options:
+ - Removes all previous JRE8 x86 installations first (leaves any JRE7 or JRE8 x64 installations intact)
+ - Disables Java's auto-updater
+ - Does not reboot
+ - Forces Java Web Security level to MEDIUM* (default in all prior versions of JRE). Thanks to reddit.com/user/matt314159 for this contribution.
+
+ * If you wish to disable this behavior, edit the 'deployment.properties' file and comment out or delete the line that reads 'deployment.security.level.locked'</Description>
+        <FolderId value="17" />
+        <Name>Java Runtime 8 update 102 (x86)</Name>
+        <Path>Installers\Java Runtime 8 update 102 (x86)</Path>
+        <Version>8.0.720</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -1577,25 +1578,11 @@ There is no option to JUST install JDK8 without touching JRE8 installations.</De
         </PackageDisplaySettings>
       </Package>
       <Package>
-        <Description>Installs KpyM's Telnet/SSH server for Windows, with the following customizations: 
- - Starts SSH server listening on port 22
- - Does NOT start a telnet listener  *
-
-If the target machine is on a domain, the login format is as follows:
- - username@domain.com
-
-* if you require this, edit the kts.ini file in C:\Program Files\KTS\ and set the 'use_ssh' variable to 0 instead of 1</Description>
-        <FolderId value="10" />
-        <Name>KpyM Telnet/SSH Server v1.19c (x86)</Name>
-        <Path>Installers\KpyM Telnet/SSH Server v1.19c (x86)</Path>
-        <Version>1.19c</Version>
         <PackageDefinition name="Definition">
           <CopyMode>Default</CopyMode>
           <InventoryScanProfileId value="null" />
           <RunAs value="null" />
           <ScanAfterDeployment value="null" />
-          <Timeout value="60" />
-          <UseCustomTimeout value="false" />
           <Steps type="list">
             <InstallStep>
               <CustomCommandLine></CustomCommandLine>
@@ -1625,7 +1612,21 @@ If the target machine is on a domain, the login format is as follows:
               </Conditions>
             </InstallStep>
           </Steps>
+          <Timeout value="60" />
+          <UseCustomTimeout value="false" />
         </PackageDefinition>
+        <Description>Installs KpyM's Telnet/SSH server for Windows, with the following customizations: 
+ - Starts SSH server listening on port 22
+ - Does NOT start a telnet listener  *
+
+If the target machine is on a domain, the login format is as follows:
+ - username@domain.com
+
+* if you require this, edit the kts.ini file in C:\Program Files\KTS\ and set the 'use_ssh' variable to 0 instead of 1</Description>
+        <FolderId value="17" />
+        <Name>KpyM Telnet/SSH Server v1.19c (x86)</Name>
+        <Path>Installers\KpyM Telnet/SSH Server v1.19c (x86)</Path>
+        <Version>1.19c</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -1633,18 +1634,11 @@ If the target machine is on a domain, the login format is as follows:
         </PackageDisplaySettings>
       </Package>
       <Package>
-        <Description></Description>
-        <FolderId value="10" />
-        <Name>Microsoft .NET Framework 3.5 SP1 v3.5.1</Name>
-        <Path>Installers\Microsoft .NET Framework 3.5 SP1 v3.5.1</Path>
-        <Version>3.5.1</Version>
         <PackageDefinition name="Definition">
           <CopyMode>Default</CopyMode>
           <InventoryScanProfileId value="null" />
           <RunAs value="null" />
           <ScanAfterDeployment value="null" />
-          <Timeout value="60" />
-          <UseCustomTimeout value="false" />
           <Steps type="list">
             <InstallStep>
               <CustomCommandLine></CustomCommandLine>
@@ -1664,7 +1658,7 @@ If the target machine is on a domain, the login format is as follows:
               <Conditions type="list">
                 <PackageStepCondition>
                   <Architecture>Both</Architecture>
-                  <Version>WindowsXp, WindowsVista, Windows8, Server2003, Server2008, Server2008R2, Server2012, Windows81, Server2012R2</Version>
+                  <Version>WindowsXp, WindowsVista, Windows8, Server2003, Server2008, Server2008R2, Server2012, Windows81, Server2012R2, Windows10</Version>
                   <TypeName>OperatingSystem</TypeName>
                 </PackageStepCondition>
                 <PackageStepCondition>
@@ -1674,7 +1668,14 @@ If the target machine is on a domain, the login format is as follows:
               </Conditions>
             </InstallStep>
           </Steps>
+          <Timeout value="60" />
+          <UseCustomTimeout value="false" />
         </PackageDefinition>
+        <Description></Description>
+        <FolderId value="17" />
+        <Name>Microsoft .NET Framework 3.5 SP1 v3.5.1</Name>
+        <Path>Installers\Microsoft .NET Framework 3.5 SP1 v3.5.1</Path>
+        <Version>3.5.1</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -1682,22 +1683,11 @@ If the target machine is on a domain, the login format is as follows:
         </PackageDisplaySettings>
       </Package>
       <Package>
-        <Description>Installs Microsoft Silverlight Multimedia Framework, with the following customizations:
- - Disables the auto-updater via the following two Microsoft-supported methods:
-     1. The /noupdate flag
-     2. The "HKEY_LOCAL_MACHINE\Software\Microsoft\Silverlight\UpdateMode" registry key (0x00000002)
- - Deletes the icons the from All Users Start Menu</Description>
-        <FolderId value="10" />
-        <Name>Microsoft Silverlight v5.1.40416.0 (x64)</Name>
-        <Path>Installers\Microsoft Silverlight v5.1.40416.0 (x64)</Path>
-        <Version>5.1.40416.0</Version>
         <PackageDefinition name="Definition">
           <CopyMode>Default</CopyMode>
           <InventoryScanProfileId value="null" />
           <RunAs value="null" />
           <ScanAfterDeployment value="null" />
-          <Timeout value="60" />
-          <UseCustomTimeout value="false" />
           <Steps type="list">
             <InstallStep>
               <CustomCommandLine></CustomCommandLine>
@@ -1727,7 +1717,18 @@ If the target machine is on a domain, the login format is as follows:
               </Conditions>
             </InstallStep>
           </Steps>
+          <Timeout value="60" />
+          <UseCustomTimeout value="false" />
         </PackageDefinition>
+        <Description>Installs Microsoft Silverlight Multimedia Framework, with the following customizations:
+ - Disables the auto-updater via the following two Microsoft-supported methods:
+     1. The /noupdate flag
+     2. The "HKEY_LOCAL_MACHINE\Software\Microsoft\Silverlight\UpdateMode" registry key (0x00000002)
+ - Deletes the icons the from All Users Start Menu</Description>
+        <FolderId value="17" />
+        <Name>Microsoft Silverlight v5.1.40416.0 (x64)</Name>
+        <Path>Installers\Microsoft Silverlight v5.1.40416.0 (x64)</Path>
+        <Version>5.1.40416.0</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -1735,22 +1736,11 @@ If the target machine is on a domain, the login format is as follows:
         </PackageDisplaySettings>
       </Package>
       <Package>
-        <Description>Installs Microsoft Silverlight Multimedia Framework, with the following customizations:
- - Disables the auto-updater via the following two Microsoft-supported methods:
-     1. The /noupdate flag
-     2. The "HKEY_LOCAL_MACHINE\Software\Microsoft\Silverlight\UpdateMode" registry key (0x00000002)
- - Deletes the icons the from All Users Start Menu</Description>
-        <FolderId value="10" />
-        <Name>Microsoft Silverlight v5.1.40416.0 (x86)</Name>
-        <Path>Installers\Microsoft Silverlight v5.1.40416.0 (x86)</Path>
-        <Version>5.1.40416.0</Version>
         <PackageDefinition name="Definition">
           <CopyMode>Default</CopyMode>
           <InventoryScanProfileId value="null" />
           <RunAs value="null" />
           <ScanAfterDeployment value="null" />
-          <Timeout value="60" />
-          <UseCustomTimeout value="false" />
           <Steps type="list">
             <InstallStep>
               <CustomCommandLine></CustomCommandLine>
@@ -1780,7 +1770,18 @@ If the target machine is on a domain, the login format is as follows:
               </Conditions>
             </InstallStep>
           </Steps>
+          <Timeout value="60" />
+          <UseCustomTimeout value="false" />
         </PackageDefinition>
+        <Description>Installs Microsoft Silverlight Multimedia Framework, with the following customizations:
+ - Disables the auto-updater via the following two Microsoft-supported methods:
+     1. The /noupdate flag
+     2. The "HKEY_LOCAL_MACHINE\Software\Microsoft\Silverlight\UpdateMode" registry key (0x00000002)
+ - Deletes the icons the from All Users Start Menu</Description>
+        <FolderId value="17" />
+        <Name>Microsoft Silverlight v5.1.40416.0 (x86)</Name>
+        <Path>Installers\Microsoft Silverlight v5.1.40416.0 (x86)</Path>
+        <Version>5.1.40416.0</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -1788,9 +1789,46 @@ If the target machine is on a domain, the login format is as follows:
         </PackageDisplaySettings>
       </Package>
       <Package>
-        <Description>Installs Mozilla Firefox, along with these customizations*:
+        <PackageDefinition name="Definition">
+          <CopyMode>Default</CopyMode>
+          <InventoryScanProfileId value="null" />
+          <RunAs value="null" />
+          <ScanAfterDeployment value="null" />
+          <Steps type="list">
+            <InstallStep>
+              <CustomCommandLine></CustomCommandLine>
+              <FileName>$(Repository)\mozilla\firefox\x64\Firefox.bat</FileName>
+              <Files></Files>
+              <IncludeDirectory value="true" />
+              <MsiOperation>Install</MsiOperation>
+              <MsiQuiet value="true" />
+              <MsiRestart>Never</MsiRestart>
+              <Parameters></Parameters>
+              <SuccessCodes>0,1641,3010</SuccessCodes>
+              <RunAs value="null" />
+              <ErrorMode>StopDeploymentFail</ErrorMode>
+              <IsEnabled value="true" />
+              <Title>Install Firefox</Title>
+              <TypeName>Install</TypeName>
+              <Conditions type="list">
+                <PackageStepCondition>
+                  <Architecture>Bits64</Architecture>
+                  <Version>All</Version>
+                  <TypeName>OperatingSystem</TypeName>
+                </PackageStepCondition>
+                <PackageStepCondition>
+                  <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
+                  <TypeName>LoggedOnUser</TypeName>
+                </PackageStepCondition>
+              </Conditions>
+            </InstallStep>
+          </Steps>
+          <Timeout value="60" />
+          <UseCustomTimeout value="false" />
+        </PackageDefinition>
+        <Description>Installs Mozilla Firefox, with the following customizations*:
 
- ! Kills any running Firefox processes first to ensure the upgrade goes smoothly
+ ! Kills any running Firefox process first
  - Disables 'Always check to see if Firefox is the default browser on startup'
  - Disables 'Automatically install updates'
  - Disables 'Know your rights' bar from displaying on first run
@@ -1798,25 +1836,32 @@ If the target machine is on a domain, the login format is as follows:
  - Disables 'Firefox Health Report'
  - Disables 'Crash Reporter'
  - Disables 'Hello' embedded chat plugin
+ - Disables 'Pocket' embedded plugin
  - Disables 'Tiles' new-tab screen (defaults to about:blank; user can change this setting)
  - Deletes All Users desktop icon
+ - Autoloads the latest version of the uBlock Origin plugin
 
- * These customizations are set in the file 'firefox.js' in the package directory. If you want to change them, edit or delete this file</Description>
-        <FolderId value="10" />
-        <Name>Mozilla Firefox v47.0.0 (customized)</Name>
-        <Path>Installers\Mozilla Firefox v47.0.0 (customized)</Path>
-        <Version>47.0.0</Version>
+ * These customizations come from the file '\autoconfig\cck2.cfg' in the package directory. If you want to change them, edit or delete this file. The config file was generated with the CCK2 addon for Firefox.</Description>
+        <FolderId value="17" />
+        <Name>Mozilla Firefox v48.0.0 (customized) (x64)</Name>
+        <Path>Installers\Mozilla Firefox v48.0.0 (customized) (x64)</Path>
+        <Version>48.0.0</Version>
+        <PackageDisplaySettings name="DisplaySettings">
+          <DisplayType>Normal</DisplayType>
+          <IconKey></IconKey>
+          <SortOrder value="6" />
+        </PackageDisplaySettings>
+      </Package>
+      <Package>
         <PackageDefinition name="Definition">
           <CopyMode>Default</CopyMode>
           <InventoryScanProfileId value="null" />
           <RunAs value="null" />
           <ScanAfterDeployment value="null" />
-          <Timeout value="60" />
-          <UseCustomTimeout value="false" />
           <Steps type="list">
             <InstallStep>
               <CustomCommandLine></CustomCommandLine>
-              <FileName>$(Repository)\mozilla\firefox\x86\Firefox.bat</FileName>
+              <FileName>$(Repository)\mozilla\firefox\x86\Firefox x86.bat</FileName>
               <Files></Files>
               <IncludeDirectory value="true" />
               <MsiOperation>Install</MsiOperation>
@@ -1842,7 +1887,29 @@ If the target machine is on a domain, the login format is as follows:
               </Conditions>
             </InstallStep>
           </Steps>
+          <Timeout value="60" />
+          <UseCustomTimeout value="false" />
         </PackageDefinition>
+        <Description>Installs Mozilla Firefox, with the following customizations*:
+
+ ! Kills any running Firefox process first
+ - Disables 'Always check to see if Firefox is the default browser on startup'
+ - Disables 'Automatically install updates'
+ - Disables 'Know your rights' bar from displaying on first run
+ - Disables 'Telemetry' (request to send performance data)
+ - Disables 'Firefox Health Report'
+ - Disables 'Crash Reporter'
+ - Disables 'Hello' embedded chat plugin
+ - Disables 'Pocket' embedded plugin
+ - Disables 'Tiles' new-tab screen (defaults to about:blank; user can change this setting)
+ - Deletes All Users desktop icon
+ - Autoloads the latest version of the uBlock Origin plugin
+
+ * These customizations come from the file '\autoconfig\cck2.cfg' in the package directory. If you want to change them, edit or delete this file. The config file was generated with the CCK2 addon for Firefox.</Description>
+        <FolderId value="17" />
+        <Name>Mozilla Firefox v48.0.0 (customized) (x86)</Name>
+        <Path>Installers\Mozilla Firefox v48.0.0 (customized) (x86)</Path>
+        <Version>48.0.0</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -1850,28 +1917,11 @@ If the target machine is on a domain, the login format is as follows:
         </PackageDisplaySettings>
       </Package>
       <Package>
-        <Description>Installs Mozilla Thunderbird with the following customizations:
- ! Kills any running instances of Thunderbird before installing
- - Points Thunderbird to a master configuration file on the network instead of using the local configuration files. This lets us perform domain-wide tweaks to Thunderbird settings easily.*
- - Disables auto-updater (extension updates remain enabled)
- - Disables the 'Know your rights' banner at the bottom of the screen
- - Disables the request to send performance data
- - Disables the Migration Assistant
- - Disables the What's New page from showing after an upgrade
-
-* The master settings file it points to is located here:  '\\DOMAIN.NAME\netlogon\applications\thunderbird\thunderbird-global-settings.js'
-* If you wish to disable these settings, remove the three *.js files in the package directory</Description>
-        <FolderId value="10" />
-        <Name>Mozilla Thunderbird v45.1.1(customized)</Name>
-        <Path>Installers\Mozilla Thunderbird v45.1.1(customized)</Path>
-        <Version>45.1.1</Version>
         <PackageDefinition name="Definition">
           <CopyMode>Default</CopyMode>
           <InventoryScanProfileId value="null" />
           <RunAs value="null" />
           <ScanAfterDeployment value="null" />
-          <Timeout value="60" />
-          <UseCustomTimeout value="false" />
           <Steps type="list">
             <InstallStep>
               <CustomCommandLine></CustomCommandLine>
@@ -1901,7 +1951,24 @@ If the target machine is on a domain, the login format is as follows:
               </Conditions>
             </InstallStep>
           </Steps>
+          <Timeout value="60" />
+          <UseCustomTimeout value="false" />
         </PackageDefinition>
+        <Description>Installs Mozilla Thunderbird with the following customizations:
+ ! Kills any running instances of Thunderbird before installing
+ - Points Thunderbird to a master configuration file on the network instead of using the local configuration files. This lets us perform domain-wide tweaks to Thunderbird settings easily.*
+ - Disables auto-updater (extension updates remain enabled)
+ - Disables the 'Know your rights' banner at the bottom of the screen
+ - Disables the request to send performance data
+ - Disables the Migration Assistant
+ - Disables the What's New page from showing after an upgrade
+
+* The master settings file it points to is located here:  '\\DOMAIN.NAME\netlogon\applications\thunderbird\thunderbird-global-settings.js'
+* If you wish to disable these settings, remove the three *.js files in the package directory</Description>
+        <FolderId value="17" />
+        <Name>Mozilla Thunderbird v45.2.0 (customized)</Name>
+        <Path>Installers\Mozilla Thunderbird v45.2.0 (customized)</Path>
+        <Version>45.2.0</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -1909,21 +1976,11 @@ If the target machine is on a domain, the login format is as follows:
         </PackageDisplaySettings>
       </Package>
       <Package>
-        <Description>Installs Notepad++ silently, with the following customizations:
- - Kills any running instance of Notepad++ first
- - Disables auto-updater by deleting the folder "C:\Program Files\Notepad++\updater"
- - Deletes the DSpellCheck plugin</Description>
-        <FolderId value="10" />
-        <Name>Notepad++ v6.9.2</Name>
-        <Path>Installers\Notepad++ v6.9.2</Path>
-        <Version>6.9.2</Version>
         <PackageDefinition name="Definition">
           <CopyMode>Default</CopyMode>
           <InventoryScanProfileId value="null" />
           <RunAs value="null" />
           <ScanAfterDeployment value="null" />
-          <Timeout value="60" />
-          <UseCustomTimeout value="false" />
           <Steps type="list">
             <InstallStep>
               <CustomCommandLine></CustomCommandLine>
@@ -1953,7 +2010,17 @@ If the target machine is on a domain, the login format is as follows:
               </Conditions>
             </InstallStep>
           </Steps>
+          <Timeout value="60" />
+          <UseCustomTimeout value="false" />
         </PackageDefinition>
+        <Description>Installs Notepad++ silently, with the following customizations:
+ - Kills any running instance of Notepad++ first
+ - Disables auto-updater by deleting the folder "C:\Program Files\Notepad++\updater"
+ - Deletes the DSpellCheck plugin</Description>
+        <FolderId value="17" />
+        <Name>Notepad++ v6.9.2</Name>
+        <Path>Installers\Notepad++ v6.9.2</Path>
+        <Version>6.9.2</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -1961,22 +2028,11 @@ If the target machine is on a domain, the login format is as follows:
         </PackageDisplaySettings>
       </Package>
       <Package>
-        <Description>Install's Pale Moon, an open-source, Windows-optimized, binary-compatible Firefox build, with the following modifications:
- - Removes desktop icon
-
-
-Thanks to Moonchild ( http://www.palemoon.org/ ) for redistribution permission.</Description>
-        <FolderId value="10" />
-        <Name>Pale Moon v26.2.2</Name>
-        <Path>Installers\Pale Moon v26.2.2</Path>
-        <Version>26.2.2</Version>
         <PackageDefinition name="Definition">
           <CopyMode>Default</CopyMode>
           <InventoryScanProfileId value="null" />
           <RunAs value="null" />
           <ScanAfterDeployment value="null" />
-          <Timeout value="60" />
-          <UseCustomTimeout value="false" />
           <Steps type="list">
             <InstallStep>
               <CustomCommandLine></CustomCommandLine>
@@ -2006,7 +2062,18 @@ Thanks to Moonchild ( http://www.palemoon.org/ ) for redistribution permission.<
               </Conditions>
             </InstallStep>
           </Steps>
+          <Timeout value="60" />
+          <UseCustomTimeout value="false" />
         </PackageDefinition>
+        <Description>Install's Pale Moon, an open-source, Windows-optimized, binary-compatible Firefox build, with the following modifications:
+ - Removes desktop icon
+
+
+Thanks to Moonchild ( http://www.palemoon.org/ ) for redistribution permission.</Description>
+        <FolderId value="17" />
+        <Name>Pale Moon v26.3.3</Name>
+        <Path>Installers\Pale Moon v26.3.3</Path>
+        <Version>26.3.3</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -2014,21 +2081,11 @@ Thanks to Moonchild ( http://www.palemoon.org/ ) for redistribution permission.<
         </PackageDisplaySettings>
       </Package>
       <Package>
-        <Description>Installs the Spark v2.7.7 instant messaging client (for use with OpenFire chat servers), with the following customizations:
- - Silent install
- - Deletes "All Users" desktop icon
- - Deletes the OTR ("Off the Record") encryption plugin</Description>
-        <FolderId value="10" />
-        <Name>Spark v2.7.7</Name>
-        <Path>Installers\Spark v2.7.7</Path>
-        <Version></Version>
         <PackageDefinition name="Definition">
           <CopyMode>Default</CopyMode>
           <InventoryScanProfileId value="null" />
           <RunAs value="null" />
           <ScanAfterDeployment value="null" />
-          <Timeout value="60" />
-          <UseCustomTimeout value="false" />
           <Steps type="list">
             <InstallStep>
               <CustomCommandLine></CustomCommandLine>
@@ -2058,7 +2115,17 @@ Thanks to Moonchild ( http://www.palemoon.org/ ) for redistribution permission.<
               </Conditions>
             </InstallStep>
           </Steps>
+          <Timeout value="60" />
+          <UseCustomTimeout value="false" />
         </PackageDefinition>
+        <Description>Installs the Spark v2.7.7 instant messaging client (for use with OpenFire chat servers), with the following customizations:
+ - Silent install
+ - Deletes "All Users" desktop icon
+ - Deletes the OTR ("Off the Record") encryption plugin</Description>
+        <FolderId value="17" />
+        <Name>Spark v2.7.7</Name>
+        <Path>Installers\Spark v2.7.7</Path>
+        <Version></Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -2066,27 +2133,11 @@ Thanks to Moonchild ( http://www.palemoon.org/ ) for redistribution permission.<
         </PackageDisplaySettings>
       </Package>
       <Package>
-        <Description>Installs TightVNC, with the following customizations:
- - Removes any prior versions of TightVNC
- - Starts the TightVNC listener/server
- - Hides the control panel in the system tray
- - Disables the "hide desktop wallpaper" option
- - Deletes "All Users" Start Menu links to TightVNC
- - Sets the remote access password to 'nettech2' *
- - Sets the control panel protection password to 'nettech2' *
-
- * These settings come from the registry file that gets imported. If you wish to disable these customizations, remove the registry file.</Description>
-        <FolderId value="10" />
-        <Name>TightVNC v2.7.10 (x64)</Name>
-        <Path>Installers\TightVNC v2.7.10 (x64)</Path>
-        <Version></Version>
         <PackageDefinition name="Definition">
           <CopyMode>Default</CopyMode>
           <InventoryScanProfileId value="null" />
           <RunAs value="null" />
           <ScanAfterDeployment value="null" />
-          <Timeout value="60" />
-          <UseCustomTimeout value="false" />
           <Steps type="list">
             <InstallStep>
               <CustomCommandLine></CustomCommandLine>
@@ -2116,14 +2167,9 @@ Thanks to Moonchild ( http://www.palemoon.org/ ) for redistribution permission.<
               </Conditions>
             </InstallStep>
           </Steps>
+          <Timeout value="60" />
+          <UseCustomTimeout value="false" />
         </PackageDefinition>
-        <PackageDisplaySettings name="DisplaySettings">
-          <DisplayType>Normal</DisplayType>
-          <IconKey></IconKey>
-          <SortOrder value="6" />
-        </PackageDisplaySettings>
-      </Package>
-      <Package>
         <Description>Installs TightVNC, with the following customizations:
  - Removes any prior versions of TightVNC
  - Starts the TightVNC listener/server
@@ -2134,17 +2180,22 @@ Thanks to Moonchild ( http://www.palemoon.org/ ) for redistribution permission.<
  - Sets the control panel protection password to 'nettech2' *
 
  * These settings come from the registry file that gets imported. If you wish to disable these customizations, remove the registry file.</Description>
-        <FolderId value="10" />
-        <Name>TightVNC v2.7.10 (x86)</Name>
-        <Path>Installers\TightVNC v2.7.10 (x86)</Path>
+        <FolderId value="17" />
+        <Name>TightVNC v2.8.2 (x64)</Name>
+        <Path>Installers\TightVNC v2.8.2 (x64)</Path>
         <Version></Version>
+        <PackageDisplaySettings name="DisplaySettings">
+          <DisplayType>Normal</DisplayType>
+          <IconKey></IconKey>
+          <SortOrder value="6" />
+        </PackageDisplaySettings>
+      </Package>
+      <Package>
         <PackageDefinition name="Definition">
           <CopyMode>Default</CopyMode>
           <InventoryScanProfileId value="null" />
           <RunAs value="null" />
           <ScanAfterDeployment value="null" />
-          <Timeout value="60" />
-          <UseCustomTimeout value="false" />
           <Steps type="list">
             <InstallStep>
               <CustomCommandLine></CustomCommandLine>
@@ -2174,7 +2225,23 @@ Thanks to Moonchild ( http://www.palemoon.org/ ) for redistribution permission.<
               </Conditions>
             </InstallStep>
           </Steps>
+          <Timeout value="60" />
+          <UseCustomTimeout value="false" />
         </PackageDefinition>
+        <Description>Installs TightVNC, with the following customizations:
+ - Removes any prior versions of TightVNC
+ - Starts the TightVNC listener/server
+ - Hides the control panel in the system tray
+ - Disables the "hide desktop wallpaper" option
+ - Deletes "All Users" Start Menu links to TightVNC
+ - Sets the remote access password to 'nettech2' *
+ - Sets the control panel protection password to 'nettech2' *
+
+ * These settings come from the registry file that gets imported. If you wish to disable these customizations, remove the registry file.</Description>
+        <FolderId value="17" />
+        <Name>TightVNC v2.8.2 (x86)</Name>
+        <Path>Installers\TightVNC v2.8.2 (x86)</Path>
+        <Version></Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -2182,26 +2249,11 @@ Thanks to Moonchild ( http://www.palemoon.org/ ) for redistribution permission.<
         </PackageDisplaySettings>
       </Package>
       <Package>
-        <Description>Installs UltraVNC with the following customizations:
- - Removes icons (desktop, start menu)
- - Removes system tray icon
- - Starts listening server
- - Sets connection password of 'nettech2' *
-
-* If you wish to change this, use the password generator tool located in:
-     $(Repository)\ultravnc\ultravnc_password_generator
-and paste the resulting password in the 'ultravnc.ini' file in the same directory as the UltraVNC exe</Description>
-        <FolderId value="10" />
-        <Name>UltraVNC v1.2.0.9 (x86)</Name>
-        <Path>Installers\UltraVNC v1.2.0.9 (x86)</Path>
-        <Version>1.2.0.9</Version>
         <PackageDefinition name="Definition">
           <CopyMode>Default</CopyMode>
           <InventoryScanProfileId value="null" />
           <RunAs value="null" />
           <ScanAfterDeployment value="null" />
-          <Timeout value="60" />
-          <UseCustomTimeout value="false" />
           <Steps type="list">
             <InstallStep>
               <CustomCommandLine></CustomCommandLine>
@@ -2231,7 +2283,22 @@ and paste the resulting password in the 'ultravnc.ini' file in the same director
               </Conditions>
             </InstallStep>
           </Steps>
+          <Timeout value="60" />
+          <UseCustomTimeout value="false" />
         </PackageDefinition>
+        <Description>Installs UltraVNC with the following customizations:
+ - Removes icons (desktop, start menu)
+ - Removes system tray icon
+ - Starts listening server
+ - Sets connection password of 'nettech2' *
+
+* If you wish to change this, use the password generator tool located in:
+     $(Repository)\ultravnc\ultravnc_password_generator
+and paste the resulting password in the 'ultravnc.ini' file in the same directory as the UltraVNC exe</Description>
+        <FolderId value="17" />
+        <Name>UltraVNC v1.2.0.9 (x86)</Name>
+        <Path>Installers\UltraVNC v1.2.0.9 (x86)</Path>
+        <Version>1.2.0.9</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -2239,18 +2306,11 @@ and paste the resulting password in the 'ultravnc.ini' file in the same director
         </PackageDisplaySettings>
       </Package>
       <Package>
-        <Description></Description>
-        <FolderId value="10" />
-        <Name>VLC Media Player v2.2.4 (x86)</Name>
-        <Path>Installers\VLC Media Player v2.2.4 (x86)</Path>
-        <Version>2.2.4</Version>
         <PackageDefinition name="Definition">
           <CopyMode>Default</CopyMode>
           <InventoryScanProfileId value="null" />
           <RunAs value="null" />
           <ScanAfterDeployment value="null" />
-          <Timeout value="60" />
-          <UseCustomTimeout value="false" />
           <Steps type="list">
             <InstallStep>
               <CustomCommandLine></CustomCommandLine>
@@ -2280,7 +2340,14 @@ and paste the resulting password in the 'ultravnc.ini' file in the same director
               </Conditions>
             </InstallStep>
           </Steps>
+          <Timeout value="60" />
+          <UseCustomTimeout value="false" />
         </PackageDefinition>
+        <Description></Description>
+        <FolderId value="17" />
+        <Name>VLC Media Player v2.2.4 (x86)</Name>
+        <Path>Installers\VLC Media Player v2.2.4 (x86)</Path>
+        <Version>2.2.4</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -2288,22 +2355,11 @@ and paste the resulting password in the 'ultravnc.ini' file in the same director
         </PackageDisplaySettings>
       </Package>
       <Package>
-        <Description>Installs WinSCP silently, with the following customizations:
- - Disables OpenCandy advertising
- - Disables auto-reboot
- - Doesn't install a desktop icon
- - Associates .scp file extensions with WinSCP</Description>
-        <FolderId value="10" />
-        <Name>WinSCP v5.7.7</Name>
-        <Path>Installers\WinSCP v5.7.7</Path>
-        <Version>5.7.7</Version>
         <PackageDefinition name="Definition">
           <CopyMode>Default</CopyMode>
           <InventoryScanProfileId value="null" />
           <RunAs value="null" />
           <ScanAfterDeployment value="null" />
-          <Timeout value="60" />
-          <UseCustomTimeout value="false" />
           <Steps type="list">
             <InstallStep>
               <CustomCommandLine></CustomCommandLine>
@@ -2333,7 +2389,18 @@ and paste the resulting password in the 'ultravnc.ini' file in the same director
               </Conditions>
             </InstallStep>
           </Steps>
+          <Timeout value="60" />
+          <UseCustomTimeout value="false" />
         </PackageDefinition>
+        <Description>Installs WinSCP silently, with the following customizations:
+ - Disables OpenCandy advertising
+ - Disables auto-reboot
+ - Doesn't install a desktop icon
+ - Associates .scp file extensions with WinSCP</Description>
+        <FolderId value="17" />
+        <Name>WinSCP v5.9.0</Name>
+        <Path>Installers\WinSCP v5.9.0</Path>
+        <Version>5.9.0</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
