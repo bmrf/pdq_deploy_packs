@@ -10,7 +10,6 @@
 :::::::::::::::
 :: Package to install. Do not use trailing slashes (\)
 set BINARY_VERSION=11.0.10
-set PATCH_VERSION=11.0.15
 set FLAGS=/sAll /rs /msi /qb- /norestart EULA_ACCEPT=YES REMOVE_PREVIOUS=YES
 
 
@@ -51,7 +50,7 @@ wmic product where "name like 'Adobe Reader XI%%'" call uninstall /nointeractive
 
 :: Install latest patch
 msiexec /p "Adobe Reader v11.0.14 patch.msp" REINSTALL=ALL REINSTALLMODE=omus /qn
-msiexec /p "Adobe Reader v11.0.16 patch.msp" REINSTALL=ALL REINSTALLMODE=omus /qn
+msiexec /p "Adobe Reader v11.0.17 patch.msp" REINSTALL=ALL REINSTALLMODE=omus /qn
 
 :: Disable Adobe Updater via registry; both methods
 reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Adobe\Acrobat Reader\11.0\FeatureLockDown" /v bUpdater /t REG_DWORD /d 00000000 /f >> "%LOGPATH%\%LOGFILE%" 2>NUL
