@@ -40,10 +40,10 @@ if not exist %LOGPATH% mkdir %LOGPATH%
 taskkill /f /im itunes.exe /t >> "%LOGPATH%\%LOGFILE%" 2>NUL
 
 :: Remove prior versions
-wmic product where "name like 'Apple Application Support%%'" uninstall /nointeractive
-wmic product where "name like 'Apple Mobile Device Support%%'" uninstall /nointeractive
-wmic product where "name like 'Bonjour%%'" uninstall /nointeractive
-wmic product where "name like '%%iTunes%%'" uninstall /nointeractive
+wmic product where "name like 'Apple Application Support%%'" uninstall /nointeractive >> "%LOGPATH%\%LOGFILE%" 2>NUL
+wmic product where "name like 'Apple Mobile Device Support%%'" uninstall /nointeractive >> "%LOGPATH%\%LOGFILE%" 2>NUL
+wmic product where "name like 'Bonjour%%'" uninstall /nointeractive >> "%LOGPATH%\%LOGFILE%" 2>NUL
+wmic product where "name like '%%iTunes%%'" uninstall /nointeractive >> "%LOGPATH%\%LOGFILE%" 2>NUL
 
 :: Install the package from the local folder (if all files are in the same directory)
 msiexec /i AppleApplicationSupport.msi /quiet /norestart >> "%LOGPATH%\%LOGFILE%" 2>NUL
