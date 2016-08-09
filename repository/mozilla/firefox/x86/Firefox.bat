@@ -31,7 +31,7 @@ set LOGFILE=
 :: Package to install. Do not use trailing slashes (\)
 ::if     exist "%ProgramFiles(x86)%" set BINARY="Firefox Setup 48.0.0 x64.exe"
 ::if not exist "%ProgramFiles(x86)%" set BINARY="Firefox Setup 48.0.0 x86.exe"
-set BINARY="Mozilla Firefox.exe"
+set BINARY="Mozilla Firefox x86.exe"
 set FLAGS=/INI="%CD%\configuration.ini"
 
 :: Create the log directory if it doesn't exist
