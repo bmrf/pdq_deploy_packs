@@ -28,7 +28,7 @@ set LOGFILE=
 
 :: Package to install. Do not use trailing slashes (\)
 set LOCATION=
-set BINARY=FileZilla v3.18.0 x64.exe
+set BINARY=FileZilla v3.20.1 x64.exe
 set FLAGS=/S
 
 :: Create the log directory if it doesn't exist
@@ -44,6 +44,9 @@ if exist "%ProgramFiles%\FileZilla FTP Client\uninstall.exe" "%ProgramFiles%\Fil
 
 :: Install the package from a local directory (if all files are in the same directory)
 "%BINARY%" %FLAGS%
+
+:: Remove FileZilla Desktop Icon
+if exist "%public%\Desktop\FileZilla Client.lnk" del "%public%\Desktop\FileZilla Client.lnk"
 
 :: Pop back to original directory. This isn't necessary in stand-alone runs of the script, but is needed when being called from another script
 popd
