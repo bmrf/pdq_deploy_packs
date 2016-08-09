@@ -27,5 +27,7 @@ v8.0 introduced an optional download, Microsoft Offline Update packages. It's no
 If you download this package make sure to read the instructions that come with it, otherwise you'll run it, nothing will happen, and you'll feel silly.
 
 # Read-only keys for BitTorrent Sync:
+
 PDQ Deploy installer packages:               `BTRSRPF7Y3VWFRBG64VUDGP7WIIVNTR4Q`
+
 Optional Microsoft Offline Update packages:  `BMHHALGV7WLNSAPIPYDP5DU3NDNSM5XNC`
