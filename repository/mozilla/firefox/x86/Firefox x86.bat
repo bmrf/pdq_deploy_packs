@@ -49,8 +49,8 @@ wmic process where name="firefox.exe" call terminate 2>NUL
 "%BINARY%" %FLAGS%
 
 :: Install customizations, built with CCK2
-if exist "%ProgramFiles(x86)%\Mozilla Firefox\" xcopy /s /e /y "autoconfig\*" "%ProgramFiles(x86)%\Mozilla Firefox"
-if exist "%ProgramFiles%\Mozilla Firefox\" xcopy /s /e /y "autoconfig\*" "%ProgramFiles(x86)%\Mozilla Firefox"
+echo D| if exist "%ProgramFiles(x86)%\Mozilla Firefox\" xcopy /s /e /y "autoconfig\*" "%ProgramFiles(x86)%\Mozilla Firefox"
+echo D| if exist "%ProgramFiles%\Mozilla Firefox\" xcopy /s /e /y "autoconfig\*" "%ProgramFiles(x86)%\Mozilla Firefox"
 
 :: Remove desktop icons
 REM if exist "%allusersprofile%\Desktop\Mozilla Firefox.lnk" del "%allusersprofile%\Desktop\Mozilla Firefox.lnk" /S
