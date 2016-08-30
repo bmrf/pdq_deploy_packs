@@ -2,7 +2,7 @@
 :: Requirements:  Run this script with Administrator rights. Use the --preserve-acrotray command-line switch if you don't 
 ::                want the script to remove acrotray.exe (used for PDF printing in Adobe Acrobat DC)
 :: Author:        vocatus on reddit.com/r/sysadmin ( vocatus.gate@gmail.com ) // PGP key ID: 0x07d1490f82a211a2
-:: Version:       1.0.1 + Add --preserve-acrotray command-line switch and associated PRESERVE_ACROTRAY variable. Use this switch or set the variable manually to prevent script from deleting acrotray.exe. Thanks to github:sn3ak
+:: Version:       1.1.0 + Add --preserve-acrotray command-line switch and associated PRESERVE_ACROTRAY variable. Use this switch or set the variable manually to prevent script from deleting acrotray.exe. Thanks to github:sn3ak
 ::                1.0.0 + Initial write
 
 
@@ -12,7 +12,7 @@
 :: Prep :: -- Don't change anything in this section
 ::::::::::
 @echo off
-set SCRIPT_VERSION=1.0.1
+set SCRIPT_VERSION=1.1.0
 set SCRIPT_UPDATED=2016-08-30
 :: Get the date into ISO 8601 standard date format (yyyy-mm-dd) so we can use it
 FOR /f %%a in ('WMIC OS GET LocalDateTime ^| find "."') DO set DTS=%%a
