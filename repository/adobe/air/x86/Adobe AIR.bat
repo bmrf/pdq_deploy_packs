@@ -23,6 +23,7 @@ pushd "%~dp0"
 cls
 
 :: Check for command-line argument
+set PRESERVE_ACROTRAY=no
 for %%i in (%*) do ( if /i %%i==--preserve-acrotray set PRESERVE_ACROTRAY=yes )
 
 
@@ -37,7 +38,7 @@ set LOGFILE=%COMPUTERNAME%_Adobe_AIR_install.log
 :: Package to install. Do not use trailing slashes (\)
 set BINARY=AdobeAIRInstaller.exe
 set FLAGS=-silent -eulaAccepted
-set PRESERVE_ACROTRAY=no
+
 
 :: Create the log directory if it doesn't exist
 if not exist %LOGPATH% mkdir %LOGPATH%
