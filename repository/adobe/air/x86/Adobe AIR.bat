@@ -1,7 +1,11 @@
 :: Purpose:       Installs a package
-:: Requirements:  Run this script with Administrator rights
+:: Requirements:  Run this script with Administrator rights. Use the --preserve-acrotray command-line switch if you don't 
+::                want the script to remove acrotray.exe (used for PDF printing in Adobe Acrobat DC)
 :: Author:        vocatus on reddit.com/r/sysadmin ( vocatus.gate@gmail.com ) // PGP key ID: 0x07d1490f82a211a2
-:: Version:       1.0.0 + Initial write
+:: Version:       1.0.1 + Add --preserve-acrotray command-line switch and associated PRESERVE_ACROTRAY variable. Use this switch or set the variable manually to prevent script from deleting acrotray.exe. Thanks to github:sn3ak
+::                1.0.0 + Initial write
+
+
 
 
 ::::::::::
@@ -18,6 +22,10 @@ set CUR_DATE=%DTS:~0,4%-%DTS:~4,2%-%DTS:~6,2%
 pushd "%~dp0"
 cls
 
+:: Check for command-line argument
+for %%i in (%*) do ( if /i %%i==--preserve-acrotray set PRESERVE_ACROTRAY=yes )
+
+
 
 :::::::::::::::
 :: Variables :: -- Set these to your desired values
@@ -27,8 +35,9 @@ set LOGPATH=%SystemDrive%\Logs
 set LOGFILE=%COMPUTERNAME%_Adobe_AIR_install.log
 
 :: Package to install. Do not use trailing slashes (\)
-set BINARY_VERSION=
+set BINARY=AdobeAIRInstaller.exe
 set FLAGS=-silent -eulaAccepted
+set PRESERVE_ACROTRAY=no
 
 :: Create the log directory if it doesn't exist
 if not exist %LOGPATH% mkdir %LOGPATH%
@@ -38,16 +47,13 @@ if not exist %LOGPATH% mkdir %LOGPATH%
 :: INSTALLATION ::
 ::::::::::::::::::
 :: Install the package from the local folder (if all files are in the same directory)
-"AdobeAIRInstaller.exe" %FLAGS% >> "%LOGPATH%\%LOGFILE%" 2>NUL
+"%BINARY%" %FLAGS% >> "%LOGPATH%\%LOGFILE%" 2>NUL
 
 :: Disable Adobe Updater via registry
 reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Adobe\Acrobat Reader\11.0\FeatureLockDown" /v bUpdater /t REG_DWORD /d 00000000 /f >> "%LOGPATH%\%LOGFILE%" 2>NUL
 
 :: Stop the Adobe Acrobat Update Service
 net stop AdobeARMservice >> "%LOGPATH%\%LOGFILE%" 2>NUL
-
-:: Disable the Adobe Acrobat Update Service
-:: sc config AdobeARMservice start= disabled
 
 :: Delete the Adobe Acrobat Update Service
 sc delete AdobeARMservice >> "%LOGPATH%\%LOGFILE%" 2>NUL
@@ -63,8 +69,8 @@ taskkill /im "acrotray.exe" >> "%LOGPATH%\%LOGFILE%" 2>NUL
 taskkill /im "reader_sl.exe" >> "%LOGPATH%\%LOGFILE%" 2>NUL
 taskkill /im "acrobat_sl.exe" >> "%LOGPATH%\%LOGFILE%" 2>NUL
 pushd "%ProgramFiles(x86)%\Adobe"
-del /f /s /q acrotray.exe >> "%LOGPATH%\%LOGFILE%" 2>NUL
-del /f /s /q *_sl.exe >> "%LOGPATH%\%LOGFILE%" 2>NUL
+	if %PRESERVE_ACROTRAY%==no del /f /s /q acrotray.exe >> "%LOGPATH%\%LOGFILE%" 2>NUL
+	del /f /s /q *_sl.exe >> "%LOGPATH%\%LOGFILE%" 2>NUL
 popd
 
 :: Pop back to original directory. This isn't necessary in stand-alone runs of the script, but is needed when being called from another script
