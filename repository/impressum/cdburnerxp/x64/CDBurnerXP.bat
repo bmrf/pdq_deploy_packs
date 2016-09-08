@@ -27,8 +27,7 @@ set LOGPATH=%SystemDrive%\Logs
 set LOGFILE=
 
 :: Package to install. Do not use trailing slashes (\)
-set LOCATION=
-set BINARY=CDBurnerXP v4.5.7.6282 x64.exe
+set BINARY=CDBurnerXP v4.5.7.6321 x64.exe
 set FLAGS=/VERYSILENT /LOADINF=settings.cfg
 
 :: Create the log directory if it doesn't exist
