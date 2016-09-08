@@ -274,70 +274,6 @@ Note: certmgr.exe was incredibly hard to track down - recommend not deleting it 
         </PackageDisplaySettings>
       </Package>
       <Package>
-        <Description>Deletes cached user profiles on the target that haven't been logged into in the specified number of days.
-
-Use:
- - Specify age in days after the word "localhost" in the Parameters field of Step 1 (on the left)
- - Ensure the "Parameters" field looks like this:
-      localhost &lt;days&gt; auto
- - Saves a log file (on target) to %SystemDrive%\Logs\%ComputerName%_OCPN3.log (configurable)
-  
-Requirements:
- - psexec.exe (included)
- - delprof2.exe (included)
-
-
-Note: 
- Script is capable of running standalone (e.g. without PDQ Deploy) against an arbitrary number of systems. Read the comments in the script for a description of other ways to use it. Most up-to-date version can always be found here:
-    http://www.reddit.com/r/usefulscripts/comments/22oxf6/batch_orbital_cached_profile_nuker_delete_old/</Description>
-        <FolderId value="50" />
-        <Name>Orbital Cached Profile Nuker</Name>
-        <Path>Utilities\Orbital Cached Profile Nuker</Path>
-        <Version>3.2.2</Version>
-        <PackageDefinition name="Definition">
-          <CopyMode>Default</CopyMode>
-          <InventoryScanProfileId value="null" />
-          <RunAs value="null" />
-          <ScanAfterDeployment value="null" />
-          <Timeout value="60" />
-          <UseCustomTimeout value="false" />
-          <Steps type="list">
-            <InstallStep>
-              <CustomCommandLine></CustomCommandLine>
-              <FileName>$(Repository)\utilities\orbital_cached_profile_nuker\OCPN3.bat</FileName>
-              <Files></Files>
-              <IncludeDirectory value="true" />
-              <MsiOperation>Install</MsiOperation>
-              <MsiQuiet value="true" />
-              <MsiRestart>Never</MsiRestart>
-              <Parameters>localhost 60 auto</Parameters>
-              <SuccessCodes>0,1641,3010</SuccessCodes>
-              <RunAs value="null" />
-              <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
-              <Title></Title>
-              <TypeName>Install</TypeName>
-              <Conditions type="list">
-                <PackageStepCondition>
-                  <Architecture>Both</Architecture>
-                  <Version>All</Version>
-                  <TypeName>OperatingSystem</TypeName>
-                </PackageStepCondition>
-                <PackageStepCondition>
-                  <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
-                  <TypeName>LoggedOnUser</TypeName>
-                </PackageStepCondition>
-              </Conditions>
-            </InstallStep>
-          </Steps>
-        </PackageDefinition>
-        <PackageDisplaySettings name="DisplaySettings">
-          <DisplayType>Normal</DisplayType>
-          <IconKey></IconKey>
-          <SortOrder value="6" />
-        </PackageDisplaySettings>
-      </Package>
-      <Package>
         <Description>Displays a warning for the specified number of seconds and then reboots the computer it was deployed to.
 
 Edit "Parameters" under Step 1 of this job to specify the number of seconds to wait before rebooting.</Description>
@@ -396,7 +332,7 @@ Edit "Parameters" under Step 1 of this job to specify the number of seconds to w
       wmic product where "name like 'Adobe Flash Player%%'" uninstall /nointeractive
  3. Deletes the Adobe Flash Player Update Service
  4. Deletes the Adobe Flash Player Update scheduled task
- 5. By default logs to 'C:\Logs\%COMPUTERNAME%_adobe_flash_player_removal.log'
+ 5. By default logs to 'C:\Logs\%COMPUTERNAME%_adobe_flash_player_nuker.log'
 
 Script also available here:
 http://www.reddit.com/r/usefulscripts/comments/1v4qus/batch_adobe_flash_removal_purge_all_versions_of/</Description>
@@ -414,7 +350,7 @@ http://www.reddit.com/r/usefulscripts/comments/1v4qus/batch_adobe_flash_removal_
           <Steps type="list">
             <InstallStep>
               <CustomCommandLine></CustomCommandLine>
-              <FileName>$(Repository)\utilities\remove_adobe_flash_player\remove_flash_player_all_versions.bat</FileName>
+              <FileName>$(Repository)\utilities\remove_adobe_flash_player\adobe_flash_player_nuker.bat</FileName>
               <Files></Files>
               <IncludeDirectory value="true" />
               <MsiOperation>Install</MsiOperation>
