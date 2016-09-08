@@ -166,7 +166,7 @@
         <FolderId value="17" />
         <Name>Adobe Acrobat Reader DC</Name>
         <Path>Installers\Adobe Acrobat Reader DC</Path>
-        <Version>15.016.20039</Version>
+        <Version>15.017.20050</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -377,8 +377,8 @@
  - Removes the Adobe Acrobat Update Service (AdobeFlashPlayerUpdateSvc)
  - Removes the Adobe Update scheduled task that gets installed (C:\Windows\tasks\Adobe Flash Player Updater.job)</Description>
         <FolderId value="17" />
-        <Name>Adobe Flash Player v22.0.0.209 (IE)</Name>
-        <Path>Installers\Adobe Flash Player v22.0.0.209 (IE)</Path>
+        <Name>Adobe Flash Player v22.0.0.210 (IE)</Name>
+        <Path>Installers\Adobe Flash Player v22.0.0.210 (IE)</Path>
         <Version>22.0.0.209</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
@@ -585,9 +585,9 @@
  - Associates some other CD-related files with CDBurnerXP
  - Disables the background online update checker</Description>
         <FolderId value="17" />
-        <Name>CDBurnerXP v4.5.7.6282 (x64)</Name>
-        <Path>Installers\CDBurnerXP v4.5.7.6282 (x64)</Path>
-        <Version>4.5.7.6282</Version>
+        <Name>CDBurnerXP v4.5.7.6321 (x64)</Name>
+        <Path>Installers\CDBurnerXP v4.5.7.6321 (x64)</Path>
+        <Version>4.5.7.6321</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -689,9 +689,9 @@ Thanks to reddit.com/user/b0park for this package.</Description>
         <Description>Installs the FileZilla client with the following customizations:
  - Removes any previous versions before installing</Description>
         <FolderId value="17" />
-        <Name>FileZilla Client v3.20.1</Name>
-        <Path>Installers\FileZilla Client v3.20.1</Path>
-        <Version>3.20.1</Version>
+        <Name>FileZilla Client v3.21.0</Name>
+        <Path>Installers\FileZilla Client v3.21.0</Path>
+        <Version>3.21.0</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -1843,9 +1843,9 @@ If the target machine is on a domain, the login format is as follows:
 
  * These customizations come from the file '\autoconfig\cck2.cfg' in the package directory. If you want to change them, edit or delete this file. The config file was generated with the CCK2 addon for Firefox.</Description>
         <FolderId value="17" />
-        <Name>Mozilla Firefox v48.0.0 (customized) (x64)</Name>
-        <Path>Installers\Mozilla Firefox v48.0.0 (customized) (x64)</Path>
-        <Version>48.0.0</Version>
+        <Name>Mozilla Firefox v48.0.2 (customized) (x64)</Name>
+        <Path>Installers\Mozilla Firefox v48.0.2 (customized) (x64)</Path>
+        <Version>48.0.2</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -1907,9 +1907,9 @@ If the target machine is on a domain, the login format is as follows:
 
  * These customizations come from the file '\autoconfig\cck2.cfg' in the package directory. If you want to change them, edit or delete this file. The config file was generated with the CCK2 addon for Firefox.</Description>
         <FolderId value="17" />
-        <Name>Mozilla Firefox v48.0.0 (customized) (x86)</Name>
-        <Path>Installers\Mozilla Firefox v48.0.0 (customized) (x86)</Path>
-        <Version>48.0.0</Version>
+        <Name>Mozilla Firefox v48.0.2 (customized) (x86)</Name>
+        <Path>Installers\Mozilla Firefox v48.0.2 (customized) (x86)</Path>
+        <Version>48.0.2</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -2071,9 +2071,9 @@ If the target machine is on a domain, the login format is as follows:
 
 Thanks to Moonchild ( http://www.palemoon.org/ ) for redistribution permission.</Description>
         <FolderId value="17" />
-        <Name>Pale Moon v26.3.3</Name>
-        <Path>Installers\Pale Moon v26.3.3</Path>
-        <Version>26.3.3</Version>
+        <Name>Pale Moon v26.4.0</Name>
+        <Path>Installers\Pale Moon v26.4.0</Path>
+        <Version>26.4.0</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -2118,13 +2118,13 @@ Thanks to Moonchild ( http://www.palemoon.org/ ) for redistribution permission.<
           <Timeout value="60" />
           <UseCustomTimeout value="false" />
         </PackageDefinition>
-        <Description>Installs the Spark v2.7.7 instant messaging client (for use with OpenFire chat servers), with the following customizations:
+        <Description>Installs the Spark instant messaging client (for use with OpenFire chat servers), with the following customizations:
  - Silent install
  - Deletes "All Users" desktop icon
  - Deletes the OTR ("Off the Record") encryption plugin</Description>
         <FolderId value="17" />
-        <Name>Spark v2.7.7</Name>
-        <Path>Installers\Spark v2.7.7</Path>
+        <Name>Spark v2.8.0</Name>
+        <Path>Installers\Spark v2.8.0</Path>
         <Version></Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
@@ -2296,9 +2296,9 @@ Thanks to Moonchild ( http://www.palemoon.org/ ) for redistribution permission.<
      $(Repository)\ultravnc\ultravnc_password_generator
 and paste the resulting password in the 'ultravnc.ini' file in the same directory as the UltraVNC exe</Description>
         <FolderId value="17" />
-        <Name>UltraVNC v1.2.0.9 (x86)</Name>
-        <Path>Installers\UltraVNC v1.2.0.9 (x86)</Path>
-        <Version>1.2.0.9</Version>
+        <Name>UltraVNC v1.2.1.1 (x86)</Name>
+        <Path>Installers\UltraVNC v1.2.1.1 (x86)</Path>
+        <Version>1.2.1.1</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -2398,9 +2398,9 @@ and paste the resulting password in the 'ultravnc.ini' file in the same director
  - Doesn't install a desktop icon
  - Associates .scp file extensions with WinSCP</Description>
         <FolderId value="17" />
-        <Name>WinSCP v5.9.0</Name>
-        <Path>Installers\WinSCP v5.9.0</Path>
-        <Version>5.9.0</Version>
+        <Name>WinSCP v5.9.1</Name>
+        <Path>Installers\WinSCP v5.9.1</Path>
+        <Version>5.9.1</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
