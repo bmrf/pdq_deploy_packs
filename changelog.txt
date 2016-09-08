@@ -10,54 +10,56 @@ Legend:
 Do not withold good from those who deserve it, when it is in your power to act. -p3:27
 
 
-v42.0 // 2016-06-xx // AQ
-URL: not released yet
+
+v43.0 // 2016-09-08 // AQ
+URL: 
 ====================================================================================================
  ! Note: All packages are x64 architecture unless otherwise specified
 
- * 7-Zip v16.02 (x86)                                      //
- * 7-Zip v16.02                                            //
- . Adobe Acrobat Reader DC v2015.010.20056                 // Yes, you too can finally enjoy this magical Adobe product
- . Adobe AIR v21.0.0.215                                   //
- + Adobe Flash Player v22.0.0.192 (Chrome)                 // New; Chrome plugin version of Flash
- * Adobe Flash Player v22.0.0.192 (Firefox)                //
- * Adobe Flash Player v22.0.0.192 (Internet Explorer)      //
- . Adobe Reader XI v11.0.16 (x86)                          //
+ . 7-Zip v16.02 (x86)                                      //
+ . 7-Zip v16.02                                            //
+ * Adobe Acrobat Reader DC v15.017.20050                   // It is such a ridiculous pain to build this package
+ . Adobe AIR v22.0.0.153                                   //
+ . Adobe Flash Player v22.0.0.209 (Chrome)                 //
+ . Adobe Flash Player v22.0.0.209 (Firefox)                //
+ . Adobe Flash Player v22.0.0.210 (Internet Explorer)      //
+ . Adobe Reader XI v11.0.17 (x86)                          //
  . Adobe Shockwave v12.2.4.194                             //
- + Apple iTunes v12.4.0.119                                //
- * CDBurnerXP v4.5.7.6139                                  //
+ . Apple iTunes v12.4.0.119                                //
+ * CDBurnerXP v4.5.7.6321                                  //
  . CutePDF v3.0 (PDF printer) (x86)                        //
- * FileZilla Client v3.18.0                                //
- . Gimp v2.8.16                                            //
- * Google Chrome v51.0.2704.84 (Enterprise)                //
- * Google Chrome v51.0.2704.84 (Enterprise) (x86)          //
+ * FileZilla Client v3.21.0                                //
+ . Gimp v2.8.18                                            //
+ * Google Chrome v53.0.2785.101 (Enterprise)               //
+ * Google Chrome v53.0.2785.101 (Enterprise) (x86)         //
  . Google Earth v7.1.5.1557                                //
  . Java Development Kit 6 update 45                        //
  . Java Development Kit 6 update 45 (x86)                  //
  . Java Development Kit 7 update 80                        //
  . Java Development Kit 7 update 80 (x86)                  //
- . Java Development Kit 8 update 92                        //
- . Java Development Kit 8 update 92 (x86)                  //
+ . Java Development Kit 8 update 102                       //
+ . Java Development Kit 8 update 102 (x86)                 //
  . Java Runtime 6 update 81                                //
  . Java Runtime 6 update 81 (x86)                          //
  . Java Runtime 7 update 80                                //
  . Java Runtime 7 update 80 (x86)                          //
- . Java Runtime 8 update 92                                //
- . Java Runtime 8 update 92 (x86)                          //
+ . Java Runtime 8 update 102                               //
+ . Java Runtime 8 update 102 (x86)                         //
  . KTS KypM Telnet/SSH Server v1.19c (x86)                 //
  . Microsoft .NET Framework v3.5.1 SP1 (x86)               //
  . Microsoft Silverlight v5.1.40416.0 (x86)                //
  . Microsoft Silverlight v5.1.40416.0                      //
- * Mozilla Firefox v47.0.0 (x86)                           //
- * Mozilla Thunderbird v45.1.1 (x86)                       //
- * Notepad++ v6.9.2 (x86)                                  //
- . Pale Moon v26.2.2 (x86)                                 //
+ * Mozilla Firefox v48.0.2                                 // NOTE: Firefox auto-loads uBlock ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox v48.0.2 (x86)                           // NOTE: Firefox auto-loads uBlock ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
+ . Mozilla Thunderbird v45.2.0 (x86)                       //
+ . Notepad++ v6.9.2 (x86)                                  //
+ * Pale Moon v26.4.0 (x86)                                 //
  . Spark v2.7.7 (x86)                                      //
- . TightVNC v2.7.10                                        // remote connection password: nettech2
- . TightVNC v2.7.10 (x86)                                  // remote connection password: nettech2
- . UltraVNC v1.2.0.9 (x86)                                 // remote connection password: nettech2
- * VLC media player v2.2.4 (x86)                           //
- . WinSCP v5.7.7 (x86)                                     //
+ . TightVNC v2.8.2                                         // remote connection password: nettech2
+ . TightVNC v2.8.2 (x86)                                   // remote connection password: nettech2
+ . UltraVNC v1.2.1.1 (x86)                                 // remote connection password: nettech2
+ . VLC media player v2.2.4 (x86)                           //
+ * WinSCP v5.9.1 (x86)                                     //
 
 Utilities:
  . Clean Up All Printers                                   //
@@ -65,21 +67,86 @@ Utilities:
  . Empty All Recycle Bins                                  //
  . Enable Remote Desktop                                   //
  . Install PKI Certificates                                //
- . Orbital Cached Profile Nuker                            //
+ . Reboot (force target reboot in 15 seconds)              //
+ * Remove Adobe Flash Player (all versions) v2.0.0         //
+ . Remove Java Runtime (all versions) v1.8.1               //
+ . Remove VNC Servers (TightVNC, UltraVNC, RealVNC)        //
+ . Temp File Cleanup v3.7.0 (cleans out temp folders)      //
+ . USB Device Cleanup v1.2.0                               //
+
+
+
+v42.0 // 2016-08-08 // AQ
+URL: https://www.reddit.com/r/sysadmin/comments/4wq5xc/pdq_deploy_packs_v420_20160808_aq_edition/
+====================================================================================================
+ ! Note: All packages are x64 architecture unless otherwise specified
+
+ * 7-Zip v16.02 (x86)                                      //
+ * 7-Zip v16.02                                            //
+ * Adobe Acrobat Reader DC v15.007.20033                   // It is such a ridiculous pain to build this package
+ * Adobe AIR v22.0.0.153                                   //
+ + Adobe Flash Player v22.0.0.209 (Chrome)                 // New; Chrome plugin version of Flash
+ * Adobe Flash Player v22.0.0.209 (Firefox)                //
+ * Adobe Flash Player v22.0.0.209 (Internet Explorer)      //
+ * Adobe Reader XI v11.0.17 (x86)                          //
+ . Adobe Shockwave v12.2.4.194                             //
+ + Apple iTunes v12.4.0.119                                //
+ * CDBurnerXP v4.5.7.6282                                  //
+ . CutePDF v3.0 (PDF printer) (x86)                        //
+ * FileZilla Client v3.20.1                                //
+ * Gimp v2.8.18                                            //
+ * Google Chrome v52.0.2743.116 (Enterprise)               //
+ * Google Chrome v52.0.2743.116 (Enterprise) (x86)         //
+ . Google Earth v7.1.5.1557                                //
+ . Java Development Kit 6 update 45                        //
+ . Java Development Kit 6 update 45 (x86)                  //
+ . Java Development Kit 7 update 80                        //
+ . Java Development Kit 7 update 80 (x86)                  //
+ * Java Development Kit 8 update 102                       //
+ * Java Development Kit 8 update 102 (x86)                 //
+ . Java Runtime 6 update 81                                //
+ . Java Runtime 6 update 81 (x86)                          //
+ . Java Runtime 7 update 80                                //
+ . Java Runtime 7 update 80 (x86)                          //
+ * Java Runtime 8 update 102                               //
+ * Java Runtime 8 update 102 (x86)                         //
+ . KTS KypM Telnet/SSH Server v1.19c (x86)                 //
+ . Microsoft .NET Framework v3.5.1 SP1 (x86)               //
+ . Microsoft Silverlight v5.1.40416.0 (x86)                //
+ . Microsoft Silverlight v5.1.40416.0                      //
+ + Mozilla Firefox v48.0.0                                 // NOTE: as of this release, Firefox auto-loads the open-source uBlock ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox v48.0.0 (x86)                           // NOTE: as of this release, Firefox auto-loads the open-source uBlock ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Thunderbird v45.2.0 (x86)                       //
+ * Notepad++ v6.9.2 (x86)                                  //
+ * Pale Moon v26.3.3 (x86)                                 //
+ . Spark v2.7.7 (x86)                                      //
+ * TightVNC v2.8.2                                         // remote connection password: nettech2
+ * TightVNC v2.8.2 (x86)                                   // remote connection password: nettech2
+ * UltraVNC v1.2.1.1 (x86)                                 // remote connection password: nettech2
+ * VLC media player v2.2.4 (x86)                           //
+ * WinSCP v5.9.0 (x86)                                     //
+
+Utilities:
+ . Clean Up All Printers                                   //
+ . Clean Up Orphaned Printers                              //
+ . Empty All Recycle Bins                                  //
+ . Enable Remote Desktop                                   //
+ . Install PKI Certificates                                //
+ - Orbital Cached Profile Nuker                            // REMOVED
  . Reboot (force target reboot in 15 seconds)              //
  . Remove Adobe Flash Player v1.1.1 (all versions)         //
  . Remove Java Runtime (all versions) v1.8.1               //
  . Remove VNC Servers (TightVNC, UltraVNC, RealVNC)        //
  . Temp File Cleanup v3.7.0 (cleans out temp folders)      //
  . USB Device Cleanup v1.2.0                               //
- 
+
 
 
 v41.0 // 2016-05-15 // AQ version (released from Antarctica)
 URL: https://www.reddit.com/r/sysadmin/comments/4jl2yb/pdq_deploy_packs_v410_20160515_aq_edition/
 ====================================================================================================
  ! Note: All packages are x64 architecture unless otherwise specified
- ! Changes this time around: I've begun removing specific version numbers from the installer files, 
+ ! Changes this time around: I've begun removing specific version numbers from the installer files,
    mostly because I'm lazy and want to make updating easier. This way I don't have to update the version
    string in the batch file, but only in the PDQ job file. Does this affect end-user functionality at all? Nope. Lastly, this version has been pushed from a research station in Antarctica where I'm currently
    living and working.
