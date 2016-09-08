@@ -796,9 +796,9 @@ Gimp v2.8.18 x86.exe /verysilent /norestart</Description>
 
  * If you wish to disable this behavior, edit the batch file and remove the two lines that start with "sc delete"</Description>
         <FolderId value="17" />
-        <Name>Google Chrome v52.0.2743.116 (Enterprise)</Name>
-        <Path>Installers\Google Chrome v52.0.2743.116 (Enterprise)</Path>
-        <Version>52.0.2743.116</Version>
+        <Name>Google Chrome v53.0.2785.101 (Enterprise)</Name>
+        <Path>Installers\Google Chrome v53.0.2785.101 (Enterprise)</Path>
+        <Version>53.0.2785.101</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -852,9 +852,9 @@ Gimp v2.8.18 x86.exe /verysilent /norestart</Description>
 
  * If you wish to disable this behavior, edit the batch file and remove the two lines that start with "sc delete"</Description>
         <FolderId value="17" />
-        <Name>Google Chrome v52.0.2743.116 (Enterprise) (x86)</Name>
-        <Path>Installers\Google Chrome v52.0.2743.116 (Enterprise) (x86)</Path>
-        <Version>52.0.2743.116</Version>
+        <Name>Google Chrome v53.0.2785.101 (Enterprise) (x86)</Name>
+        <Path>Installers\Google Chrome v53.0.2785.101 (Enterprise) (x86)</Path>
+        <Version>53.0.2785.101</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
