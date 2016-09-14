@@ -26,7 +26,7 @@ set LOGPATH=%SystemDrive%\Logs
 set LOGFILE=%COMPUTERNAME%_Adobe_Flash_Firefox_install.log
 
 :: Package to install. Do not use trailing slashes (\)
-set BINARY=install_flash_player_22_plugin.msi
+set BINARY=install_flash_player_23_plugin.msi
 set FLAGS=ALLUSERS=1 /q /norestart
 
 :: Create the log directory if it doesn't exist
@@ -66,7 +66,7 @@ del /F /Q "%SystemDrive%\Windows\tasks\Adobe Flash Player Updater.job" >> "%LOGP
 if exist "%ProgramFiles(x86)%\Adobe\Acrobat 7.0\Distillr\acrotray.exe" (
 	taskkill /im "acrotray.exe"
 	del /f /q "%ProgramFiles(x86)%\Adobe\Acrobat 7.0\Distillr\acrotray.exe" >> "%LOGPATH%\%LOGFILE%" 2>NUL
-	)
+)
 
 :: Pop back to original directory. This isn't necessary in stand-alone runs of the script, but is needed when being called from another script
 popd
