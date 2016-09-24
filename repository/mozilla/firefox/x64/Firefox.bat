@@ -8,7 +8,7 @@
 ::::::::::
 :: Prep :: -- Don't change anything in this section
 ::::::::::
-@echo off
+::@echo off
 set SCRIPT_VERSION=1.0.1
 set SCRIPT_UPDATED=2017-08-09
 :: Get the date into ISO 8601 standard date format (yyyy-mm-dd) so we can use it
@@ -44,6 +44,9 @@ if not exist %LOGPATH% mkdir %LOGPATH%
 :: Kill Firefox first
 %SystemDrive%\windows\system32\taskkill.exe /F /IM firefox.exe /T 2>NUL
 wmic process where name="firefox.exe" call terminate 2>NUL
+
+:: Remove old version first
+wmic product where "name like 'Mozille Firefox%%'" call uninstall /nointeractive
 
 :: Install the package from the local folder (if all files are in the same directory)
 "%BINARY%" %FLAGS%
