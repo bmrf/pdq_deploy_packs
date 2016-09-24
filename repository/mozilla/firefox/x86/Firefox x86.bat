@@ -45,6 +45,9 @@ if not exist %LOGPATH% mkdir %LOGPATH%
 %SystemDrive%\windows\system32\taskkill.exe /F /IM firefox.exe /T 2>NUL
 wmic process where name="firefox.exe" call terminate 2>NUL
 
+:: Remove old version first
+wmic product where "name like 'Mozille Firefox%%'" call uninstall /nointeractive
+
 :: Install the package from the local folder (if all files are in the same directory)
 "%BINARY%" %FLAGS%
 
