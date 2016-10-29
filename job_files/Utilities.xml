@@ -339,7 +339,7 @@ http://www.reddit.com/r/usefulscripts/comments/1v4qus/batch_adobe_flash_removal_
         <FolderId value="50" />
         <Name>Remove Adobe Flash Player (all versions)</Name>
         <Path>Utilities\Remove Adobe Flash Player (all versions)</Path>
-        <Version>1.1.1</Version>
+        <Version>2.0.0</Version>
         <PackageDefinition name="Definition">
           <CopyMode>Default</CopyMode>
           <InventoryScanProfileId value="null" />
