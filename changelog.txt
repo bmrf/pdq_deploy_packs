@@ -11,8 +11,73 @@ Do not withold good from those who deserve it, when it is in your power to act. 
 
 
 
+v44.0 // 2016-10-29
+URL: https://www.reddit.com/r/sysadmin/
+====================================================================================================
+ ! Note: All packages are x64 architecture unless otherwise specified
+
+ * 7-Zip v16.04 (x86)                                      //
+ * 7-Zip v16.04                                            //
+ . Adobe Acrobat Reader DC v15.017.20050                   // It is such a ridiculous pain to build this package
+ * Adobe AIR v23.0.0.257                                   //
+ * Adobe Flash Player v23.0.0.205 (Chrome)                 //
+ * Adobe Flash Player v23.0.0.205 (Firefox)                //
+ * Adobe Flash Player v23.0.0.205 (Internet Explorer)      //
+ * Adobe Reader XI v11.0.18 (x86)                          //
+ * Adobe Shockwave v12.2.5.195                             //
+ * Apple iTunes v12.5.1.21                                 //
+ * CDBurnerXP v4.5.7.6389                                  //
+ . CutePDF v3.0 (PDF printer) (x86)                        //
+ * FileZilla Client v3.22.1                                //
+ . Gimp v2.8.18                                            //
+ * Google Chrome v54.0.2840.71 (Enterprise)                //
+ * Google Chrome v54.0.2840.71 (Enterprise) (x86)          //
+ . Google Earth v7.1.5.1557                                //
+ . Java Development Kit 6 update 45                        //
+ . Java Development Kit 6 update 45 (x86)                  //
+ . Java Development Kit 7 update 80                        //
+ . Java Development Kit 7 update 80 (x86)                  //
+ * Java Development Kit 8 update 112                       //
+ * Java Development Kit 8 update 112 (x86)                 //
+ . Java Runtime 6 update 81                                //
+ . Java Runtime 6 update 81 (x86)                          //
+ . Java Runtime 7 update 80                                //
+ . Java Runtime 7 update 80 (x86)                          //
+ * Java Runtime 8 update 112                               //
+ * Java Runtime 8 update 112 (x86)                         //
+ . KTS KypM Telnet/SSH Server v1.19c (x86)                 //
+ . Microsoft .NET Framework v3.5.1 SP1 (x86)               //
+ . Microsoft Silverlight v5.1.40416.0 (x86)                //
+ . Microsoft Silverlight v5.1.40416.0                      //
+ * Mozilla Firefox v49.0.2                                 // NOTE: Firefox auto-loads uBlock ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox v49.0.2 (x86)                           // NOTE: Firefox auto-loads uBlock ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Thunderbird v45.4.0 (x86)                       //
+ * Notepad++ v7.1.0 (x86)                                  //
+ * Pale Moon v26.5.0 (x86)                                 //
+ * Spark v2.8.1 (x86)                                      //
+ . TightVNC v2.8.2                                         // remote connection password: nettech2
+ . TightVNC v2.8.2 (x86)                                   // remote connection password: nettech2
+ . UltraVNC v1.2.1.1 (x86)                                 // remote connection password: nettech2
+ . VLC media player v2.2.4 (x86)                           //
+ * WinSCP v5.9.2 (x86)                                     //
+
+Utilities:
+ . Clean Up All Printers                                   //
+ . Clean Up Orphaned Printers                              //
+ . Empty All Recycle Bins                                  //
+ . Enable Remote Desktop                                   //
+ . Install PKI Certificates                                //
+ . Reboot (force target reboot in 15 seconds)              //
+ * Remove Adobe Flash Player (all versions) v2.0.0         //
+ . Remove Java Runtime (all versions) v1.8.1               //
+ . Remove VNC Servers (TightVNC, UltraVNC, RealVNC)        //
+ . Temp File Cleanup v3.7.0 (cleans out temp folders)      //
+ . USB Device Cleanup v1.2.0                               //
+
+
+
 v43.0 // 2016-09-08 // AQ
-URL: 
+URL: https://www.reddit.com/r/sysadmin/comments/51wtvn/pdq_deploy_packs_v430_20160909_aq_edition/
 ====================================================================================================
  ! Note: All packages are x64 architecture unless otherwise specified
 
@@ -54,7 +119,7 @@ URL:
  . Mozilla Thunderbird v45.2.0 (x86)                       //
  . Notepad++ v6.9.2 (x86)                                  //
  * Pale Moon v26.4.0 (x86)                                 //
- . Spark v2.7.7 (x86)                                      //
+ * Spark v2.8.0 (x86)                                      //
  . TightVNC v2.8.2                                         // remote connection password: nettech2
  . TightVNC v2.8.2 (x86)                                   // remote connection password: nettech2
  . UltraVNC v1.2.1.1 (x86)                                 // remote connection password: nettech2
