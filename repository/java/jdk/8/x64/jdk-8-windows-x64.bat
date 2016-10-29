@@ -28,7 +28,7 @@ set LOGFILE=jdk8_x64_update.log
 
 :: Package to install. Do not use trailing slashes (\)
 set LOCATION=
-set BINARY=jdk-8u92-windows-x64.exe
+set BINARY=jdk-8u112-windows-x64.msi
 set FLAGS=/s /l %LOGPATH%\%LOGFILE% ADDLOCAL="ToolsFeature,PublicjreFeature"
 
 :: Create the log directory if it doesn't exist
@@ -46,10 +46,10 @@ wmic product where "IdentifyingNumber like '{64A3A4F4-B792-11D6-A78A-00B0D0180__
 ::wmic product where "name like 'Java SE Development Kit 8 Update%%(64-bit)'" uninstall /nointeractive>> "%LOGPATH%\%LOGFILE%" 2>NUL
 
 :: Install the package from a local folder (if all files are in the same directory)
-"%BINARY%" %FLAGS%
+msiexec.exe /i %BINARY% %FLAGS%
 
 :: Import the reg file that disables Java auto-updater
-regedit /s Tweak_Disable_Java_Auto-Update.reg >> %LOGPATH%\%LOGFILE%
+regedit /s Tweak_Disable_Java_Auto-Update.reg >> %LOGPATH%\%LOGFILE% 2>nul
 
 :: Uninstall the Java Auto Updater from Add/Remove Programs because it sometimes sneaks through
 wmic product where "name like 'Java Auto Updater'" call uninstall /nointeractive 2>NUL
