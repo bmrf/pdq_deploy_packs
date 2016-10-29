@@ -28,8 +28,8 @@ set LOGFILE=jdk8_i586_update.log
 
 :: Package to install. Do not use trailing slashes (\)
 set LOCATION=
-set BINARY=jdk-8u112-windows-x86.msi
-set FLAGS=/s /l %LOGPATH%\%LOGFILE% ADDLOCAL="ToolsFeature,PublicjreFeature"
+set BINARY=jdk-8u112-windows-i586.exe
+set FLAGS=/s /l %LOGPATH%\%LOGFILE% ADDLOCAL="ToolsFeature"
 
 :: Create the log directory if it doesn't exist
 if not exist %LOGPATH% mkdir %LOGPATH%
@@ -46,7 +46,7 @@ wmic product where "IdentifyingNumber like '{32A3A4F4-B792-11D6-A78A-00B0D0180__
 ::wmic product where "name like 'Java SE Development Kit 8 Update%%'" uninstall /nointeractive>> "%LOGPATH%\%LOGFILE%" 2>NUL
 
 :: Install the package from a local folder (if all files are in the same directory)
-msiexec /i %BINARY% %FLAGS%
+"%BINARY%" %FLAGS%
 
 :: Import the reg file that disables Java auto-updater
 regedit /s Tweak_Disable_Java_Auto-Update.reg >> %LOGPATH%\%LOGFILE% 2>nul
