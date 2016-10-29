@@ -28,7 +28,7 @@ set LOGFILE=
 
 :: Package to install. Do not use trailing slashes (\)
 set LOCATION=
-set BINARY=TightVNC v2.7.10 x64.msi
+set BINARY=TightVNC v2.8.5 x64.msi
 set FLAGS=/quiet /norestart ADDLOCAL="Server,Viewer"
 
 :: Create the log directory if it doesn't exist
