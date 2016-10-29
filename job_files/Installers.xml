@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<AdminArsenal.Export Code="PDQDeploy" Name="PDQ Deploy" Version="9.2.0.0" MinimumVersion="7.0">
+<AdminArsenal.Export Code="PDQDeploy" Name="PDQ Deploy" Version="10.2.0.0" MinimumVersion="7.0">
   <Folder>
-    <Created>2016-08-02T14:05:53.0000000-04:00</Created>
-    <Id value="17" />
-    <Modified>2016-08-02T14:05:58.0000000-04:00</Modified>
+    <Created>2016-09-14T18:49:40.0000000-03:00</Created>
+    <Id value="20" />
+    <Modified>2016-09-14T18:49:40.0000000-03:00</Modified>
     <Name>Installers</Name>
     <ParentId value="null" />
     <Path>Installers</Path>
@@ -31,10 +31,6 @@
               <Parameters>associate_common</Parameters>
               <SuccessCodes>0,1641,3010</SuccessCodes>
               <RunAs value="null" />
-              <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
-              <Title></Title>
-              <TypeName>Install</TypeName>
               <Conditions type="list">
                 <PackageStepCondition>
                   <Architecture>Bits64</Architecture>
@@ -46,6 +42,10 @@
                   <TypeName>LoggedOnUser</TypeName>
                 </PackageStepCondition>
               </Conditions>
+              <ErrorMode>StopDeploymentFail</ErrorMode>
+              <IsEnabled value="true" />
+              <Title></Title>
+              <TypeName>Install</TypeName>
             </InstallStep>
           </Steps>
           <Timeout value="60" />
@@ -55,14 +55,14 @@
  - Associates the following file extensions with 7-Zip: 7z,bz2,bzip2,gz,gzip,lzh,lzma,rar,tar,tgz,zip  *
 
 * If you wish to associate with ALL the file extensions 7-Zip supports, go to "Step 1" of this installer and change the argument that's passed to the installer from "associate_common" to "associate_all"</Description>
-        <FolderId value="17" />
-        <Name>7-Zip v16.02 (x64)</Name>
-        <Path>Installers\7-Zip v16.02 (x64)</Path>
-        <Version>16.02</Version>
+        <FolderId value="20" />
+        <Name>7-Zip v16.04 (x64)</Name>
+        <Path>Installers\7-Zip v16.04 (x64)</Path>
+        <Version>16.04</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
-          <SortOrder value="6" />
+          <SortOrder value="7" />
         </PackageDisplaySettings>
       </Package>
       <Package>
@@ -83,10 +83,6 @@
               <Parameters>associate_common</Parameters>
               <SuccessCodes>0,1641,3010</SuccessCodes>
               <RunAs value="null" />
-              <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
-              <Title></Title>
-              <TypeName>Install</TypeName>
               <Conditions type="list">
                 <PackageStepCondition>
                   <Architecture>Bits32</Architecture>
@@ -98,6 +94,10 @@
                   <TypeName>LoggedOnUser</TypeName>
                 </PackageStepCondition>
               </Conditions>
+              <ErrorMode>StopDeploymentFail</ErrorMode>
+              <IsEnabled value="true" />
+              <Title></Title>
+              <TypeName>Install</TypeName>
             </InstallStep>
           </Steps>
           <Timeout value="60" />
@@ -109,14 +109,14 @@
 
 
 * If you wish to associate with ALL the file extensions 7-Zip supports, go to "Step 1" of this installer and change the argument that's passed to the installer from "associate_common" to "associate_all"</Description>
-        <FolderId value="17" />
-        <Name>7-Zip v16.02 (x86)</Name>
-        <Path>Installers\7-Zip v16.02 (x86)</Path>
-        <Version>16.02</Version>
+        <FolderId value="20" />
+        <Name>7-Zip v16.04 (x86)</Name>
+        <Path>Installers\7-Zip v16.04 (x86)</Path>
+        <Version>16.04</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
-          <SortOrder value="6" />
+          <SortOrder value="7" />
         </PackageDisplaySettings>
       </Package>
       <Package>
@@ -137,10 +137,6 @@
               <Parameters></Parameters>
               <SuccessCodes>0,1641,3010</SuccessCodes>
               <RunAs value="null" />
-              <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
-              <Title></Title>
-              <TypeName>Install</TypeName>
               <Conditions type="list">
                 <PackageStepCondition>
                   <Architecture>Both</Architecture>
@@ -152,6 +148,10 @@
                   <TypeName>LoggedOnUser</TypeName>
                 </PackageStepCondition>
               </Conditions>
+              <ErrorMode>StopDeploymentFail</ErrorMode>
+              <IsEnabled value="true" />
+              <Title></Title>
+              <TypeName>Install</TypeName>
             </InstallStep>
           </Steps>
           <Timeout value="60" />
@@ -163,14 +163,14 @@
  - Remove the Adobe Update scheduled task that gets installed (C:\Windows\tasks\Adobe Acrobat Update Task.job)
  - Disable all auto-update and telemetry collection options I could find via the bundled customization file
  - Disable all third-party service connectors (Dropbox, Google Drive, SharePoint, etc) via the bundled customization file</Description>
-        <FolderId value="17" />
+        <FolderId value="20" />
         <Name>Adobe Acrobat Reader DC</Name>
         <Path>Installers\Adobe Acrobat Reader DC</Path>
         <Version>15.017.20050</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
-          <SortOrder value="6" />
+          <SortOrder value="7" />
         </PackageDisplaySettings>
       </Package>
       <Package>
@@ -191,10 +191,6 @@
               <Parameters></Parameters>
               <SuccessCodes>0,1641,3010</SuccessCodes>
               <RunAs value="null" />
-              <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
-              <Title></Title>
-              <TypeName>Install</TypeName>
               <Conditions type="list">
                 <PackageStepCondition>
                   <Architecture>Both</Architecture>
@@ -206,6 +202,10 @@
                   <TypeName>LoggedOnUser</TypeName>
                 </PackageStepCondition>
               </Conditions>
+              <ErrorMode>StopDeploymentFail</ErrorMode>
+              <IsEnabled value="true" />
+              <Title></Title>
+              <TypeName>Install</TypeName>
             </InstallStep>
           </Steps>
           <Timeout value="60" />
@@ -217,14 +217,14 @@
  - Accepts the EULA for all users
  - Deletes Adobe Update service
  - Deletes Adobe Update Task Scheduler jobs</Description>
-        <FolderId value="17" />
-        <Name>Adobe AIR v22.0.0.153</Name>
-        <Path>Installers\Adobe AIR v22.0.0.153</Path>
-        <Version>22.0.0.153</Version>
+        <FolderId value="20" />
+        <Name>Adobe AIR v23.0.0.257</Name>
+        <Path>Installers\Adobe AIR v23.0.0.257</Path>
+        <Version>23.0.0.257</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
-          <SortOrder value="6" />
+          <SortOrder value="7" />
         </PackageDisplaySettings>
       </Package>
       <Package>
@@ -245,10 +245,6 @@
               <Parameters></Parameters>
               <SuccessCodes>0,255,1641,3010</SuccessCodes>
               <RunAs value="null" />
-              <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
-              <Title></Title>
-              <TypeName>Install</TypeName>
               <Conditions type="list">
                 <PackageStepCondition>
                   <Architecture>Both</Architecture>
@@ -260,6 +256,10 @@
                   <TypeName>LoggedOnUser</TypeName>
                 </PackageStepCondition>
               </Conditions>
+              <ErrorMode>StopDeploymentFail</ErrorMode>
+              <IsEnabled value="true" />
+              <Title></Title>
+              <TypeName>Install</TypeName>
             </InstallStep>
           </Steps>
           <Timeout value="60" />
@@ -270,14 +270,14 @@
  - Removes all prior versions of Adobe Flash, Chrome version
  - Removes the Adobe Acrobat Update Service (AdobeFlashPlayerUpdateSvc)
  - Removes the Adobe Update scheduled task that gets installed (C:\Windows\tasks\Adobe Flash Player Updater.job)</Description>
-        <FolderId value="17" />
-        <Name>Adobe Flash Player v22.0.0.209 (Chrome)</Name>
-        <Path>Installers\Adobe Flash Player v22.0.0.209 (Chrome)</Path>
-        <Version>22.0.0.209</Version>
+        <FolderId value="20" />
+        <Name>Adobe Flash Player v23.0.0.205 (Chrome)</Name>
+        <Path>Installers\Adobe Flash Player v23.0.0.205 (Chrome)</Path>
+        <Version>23.0.0.205</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
-          <SortOrder value="6" />
+          <SortOrder value="7" />
         </PackageDisplaySettings>
       </Package>
       <Package>
@@ -298,10 +298,6 @@
               <Parameters></Parameters>
               <SuccessCodes>0,255,1641,3010</SuccessCodes>
               <RunAs value="null" />
-              <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
-              <Title></Title>
-              <TypeName>Install</TypeName>
               <Conditions type="list">
                 <PackageStepCondition>
                   <Architecture>Both</Architecture>
@@ -313,6 +309,10 @@
                   <TypeName>LoggedOnUser</TypeName>
                 </PackageStepCondition>
               </Conditions>
+              <ErrorMode>StopDeploymentFail</ErrorMode>
+              <IsEnabled value="true" />
+              <Title></Title>
+              <TypeName>Install</TypeName>
             </InstallStep>
           </Steps>
           <Timeout value="60" />
@@ -323,14 +323,14 @@
  - Removes all prior versions of Adobe Flash, Firefox/plugin version
  - Removes the Adobe Acrobat Update Service (AdobeFlashPlayerUpdateSvc)
  - Removes the Adobe Update scheduled task that gets installed (C:\Windows\tasks\Adobe Flash Player Updater.job)</Description>
-        <FolderId value="17" />
-        <Name>Adobe Flash Player v22.0.0.209 (Firefox)</Name>
-        <Path>Installers\Adobe Flash Player v22.0.0.209 (Firefox)</Path>
-        <Version>22.0.0.209</Version>
+        <FolderId value="20" />
+        <Name>Adobe Flash Player v23.0.0.205 (Firefox)</Name>
+        <Path>Installers\Adobe Flash Player v23.0.0.205 (Firefox)</Path>
+        <Version>23.0.0.205</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
-          <SortOrder value="6" />
+          <SortOrder value="7" />
         </PackageDisplaySettings>
       </Package>
       <Package>
@@ -351,10 +351,6 @@
               <Parameters></Parameters>
               <SuccessCodes>0,255,1641,3010</SuccessCodes>
               <RunAs value="null" />
-              <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
-              <Title></Title>
-              <TypeName>Install</TypeName>
               <Conditions type="list">
                 <PackageStepCondition>
                   <Architecture>Both</Architecture>
@@ -366,6 +362,10 @@
                   <TypeName>LoggedOnUser</TypeName>
                 </PackageStepCondition>
               </Conditions>
+              <ErrorMode>StopDeploymentFail</ErrorMode>
+              <IsEnabled value="true" />
+              <Title></Title>
+              <TypeName>Install</TypeName>
             </InstallStep>
           </Steps>
           <Timeout value="60" />
@@ -376,14 +376,14 @@
  - Removes all prior versions of Adobe Flash, ActiveX version
  - Removes the Adobe Acrobat Update Service (AdobeFlashPlayerUpdateSvc)
  - Removes the Adobe Update scheduled task that gets installed (C:\Windows\tasks\Adobe Flash Player Updater.job)</Description>
-        <FolderId value="17" />
-        <Name>Adobe Flash Player v22.0.0.210 (IE)</Name>
-        <Path>Installers\Adobe Flash Player v22.0.0.210 (IE)</Path>
-        <Version>22.0.0.209</Version>
+        <FolderId value="20" />
+        <Name>Adobe Flash Player v23.0.0.205 (IE)</Name>
+        <Path>Installers\Adobe Flash Player v23.0.0.205 (IE)</Path>
+        <Version>23.0.0.205</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
-          <SortOrder value="6" />
+          <SortOrder value="7" />
         </PackageDisplaySettings>
       </Package>
       <Package>
@@ -404,10 +404,6 @@
               <Parameters></Parameters>
               <SuccessCodes>0,1641,3010</SuccessCodes>
               <RunAs value="null" />
-              <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
-              <Title></Title>
-              <TypeName>Install</TypeName>
               <Conditions type="list">
                 <PackageStepCondition>
                   <Architecture>Both</Architecture>
@@ -419,6 +415,10 @@
                   <TypeName>LoggedOnUser</TypeName>
                 </PackageStepCondition>
               </Conditions>
+              <ErrorMode>StopDeploymentFail</ErrorMode>
+              <IsEnabled value="true" />
+              <Title></Title>
+              <TypeName>Install</TypeName>
             </InstallStep>
           </Steps>
           <Timeout value="60" />
@@ -427,14 +427,14 @@
         <Description>Installs Adobe Reader XI, with the following customizations:
  - Deletes the "All Users" desktop link to Reader XI
  - Deletes the Adobe Acrobat Reader Update service ( AdobeARMservice )</Description>
-        <FolderId value="17" />
-        <Name>Adobe Reader XI v11.0.17</Name>
-        <Path>Installers\Adobe Reader XI v11.0.17</Path>
-        <Version>11.0.17</Version>
+        <FolderId value="20" />
+        <Name>Adobe Reader XI v11.0.18</Name>
+        <Path>Installers\Adobe Reader XI v11.0.18</Path>
+        <Version>11.0.18</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
-          <SortOrder value="6" />
+          <SortOrder value="7" />
         </PackageDisplaySettings>
       </Package>
       <Package>
@@ -455,10 +455,6 @@
               <Parameters></Parameters>
               <SuccessCodes>0,1641,3010</SuccessCodes>
               <RunAs value="null" />
-              <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
-              <Title></Title>
-              <TypeName>Install</TypeName>
               <Conditions type="list">
                 <PackageStepCondition>
                   <Architecture>Both</Architecture>
@@ -470,6 +466,10 @@
                   <TypeName>LoggedOnUser</TypeName>
                 </PackageStepCondition>
               </Conditions>
+              <ErrorMode>StopDeploymentFail</ErrorMode>
+              <IsEnabled value="true" />
+              <Title></Title>
+              <TypeName>Install</TypeName>
             </InstallStep>
           </Steps>
           <Timeout value="60" />
@@ -478,14 +478,14 @@
         <Description>Installs Adobe Shockwave with the following customizations:
  - Disables auto-updater
  - Disables automatic statistics collection and submission</Description>
-        <FolderId value="17" />
-        <Name>Adobe Shockwave v12.2.4.194</Name>
-        <Path>Installers\Adobe Shockwave v12.2.4.194</Path>
-        <Version>12.2.4.194</Version>
+        <FolderId value="20" />
+        <Name>Adobe Shockwave v12.2.5.195</Name>
+        <Path>Installers\Adobe Shockwave v12.2.5.195</Path>
+        <Version>12.2.5.195</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
-          <SortOrder value="6" />
+          <SortOrder value="7" />
         </PackageDisplaySettings>
       </Package>
       <Package>
@@ -506,10 +506,6 @@
               <Parameters></Parameters>
               <SuccessCodes>0,1641,3010</SuccessCodes>
               <RunAs value="null" />
-              <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
-              <Title></Title>
-              <TypeName>Install</TypeName>
               <Conditions type="list">
                 <PackageStepCondition>
                   <Architecture>Both</Architecture>
@@ -521,6 +517,10 @@
                   <TypeName>LoggedOnUser</TypeName>
                 </PackageStepCondition>
               </Conditions>
+              <ErrorMode>StopDeploymentFail</ErrorMode>
+              <IsEnabled value="true" />
+              <Title></Title>
+              <TypeName>Install</TypeName>
             </InstallStep>
           </Steps>
           <Timeout value="60" />
@@ -531,14 +531,14 @@
  - Stops and deletes the "iPod Service"
  - Stops iTunesHelper
  - Deletes Public desktop iTunes.lnk</Description>
-        <FolderId value="17" />
-        <Name>Apple iTunes v12.4.0.119 (x64)</Name>
-        <Path>Installers\Apple iTunes v12.4.0.119 (x64)</Path>
-        <Version>12.4.0.119</Version>
+        <FolderId value="20" />
+        <Name>Apple iTunes v12.5.1.21 (x64)</Name>
+        <Path>Installers\Apple iTunes v12.5.1.21 (x64)</Path>
+        <Version>12.5.1.21</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
-          <SortOrder value="6" />
+          <SortOrder value="7" />
         </PackageDisplaySettings>
       </Package>
       <Package>
@@ -559,10 +559,6 @@
               <Parameters></Parameters>
               <SuccessCodes>0,1641,3010</SuccessCodes>
               <RunAs value="null" />
-              <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
-              <Title></Title>
-              <TypeName>Install</TypeName>
               <Conditions type="list">
                 <PackageStepCondition>
                   <Architecture>Bits64</Architecture>
@@ -574,6 +570,10 @@
                   <TypeName>LoggedOnUser</TypeName>
                 </PackageStepCondition>
               </Conditions>
+              <ErrorMode>StopDeploymentFail</ErrorMode>
+              <IsEnabled value="true" />
+              <Title></Title>
+              <TypeName>Install</TypeName>
             </InstallStep>
           </Steps>
           <Timeout value="60" />
@@ -584,14 +584,14 @@
  - Associates ISO files with CDBurnerXP
  - Associates some other CD-related files with CDBurnerXP
  - Disables the background online update checker</Description>
-        <FolderId value="17" />
-        <Name>CDBurnerXP v4.5.7.6321 (x64)</Name>
-        <Path>Installers\CDBurnerXP v4.5.7.6321 (x64)</Path>
-        <Version>4.5.7.6321</Version>
+        <FolderId value="20" />
+        <Name>CDBurnerXP v4.5.7.6389 (x64)</Name>
+        <Path>Installers\CDBurnerXP v4.5.7.6389 (x64)</Path>
+        <Version>4.5.7.6389</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
-          <SortOrder value="6" />
+          <SortOrder value="7" />
         </PackageDisplaySettings>
       </Package>
       <Package>
@@ -612,10 +612,6 @@
               <Parameters></Parameters>
               <SuccessCodes>0,1641,3010</SuccessCodes>
               <RunAs value="null" />
-              <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
-              <Title></Title>
-              <TypeName>Install</TypeName>
               <Conditions type="list">
                 <PackageStepCondition>
                   <Architecture>Both</Architecture>
@@ -627,6 +623,10 @@
                   <TypeName>LoggedOnUser</TypeName>
                 </PackageStepCondition>
               </Conditions>
+              <ErrorMode>StopDeploymentFail</ErrorMode>
+              <IsEnabled value="true" />
+              <Title></Title>
+              <TypeName>Install</TypeName>
             </InstallStep>
           </Steps>
           <Timeout value="60" />
@@ -638,14 +638,14 @@
  - Deletes Start Menu shortcuts for CutePDF
 
 Thanks to reddit.com/user/b0park for this package.</Description>
-        <FolderId value="17" />
+        <FolderId value="20" />
         <Name>CutePDF Writer v3.0 (x86)</Name>
         <Path>Installers\CutePDF Writer v3.0 (x86)</Path>
         <Version>3.0</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
-          <SortOrder value="6" />
+          <SortOrder value="7" />
         </PackageDisplaySettings>
       </Package>
       <Package>
@@ -666,14 +666,10 @@ Thanks to reddit.com/user/b0park for this package.</Description>
               <Parameters></Parameters>
               <SuccessCodes>0,1641,3010</SuccessCodes>
               <RunAs value="null" />
-              <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
-              <Title></Title>
-              <TypeName>Install</TypeName>
               <Conditions type="list">
                 <PackageStepCondition>
                   <Architecture>Bits64</Architecture>
-                  <Version>WindowsVista, Windows7, Windows8, Server2003R2, Server2008, Server2008R2, Server2012, Windows81, Server2012R2, Windows10</Version>
+                  <Version>WindowsVista, Windows7, Windows8, Server2003R2, Server2008, Server2008R2, Server2012, Windows81, Server2012R2, Windows10, Server2016</Version>
                   <TypeName>OperatingSystem</TypeName>
                 </PackageStepCondition>
                 <PackageStepCondition>
@@ -681,6 +677,10 @@ Thanks to reddit.com/user/b0park for this package.</Description>
                   <TypeName>LoggedOnUser</TypeName>
                 </PackageStepCondition>
               </Conditions>
+              <ErrorMode>StopDeploymentFail</ErrorMode>
+              <IsEnabled value="true" />
+              <Title></Title>
+              <TypeName>Install</TypeName>
             </InstallStep>
           </Steps>
           <Timeout value="60" />
@@ -688,14 +688,14 @@ Thanks to reddit.com/user/b0park for this package.</Description>
         </PackageDefinition>
         <Description>Installs the FileZilla client with the following customizations:
  - Removes any previous versions before installing</Description>
-        <FolderId value="17" />
-        <Name>FileZilla Client v3.21.0</Name>
-        <Path>Installers\FileZilla Client v3.21.0</Path>
-        <Version>3.21.0</Version>
+        <FolderId value="20" />
+        <Name>FileZilla Client v3.22.1</Name>
+        <Path>Installers\FileZilla Client v3.22.1</Path>
+        <Version>3.22.1</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
-          <SortOrder value="6" />
+          <SortOrder value="7" />
         </PackageDisplaySettings>
       </Package>
       <Package>
@@ -716,10 +716,6 @@ Thanks to reddit.com/user/b0park for this package.</Description>
               <Parameters>/verysilent /norestart</Parameters>
               <SuccessCodes>0,1641,3010</SuccessCodes>
               <RunAs value="null" />
-              <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
-              <Title></Title>
-              <TypeName>Install</TypeName>
               <Conditions type="list">
                 <PackageStepCondition>
                   <Architecture>Both</Architecture>
@@ -731,6 +727,10 @@ Thanks to reddit.com/user/b0park for this package.</Description>
                   <TypeName>LoggedOnUser</TypeName>
                 </PackageStepCondition>
               </Conditions>
+              <ErrorMode>StopDeploymentFail</ErrorMode>
+              <IsEnabled value="true" />
+              <Title></Title>
+              <TypeName>Install</TypeName>
             </InstallStep>
           </Steps>
           <Timeout value="60" />
@@ -739,14 +739,14 @@ Thanks to reddit.com/user/b0park for this package.</Description>
         <Description>Installs Gimp silently with the following flags:
 
 Gimp v2.8.18 x86.exe /verysilent /norestart</Description>
-        <FolderId value="17" />
+        <FolderId value="20" />
         <Name>Gimp v2.8.18 x86</Name>
         <Path>Installers\Gimp v2.8.18 x86</Path>
         <Version>2.8.18</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
-          <SortOrder value="6" />
+          <SortOrder value="7" />
         </PackageDisplaySettings>
       </Package>
       <Package>
@@ -767,10 +767,6 @@ Gimp v2.8.18 x86.exe /verysilent /norestart</Description>
               <Parameters></Parameters>
               <SuccessCodes>0,1641,3010</SuccessCodes>
               <RunAs value="null" />
-              <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
-              <Title></Title>
-              <TypeName>Install</TypeName>
               <Conditions type="list">
                 <PackageStepCondition>
                   <Architecture>Both</Architecture>
@@ -782,6 +778,10 @@ Gimp v2.8.18 x86.exe /verysilent /norestart</Description>
                   <TypeName>LoggedOnUser</TypeName>
                 </PackageStepCondition>
               </Conditions>
+              <ErrorMode>StopDeploymentFail</ErrorMode>
+              <IsEnabled value="true" />
+              <Title></Title>
+              <TypeName>Install</TypeName>
             </InstallStep>
           </Steps>
           <Timeout value="60" />
@@ -795,14 +795,14 @@ Gimp v2.8.18 x86.exe /verysilent /norestart</Description>
  ! Removes Google Update services  (gupdatem and gupdate) *
 
  * If you wish to disable this behavior, edit the batch file and remove the two lines that start with "sc delete"</Description>
-        <FolderId value="17" />
-        <Name>Google Chrome v53.0.2785.101 (Enterprise)</Name>
-        <Path>Installers\Google Chrome v53.0.2785.101 (Enterprise)</Path>
-        <Version>53.0.2785.101</Version>
+        <FolderId value="20" />
+        <Name>Google Chrome v54.0.2840.71 (Enterprise)</Name>
+        <Path>Installers\Google Chrome v54.0.2840.71 (Enterprise)</Path>
+        <Version>54.0.2840.71</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
-          <SortOrder value="6" />
+          <SortOrder value="7" />
         </PackageDisplaySettings>
       </Package>
       <Package>
@@ -823,10 +823,6 @@ Gimp v2.8.18 x86.exe /verysilent /norestart</Description>
               <Parameters></Parameters>
               <SuccessCodes>0,1641,3010</SuccessCodes>
               <RunAs value="null" />
-              <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
-              <Title></Title>
-              <TypeName>Install</TypeName>
               <Conditions type="list">
                 <PackageStepCondition>
                   <Architecture>Both</Architecture>
@@ -838,6 +834,10 @@ Gimp v2.8.18 x86.exe /verysilent /norestart</Description>
                   <TypeName>LoggedOnUser</TypeName>
                 </PackageStepCondition>
               </Conditions>
+              <ErrorMode>StopDeploymentFail</ErrorMode>
+              <IsEnabled value="true" />
+              <Title></Title>
+              <TypeName>Install</TypeName>
             </InstallStep>
           </Steps>
           <Timeout value="60" />
@@ -851,14 +851,14 @@ Gimp v2.8.18 x86.exe /verysilent /norestart</Description>
  ! Removes Google Update services  (gupdatem and gupdate) *
 
  * If you wish to disable this behavior, edit the batch file and remove the two lines that start with "sc delete"</Description>
-        <FolderId value="17" />
-        <Name>Google Chrome v53.0.2785.101 (Enterprise) (x86)</Name>
-        <Path>Installers\Google Chrome v53.0.2785.101 (Enterprise) (x86)</Path>
-        <Version>53.0.2785.101</Version>
+        <FolderId value="20" />
+        <Name>Google Chrome v54.0.2840.71 (Enterprise) (x86)</Name>
+        <Path>Installers\Google Chrome v54.0.2840.71 (Enterprise) (x86)</Path>
+        <Version>54.0.2840.71</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
-          <SortOrder value="6" />
+          <SortOrder value="7" />
         </PackageDisplaySettings>
       </Package>
       <Package>
@@ -879,10 +879,6 @@ Gimp v2.8.18 x86.exe /verysilent /norestart</Description>
               <Parameters></Parameters>
               <SuccessCodes>0,1641,3010</SuccessCodes>
               <RunAs value="null" />
-              <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
-              <Title></Title>
-              <TypeName>Install</TypeName>
               <Conditions type="list">
                 <PackageStepCondition>
                   <Architecture>Both</Architecture>
@@ -894,6 +890,10 @@ Gimp v2.8.18 x86.exe /verysilent /norestart</Description>
                   <TypeName>LoggedOnUser</TypeName>
                 </PackageStepCondition>
               </Conditions>
+              <ErrorMode>StopDeploymentFail</ErrorMode>
+              <IsEnabled value="true" />
+              <Title></Title>
+              <TypeName>Install</TypeName>
             </InstallStep>
           </Steps>
           <Timeout value="60" />
@@ -907,14 +907,14 @@ Gimp v2.8.18 x86.exe /verysilent /norestart</Description>
  ! Removes Google Update services (gupdatem and gupdate) **
 
  ** If you wish to disable this behavior, edit the batch file and remove the two lines that start with "sc delete"</Description>
-        <FolderId value="17" />
+        <FolderId value="20" />
         <Name>Google Earth v7.1.5.1557</Name>
         <Path>Installers\Google Earth v7.1.5.1557</Path>
         <Version>7.1.5.1557</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
-          <SortOrder value="6" />
+          <SortOrder value="7" />
         </PackageDisplaySettings>
       </Package>
       <Package>
@@ -935,10 +935,6 @@ Gimp v2.8.18 x86.exe /verysilent /norestart</Description>
               <Parameters>/s ADDLOCAL="ToolsFeature" /L C:\Logs\jdk6_x64_update.log</Parameters>
               <SuccessCodes>0,1641,3010</SuccessCodes>
               <RunAs value="null" />
-              <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
-              <Title></Title>
-              <TypeName>Install</TypeName>
               <Conditions type="list">
                 <PackageStepCondition>
                   <Architecture>Bits64</Architecture>
@@ -950,6 +946,10 @@ Gimp v2.8.18 x86.exe /verysilent /norestart</Description>
                   <TypeName>LoggedOnUser</TypeName>
                 </PackageStepCondition>
               </Conditions>
+              <ErrorMode>StopDeploymentFail</ErrorMode>
+              <IsEnabled value="true" />
+              <Title></Title>
+              <TypeName>Install</TypeName>
             </InstallStep>
           </Steps>
           <Timeout value="60" />
@@ -959,14 +959,14 @@ Gimp v2.8.18 x86.exe /verysilent /norestart</Description>
  - Disables auto-update
 
 NOTE: The JDK installer will sometimes toss error 1603 (the generic MSI code for "some sort of error happened") even though the install completed successfully. I've been able to reproduce this and it only seems to happen if there is a prior version of the JDK installed and you install on top of it. The install still goes through OK, but MSI will toss error 1603. In my experience you can safely ignore this error.</Description>
-        <FolderId value="17" />
+        <FolderId value="20" />
         <Name>Java Development Kit 6 update 45 (x64)</Name>
         <Path>Installers\Java Development Kit 6 update 45 (x64)</Path>
         <Version>1.6.0.450</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
-          <SortOrder value="6" />
+          <SortOrder value="7" />
         </PackageDisplaySettings>
       </Package>
       <Package>
@@ -987,10 +987,6 @@ NOTE: The JDK installer will sometimes toss error 1603 (the generic MSI code for
               <Parameters>/s ADDLOCAL="ToolsFeature"</Parameters>
               <SuccessCodes>0,1641,3010</SuccessCodes>
               <RunAs value="null" />
-              <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
-              <Title></Title>
-              <TypeName>Install</TypeName>
               <Conditions type="list">
                 <PackageStepCondition>
                   <Architecture>Both</Architecture>
@@ -1002,6 +998,10 @@ NOTE: The JDK installer will sometimes toss error 1603 (the generic MSI code for
                   <TypeName>LoggedOnUser</TypeName>
                 </PackageStepCondition>
               </Conditions>
+              <ErrorMode>StopDeploymentFail</ErrorMode>
+              <IsEnabled value="true" />
+              <Title></Title>
+              <TypeName>Install</TypeName>
             </InstallStep>
           </Steps>
           <Timeout value="60" />
@@ -1011,14 +1011,14 @@ NOTE: The JDK installer will sometimes toss error 1603 (the generic MSI code for
  - Disables auto-update
 
 NOTE: The JDK installer will sometimes toss error 1603 (the generic MSI code for "some sort of error happened") even though the install completed successfully. I've been able to reproduce this and it only seems to happen if there is a prior version of the JDK installed and you install on top of it. The install still goes through OK, but MSI will toss error 1603. In my experience you can safely ignore this error.</Description>
-        <FolderId value="17" />
+        <FolderId value="20" />
         <Name>Java Development Kit 6 update 45 (x86)</Name>
         <Path>Installers\Java Development Kit 6 update 45 (x86)</Path>
         <Version>1.6.0.450</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
-          <SortOrder value="6" />
+          <SortOrder value="7" />
         </PackageDisplaySettings>
       </Package>
       <Package>
@@ -1039,10 +1039,6 @@ NOTE: The JDK installer will sometimes toss error 1603 (the generic MSI code for
               <Parameters>/s</Parameters>
               <SuccessCodes>0,1641,3010</SuccessCodes>
               <RunAs value="null" />
-              <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
-              <Title></Title>
-              <TypeName>Install</TypeName>
               <Conditions type="list">
                 <PackageStepCondition>
                   <Architecture>Bits64</Architecture>
@@ -1054,6 +1050,10 @@ NOTE: The JDK installer will sometimes toss error 1603 (the generic MSI code for
                   <TypeName>LoggedOnUser</TypeName>
                 </PackageStepCondition>
               </Conditions>
+              <ErrorMode>StopDeploymentFail</ErrorMode>
+              <IsEnabled value="true" />
+              <Title></Title>
+              <TypeName>Install</TypeName>
             </InstallStep>
           </Steps>
           <Timeout value="60" />
@@ -1064,14 +1064,14 @@ NOTE: The JDK installer will sometimes toss error 1603 (the generic MSI code for
  - Removes any previous versions of the series 7 JDK (JDK 7 Update XX); leaves other JDK installations intact
  - Disables Java's auto-updater
  - Does not reboot</Description>
-        <FolderId value="17" />
+        <FolderId value="20" />
         <Name>Java Development Kit 7 update 80 (x64)</Name>
         <Path>Installers\Java Development Kit 7 update 80 (x64)</Path>
         <Version>1.7.0.800</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
-          <SortOrder value="6" />
+          <SortOrder value="7" />
         </PackageDisplaySettings>
       </Package>
       <Package>
@@ -1092,10 +1092,6 @@ NOTE: The JDK installer will sometimes toss error 1603 (the generic MSI code for
               <Parameters>/s</Parameters>
               <SuccessCodes>0,1641,3010</SuccessCodes>
               <RunAs value="null" />
-              <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
-              <Title></Title>
-              <TypeName>Install</TypeName>
               <Conditions type="list">
                 <PackageStepCondition>
                   <Architecture>Both</Architecture>
@@ -1107,6 +1103,10 @@ NOTE: The JDK installer will sometimes toss error 1603 (the generic MSI code for
                   <TypeName>LoggedOnUser</TypeName>
                 </PackageStepCondition>
               </Conditions>
+              <ErrorMode>StopDeploymentFail</ErrorMode>
+              <IsEnabled value="true" />
+              <Title></Title>
+              <TypeName>Install</TypeName>
             </InstallStep>
           </Steps>
           <Timeout value="60" />
@@ -1117,14 +1117,14 @@ NOTE: The JDK installer will sometimes toss error 1603 (the generic MSI code for
  - Removes any previous versions of the series 7 JDK (JDK 7 Update XX); leaves other JDK installations intact
  - Disables Java's auto-updater
  - Does not reboot</Description>
-        <FolderId value="17" />
+        <FolderId value="20" />
         <Name>Java Development Kit 7 update 80 (x86)</Name>
         <Path>Installers\Java Development Kit 7 update 80 (x86)</Path>
         <Version>1.7.0.800</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
-          <SortOrder value="6" />
+          <SortOrder value="7" />
         </PackageDisplaySettings>
       </Package>
       <Package>
@@ -1145,10 +1145,6 @@ NOTE: The JDK installer will sometimes toss error 1603 (the generic MSI code for
               <Parameters>/s</Parameters>
               <SuccessCodes>0,1641,3010</SuccessCodes>
               <RunAs value="null" />
-              <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
-              <Title></Title>
-              <TypeName>Install</TypeName>
               <Conditions type="list">
                 <PackageStepCondition>
                   <Architecture>Bits64</Architecture>
@@ -1160,6 +1156,10 @@ NOTE: The JDK installer will sometimes toss error 1603 (the generic MSI code for
                   <TypeName>LoggedOnUser</TypeName>
                 </PackageStepCondition>
               </Conditions>
+              <ErrorMode>StopDeploymentFail</ErrorMode>
+              <IsEnabled value="true" />
+              <Title></Title>
+              <TypeName>Install</TypeName>
             </InstallStep>
           </Steps>
           <Timeout value="60" />
@@ -1182,14 +1182,14 @@ Thus, if you already had JRE8 installed when you install JDK and instruct it not
   b) let the JDK8 installer blow away any matching-architecture JRE8 installations
 
 There is no option to JUST install JDK8 without touching JRE8 installations.</Description>
-        <FolderId value="17" />
-        <Name>Java Development Kit 8 update 102 (x64)</Name>
-        <Path>Installers\Java Development Kit 8 update 102 (x64)</Path>
+        <FolderId value="20" />
+        <Name>Java Development Kit 8 update 112 (x64)</Name>
+        <Path>Installers\Java Development Kit 8 update 112 (x64)</Path>
         <Version>8.0.720</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
-          <SortOrder value="6" />
+          <SortOrder value="7" />
         </PackageDisplaySettings>
       </Package>
       <Package>
@@ -1210,10 +1210,6 @@ There is no option to JUST install JDK8 without touching JRE8 installations.</De
               <Parameters>/s</Parameters>
               <SuccessCodes>0,1641,3010</SuccessCodes>
               <RunAs value="null" />
-              <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
-              <Title></Title>
-              <TypeName>Install</TypeName>
               <Conditions type="list">
                 <PackageStepCondition>
                   <Architecture>Both</Architecture>
@@ -1225,6 +1221,10 @@ There is no option to JUST install JDK8 without touching JRE8 installations.</De
                   <TypeName>LoggedOnUser</TypeName>
                 </PackageStepCondition>
               </Conditions>
+              <ErrorMode>StopDeploymentFail</ErrorMode>
+              <IsEnabled value="true" />
+              <Title></Title>
+              <TypeName>Install</TypeName>
             </InstallStep>
           </Steps>
           <Timeout value="60" />
@@ -1247,14 +1247,14 @@ Thus, if you already had JRE8 installed when you install JDK and instruct it not
   b) let the JDK8 installer blow away any matching-architecture JRE8 installations
 
 There is no option to JUST install JDK8 without touching JRE8 installations.</Description>
-        <FolderId value="17" />
-        <Name>Java Development Kit 8 update 102 (x86)</Name>
-        <Path>Installers\Java Development Kit 8 update 102 (x86)</Path>
+        <FolderId value="20" />
+        <Name>Java Development Kit 8 update 112 (x86)</Name>
+        <Path>Installers\Java Development Kit 8 update 112 (x86)</Path>
         <Version>8.0.720</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
-          <SortOrder value="6" />
+          <SortOrder value="7" />
         </PackageDisplaySettings>
       </Package>
       <Package>
@@ -1275,10 +1275,6 @@ There is no option to JUST install JDK8 without touching JRE8 installations.</De
               <Parameters></Parameters>
               <SuccessCodes>0,1641,3010</SuccessCodes>
               <RunAs value="null" />
-              <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
-              <Title></Title>
-              <TypeName>Install</TypeName>
               <Conditions type="list">
                 <PackageStepCondition>
                   <Architecture>Bits64</Architecture>
@@ -1290,6 +1286,10 @@ There is no option to JUST install JDK8 without touching JRE8 installations.</De
                   <TypeName>LoggedOnUser</TypeName>
                 </PackageStepCondition>
               </Conditions>
+              <ErrorMode>StopDeploymentFail</ErrorMode>
+              <IsEnabled value="true" />
+              <Title></Title>
+              <TypeName>Install</TypeName>
             </InstallStep>
           </Steps>
           <Timeout value="60" />
@@ -1300,14 +1300,14 @@ There is no option to JUST install JDK8 without touching JRE8 installations.</De
  - Disables Java's auto-updater
  - Does not reboot
  - NOTE: JRE6 u45 was the final public release of the 6-series JRE. This binary is from Sun but was not widely disseminated. It is the same as JRE6u45 with security fixes from JRE7 backported.</Description>
-        <FolderId value="17" />
+        <FolderId value="20" />
         <Name>Java Runtime 6 update 115 (x64)</Name>
         <Path>Installers\Java Runtime 6 update 115 (x64)</Path>
         <Version>6.0.115</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
-          <SortOrder value="6" />
+          <SortOrder value="7" />
         </PackageDisplaySettings>
       </Package>
       <Package>
@@ -1328,10 +1328,6 @@ There is no option to JUST install JDK8 without touching JRE8 installations.</De
               <Parameters></Parameters>
               <SuccessCodes>0,1641,3010</SuccessCodes>
               <RunAs value="null" />
-              <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
-              <Title></Title>
-              <TypeName>Install</TypeName>
               <Conditions type="list">
                 <PackageStepCondition>
                   <Architecture>Both</Architecture>
@@ -1343,6 +1339,10 @@ There is no option to JUST install JDK8 without touching JRE8 installations.</De
                   <TypeName>LoggedOnUser</TypeName>
                 </PackageStepCondition>
               </Conditions>
+              <ErrorMode>StopDeploymentFail</ErrorMode>
+              <IsEnabled value="true" />
+              <Title></Title>
+              <TypeName>Install</TypeName>
             </InstallStep>
           </Steps>
           <Timeout value="60" />
@@ -1353,14 +1353,14 @@ There is no option to JUST install JDK8 without touching JRE8 installations.</De
  - Disables Java's auto-updater
  - Does not reboot
  - NOTE: JRE6 u45 was the final public release of the 6-series JRE. This binary is from Sun but was not widely disseminated. It is the same as JRE6u45 with security fixes from JRE7 backported.</Description>
-        <FolderId value="17" />
+        <FolderId value="20" />
         <Name>Java Runtime 6 update 115 (x86)</Name>
         <Path>Installers\Java Runtime 6 update 115 (x86)</Path>
         <Version>6.0.115</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
-          <SortOrder value="6" />
+          <SortOrder value="7" />
         </PackageDisplaySettings>
       </Package>
       <Package>
@@ -1381,10 +1381,6 @@ There is no option to JUST install JDK8 without touching JRE8 installations.</De
               <Parameters></Parameters>
               <SuccessCodes>0,1641,3010</SuccessCodes>
               <RunAs value="null" />
-              <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
-              <Title></Title>
-              <TypeName>Install</TypeName>
               <Conditions type="list">
                 <PackageStepCondition>
                   <Architecture>Bits64</Architecture>
@@ -1396,6 +1392,10 @@ There is no option to JUST install JDK8 without touching JRE8 installations.</De
                   <TypeName>LoggedOnUser</TypeName>
                 </PackageStepCondition>
               </Conditions>
+              <ErrorMode>StopDeploymentFail</ErrorMode>
+              <IsEnabled value="true" />
+              <Title></Title>
+              <TypeName>Install</TypeName>
             </InstallStep>
           </Steps>
           <Timeout value="60" />
@@ -1405,14 +1405,14 @@ There is no option to JUST install JDK8 without touching JRE8 installations.</De
  - Removes all previous JRE7 x64 installations first (leaves any JRE6 or JRE7 x86 installations intact)
  - Disables Java's auto-updater
  - Does not reboot</Description>
-        <FolderId value="17" />
+        <FolderId value="20" />
         <Name>Java Runtime 7 update 80 (x64)</Name>
         <Path>Installers\Java Runtime 7 update 80 (x64)</Path>
         <Version>7.0.800</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
-          <SortOrder value="6" />
+          <SortOrder value="7" />
         </PackageDisplaySettings>
       </Package>
       <Package>
@@ -1433,10 +1433,6 @@ There is no option to JUST install JDK8 without touching JRE8 installations.</De
               <Parameters></Parameters>
               <SuccessCodes>0,1641,3010</SuccessCodes>
               <RunAs value="null" />
-              <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
-              <Title></Title>
-              <TypeName>Install</TypeName>
               <Conditions type="list">
                 <PackageStepCondition>
                   <Architecture>Both</Architecture>
@@ -1448,6 +1444,10 @@ There is no option to JUST install JDK8 without touching JRE8 installations.</De
                   <TypeName>LoggedOnUser</TypeName>
                 </PackageStepCondition>
               </Conditions>
+              <ErrorMode>StopDeploymentFail</ErrorMode>
+              <IsEnabled value="true" />
+              <Title></Title>
+              <TypeName>Install</TypeName>
             </InstallStep>
           </Steps>
           <Timeout value="60" />
@@ -1457,14 +1457,14 @@ There is no option to JUST install JDK8 without touching JRE8 installations.</De
  - Removes all previous JRE7 x86 installations first (leaves any JRE6 or JRE7 x64 installations intact)
  - Disables Java's auto-updater
  - Does not reboot</Description>
-        <FolderId value="17" />
+        <FolderId value="20" />
         <Name>Java Runtime 7 update 80 (x86)</Name>
         <Path>Installers\Java Runtime 7 update 80 (x86)</Path>
         <Version>7.0.800</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
-          <SortOrder value="6" />
+          <SortOrder value="7" />
         </PackageDisplaySettings>
       </Package>
       <Package>
@@ -1485,10 +1485,6 @@ There is no option to JUST install JDK8 without touching JRE8 installations.</De
               <Parameters></Parameters>
               <SuccessCodes>0,1641,3010</SuccessCodes>
               <RunAs value="null" />
-              <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
-              <Title></Title>
-              <TypeName>Install</TypeName>
               <Conditions type="list">
                 <PackageStepCondition>
                   <Architecture>Bits64</Architecture>
@@ -1500,6 +1496,10 @@ There is no option to JUST install JDK8 without touching JRE8 installations.</De
                   <TypeName>LoggedOnUser</TypeName>
                 </PackageStepCondition>
               </Conditions>
+              <ErrorMode>StopDeploymentFail</ErrorMode>
+              <IsEnabled value="true" />
+              <Title></Title>
+              <TypeName>Install</TypeName>
             </InstallStep>
           </Steps>
           <Timeout value="60" />
@@ -1512,14 +1512,14 @@ There is no option to JUST install JDK8 without touching JRE8 installations.</De
  - Forces Java Web Security level to MEDIUM* (default in all prior versions of JRE). Thanks to reddit.com/user/matt314159 for this contribution.
 
  * If you wish to disable this behavior, edit the 'deployment.properties' file and comment out or delete the line that reads 'deployment.security.level.locked'</Description>
-        <FolderId value="17" />
-        <Name>Java Runtime 8 update 102 (x64)</Name>
-        <Path>Installers\Java Runtime 8 update 102 (x64)</Path>
+        <FolderId value="20" />
+        <Name>Java Runtime 8 update 112 (x64)</Name>
+        <Path>Installers\Java Runtime 8 update 112 (x64)</Path>
         <Version>8.0.720</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
-          <SortOrder value="6" />
+          <SortOrder value="7" />
         </PackageDisplaySettings>
       </Package>
       <Package>
@@ -1540,10 +1540,6 @@ There is no option to JUST install JDK8 without touching JRE8 installations.</De
               <Parameters></Parameters>
               <SuccessCodes>0,1641,3010</SuccessCodes>
               <RunAs value="null" />
-              <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
-              <Title></Title>
-              <TypeName>Install</TypeName>
               <Conditions type="list">
                 <PackageStepCondition>
                   <Architecture>Both</Architecture>
@@ -1555,6 +1551,10 @@ There is no option to JUST install JDK8 without touching JRE8 installations.</De
                   <TypeName>LoggedOnUser</TypeName>
                 </PackageStepCondition>
               </Conditions>
+              <ErrorMode>StopDeploymentFail</ErrorMode>
+              <IsEnabled value="true" />
+              <Title></Title>
+              <TypeName>Install</TypeName>
             </InstallStep>
           </Steps>
           <Timeout value="60" />
@@ -1567,14 +1567,14 @@ There is no option to JUST install JDK8 without touching JRE8 installations.</De
  - Forces Java Web Security level to MEDIUM* (default in all prior versions of JRE). Thanks to reddit.com/user/matt314159 for this contribution.
 
  * If you wish to disable this behavior, edit the 'deployment.properties' file and comment out or delete the line that reads 'deployment.security.level.locked'</Description>
-        <FolderId value="17" />
-        <Name>Java Runtime 8 update 102 (x86)</Name>
-        <Path>Installers\Java Runtime 8 update 102 (x86)</Path>
+        <FolderId value="20" />
+        <Name>Java Runtime 8 update 112 (x86)</Name>
+        <Path>Installers\Java Runtime 8 update 112 (x86)</Path>
         <Version>8.0.720</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
-          <SortOrder value="6" />
+          <SortOrder value="7" />
         </PackageDisplaySettings>
       </Package>
       <Package>
@@ -1595,10 +1595,6 @@ There is no option to JUST install JDK8 without touching JRE8 installations.</De
               <Parameters>/silent</Parameters>
               <SuccessCodes>0,1641,3010</SuccessCodes>
               <RunAs value="null" />
-              <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
-              <Title></Title>
-              <TypeName>Install</TypeName>
               <Conditions type="list">
                 <PackageStepCondition>
                   <Architecture>Both</Architecture>
@@ -1610,6 +1606,10 @@ There is no option to JUST install JDK8 without touching JRE8 installations.</De
                   <TypeName>LoggedOnUser</TypeName>
                 </PackageStepCondition>
               </Conditions>
+              <ErrorMode>StopDeploymentFail</ErrorMode>
+              <IsEnabled value="true" />
+              <Title></Title>
+              <TypeName>Install</TypeName>
             </InstallStep>
           </Steps>
           <Timeout value="60" />
@@ -1623,14 +1623,14 @@ If the target machine is on a domain, the login format is as follows:
  - username@domain.com
 
 * if you require this, edit the kts.ini file in C:\Program Files\KTS\ and set the 'use_ssh' variable to 0 instead of 1</Description>
-        <FolderId value="17" />
+        <FolderId value="20" />
         <Name>KpyM Telnet/SSH Server v1.19c (x86)</Name>
         <Path>Installers\KpyM Telnet/SSH Server v1.19c (x86)</Path>
         <Version>1.19c</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
-          <SortOrder value="6" />
+          <SortOrder value="7" />
         </PackageDisplaySettings>
       </Package>
       <Package>
@@ -1651,14 +1651,10 @@ If the target machine is on a domain, the login format is as follows:
               <Parameters>/q /nopatch /norestart</Parameters>
               <SuccessCodes>0,1641,3010</SuccessCodes>
               <RunAs value="null" />
-              <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
-              <Title>Install .NET 3.5 SP1</Title>
-              <TypeName>Install</TypeName>
               <Conditions type="list">
                 <PackageStepCondition>
                   <Architecture>Both</Architecture>
-                  <Version>WindowsXp, WindowsVista, Windows8, Server2003, Server2008, Server2008R2, Server2012, Windows81, Server2012R2, Windows10</Version>
+                  <Version>WindowsXp, WindowsVista, Windows8, Server2003, Server2008, Server2008R2, Server2012, Windows81, Server2012R2, Windows10, Server2016</Version>
                   <TypeName>OperatingSystem</TypeName>
                 </PackageStepCondition>
                 <PackageStepCondition>
@@ -1666,20 +1662,24 @@ If the target machine is on a domain, the login format is as follows:
                   <TypeName>LoggedOnUser</TypeName>
                 </PackageStepCondition>
               </Conditions>
+              <ErrorMode>StopDeploymentFail</ErrorMode>
+              <IsEnabled value="true" />
+              <Title>Install .NET 3.5 SP1</Title>
+              <TypeName>Install</TypeName>
             </InstallStep>
           </Steps>
           <Timeout value="60" />
           <UseCustomTimeout value="false" />
         </PackageDefinition>
         <Description></Description>
-        <FolderId value="17" />
+        <FolderId value="20" />
         <Name>Microsoft .NET Framework 3.5 SP1 v3.5.1</Name>
         <Path>Installers\Microsoft .NET Framework 3.5 SP1 v3.5.1</Path>
         <Version>3.5.1</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
-          <SortOrder value="6" />
+          <SortOrder value="7" />
         </PackageDisplaySettings>
       </Package>
       <Package>
@@ -1700,10 +1700,6 @@ If the target machine is on a domain, the login format is as follows:
               <Parameters>/q</Parameters>
               <SuccessCodes>0,1641,3010</SuccessCodes>
               <RunAs value="null" />
-              <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
-              <Title></Title>
-              <TypeName>Install</TypeName>
               <Conditions type="list">
                 <PackageStepCondition>
                   <Architecture>Bits64</Architecture>
@@ -1715,6 +1711,10 @@ If the target machine is on a domain, the login format is as follows:
                   <TypeName>LoggedOnUser</TypeName>
                 </PackageStepCondition>
               </Conditions>
+              <ErrorMode>StopDeploymentFail</ErrorMode>
+              <IsEnabled value="true" />
+              <Title></Title>
+              <TypeName>Install</TypeName>
             </InstallStep>
           </Steps>
           <Timeout value="60" />
@@ -1725,14 +1725,14 @@ If the target machine is on a domain, the login format is as follows:
      1. The /noupdate flag
      2. The "HKEY_LOCAL_MACHINE\Software\Microsoft\Silverlight\UpdateMode" registry key (0x00000002)
  - Deletes the icons the from All Users Start Menu</Description>
-        <FolderId value="17" />
+        <FolderId value="20" />
         <Name>Microsoft Silverlight v5.1.40416.0 (x64)</Name>
         <Path>Installers\Microsoft Silverlight v5.1.40416.0 (x64)</Path>
         <Version>5.1.40416.0</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
-          <SortOrder value="6" />
+          <SortOrder value="7" />
         </PackageDisplaySettings>
       </Package>
       <Package>
@@ -1753,10 +1753,6 @@ If the target machine is on a domain, the login format is as follows:
               <Parameters></Parameters>
               <SuccessCodes>0,1641,3010</SuccessCodes>
               <RunAs value="null" />
-              <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
-              <Title></Title>
-              <TypeName>Install</TypeName>
               <Conditions type="list">
                 <PackageStepCondition>
                   <Architecture>Both</Architecture>
@@ -1768,6 +1764,10 @@ If the target machine is on a domain, the login format is as follows:
                   <TypeName>LoggedOnUser</TypeName>
                 </PackageStepCondition>
               </Conditions>
+              <ErrorMode>StopDeploymentFail</ErrorMode>
+              <IsEnabled value="true" />
+              <Title></Title>
+              <TypeName>Install</TypeName>
             </InstallStep>
           </Steps>
           <Timeout value="60" />
@@ -1778,14 +1778,14 @@ If the target machine is on a domain, the login format is as follows:
      1. The /noupdate flag
      2. The "HKEY_LOCAL_MACHINE\Software\Microsoft\Silverlight\UpdateMode" registry key (0x00000002)
  - Deletes the icons the from All Users Start Menu</Description>
-        <FolderId value="17" />
+        <FolderId value="20" />
         <Name>Microsoft Silverlight v5.1.40416.0 (x86)</Name>
         <Path>Installers\Microsoft Silverlight v5.1.40416.0 (x86)</Path>
         <Version>5.1.40416.0</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
-          <SortOrder value="6" />
+          <SortOrder value="7" />
         </PackageDisplaySettings>
       </Package>
       <Package>
@@ -1806,10 +1806,6 @@ If the target machine is on a domain, the login format is as follows:
               <Parameters></Parameters>
               <SuccessCodes>0,1641,3010</SuccessCodes>
               <RunAs value="null" />
-              <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
-              <Title>Install Firefox</Title>
-              <TypeName>Install</TypeName>
               <Conditions type="list">
                 <PackageStepCondition>
                   <Architecture>Bits64</Architecture>
@@ -1821,6 +1817,10 @@ If the target machine is on a domain, the login format is as follows:
                   <TypeName>LoggedOnUser</TypeName>
                 </PackageStepCondition>
               </Conditions>
+              <ErrorMode>StopDeploymentFail</ErrorMode>
+              <IsEnabled value="true" />
+              <Title>Install Firefox</Title>
+              <TypeName>Install</TypeName>
             </InstallStep>
           </Steps>
           <Timeout value="60" />
@@ -1842,14 +1842,14 @@ If the target machine is on a domain, the login format is as follows:
  - Autoloads the latest version of the uBlock Origin plugin
 
  * These customizations come from the file '\autoconfig\cck2.cfg' in the package directory. If you want to change them, edit or delete this file. The config file was generated with the CCK2 addon for Firefox.</Description>
-        <FolderId value="17" />
-        <Name>Mozilla Firefox v48.0.2 (customized) (x64)</Name>
-        <Path>Installers\Mozilla Firefox v48.0.2 (customized) (x64)</Path>
-        <Version>48.0.2</Version>
+        <FolderId value="20" />
+        <Name>Mozilla Firefox v49.0.2 (customized) (x64)</Name>
+        <Path>Installers\Mozilla Firefox v49.0.2 (customized) (x64)</Path>
+        <Version>49.0.2</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
-          <SortOrder value="6" />
+          <SortOrder value="7" />
         </PackageDisplaySettings>
       </Package>
       <Package>
@@ -1870,10 +1870,6 @@ If the target machine is on a domain, the login format is as follows:
               <Parameters></Parameters>
               <SuccessCodes>0,1641,3010</SuccessCodes>
               <RunAs value="null" />
-              <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
-              <Title>Install Firefox</Title>
-              <TypeName>Install</TypeName>
               <Conditions type="list">
                 <PackageStepCondition>
                   <Architecture>Both</Architecture>
@@ -1885,6 +1881,10 @@ If the target machine is on a domain, the login format is as follows:
                   <TypeName>LoggedOnUser</TypeName>
                 </PackageStepCondition>
               </Conditions>
+              <ErrorMode>StopDeploymentFail</ErrorMode>
+              <IsEnabled value="true" />
+              <Title>Install Firefox</Title>
+              <TypeName>Install</TypeName>
             </InstallStep>
           </Steps>
           <Timeout value="60" />
@@ -1906,14 +1906,14 @@ If the target machine is on a domain, the login format is as follows:
  - Autoloads the latest version of the uBlock Origin plugin
 
  * These customizations come from the file '\autoconfig\cck2.cfg' in the package directory. If you want to change them, edit or delete this file. The config file was generated with the CCK2 addon for Firefox.</Description>
-        <FolderId value="17" />
-        <Name>Mozilla Firefox v48.0.2 (customized) (x86)</Name>
-        <Path>Installers\Mozilla Firefox v48.0.2 (customized) (x86)</Path>
-        <Version>48.0.2</Version>
+        <FolderId value="20" />
+        <Name>Mozilla Firefox v49.0.2 (customized) (x86)</Name>
+        <Path>Installers\Mozilla Firefox v49.0.2 (customized) (x86)</Path>
+        <Version>49.0.2</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
-          <SortOrder value="6" />
+          <SortOrder value="7" />
         </PackageDisplaySettings>
       </Package>
       <Package>
@@ -1934,10 +1934,6 @@ If the target machine is on a domain, the login format is as follows:
               <Parameters></Parameters>
               <SuccessCodes>0,1641,3010</SuccessCodes>
               <RunAs value="null" />
-              <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
-              <Title>Install Thunderbird</Title>
-              <TypeName>Install</TypeName>
               <Conditions type="list">
                 <PackageStepCondition>
                   <Architecture>Both</Architecture>
@@ -1949,6 +1945,10 @@ If the target machine is on a domain, the login format is as follows:
                   <TypeName>LoggedOnUser</TypeName>
                 </PackageStepCondition>
               </Conditions>
+              <ErrorMode>StopDeploymentFail</ErrorMode>
+              <IsEnabled value="true" />
+              <Title>Install Thunderbird</Title>
+              <TypeName>Install</TypeName>
             </InstallStep>
           </Steps>
           <Timeout value="60" />
@@ -1965,14 +1965,14 @@ If the target machine is on a domain, the login format is as follows:
 
 * The master settings file it points to is located here:  '\\DOMAIN.NAME\netlogon\applications\thunderbird\thunderbird-global-settings.js'
 * If you wish to disable these settings, remove the three *.js files in the package directory</Description>
-        <FolderId value="17" />
-        <Name>Mozilla Thunderbird v45.2.0 (customized)</Name>
-        <Path>Installers\Mozilla Thunderbird v45.2.0 (customized)</Path>
-        <Version>45.2.0</Version>
+        <FolderId value="20" />
+        <Name>Mozilla Thunderbird v45.4.0 (customized)</Name>
+        <Path>Installers\Mozilla Thunderbird v45.4.0 (customized)</Path>
+        <Version>45.4.0</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
-          <SortOrder value="6" />
+          <SortOrder value="7" />
         </PackageDisplaySettings>
       </Package>
       <Package>
@@ -1993,10 +1993,6 @@ If the target machine is on a domain, the login format is as follows:
               <Parameters></Parameters>
               <SuccessCodes>0,1641,3010</SuccessCodes>
               <RunAs value="null" />
-              <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
-              <Title></Title>
-              <TypeName>Install</TypeName>
               <Conditions type="list">
                 <PackageStepCondition>
                   <Architecture>Both</Architecture>
@@ -2008,6 +2004,10 @@ If the target machine is on a domain, the login format is as follows:
                   <TypeName>LoggedOnUser</TypeName>
                 </PackageStepCondition>
               </Conditions>
+              <ErrorMode>StopDeploymentFail</ErrorMode>
+              <IsEnabled value="true" />
+              <Title></Title>
+              <TypeName>Install</TypeName>
             </InstallStep>
           </Steps>
           <Timeout value="60" />
@@ -2017,14 +2017,14 @@ If the target machine is on a domain, the login format is as follows:
  - Kills any running instance of Notepad++ first
  - Disables auto-updater by deleting the folder "C:\Program Files\Notepad++\updater"
  - Deletes the DSpellCheck plugin</Description>
-        <FolderId value="17" />
-        <Name>Notepad++ v6.9.2</Name>
-        <Path>Installers\Notepad++ v6.9.2</Path>
-        <Version>6.9.2</Version>
+        <FolderId value="20" />
+        <Name>Notepad++ v7.1.0</Name>
+        <Path>Installers\Notepad++ v7.1.0</Path>
+        <Version>7.1.0</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
-          <SortOrder value="6" />
+          <SortOrder value="7" />
         </PackageDisplaySettings>
       </Package>
       <Package>
@@ -2045,10 +2045,6 @@ If the target machine is on a domain, the login format is as follows:
               <Parameters></Parameters>
               <SuccessCodes>0,1641,3010</SuccessCodes>
               <RunAs value="null" />
-              <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
-              <Title></Title>
-              <TypeName>Install</TypeName>
               <Conditions type="list">
                 <PackageStepCondition>
                   <Architecture>Both</Architecture>
@@ -2060,6 +2056,10 @@ If the target machine is on a domain, the login format is as follows:
                   <TypeName>LoggedOnUser</TypeName>
                 </PackageStepCondition>
               </Conditions>
+              <ErrorMode>StopDeploymentFail</ErrorMode>
+              <IsEnabled value="true" />
+              <Title></Title>
+              <TypeName>Install</TypeName>
             </InstallStep>
           </Steps>
           <Timeout value="60" />
@@ -2070,14 +2070,14 @@ If the target machine is on a domain, the login format is as follows:
 
 
 Thanks to Moonchild ( http://www.palemoon.org/ ) for redistribution permission.</Description>
-        <FolderId value="17" />
-        <Name>Pale Moon v26.4.0</Name>
-        <Path>Installers\Pale Moon v26.4.0</Path>
-        <Version>26.4.0</Version>
+        <FolderId value="20" />
+        <Name>Pale Moon v26.5.0</Name>
+        <Path>Installers\Pale Moon v26.5.0</Path>
+        <Version>26.5.0</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
-          <SortOrder value="6" />
+          <SortOrder value="7" />
         </PackageDisplaySettings>
       </Package>
       <Package>
@@ -2098,10 +2098,6 @@ Thanks to Moonchild ( http://www.palemoon.org/ ) for redistribution permission.<
               <Parameters></Parameters>
               <SuccessCodes>0,1641,3010</SuccessCodes>
               <RunAs value="null" />
-              <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
-              <Title></Title>
-              <TypeName>Install</TypeName>
               <Conditions type="list">
                 <PackageStepCondition>
                   <Architecture>Both</Architecture>
@@ -2113,6 +2109,10 @@ Thanks to Moonchild ( http://www.palemoon.org/ ) for redistribution permission.<
                   <TypeName>LoggedOnUser</TypeName>
                 </PackageStepCondition>
               </Conditions>
+              <ErrorMode>StopDeploymentFail</ErrorMode>
+              <IsEnabled value="true" />
+              <Title></Title>
+              <TypeName>Install</TypeName>
             </InstallStep>
           </Steps>
           <Timeout value="60" />
@@ -2122,14 +2122,14 @@ Thanks to Moonchild ( http://www.palemoon.org/ ) for redistribution permission.<
  - Silent install
  - Deletes "All Users" desktop icon
  - Deletes the OTR ("Off the Record") encryption plugin</Description>
-        <FolderId value="17" />
-        <Name>Spark v2.8.0</Name>
-        <Path>Installers\Spark v2.8.0</Path>
+        <FolderId value="20" />
+        <Name>Spark v2.8.1</Name>
+        <Path>Installers\Spark v2.8.1</Path>
         <Version></Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
-          <SortOrder value="6" />
+          <SortOrder value="7" />
         </PackageDisplaySettings>
       </Package>
       <Package>
@@ -2150,10 +2150,6 @@ Thanks to Moonchild ( http://www.palemoon.org/ ) for redistribution permission.<
               <Parameters></Parameters>
               <SuccessCodes>0,1641,3010</SuccessCodes>
               <RunAs value="null" />
-              <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
-              <Title></Title>
-              <TypeName>Install</TypeName>
               <Conditions type="list">
                 <PackageStepCondition>
                   <Architecture>Bits64</Architecture>
@@ -2165,6 +2161,10 @@ Thanks to Moonchild ( http://www.palemoon.org/ ) for redistribution permission.<
                   <TypeName>LoggedOnUser</TypeName>
                 </PackageStepCondition>
               </Conditions>
+              <ErrorMode>StopDeploymentFail</ErrorMode>
+              <IsEnabled value="true" />
+              <Title></Title>
+              <TypeName>Install</TypeName>
             </InstallStep>
           </Steps>
           <Timeout value="60" />
@@ -2180,14 +2180,14 @@ Thanks to Moonchild ( http://www.palemoon.org/ ) for redistribution permission.<
  - Sets the control panel protection password to 'nettech2' *
 
  * These settings come from the registry file that gets imported. If you wish to disable these customizations, remove the registry file.</Description>
-        <FolderId value="17" />
+        <FolderId value="20" />
         <Name>TightVNC v2.8.2 (x64)</Name>
         <Path>Installers\TightVNC v2.8.2 (x64)</Path>
         <Version></Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
-          <SortOrder value="6" />
+          <SortOrder value="7" />
         </PackageDisplaySettings>
       </Package>
       <Package>
@@ -2208,10 +2208,6 @@ Thanks to Moonchild ( http://www.palemoon.org/ ) for redistribution permission.<
               <Parameters></Parameters>
               <SuccessCodes>0,1641,3010</SuccessCodes>
               <RunAs value="null" />
-              <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
-              <Title></Title>
-              <TypeName>Install</TypeName>
               <Conditions type="list">
                 <PackageStepCondition>
                   <Architecture>Both</Architecture>
@@ -2223,6 +2219,10 @@ Thanks to Moonchild ( http://www.palemoon.org/ ) for redistribution permission.<
                   <TypeName>LoggedOnUser</TypeName>
                 </PackageStepCondition>
               </Conditions>
+              <ErrorMode>StopDeploymentFail</ErrorMode>
+              <IsEnabled value="true" />
+              <Title></Title>
+              <TypeName>Install</TypeName>
             </InstallStep>
           </Steps>
           <Timeout value="60" />
@@ -2238,14 +2238,14 @@ Thanks to Moonchild ( http://www.palemoon.org/ ) for redistribution permission.<
  - Sets the control panel protection password to 'nettech2' *
 
  * These settings come from the registry file that gets imported. If you wish to disable these customizations, remove the registry file.</Description>
-        <FolderId value="17" />
+        <FolderId value="20" />
         <Name>TightVNC v2.8.2 (x86)</Name>
         <Path>Installers\TightVNC v2.8.2 (x86)</Path>
         <Version></Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
-          <SortOrder value="6" />
+          <SortOrder value="7" />
         </PackageDisplaySettings>
       </Package>
       <Package>
@@ -2266,10 +2266,6 @@ Thanks to Moonchild ( http://www.palemoon.org/ ) for redistribution permission.<
               <Parameters></Parameters>
               <SuccessCodes>0,1641,3010</SuccessCodes>
               <RunAs value="null" />
-              <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
-              <Title></Title>
-              <TypeName>Install</TypeName>
               <Conditions type="list">
                 <PackageStepCondition>
                   <Architecture>Both</Architecture>
@@ -2281,6 +2277,10 @@ Thanks to Moonchild ( http://www.palemoon.org/ ) for redistribution permission.<
                   <TypeName>LoggedOnUser</TypeName>
                 </PackageStepCondition>
               </Conditions>
+              <ErrorMode>StopDeploymentFail</ErrorMode>
+              <IsEnabled value="true" />
+              <Title></Title>
+              <TypeName>Install</TypeName>
             </InstallStep>
           </Steps>
           <Timeout value="60" />
@@ -2295,14 +2295,14 @@ Thanks to Moonchild ( http://www.palemoon.org/ ) for redistribution permission.<
 * If you wish to change this, use the password generator tool located in:
      $(Repository)\ultravnc\ultravnc_password_generator
 and paste the resulting password in the 'ultravnc.ini' file in the same directory as the UltraVNC exe</Description>
-        <FolderId value="17" />
+        <FolderId value="20" />
         <Name>UltraVNC v1.2.1.1 (x86)</Name>
         <Path>Installers\UltraVNC v1.2.1.1 (x86)</Path>
         <Version>1.2.1.1</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
-          <SortOrder value="6" />
+          <SortOrder value="7" />
         </PackageDisplaySettings>
       </Package>
       <Package>
@@ -2323,10 +2323,6 @@ and paste the resulting password in the 'ultravnc.ini' file in the same director
               <Parameters></Parameters>
               <SuccessCodes>0,1641,3010</SuccessCodes>
               <RunAs value="null" />
-              <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
-              <Title></Title>
-              <TypeName>Install</TypeName>
               <Conditions type="list">
                 <PackageStepCondition>
                   <Architecture>Both</Architecture>
@@ -2338,20 +2334,24 @@ and paste the resulting password in the 'ultravnc.ini' file in the same director
                   <TypeName>LoggedOnUser</TypeName>
                 </PackageStepCondition>
               </Conditions>
+              <ErrorMode>StopDeploymentFail</ErrorMode>
+              <IsEnabled value="true" />
+              <Title></Title>
+              <TypeName>Install</TypeName>
             </InstallStep>
           </Steps>
           <Timeout value="60" />
           <UseCustomTimeout value="false" />
         </PackageDefinition>
         <Description></Description>
-        <FolderId value="17" />
+        <FolderId value="20" />
         <Name>VLC Media Player v2.2.4 (x86)</Name>
         <Path>Installers\VLC Media Player v2.2.4 (x86)</Path>
         <Version>2.2.4</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
-          <SortOrder value="6" />
+          <SortOrder value="7" />
         </PackageDisplaySettings>
       </Package>
       <Package>
@@ -2372,10 +2372,6 @@ and paste the resulting password in the 'ultravnc.ini' file in the same director
               <Parameters></Parameters>
               <SuccessCodes>0,1641,3010</SuccessCodes>
               <RunAs value="null" />
-              <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
-              <Title></Title>
-              <TypeName>Install</TypeName>
               <Conditions type="list">
                 <PackageStepCondition>
                   <Architecture>Both</Architecture>
@@ -2387,6 +2383,10 @@ and paste the resulting password in the 'ultravnc.ini' file in the same director
                   <TypeName>LoggedOnUser</TypeName>
                 </PackageStepCondition>
               </Conditions>
+              <ErrorMode>StopDeploymentFail</ErrorMode>
+              <IsEnabled value="true" />
+              <Title></Title>
+              <TypeName>Install</TypeName>
             </InstallStep>
           </Steps>
           <Timeout value="60" />
@@ -2397,14 +2397,14 @@ and paste the resulting password in the 'ultravnc.ini' file in the same director
  - Disables auto-reboot
  - Doesn't install a desktop icon
  - Associates .scp file extensions with WinSCP</Description>
-        <FolderId value="17" />
-        <Name>WinSCP v5.9.1</Name>
-        <Path>Installers\WinSCP v5.9.1</Path>
-        <Version>5.9.1</Version>
+        <FolderId value="20" />
+        <Name>WinSCP v5.9.2</Name>
+        <Path>Installers\WinSCP v5.9.2</Path>
+        <Version>5.9.2</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
-          <SortOrder value="6" />
+          <SortOrder value="7" />
         </PackageDisplaySettings>
       </Package>
     </Children>
