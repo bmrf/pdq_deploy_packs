@@ -55,8 +55,8 @@ URL: https://www.reddit.com/r/sysadmin/
  * Notepad++ v7.1.0 (x86)                                  //
  * Pale Moon v26.5.0 (x86)                                 //
  * Spark v2.8.1 (x86)                                      //
- . TightVNC v2.8.2                                         // remote connection password: nettech2
- . TightVNC v2.8.2 (x86)                                   // remote connection password: nettech2
+ * TightVNC v2.8.5                                         // remote connection password: nettech2
+ * TightVNC v2.8.5 (x86)                                   // remote connection password: nettech2
  . UltraVNC v1.2.1.1 (x86)                                 // remote connection password: nettech2
  . VLC media player v2.2.4 (x86)                           //
  * WinSCP v5.9.2 (x86)                                     //
