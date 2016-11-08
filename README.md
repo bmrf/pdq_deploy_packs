@@ -15,7 +15,7 @@ Please submit fixes and suggestions either in the reddit thread or here on Githu
 
 2. Copy everything from the `\repository` directory to wherever your repository is. 
 
-3. Your screen should look roughly like the included `.PNG` screenshot of my console.
+3. Your screen should look roughly like the [included screenshot](https://github.com/bmrf/pdq_deploy_packs/blob/master/Roughly%20what%20it%20should%20look%20like.png) of my console.
 
 
 # Notes
