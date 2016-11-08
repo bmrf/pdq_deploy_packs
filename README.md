@@ -36,4 +36,4 @@ Optional Microsoft Offline Update packages:  `BMHHALGV7WLNSAPIPYDP5DU3NDNSM5XNC`
 
 If you're feeling overly charitable, bitcoin donations are accepted at this addres:
 
-    `1BqZP5i4Cor3GePNcEokjb84L3D2QEHYmY`
+    1BqZP5i4Cor3GePNcEokjb84L3D2QEHYmY
