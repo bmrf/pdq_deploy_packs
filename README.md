@@ -31,3 +31,9 @@ If you download this package make sure to read the instructions that come with i
 PDQ Deploy installer packages:               `BTRSRPF7Y3VWFRBG64VUDGP7WIIVNTR4Q`
 
 Optional Microsoft Offline Update packages:  `BMHHALGV7WLNSAPIPYDP5DU3NDNSM5XNC`
+
+
+
+If you're feeling overly charitable, bitcoin donations are accepted at this addres:
+
+    `1BqZP5i4Cor3GePNcEokjb84L3D2QEHYmY`
