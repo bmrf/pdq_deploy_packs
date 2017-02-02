@@ -166,7 +166,7 @@
         <FolderId value="20" />
         <Name>Adobe Acrobat Reader DC</Name>
         <Path>Installers\Adobe Acrobat Reader DC</Path>
-        <Version>15.017.20050</Version>
+        <Version>15.023.20053</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -218,9 +218,9 @@
  - Deletes Adobe Update service
  - Deletes Adobe Update Task Scheduler jobs</Description>
         <FolderId value="20" />
-        <Name>Adobe AIR v23.0.0.257</Name>
-        <Path>Installers\Adobe AIR v23.0.0.257</Path>
-        <Version>23.0.0.257</Version>
+        <Name>Adobe AIR v24.0.0.180</Name>
+        <Path>Installers\Adobe AIR v24.0.0.180</Path>
+        <Version>24.0.0.180</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -271,9 +271,9 @@
  - Removes the Adobe Acrobat Update Service (AdobeFlashPlayerUpdateSvc)
  - Removes the Adobe Update scheduled task that gets installed (C:\Windows\tasks\Adobe Flash Player Updater.job)</Description>
         <FolderId value="20" />
-        <Name>Adobe Flash Player v23.0.0.207 (Chrome)</Name>
-        <Path>Installers\Adobe Flash Player v23.0.0.207 (Chrome)</Path>
-        <Version>23.0.0.207</Version>
+        <Name>Adobe Flash Player v24.0.0.186 (Chrome)</Name>
+        <Path>Installers\Adobe Flash Player v24.0.0.186 (Chrome)</Path>
+        <Version>24.0.0.186</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -324,9 +324,9 @@
  - Removes the Adobe Acrobat Update Service (AdobeFlashPlayerUpdateSvc)
  - Removes the Adobe Update scheduled task that gets installed (C:\Windows\tasks\Adobe Flash Player Updater.job)</Description>
         <FolderId value="20" />
-        <Name>Adobe Flash Player v23.0.0.207 (Firefox)</Name>
-        <Path>Installers\Adobe Flash Player v23.0.0.207 (Firefox)</Path>
-        <Version>23.0.0.207</Version>
+        <Name>Adobe Flash Player v24.0.0.186 (Firefox)</Name>
+        <Path>Installers\Adobe Flash Player v24.0.0.186 (Firefox)</Path>
+        <Version>24.0.0.186</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -377,9 +377,9 @@
  - Removes the Adobe Acrobat Update Service (AdobeFlashPlayerUpdateSvc)
  - Removes the Adobe Update scheduled task that gets installed (C:\Windows\tasks\Adobe Flash Player Updater.job)</Description>
         <FolderId value="20" />
-        <Name>Adobe Flash Player v23.0.0.207 (IE)</Name>
-        <Path>Installers\Adobe Flash Player v23.0.0.207 (IE)</Path>
-        <Version>23.0.0.207</Version>
+        <Name>Adobe Flash Player v24.0.0.186 (IE)</Name>
+        <Path>Installers\Adobe Flash Player v24.0.0.186 (IE)</Path>
+        <Version>24.0.0.186</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -428,9 +428,9 @@
  - Deletes the "All Users" desktop link to Reader XI
  - Deletes the Adobe Acrobat Reader Update service ( AdobeARMservice )</Description>
         <FolderId value="20" />
-        <Name>Adobe Reader XI v11.0.18</Name>
-        <Path>Installers\Adobe Reader XI v11.0.18</Path>
-        <Version>11.0.18</Version>
+        <Name>Adobe Reader XI v11.0.19</Name>
+        <Path>Installers\Adobe Reader XI v11.0.19</Path>
+        <Version>11.0.19</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -585,9 +585,9 @@
  - Associates some other CD-related files with CDBurnerXP
  - Disables the background online update checker</Description>
         <FolderId value="20" />
-        <Name>CDBurnerXP v4.5.7.6452 (x64)</Name>
-        <Path>Installers\CDBurnerXP v4.5.7.6452 (x64)</Path>
-        <Version>4.5.7.6452</Version>
+        <Name>CDBurnerXP v4.5.7.6499 (x64)</Name>
+        <Path>Installers\CDBurnerXP v4.5.7.6499 (x64)</Path>
+        <Version>4.5.7.6499</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -689,9 +689,9 @@ Thanks to reddit.com/user/b0park for this package.</Description>
         <Description>Installs the FileZilla client with the following customizations:
  - Removes any previous versions before installing</Description>
         <FolderId value="20" />
-        <Name>FileZilla Client v3.23.0.2</Name>
-        <Path>Installers\FileZilla Client v3.23.0.2</Path>
-        <Version>3.23.0.2</Version>
+        <Name>FileZilla Client v3.24.0.0</Name>
+        <Path>Installers\FileZilla Client v3.24.0.0</Path>
+        <Version>3.24.0.0</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -796,9 +796,9 @@ Gimp v2.8.18 x86.exe /verysilent /norestart</Description>
 
  * If you wish to disable this behavior, edit the batch file and remove the two lines that start with "sc delete"</Description>
         <FolderId value="20" />
-        <Name>Google Chrome v55.0.2883.75 (Enterprise)</Name>
-        <Path>Installers\Google Chrome v55.0.2883.75 (Enterprise)</Path>
-        <Version>55.0.2883.75</Version>
+        <Name>Google Chrome v56.0.2924.76 (Enterprise)</Name>
+        <Path>Installers\Google Chrome v56.0.2924.76 (Enterprise)</Path>
+        <Version>56.0.2924.76</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -852,9 +852,9 @@ Gimp v2.8.18 x86.exe /verysilent /norestart</Description>
 
  * If you wish to disable this behavior, edit the batch file and remove the two lines that start with "sc delete"</Description>
         <FolderId value="20" />
-        <Name>Google Chrome v55.0.2883.75 (Enterprise) (x86)</Name>
-        <Path>Installers\Google Chrome v55.0.2883.75 (Enterprise) (x86)</Path>
-        <Version>55.0.2883.75</Version>
+        <Name>Google Chrome v56.0.2924.76 (Enterprise) (x86)</Name>
+        <Path>Installers\Google Chrome v56.0.2924.76 (Enterprise) (x86)</Path>
+        <Version>56.0.2924.76</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -1726,9 +1726,9 @@ If the target machine is on a domain, the login format is as follows:
      2. The "HKEY_LOCAL_MACHINE\Software\Microsoft\Silverlight\UpdateMode" registry key (0x00000002)
  - Deletes the icons the from All Users Start Menu</Description>
         <FolderId value="20" />
-        <Name>Microsoft Silverlight v5.1.40416.0 (x64)</Name>
-        <Path>Installers\Microsoft Silverlight v5.1.40416.0 (x64)</Path>
-        <Version>5.1.40416.0</Version>
+        <Name>Microsoft Silverlight v5.1.50901.0 (x64)</Name>
+        <Path>Installers\Microsoft Silverlight v5.1.50901.0 (x64)</Path>
+        <Version>5.1.50901.0</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -1779,9 +1779,9 @@ If the target machine is on a domain, the login format is as follows:
      2. The "HKEY_LOCAL_MACHINE\Software\Microsoft\Silverlight\UpdateMode" registry key (0x00000002)
  - Deletes the icons the from All Users Start Menu</Description>
         <FolderId value="20" />
-        <Name>Microsoft Silverlight v5.1.40416.0 (x86)</Name>
-        <Path>Installers\Microsoft Silverlight v5.1.40416.0 (x86)</Path>
-        <Version>5.1.40416.0</Version>
+        <Name>Microsoft Silverlight v5.1.50901.0 (x86)</Name>
+        <Path>Installers\Microsoft Silverlight v5.1.50901.0 (x86)</Path>
+        <Version>5.1.50901.0</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -1843,9 +1843,9 @@ If the target machine is on a domain, the login format is as follows:
 
  * These customizations come from the file '\autoconfig\cck2.cfg' in the package directory. If you want to change them, edit or delete this file. The config file was generated with the CCK2 addon for Firefox.</Description>
         <FolderId value="20" />
-        <Name>Mozilla Firefox v50.0.2 (customized) (x64)</Name>
-        <Path>Installers\Mozilla Firefox v50.0.2 (customized) (x64)</Path>
-        <Version>50.0.2</Version>
+        <Name>Mozilla Firefox v51.0.1 (customized) (x64)</Name>
+        <Path>Installers\Mozilla Firefox v51.0.1 (customized) (x64)</Path>
+        <Version>51.0.1</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -1907,9 +1907,9 @@ If the target machine is on a domain, the login format is as follows:
 
  * These customizations come from the file '\autoconfig\cck2.cfg' in the package directory. If you want to change them, edit or delete this file. The config file was generated with the CCK2 addon for Firefox.</Description>
         <FolderId value="20" />
-        <Name>Mozilla Firefox v50.0.2 (customized) (x86)</Name>
-        <Path>Installers\Mozilla Firefox v50.0.2 (customized) (x86)</Path>
-        <Version>50.0.2</Version>
+        <Name>Mozilla Firefox v51.0.1 (customized) (x86)</Name>
+        <Path>Installers\Mozilla Firefox v51.0.1 (customized) (x86)</Path>
+        <Version>51.0.1</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -1966,9 +1966,9 @@ If the target machine is on a domain, the login format is as follows:
 * The master settings file it points to is located here:  '\\DOMAIN.NAME\netlogon\applications\thunderbird\thunderbird-global-settings.js'
 * If you wish to disable these settings, remove the three *.js files in the package directory</Description>
         <FolderId value="20" />
-        <Name>Mozilla Thunderbird v45.5.1 (customized)</Name>
-        <Path>Installers\Mozilla Thunderbird v45.5.1 (customized)</Path>
-        <Version>45.5.1</Version>
+        <Name>Mozilla Thunderbird v45.7.0 (customized)</Name>
+        <Path>Installers\Mozilla Thunderbird v45.7.0 (customized)</Path>
+        <Version>45.7.0</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -2018,9 +2018,9 @@ If the target machine is on a domain, the login format is as follows:
  - Disables auto-updater by deleting the folder "C:\Program Files\Notepad++\updater"
  - Deletes the DSpellCheck plugin</Description>
         <FolderId value="20" />
-        <Name>Notepad++ v7.2.2</Name>
-        <Path>Installers\Notepad++ v7.2.2</Path>
-        <Version>7.2.2</Version>
+        <Name>Notepad++ v7.3.1</Name>
+        <Path>Installers\Notepad++ v7.3.1</Path>
+        <Version>7.3.1</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -2071,9 +2071,9 @@ If the target machine is on a domain, the login format is as follows:
 
 Thanks to Moonchild ( http://www.palemoon.org/ ) for redistribution permission.</Description>
         <FolderId value="20" />
-        <Name>Pale Moon v27.0.2</Name>
-        <Path>Installers\Pale Moon v27.0.2</Path>
-        <Version>27.0.2</Version>
+        <Name>Pale Moon v27.0.3</Name>
+        <Path>Installers\Pale Moon v27.0.3</Path>
+        <Version>27.0.3</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -2123,8 +2123,8 @@ Thanks to Moonchild ( http://www.palemoon.org/ ) for redistribution permission.<
  - Deletes "All Users" desktop icon
  - Deletes the OTR ("Off the Record") encryption plugin</Description>
         <FolderId value="20" />
-        <Name>Spark v2.8.2</Name>
-        <Path>Installers\Spark v2.8.2</Path>
+        <Name>Spark v2.8.3</Name>
+        <Path>Installers\Spark v2.8.3</Path>
         <Version></Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
@@ -2181,8 +2181,8 @@ Thanks to Moonchild ( http://www.palemoon.org/ ) for redistribution permission.<
 
  * These settings come from the registry file that gets imported. If you wish to disable these customizations, remove the registry file.</Description>
         <FolderId value="20" />
-        <Name>TightVNC v2.8.2 (x64)</Name>
-        <Path>Installers\TightVNC v2.8.2 (x64)</Path>
+        <Name>TightVNC v2.8.5 (x64)</Name>
+        <Path>Installers\TightVNC v2.8.5 (x64)</Path>
         <Version></Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
@@ -2239,8 +2239,8 @@ Thanks to Moonchild ( http://www.palemoon.org/ ) for redistribution permission.<
 
  * These settings come from the registry file that gets imported. If you wish to disable these customizations, remove the registry file.</Description>
         <FolderId value="20" />
-        <Name>TightVNC v2.8.2 (x86)</Name>
-        <Path>Installers\TightVNC v2.8.2 (x86)</Path>
+        <Name>TightVNC v2.8.5 (x86)</Name>
+        <Path>Installers\TightVNC v2.8.5 (x86)</Path>
         <Version></Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
