@@ -1,15 +1,16 @@
 :: Purpose:       Installs a package
 :: Requirements:  Run this script with Administrator rights
 :: Author:        vocatus on reddit.com/r/sysadmin ( vocatus.gate@gmail.com ) // PGP key ID: 0x07d1490f82a211a2
-:: History:       1.0.0 + Initial write
+:: History:       1.0.1 + Add commands to stop and restart TightVNC server service after installation. Thanks to /u/BadMoodinTheMorning
+::                1.0.0 + Initial write
 
 
 ::::::::::
 :: Prep :: -- Don't change anything in this section
 ::::::::::
 @echo off
-set SCRIPT_VERSION=1.0.0
-set SCRIPT_UPDATED=2014-07-25
+set SCRIPT_VERSION=1.0.1
+set SCRIPT_UPDATED=2017-02-15
 :: Get the date into ISO 8601 standard date format (yyyy-mm-dd) so we can use it
 FOR /f %%a in ('WMIC OS GET LocalDateTime ^| find "."') DO set DTS=%%a
 set CUR_DATE=%DTS:~0,4%-%DTS:~4,2%-%DTS:~6,2%
@@ -61,6 +62,11 @@ regedit /s "TightVNC settings.reg"
 
 :: This line starts the server back up
 "%ProgramFiles%\TightVNC\tvnserver.exe" -start -silent
+
+:: Additional step to make sure the service is running
+net stop tvnserver
+net start tvnserver
+
 
 :::::::::::::
 :: CLEANUP ::
