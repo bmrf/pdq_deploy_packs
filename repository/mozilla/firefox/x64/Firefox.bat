@@ -53,7 +53,7 @@ wmic product where "name like 'Mozille Firefox%%'" call uninstall /nointeractive
 
 :: Install customizations, built with CCK2
 if exist "%ProgramFiles(x86)%\Mozilla Firefox\" xcopy /s /e /y "autoconfig\*" "%ProgramFiles(x86)%\Mozilla Firefox"
-if exist "%ProgramFiles%\Mozilla Firefox\" xcopy /s /e /y "autoconfig\*" "%ProgramFiles(x86)%\Mozilla Firefox"
+if exist "%ProgramFiles%\Mozilla Firefox\" xcopy /s /e /y "autoconfig\*" "%ProgramFiles%\Mozilla Firefox"
 
 :: Remove desktop icons
 REM if exist "%allusersprofile%\Desktop\Mozilla Firefox.lnk" del "%allusersprofile%\Desktop\Mozilla Firefox.lnk" /S
