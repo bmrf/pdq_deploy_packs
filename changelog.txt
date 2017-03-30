@@ -11,8 +11,469 @@ Do not withold good from those who deserve it, when it is in your power to act. 
 
 
 
+
+v48.0.0 // 2017-03-29
+URL: No URL; Resilio Sync point release only
+====================================================================================================
+ ! Note: All packages are x64 architecture unless otherwise specified
+
+ . 7-Zip v16.04 (x86)                                      //
+ . 7-Zip v16.04                                            //
+ . Adobe Acrobat Reader DC v15.023.20053                   // It is such a ridiculous pain to build this package. 
+                                                              Yes I leave this note in here just to whine about it.
+															  No, I don't think anyone will ever read it.
+ * Adobe AIR v25.0.0.134                                   //
+ * Adobe Flash Player v25.0.0.127 (Chrome)                 //
+ * Adobe Flash Player v25.0.0.127 (Firefox)                //
+ * Adobe Flash Player v25.0.0.127 (Internet Explorer)      //
+ . Adobe Reader XI v11.0.19 (x86)                          //
+ * Adobe Shockwave v12.2.8.198                             //
+ . Apple iTunes v12.5.1.21                                 //
+ . CDBurnerXP v4.5.7.6521                                  //
+ . CutePDF v3.0 (PDF printer) (x86)                        //
+ . FileZilla v3.24.0.0                                     //
+ . Gimp v2.8.20                                            //
+ * Google Chrome v57.0.2987.133 (Enterprise)               //
+ * Google Chrome v57.0.2987.133 (Enterprise) (x86)         //
+ . Google Earth v7.1.5.1557                                //
+ . Java Development Kit 6 update 45                        //
+ . Java Development Kit 6 update 45 (x86)                  //
+ . Java Development Kit 7 update 80                        //
+ . Java Development Kit 7 update 80 (x86)                  //
+ . Java Development Kit 8 update 121                       //
+ . Java Development Kit 8 update 121 (x86)                 //
+ . Java Runtime 6 update 81                                //
+ . Java Runtime 6 update 81 (x86)                          //
+ . Java Runtime 7 update 80                                //
+ . Java Runtime 7 update 80 (x86)                          //
+ . Java Runtime 8 update 121                               //
+ . Java Runtime 8 update 121 (x86)                         //
+ . KTS KypM Telnet/SSH Server v1.19c (x86)                 //
+ . Microsoft .NET Framework v3.5.1 SP1 (x86)               //
+ . Microsoft Silverlight v5.1.50901.0 (x86)                //
+ . Microsoft Silverlight v5.1.50901.0                      //
+ * Mozilla Firefox v52.0.2                                 // NOTE: Firefox auto-loads uBlock ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox v52.0.2 (x86)                           // NOTE: Firefox auto-loads uBlock ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
+ + Mozilla Firefox ESR v52.0.2                             // NOTE: Firefox ESR does not auto-load uBlock Origin
+ + Mozilla Firefox ESR v52.0.2 (x86)                       // NOTE: Firefox ESR does not auto-load uBlock Origin
+ * Mozilla Thunderbird v45.8.0 (x86)                       //
+ * Notepad++ v7.3.3 (x86)                                  //
+ * Pale Moon v27.2.1 (x86)                                 //
+ . Spark v2.8.3 (x86)                                      //
+ . TightVNC v2.8.5                                         // remote connection password: nettech2
+ . TightVNC v2.8.5 (x86)                                   // remote connection password: nettech2
+ . UltraVNC v1.2.1.2 (x86)                                 // remote connection password: nettech2
+ . VLC media player v2.2.4 (x86)                           //
+ * WinSCP v5.9.4 (x86)                                     //
+
+Utilities:
+ . Clean Up All Printers                                   //
+ . Clean Up Orphaned Printers                              //
+ . Empty All Recycle Bins                                  //
+ . Enable Remote Desktop                                   //
+ . Install PKI Certificates                                //
+ . Reboot (force target reboot in 15 seconds)              //
+ . Remove Adobe Flash Player (all versions) v2.0.0         //
+ . Remove Java Runtime (all versions) v1.8.1               //
+ . Remove VNC Servers (TightVNC, UltraVNC, RealVNC)        //
+ . Temp File Cleanup v3.7.0 (clean temp folders on target) //
+ . USB Device Cleanup v1.2.0                               //
+
+
+
+
+v47.0.1 // 2017-02-20
+URL: No URL; Resilio Sync point release only
+====================================================================================================
+ ! Note: All packages are x64 architecture unless otherwise specified
+
+ . 7-Zip v16.04 (x86)                                      //
+ . 7-Zip v16.04                                            //
+ . Adobe Acrobat Reader DC v15.023.20053                   // It is such a ridiculous pain to build this package
+ . Adobe AIR v24.0.0.180                                   //
+ * Adobe Flash Player v24.0.0.221 (Chrome)                 //
+ * Adobe Flash Player v24.0.0.221 (Firefox)                //
+ * Adobe Flash Player v24.0.0.221 (Internet Explorer)      //
+ . Adobe Reader XI v11.0.19 (x86)                          //
+ . Adobe Shockwave v12.2.5.195                             //
+ . Apple iTunes v12.5.1.21                                 //
+ . CDBurnerXP v4.5.7.6521                                  //
+ . CutePDF v3.0 (PDF printer) (x86)                        //
+ . FileZilla v3.24.0.0                                     //
+ . Gimp v2.8.20                                            //
+ . Google Chrome v56.0.2924.87 (Enterprise)                //
+ . Google Chrome v56.0.2924.87 (Enterprise) (x86)          //
+ . Google Earth v7.1.5.1557                                //
+ . Java Development Kit 6 update 45                        //
+ . Java Development Kit 6 update 45 (x86)                  //
+ . Java Development Kit 7 update 80                        //
+ . Java Development Kit 7 update 80 (x86)                  //
+ . Java Development Kit 8 update 121                       //
+ . Java Development Kit 8 update 121 (x86)                 //
+ . Java Runtime 6 update 81                                //
+ . Java Runtime 6 update 81 (x86)                          //
+ . Java Runtime 7 update 80                                //
+ . Java Runtime 7 update 80 (x86)                          //
+ . Java Runtime 8 update 121                               //
+ . Java Runtime 8 update 121 (x86)                         //
+ . KTS KypM Telnet/SSH Server v1.19c (x86)                 //
+ . Microsoft .NET Framework v3.5.1 SP1 (x86)               //
+ . Microsoft Silverlight v5.1.50901.0 (x86)                //
+ . Microsoft Silverlight v5.1.50901.0                      //
+ . Mozilla Firefox v51.0.1                                 // NOTE: Firefox auto-loads uBlock ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
+ . Mozilla Firefox v51.0.1 (x86)                           // NOTE: Firefox auto-loads uBlock ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
+ . Mozilla Thunderbird v45.7.1 (x86)                       //
+ . Notepad++ v7.3.1 (x86)                                  //
+ . Pale Moon v27.1.0 (x86)                                 //
+ . Spark v2.8.3 (x86)                                      //
+ . TightVNC v2.8.5                                         // remote connection password: nettech2
+ . TightVNC v2.8.5 (x86)                                   // remote connection password: nettech2
+ . UltraVNC v1.2.1.2 (x86)                                 // remote connection password: nettech2
+ . VLC media player v2.2.4 (x86)                           //
+ . WinSCP v5.9.3 (x86)                                     //
+
+Utilities:
+ . Clean Up All Printers                                   //
+ . Clean Up Orphaned Printers                              //
+ . Empty All Recycle Bins                                  //
+ . Enable Remote Desktop                                   //
+ . Install PKI Certificates                                //
+ . Reboot (force target reboot in 15 seconds)              //
+ . Remove Adobe Flash Player (all versions) v2.0.0         //
+ . Remove Java Runtime (all versions) v1.8.1               //
+ . Remove VNC Servers (TightVNC, UltraVNC, RealVNC)        //
+ . Temp File Cleanup v3.7.0 (clean temp folders on target) //
+ . USB Device Cleanup v1.2.0                               //
+
+
+
+v47.0.0 // 2017-02-13
+URL: https://www.reddit.com/r/sysadmin/comments/5tuudv/pdq_deploy_packs_v4700_20170213/
+====================================================================================================
+ ! Note: All packages are x64 architecture unless otherwise specified
+
+ . 7-Zip v16.04 (x86)                                      //
+ . 7-Zip v16.04                                            //
+ . Adobe Acrobat Reader DC v15.023.20053                   // It is such a ridiculous pain to build this package
+ . Adobe AIR v24.0.0.180                                   //
+ * Adobe Flash Player v24.0.0.194 (Chrome)                 //
+ * Adobe Flash Player v24.0.0.194 (Firefox)                //
+ * Adobe Flash Player v24.0.0.194 (Internet Explorer)      //
+ . Adobe Reader XI v11.0.19 (x86)                          //
+ . Adobe Shockwave v12.2.5.195                             //
+ . Apple iTunes v12.5.1.21                                 //
+ * CDBurnerXP v4.5.7.6521                                  //
+ . CutePDF v3.0 (PDF printer) (x86)                        //
+ . FileZilla v3.24.0.0                                     //
+ * Gimp v2.8.20                                            //
+ * Google Chrome v56.0.2924.87 (Enterprise)                //
+ * Google Chrome v56.0.2924.87 (Enterprise) (x86)          //
+ . Google Earth v7.1.5.1557                                //
+ . Java Development Kit 6 update 45                        //
+ . Java Development Kit 6 update 45 (x86)                  //
+ . Java Development Kit 7 update 80                        //
+ . Java Development Kit 7 update 80 (x86)                  //
+ . Java Development Kit 8 update 121                       //
+ . Java Development Kit 8 update 121 (x86)                 //
+ . Java Runtime 6 update 81                                //
+ . Java Runtime 6 update 81 (x86)                          //
+ . Java Runtime 7 update 80                                //
+ . Java Runtime 7 update 80 (x86)                          //
+ . Java Runtime 8 update 121                               //
+ . Java Runtime 8 update 121 (x86)                         //
+ . KTS KypM Telnet/SSH Server v1.19c (x86)                 //
+ . Microsoft .NET Framework v3.5.1 SP1 (x86)               //
+ . Microsoft Silverlight v5.1.50901.0 (x86)                //
+ . Microsoft Silverlight v5.1.50901.0                      //
+ . Mozilla Firefox v51.0.1                                 // NOTE: Firefox auto-loads uBlock ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
+ . Mozilla Firefox v51.0.1 (x86)                           // NOTE: Firefox auto-loads uBlock ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Thunderbird v45.7.1 (x86)                       //
+ . Notepad++ v7.3.1 (x86)                                  //
+ * Pale Moon v27.1.0 (x86)                                 //
+ . Spark v2.8.3 (x86)                                      //
+ . TightVNC v2.8.5                                         // remote connection password: nettech2
+ . TightVNC v2.8.5 (x86)                                   // remote connection password: nettech2
+ * UltraVNC v1.2.1.2 (x86)                                 // remote connection password: nettech2
+ . VLC media player v2.2.4 (x86)                           //
+ . WinSCP v5.9.3 (x86)                                     //
+
+Utilities:
+ . Clean Up All Printers                                   //
+ . Clean Up Orphaned Printers                              //
+ . Empty All Recycle Bins                                  //
+ . Enable Remote Desktop                                   //
+ . Install PKI Certificates                                //
+ . Reboot (force target reboot in 15 seconds)              //
+ . Remove Adobe Flash Player (all versions) v2.0.0         //
+ . Remove Java Runtime (all versions) v1.8.1               //
+ . Remove VNC Servers (TightVNC, UltraVNC, RealVNC)        //
+ . Temp File Cleanup v3.7.0 (clean temp folders on target) //
+ . USB Device Cleanup v1.2.0                               //
+
+
+
+v46.2.0 // 2017-01-30
+URL: Point release, no Reddit post
+====================================================================================================
+ ! Note: All packages are x64 architecture unless otherwise specified
+
+ . 7-Zip v16.04 (x86)                                      //
+ . 7-Zip v16.04                                            //
+ . Adobe Acrobat Reader DC v15.023.20053                   // It is such a ridiculous pain to build this package
+ . Adobe AIR v24.0.0.180                                   //
+ . Adobe Flash Player v24.0.0.186 (Chrome)                 //
+ . Adobe Flash Player v24.0.0.186 (Firefox)                //
+ . Adobe Flash Player v24.0.0.186 (Internet Explorer)      //
+ . Adobe Reader XI v11.0.19 (x86)                          //
+ . Adobe Shockwave v12.2.5.195                             //
+ . Apple iTunes v12.5.1.21                                 //
+ . CDBurnerXP v4.5.7.6499                                  //
+ . CutePDF v3.0 (PDF printer) (x86)                        //
+ . FileZilla v3.24.0.0                                     //
+ . Gimp v2.8.18                                            //
+ * Google Chrome v56.0.2924.76 (Enterprise)                //
+ * Google Chrome v56.0.2924.76 (Enterprise) (x86)          //
+ . Google Earth v7.1.5.1557                                //
+ . Java Development Kit 6 update 45                        //
+ . Java Development Kit 6 update 45 (x86)                  //
+ . Java Development Kit 7 update 80                        //
+ . Java Development Kit 7 update 80 (x86)                  //
+ * Java Development Kit 8 update 121                       //
+ * Java Development Kit 8 update 121 (x86)                 //
+ . Java Runtime 6 update 81                                //
+ . Java Runtime 6 update 81 (x86)                          //
+ . Java Runtime 7 update 80                                //
+ . Java Runtime 7 update 80 (x86)                          //
+ * Java Runtime 8 update 121                               //
+ * Java Runtime 8 update 121 (x86)                         //
+ . KTS KypM Telnet/SSH Server v1.19c (x86)                 //
+ . Microsoft .NET Framework v3.5.1 SP1 (x86)               //
+ . Microsoft Silverlight v5.1.50901.0 (x86)                //
+ . Microsoft Silverlight v5.1.50901.0                      //
+ . Mozilla Firefox v51.0.1                                 // NOTE: Firefox auto-loads uBlock ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
+ . Mozilla Firefox v51.0.1 (x86)                           // NOTE: Firefox auto-loads uBlock ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Thunderbird v45.7.0 (x86)                       //
+ * Notepad++ v7.3.1 (x86)                                  //
+ . Pale Moon v27.0.3 (x86)                                 //
+ * Spark v2.8.3 (x86)                                      //
+ . TightVNC v2.8.5                                         // remote connection password: nettech2
+ . TightVNC v2.8.5 (x86)                                   // remote connection password: nettech2
+ . UltraVNC v1.2.1.1 (x86)                                 // remote connection password: nettech2
+ . VLC media player v2.2.4 (x86)                           //
+ . WinSCP v5.9.3 (x86)                                     //
+
+Utilities:
+ . Clean Up All Printers                                   //
+ . Clean Up Orphaned Printers                              //
+ . Empty All Recycle Bins                                  //
+ . Enable Remote Desktop                                   //
+ . Install PKI Certificates                                //
+ . Reboot (force target reboot in 15 seconds)              //
+ . Remove Adobe Flash Player (all versions) v2.0.0         //
+ . Remove Java Runtime (all versions) v1.8.1               //
+ . Remove VNC Servers (TightVNC, UltraVNC, RealVNC)        //
+ . Temp File Cleanup v3.7.0 (clean temp folders on target) //
+ . USB Device Cleanup v1.2.0                               //
+
+
+
+v46.1 // 2017-01-17
+URL: https://www.reddit.com/r/sysadmin/comments/5ojbum/pdq_deploy_packs_v461_20170117/
+====================================================================================================
+ ! Note: All packages are x64 architecture unless otherwise specified
+
+ . 7-Zip v16.04 (x86)                                      //
+ . 7-Zip v16.04                                            //
+ * Adobe Acrobat Reader DC v15.023.20053                   // It is such a ridiculous pain to build this package
+ . Adobe AIR v24.0.0.180                                   //
+ . Adobe Flash Player v24.0.0.186 (Chrome)                 //
+ . Adobe Flash Player v24.0.0.186 (Firefox)                //
+ . Adobe Flash Player v24.0.0.186 (Internet Explorer)      //
+ * Adobe Reader XI v11.0.19 (x86)                          //
+ . Adobe Shockwave v12.2.5.195                             //
+ . Apple iTunes v12.5.1.21                                 //
+ * CDBurnerXP v4.5.7.6499                                  //
+ . CutePDF v3.0 (PDF printer) (x86)                        //
+ * FileZilla v3.24.0.0                                     //
+ . Gimp v2.8.18                                            //
+ . Google Chrome v55.0.2883.87 (Enterprise)                //
+ . Google Chrome v55.0.2883.87 (Enterprise) (x86)          //
+ . Google Earth v7.1.5.1557                                //
+ . Java Development Kit 6 update 45                        //
+ . Java Development Kit 6 update 45 (x86)                  //
+ . Java Development Kit 7 update 80                        //
+ . Java Development Kit 7 update 80 (x86)                  //
+ . Java Development Kit 8 update 112                       //
+ . Java Development Kit 8 update 112 (x86)                 //
+ . Java Runtime 6 update 81                                //
+ . Java Runtime 6 update 81 (x86)                          //
+ . Java Runtime 7 update 80                                //
+ . Java Runtime 7 update 80 (x86)                          //
+ . Java Runtime 8 update 112                               //
+ . Java Runtime 8 update 112 (x86)                         //
+ . KTS KypM Telnet/SSH Server v1.19c (x86)                 //
+ . Microsoft .NET Framework v3.5.1 SP1 (x86)               //
+ . Microsoft Silverlight v5.1.50901.0 (x86)                //
+ . Microsoft Silverlight v5.1.50901.0                      //
+ . Mozilla Firefox v50.1.0                                 // NOTE: Firefox auto-loads uBlock ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
+ . Mozilla Firefox v50.1.0 (x86)                           // NOTE: Firefox auto-loads uBlock ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Thunderbird v45.6.0 (x86)                       //
+ * Notepad++ v7.3.0 (x86)                                  //
+ . Pale Moon v27.0.3 (x86)                                 //
+ . Spark v2.8.2 (x86)                                      //
+ . TightVNC v2.8.5                                         // remote connection password: nettech2
+ . TightVNC v2.8.5 (x86)                                   // remote connection password: nettech2
+ . UltraVNC v1.2.1.1 (x86)                                 // remote connection password: nettech2
+ . VLC media player v2.2.4 (x86)                           //
+ . WinSCP v5.9.3 (x86)                                     //
+
+Utilities:
+ . Clean Up All Printers                                   //
+ . Clean Up Orphaned Printers                              //
+ . Empty All Recycle Bins                                  //
+ . Enable Remote Desktop                                   //
+ . Install PKI Certificates                                //
+ . Reboot (force target reboot in 15 seconds)              //
+ . Remove Adobe Flash Player (all versions) v2.0.0         //
+ . Remove Java Runtime (all versions) v1.8.1               //
+ . Remove VNC Servers (TightVNC, UltraVNC, RealVNC)        //
+ . Temp File Cleanup v3.7.0 (clean temp folders on target) //
+ . USB Device Cleanup v1.2.0                               //
+
+
+
+v46.0 // 2016-12-30
+URL: https://www.reddit.com/r/sysadmin/comments/5l570y/pdq_deploy_packs_v460_20161230/
+====================================================================================================
+ ! Note: All packages are x64 architecture unless otherwise specified
+
+ . 7-Zip v16.04 (x86)                                      //
+ . 7-Zip v16.04                                            //
+ . Adobe Acrobat Reader DC v15.017.20050                   // It is such a ridiculous pain to build this package
+ * Adobe AIR v24.0.0.180                                   //
+ * Adobe Flash Player v24.0.0.186 (Chrome)                 //
+ * Adobe Flash Player v24.0.0.186 (Firefox)                //
+ * Adobe Flash Player v24.0.0.186 (Internet Explorer)      //
+ . Adobe Reader XI v11.0.18 (x86)                          //
+ . Adobe Shockwave v12.2.5.195                             //
+ . Apple iTunes v12.5.1.21                                 //
+ * CDBurnerXP v4.5.7.6452                                  //
+ . CutePDF v3.0 (PDF printer) (x86)                        //
+ * FileZilla v3.23.0.2                                     //
+ . Gimp v2.8.18                                            //
+ * Google Chrome v55.0.2883.87 (Enterprise)                //
+ * Google Chrome v55.0.2883.87 (Enterprise) (x86)          //
+ . Google Earth v7.1.5.1557                                //
+ . Java Development Kit 6 update 45                        //
+ . Java Development Kit 6 update 45 (x86)                  //
+ . Java Development Kit 7 update 80                        //
+ . Java Development Kit 7 update 80 (x86)                  //
+ . Java Development Kit 8 update 112                       //
+ . Java Development Kit 8 update 112 (x86)                 //
+ . Java Runtime 6 update 81                                //
+ . Java Runtime 6 update 81 (x86)                          //
+ . Java Runtime 7 update 80                                //
+ . Java Runtime 7 update 80 (x86)                          //
+ . Java Runtime 8 update 112                               //
+ . Java Runtime 8 update 112 (x86)                         //
+ . KTS KypM Telnet/SSH Server v1.19c (x86)                 //
+ . Microsoft .NET Framework v3.5.1 SP1 (x86)               //
+ . Microsoft Silverlight v5.1.50901.0 (x86)                //
+ . Microsoft Silverlight v5.1.50901.0                      //
+ * Mozilla Firefox v50.1.0                                 // NOTE: Firefox auto-loads uBlock ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox v50.1.0 (x86)                           // NOTE: Firefox auto-loads uBlock ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Thunderbird v45.5.1 (x86)                       //
+ * Notepad++ v7.2.2 (x86)                                  //
+ * Pale Moon v27.0.3 (x86)                                 //
+ * Spark v2.8.2 (x86)                                      //
+ . TightVNC v2.8.5                                         // remote connection password: nettech2
+ . TightVNC v2.8.5 (x86)                                   // remote connection password: nettech2
+ . UltraVNC v1.2.1.1 (x86)                                 // remote connection password: nettech2
+ . VLC media player v2.2.4 (x86)                           //
+ * WinSCP v5.9.3 (x86)                                     //
+
+Utilities:
+ . Clean Up All Printers                                   //
+ . Clean Up Orphaned Printers                              //
+ . Empty All Recycle Bins                                  //
+ . Enable Remote Desktop                                   //
+ . Install PKI Certificates                                //
+ . Reboot (force target reboot in 15 seconds)              //
+ . Remove Adobe Flash Player (all versions) v2.0.0         //
+ . Remove Java Runtime (all versions) v1.8.1               //
+ . Remove VNC Servers (TightVNC, UltraVNC, RealVNC)        //
+ . Temp File Cleanup v3.7.0 (clean temp folders on target) //
+ . USB Device Cleanup v1.2.0                               //
+
+
+
+v45.0 // 2016-12-07
+URL: https://www.reddit.com/r/sysadmin/comments/5h0nks/pdq_deploy_packs_v450_20161207/
+====================================================================================================
+ ! Note: All packages are x64 architecture unless otherwise specified
+
+ . 7-Zip v16.04 (x86)                                      //
+ . 7-Zip v16.04                                            //
+ . Adobe Acrobat Reader DC v15.017.20050                   // It is such a ridiculous pain to build this package
+ . Adobe AIR v23.0.0.257                                   //
+ * Adobe Flash Player v23.0.0.207 (Chrome)                 //
+ * Adobe Flash Player v23.0.0.207 (Firefox)                //
+ * Adobe Flash Player v23.0.0.207 (Internet Explorer)      //
+ . Adobe Reader XI v11.0.18 (x86)                          //
+ . Adobe Shockwave v12.2.5.195                             //
+ . Apple iTunes v12.5.1.21                                 //
+ * CDBurnerXP v4.5.7.6452                                  //
+ . CutePDF v3.0 (PDF printer) (x86)                        //
+ * FileZilla v3.23.0.2                                     //
+ . Gimp v2.8.18                                            //
+ * Google Chrome v55.0.2883.75 (Enterprise)                //
+ * Google Chrome v55.0.2883.75 (Enterprise) (x86)          //
+ . Google Earth v7.1.5.1557                                //
+ . Java Development Kit 6 update 45                        //
+ . Java Development Kit 6 update 45 (x86)                  //
+ . Java Development Kit 7 update 80                        //
+ . Java Development Kit 7 update 80 (x86)                  //
+ . Java Development Kit 8 update 112                       //
+ . Java Development Kit 8 update 112 (x86)                 //
+ . Java Runtime 6 update 81                                //
+ . Java Runtime 6 update 81 (x86)                          //
+ . Java Runtime 7 update 80                                //
+ . Java Runtime 7 update 80 (x86)                          //
+ . Java Runtime 8 update 112                               //
+ . Java Runtime 8 update 112 (x86)                         //
+ . KTS KypM Telnet/SSH Server v1.19c (x86)                 //
+ . Microsoft .NET Framework v3.5.1 SP1 (x86)               //
+ . Microsoft Silverlight v5.1.40416.0 (x86)                //
+ . Microsoft Silverlight v5.1.40416.0                      //
+ * Mozilla Firefox v50.0.2                                 // NOTE: Firefox auto-loads uBlock ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox v50.0.2 (x86)                           // NOTE: Firefox auto-loads uBlock ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Thunderbird v45.5.1 (x86)                       //
+ * Notepad++ v7.2.2 (x86)                                  //
+ * Pale Moon v27.0.2 (x86)                                 //
+ * Spark v2.8.2 (x86)                                      //
+ . TightVNC v2.8.5                                         // remote connection password: nettech2
+ . TightVNC v2.8.5 (x86)                                   // remote connection password: nettech2
+ . UltraVNC v1.2.1.1 (x86)                                 // remote connection password: nettech2
+ . VLC media player v2.2.4 (x86)                           //
+ * WinSCP v5.9.3 (x86)                                     //
+
+Utilities:
+ . Clean Up All Printers                                   //
+ . Clean Up Orphaned Printers                              //
+ . Empty All Recycle Bins                                  //
+ . Enable Remote Desktop                                   //
+ . Install PKI Certificates                                //
+ . Reboot (force target reboot in 15 seconds)              //
+ . Remove Adobe Flash Player (all versions) v2.0.0         //
+ . Remove Java Runtime (all versions) v1.8.1               //
+ . Remove VNC Servers (TightVNC, UltraVNC, RealVNC)        //
+ . Temp File Cleanup v3.7.0 (clean temp folders on target) //
+ . USB Device Cleanup v1.2.0                               //
+
+
+
 v44.0 // 2016-10-29
-URL: https://www.reddit.com/r/sysadmin/
+URL: https://www.reddit.com/r/sysadmin/comments/5a2pfa/pdq_deploy_packs_v440_20161029/
 ====================================================================================================
  ! Note: All packages are x64 architecture unless otherwise specified
 
@@ -71,7 +532,7 @@ Utilities:
  * Remove Adobe Flash Player (all versions) v2.0.0         //
  . Remove Java Runtime (all versions) v1.8.1               //
  . Remove VNC Servers (TightVNC, UltraVNC, RealVNC)        //
- . Temp File Cleanup v3.7.0 (cleans out temp folders)      //
+ . Temp File Cleanup v3.7.0 (clean temp folders on target) //
  . USB Device Cleanup v1.2.0                               //
 
 
@@ -136,7 +597,7 @@ Utilities:
  * Remove Adobe Flash Player (all versions) v2.0.0         //
  . Remove Java Runtime (all versions) v1.8.1               //
  . Remove VNC Servers (TightVNC, UltraVNC, RealVNC)        //
- . Temp File Cleanup v3.7.0 (cleans out temp folders)      //
+ . Temp File Cleanup v3.7.0 (clean temp folders on target) //
  . USB Device Cleanup v1.2.0                               //
 
 
@@ -202,7 +663,7 @@ Utilities:
  . Remove Adobe Flash Player v1.1.1 (all versions)         //
  . Remove Java Runtime (all versions) v1.8.1               //
  . Remove VNC Servers (TightVNC, UltraVNC, RealVNC)        //
- . Temp File Cleanup v3.7.0 (cleans out temp folders)      //
+ . Temp File Cleanup v3.7.0 (clean temp folders on target) //
  . USB Device Cleanup v1.2.0                               //
 
 
@@ -269,7 +730,7 @@ Utilities:
  . Remove Adobe Flash Player v1.1.1 (all versions)         //
  . Remove Java Runtime (all versions) v1.8.1               //
  . Remove VNC Servers (TightVNC, UltraVNC, RealVNC)        //
- * Temp File Cleanup v3.7.0 (cleans out temp folders)      //
+ * Temp File Cleanup v3.7.0 (clean temp folders on target) //
  . USB Device Cleanup v1.2.0                               //
 
 
@@ -332,7 +793,7 @@ Utilities:
  . Remove Adobe Flash Player v1.1.1 (all versions)         //
  . Remove Java Runtime (all versions) v1.8.1               //
  . Remove VNC Servers (TightVNC, UltraVNC, RealVNC)        //
- * Temp File Cleanup v3.6.0 (cleans out temp folders)      //
+ * Temp File Cleanup v3.6.0 (clean temp folders on target) //
  . USB Device Cleanup v1.2.0                               //
 
 
@@ -411,7 +872,7 @@ Utilities:
  . Remove Adobe Flash Player v1.1.1 (all versions)         //
  . Remove Java Runtime (all versions) v1.8.1               //
  . Remove VNC Servers (TightVNC, UltraVNC, RealVNC)        //
- . Temp File Cleanup v3.5.8 (cleans out temp folders)      //
+ . Temp File Cleanup v3.5.8 (clean temp folders on target) //
  * USB Device Cleanup v1.2.0                               //
 
 
@@ -473,7 +934,7 @@ Utilities:
  . Remove Adobe Flash Player v1.1.1 (all versions)         //
  * Remove Java Runtime (all versions) v1.8.1               //
  . Remove VNC Servers (TightVNC, UltraVNC, RealVNC)        //
- . Temp File Cleanup v3.5.8 (cleans out temp folders)      //
+ . Temp File Cleanup v3.5.8 (clean temp folders on target) //
  . USB Device Cleanup v1.1.0                               //
 
 
@@ -544,7 +1005,7 @@ Utilities:
  . Remove Adobe Flash Player v1.1.1 (all versions)         //
  * Remove Java Runtime (all versions) v1.8.0               // update to latest version
  . Remove VNC Servers (TightVNC, UltraVNC, RealVNC)        //
- . Temp File Cleanup v3.5.8 (cleans out temp folders)      //
+ . Temp File Cleanup v3.5.8 (clean temp folders on target) //
  . USB Device Cleanup v1.1.0                               //
 
 
@@ -606,7 +1067,7 @@ Utilities:
  . Remove Adobe Flash Player v1.1.1 (all versions)         //
  . Remove Java Runtime (all versions) v1.6.8               //
  . Remove VNC Servers (TightVNC, UltraVNC, RealVNC)        //
- . Temp File Cleanup v3.5.8 (cleans out temp folders)      //
+ . Temp File Cleanup v3.5.8 (clean temp folders on target) //
  . USB Device Cleanup v1.1.0                               //
 
 
@@ -675,7 +1136,7 @@ Utilities:
  . Remove Adobe Flash Player v1.1.1 (all versions)         //
  . Remove Java Runtime (all versions) v1.6.8               //
  . Remove VNC Servers (TightVNC, UltraVNC, RealVNC)        //
- . Temp File Cleanup v3.5.8 (cleans out temp folders)      //
+ . Temp File Cleanup v3.5.8 (clean temp folders on target) //
  . USB Device Cleanup v1.1.0                               //
 
 
@@ -753,7 +1214,7 @@ Utilities:
  . Remove Adobe Flash Player v1.1.1 (all versions)         //
  . Remove Java Runtime (all versions) v1.6.8               //
  . Remove VNC Servers (TightVNC, UltraVNC, RealVNC)        //
- * Temp File Cleanup v3.5.8 (cleans out temp folders)      //
+ * Temp File Cleanup v3.5.8 (clean temp folders on target) //
  . USB Device Cleanup v1.1.0                               //
 
 
@@ -848,7 +1309,7 @@ Utilities:
  . Remove Adobe Flash Player v1.1.1 (all versions)         //
  . Remove Java Runtime (all versions) v1.6.8               //
  . Remove VNC Servers (TightVNC, UltraVNC, RealVNC)        //
- . Temp File Cleanup v3.4.4 (cleans out temp folders)      //
+ . Temp File Cleanup v3.4.4 (clean temp folders on target) //
  . USB Device Cleanup v1.1.0                               //
 
 
@@ -908,7 +1369,7 @@ Utilities:
  . Remove Adobe Flash Player v1.1.1 (all versions)         //
  . Remove Java Runtime (all versions) v1.6.8               //
  . Remove VNC Servers (TightVNC, UltraVNC, RealVNC)        //
- . Temp File Cleanup v3.4.4 (cleans out temp folders)      //
+ . Temp File Cleanup v3.4.4 (clean temp folders on target) //
  . USB Device Cleanup v1.1.0                               //
 
 
@@ -967,7 +1428,7 @@ Utilities:
  . Remove Adobe Flash Player v1.1.1 (all versions)         //
  . Remove Java Runtime (all versions) v1.6.8               //
  . Remove VNC Servers (TightVNC, UltraVNC, RealVNC)        //
- . Temp File Cleanup v3.4.4 (cleans out temp folders)      //
+ . Temp File Cleanup v3.4.4 (clean temp folders on target) //
  . USB Device Cleanup v1.1.0                               //
 
 
@@ -1026,7 +1487,7 @@ Utilities:
  . Remove Adobe Flash Player v1.1.1 (all versions)         //
  . Remove Java Runtime (all versions) v1.6.8               //
  . Remove VNC Servers (TightVNC, UltraVNC, RealVNC)        //
- . Temp File Cleanup v3.4.4 (cleans out temp folders)      //
+ . Temp File Cleanup v3.4.4 (clean temp folders on target) //
  * USB Device Cleanup v1.1.0                               //
 
 
@@ -1085,7 +1546,7 @@ Utilities:
  . Remove Adobe Flash Player v1.1.1 (all versions)         //
  . Remove Java Runtime (all versions) v1.6.8               //
  . Remove VNC Servers (TightVNC, UltraVNC, RealVNC)        //
- . Temp File Cleanup v3.4.4 (cleans out temp folders)      //
+ . Temp File Cleanup v3.4.4 (clean temp folders on target) //
  . USB Device Cleanup v1.0                                 //
 
 
@@ -1158,7 +1619,7 @@ Utilities:
  . Remove Adobe Flash Player v1.1.1 (all versions)         //
  . Remove Java Runtime (all versions) v1.6.8               //
  . Remove VNC Servers (TightVNC, UltraVNC, RealVNC)        //
- . Temp File Cleanup v3.4.4 (cleans out temp folders)      //
+ . Temp File Cleanup v3.4.4 (clean temp folders on target) //
  . USB Device Cleanup v1.0                                 //
 
 
@@ -1238,7 +1699,7 @@ Utilities:
  . Remove Adobe Flash Player v1.1.1 (all versions)         //
  . Remove Java Runtime (all versions) v1.6.8               //
  . Remove VNC Servers (TightVNC, UltraVNC, RealVNC)        //
- . Temp File Cleanup v3.4.4 (cleans out temp folders)      //
+ . Temp File Cleanup v3.4.4 (clean temp folders on target) //
  + USB Device Cleanup v1.0                                 // Uninstalls non-present USB hubs, devices and
                                                               volumes, Disks, CDROMs, Floppies and WPD devices
                                                               and removes residual registry items
@@ -1299,7 +1760,7 @@ Utilities:
  . Remove Adobe Flash Player v1.1.1 (all versions)         //
  . Remove Java Runtime (all versions) v1.6.8               //
  . Remove VNC Servers (TightVNC, UltraVNC, RealVNC)        //
- . Temp File Cleanup v3.4.4 (cleans out temp folders)      //
+ . Temp File Cleanup v3.4.4 (clean temp folders on target) //
 
 
 
@@ -1356,7 +1817,7 @@ Utilities:
  . Remove Adobe Flash Player v1.1.1 (all versions)         //
  . Remove Java Runtime (all versions) v1.6.8               //
  . Remove VNC Servers (TightVNC, UltraVNC, RealVNC)        //
- . Temp File Cleanup v3.4.4 (cleans out temp folders)      //
+ . Temp File Cleanup v3.4.4 (clean temp folders on target) //
 
 
 
@@ -1415,7 +1876,7 @@ Utilities:
  . Remove Adobe Flash Player v1.1.1 (all versions)         //
  * Remove Java Runtime (all versions) v1.6.8               // to catch JREu67
  . Remove VNC Servers (TightVNC, UltraVNC, RealVNC)        //
- . Temp File Cleanup v3.4.4 (cleans out temp folders)      //
+ . Temp File Cleanup v3.4.4 (clean temp folders on target) //
 
 
 
@@ -1472,7 +1933,7 @@ Utilities:
  . Remove Adobe Flash Player v1.1.1 (all versions)         //
  . Remove Java Runtime (all versions) v1.6.5               //
  . Remove VNC Servers (TightVNC, UltraVNC, RealVNC)        //
- . Temp File Cleanup v3.4.4 (cleans out temp folders)      //
+ . Temp File Cleanup v3.4.4 (clean temp folders on target) //
 
 
 
@@ -1532,7 +1993,7 @@ Utilities:
  . Remove Adobe Flash Player v1.1 (all versions)           //
  . Remove Java Runtime (all versions) v1.6.4               //
  . Remove VNC Servers (TightVNC, UltraVNC, RealVNC)        //
- . Temp File Cleanup v3.2 (cleans out temp folders)        //
+ . Temp File Cleanup v3.2 (clean temp folders on target)        //
 
 
 
@@ -1600,7 +2061,7 @@ Utilities:
  * Remove Adobe Flash Player v1.1 (all versions)           //
  * Remove Java Runtime (all versions) v1.6.4               //
  * Remove VNC Servers (TightVNC, UltraVNC, RealVNC)        //
- * Temp File Cleanup v3.2 (cleans out temp folders)        //
+ * Temp File Cleanup v3.2 (clean temp folders on target)        //
 
 
 
@@ -1661,7 +2122,7 @@ Utilities:
  * Remove Adobe Flash Player (all versions)                //
  * Remove Java Runtime (all versions) v1.6.4               //
  * Remove VNC Servers (TightVNC, UltraVNC, RealVNC)        //
- * Temp File Cleanup v3.2 (cleans out temp folders)        //
+ * Temp File Cleanup v3.2 (clean temp folders on target)        //
 
 
 v19.0 // 2014-07-08
@@ -1720,7 +2181,7 @@ Utilities:
  . Remove Adobe Flash Player (all versions)                //
  * Remove Java Runtime (all versions) v1.6.2               //
  . Remove VNC Servers (TightVNC, UltraVNC, RealVNC)        //
- * Temp File Cleanup v3.1 (cleans out temp folders)        //
+ * Temp File Cleanup v3.1 (clean temp folders on target)        //
 
 
 v18.0 // 2014-06-10
@@ -1776,7 +2237,7 @@ Utilities:
  . Remove Adobe Flash Player (all versions)                //
  * Remove Java Runtime (all versions) v1.6.2               //
  . Remove VNC Servers (TightVNC, UltraVNC, RealVNC)        //
- * Temp File Cleanup v3.0 (cleans out temp folders)        //
+ * Temp File Cleanup v3.0 (clean temp folders on target)        //
 
 
 v17.0 // 2014-05-13
@@ -1835,7 +2296,7 @@ Utilities:
  . Remove Adobe Flash Player (all versions)                //
  * Remove Java Runtime (all versions) v1.6.1               //; added code to catch and remove JRE8
  . Remove VNC Servers (TightVNC, UltraVNC, RealVNC)        //
- . Temp File Cleanup v2.9b (cleans out temp folders)       //
+ . Temp File Cleanup v2.9b (clean temp folders on target)       //
 
 
 v16.0 // 2014-04-08
@@ -1888,7 +2349,7 @@ Utilities:
  . Remove Adobe Flash Player (all versions)                //
  . Remove Java Runtime (all versions)                      //
  . Remove VNC Servers (TightVNC, UltraVNC, RealVNC)        //
- . Temp File Cleanup v2.9b (cleans out temp folders)       //
+ . Temp File Cleanup v2.9b (clean temp folders on target)       //
 
 
 v15.0 // 2014-03-24
@@ -1939,7 +2400,7 @@ Utilities:
  . Remove Adobe Flash Player (all versions)                //
  . Remove Java Runtime (all versions)                      //
  / Remove VNC Servers (TightVNC, UltraVNC, RealVNC)        // Added "Servers" to package title to clarify purpose
- . Temp File Cleanup v2.9b (cleans out temp folders)       //
+ . Temp File Cleanup v2.9b (clean temp folders on target)       //
 
 
 v14.0 // 2014-02-20
@@ -1989,7 +2450,7 @@ Utilities:
  * Remove Adobe Flash Player (all versions)                // PDQ package with version
  * Remove Java Runtime (all versions)                      // PDQ package with version
  + Remove VNC (TightVNC, UltraVNC, RealVNC)                // + new . removes ALL VNC servers from target
- * Temp File Cleanup v2.9b (cleans out temp folders)       //
+ * Temp File Cleanup v2.9b (clean temp folders on target)       //
 
 
 v13.0 // 2014-01-06
@@ -2036,7 +2497,7 @@ Utilities:
  . Reboot (force target reboot in 15 seconds)              //
  . Remove Adobe Flash Player (all versions)                //
  . Remove Java Runtime (all versions)                      //
- . Temp File Cleanup v2.7c (cleans out temp folders)       //
+ . Temp File Cleanup v2.7c (clean temp folders on target)       //
 
 
 v12.1 // 2013-12-31
@@ -2091,7 +2552,7 @@ Utilities:
  . Remove Adobe Flash Player (all versions)                //
  ~ Remove InfraRecorder v0.53 and older (x86/x64)          // removed
  . Remove Java Runtime (all versions)                      //
- . Temp File Cleanup v2.7c (cleans out temp folders)       //
+ . Temp File Cleanup v2.7c (clean temp folders on target)       //
 
 
 
@@ -2140,7 +2601,7 @@ Utilities:
  . Remove Adobe Flash Player (all versions)                //
  ! Remove InfraRecorder v0.53 and older (x86/x64)          // DEPRECATED -- WILL BE REMOVED IN v12 RELEASE
  . Remove Java Runtime (all versions)                      //
- . Temp File Cleanup v2.7c (cleans out temp folders)       //
+ . Temp File Cleanup v2.7c (clean temp folders on target)       //
 
 
 
@@ -2189,7 +2650,7 @@ Utilities:
  . Remove Adobe Flash Player (all versions)                //
  . Remove InfraRecorder v0.53 and older (x86/x64)          //
  . Remove Java Runtime (all versions)                      //
- . Temp File Cleanup v2.7c (cleans out temp folders)       //
+ . Temp File Cleanup v2.7c (clean temp folders on target)       //
 
 
 
@@ -2237,7 +2698,7 @@ Utilities:
  . Remove Adobe Flash Player (all versions)                //
  . Remove InfraRecorder v0.53 and older (x86/x64)          //
  . Remove Java Runtime (all versions)                      //
- . Temp File Cleanup v2.7c (cleans out temp folders)       //
+ . Temp File Cleanup v2.7c (clean temp folders on target)       //
 
 
 
@@ -2285,7 +2746,7 @@ Utilities:
  . Remove Adobe Flash Player (all versions)                //
  . Remove InfraRecorder v0.53 and older (x86/x64)          //
  . Remove Java Runtime (all versions)                      //
- . Temp File Cleanup v2.7c (cleans out temp folders)       //
+ . Temp File Cleanup v2.7c (clean temp folders on target)       //
 
 
 
@@ -2343,7 +2804,7 @@ Utilities:
  . Remove Adobe Flash Player (all versions)                //
  . Remove InfraRecorder v0.53 and older (x86/x64)          //
  . Remove Java Runtime (all versions)                      //
- . Temp File Cleanup v2.7c (cleans out temp folders)       //
+ . Temp File Cleanup v2.7c (clean temp folders on target)       //
 
 
 
@@ -2392,7 +2853,7 @@ Utilities:
  . Remove Adobe Flash Player (all versions)                //
  . Remove InfraRecorder v0.53 and older (x86/x64)          //
  . Remove Java Runtime (all versions)                      //
- . Temp File Cleanup v2.7c (cleans out temp folders)       //
+ . Temp File Cleanup v2.7c (clean temp folders on target)       //
 
 
 
@@ -2435,7 +2896,7 @@ Utilities:
  . Remove Adobe Flash Player (all versions)                //
  . Remove InfraRecorder v0.53 and older (x86/x64)          //
  . Remove Java Runtime (all versions)                      //
- . Temp File Cleanup v2.7c (cleans out temp folders)       //
+ . Temp File Cleanup v2.7c (clean temp folders on target)       //
 
 Microsoft Offline Update Packages:
  * Windows 7 & Server 2008 R2 (x64)                        // current to release date
@@ -2484,7 +2945,7 @@ Utilities:
  . Remove Adobe Flash Player (all versions)                //
  . Remove InfraRecorder v0.53 and older (x86/x64)          //
  . Remove Java Runtime (all versions)                      //
- . Temp File Cleanup v2.7c (cleans out temp folders)       //
+ . Temp File Cleanup v2.7c (clean temp folders on target)       //
 
 Microsoft Offline Update Packages:
  * Windows 7 & Server 2008 R2 (x64)                        // current to release date
@@ -2533,7 +2994,7 @@ Utilities:
  . Remove Adobe Flash Player (all versions)                //
  . Remove InfraRecorder v0.53 and older (x86/x64)          //
  . Remove Java Runtime (all versions)                      //
- . Temp File Cleanup v2.7c (cleans out temp folders)       //
+ . Temp File Cleanup v2.7c (clean temp folders on target)       //
 
 Microsoft Offline Update Packages:
  * Windows 7 & Server 2008 R2 (x64)                        // current to release date
@@ -2584,7 +3045,7 @@ Utilities:
  * Remove Adobe Flash Player (all versions)                //
  . Remove InfraRecorder v0.53 and older (x86/x64)          //
  * Remove Java Runtime (all versions)                      // new
- . Temp File Cleanup v2.7c (cleans out temp folders)       //
+ . Temp File Cleanup v2.7c (clean temp folders on target)       //
 
 Microsoft Offline Update Packages:
  * Windows 7 & Server 2008 R2 (x64)                        // new
@@ -2632,7 +3093,7 @@ Utilities:
  . Clean Up Orphaned Printers                              //
  . Empty All Recycle Bins                                  //
  . Reboot (forces target reboot in 15 seconds)             //
- . Temp File Cleanup v2.7c (cleans out temp folders)       //
+ . Temp File Cleanup v2.7c (clean temp folders on target)       //
 
 
 
@@ -2673,7 +3134,7 @@ Utilities:
  . Clean Up Orphaned Printers                              //
  . Empty All Recycle Bins                                  // new; forces emptying of all recycle bins for ALL users on the target
  . Reboot (forces reboot in 15 seconds)                    //
- . Temp File Cleanup v2.7c (cleans out temp folders)       //
+ . Temp File Cleanup v2.7c (clean temp folders on target)       //
 
 
 
@@ -2710,7 +3171,7 @@ Utilities:
  . Clean Up Orphaned Printers                              //
  . Empty All Recycle Bins                                  // new; empty recycle bins for ALL users on target machine
  . Reboot (forces reboot in 15 seconds)                    //
- . Temp File Cleanup v2.7c (cleans out temp folders)       // from v2.7
+ . Temp File Cleanup v2.7c (clean temp folders on target)       // from v2.7
 
 
 
@@ -2746,7 +3207,7 @@ Uninstallers:
 Utilities:
  . Clean Up Orphaned Printers                              //
  . Reboot (forces reboot in 15 seconds)                    //
- . Temp File Cleanup v2.7 (cleans out temp folders)        //
+ . Temp File Cleanup v2.7 (clean temp folders on target)        //
 
 
 
@@ -2783,7 +3244,7 @@ Uninstallers:
 Utilities:
  * Clean Up Orphaned Printers                              // new
  . Reboot (forces reboot in 15 seconds)                    //
- * Temp File Cleanup v2.7 (cleans out temp folders)        // Update from v2.6
+ * Temp File Cleanup v2.7 (clean temp folders on target)        // Update from v2.6
 
 
 
@@ -2816,7 +3277,7 @@ Uninstallers:
 
 Utilities:
  . Reboot (forces reboot in 15 seconds)                    // no update
- . Temp File Cleanup v2.6 (cleans out temp folders)        // no update
+ . Temp File Cleanup v2.6 (clean temp folders on target)        // no update
 
 
 
@@ -2845,3 +3306,9 @@ Installers:
 
 Uninstallers:
  * Adobe Flash Player uninstaller, v11.3.300.271 & earlier
+
+
+
+# Deployment script helper
+PACK_VERSION=48.0.0
+PACK_DATE=2017-03-29
