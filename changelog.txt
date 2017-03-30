@@ -22,6 +22,7 @@ URL: No URL; Resilio Sync point release only
  . Adobe Acrobat Reader DC v15.023.20053                   // It is such a ridiculous pain to build this package. 
                                                               Yes I leave this note in here just to whine about it.
 															  No, I don't think anyone will ever read it.
+															  Yes, I hope someone from Adobe sees this and updates their stupid Customizer to work across all versions of Reader DC instead of being bound to a single version per binary.
  * Adobe AIR v25.0.0.134                                   //
  * Adobe Flash Player v25.0.0.127 (Chrome)                 //
  * Adobe Flash Player v25.0.0.127 (Firefox)                //
