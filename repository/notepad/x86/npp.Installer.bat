@@ -21,7 +21,7 @@ cls
 
 :: Check for command-line argument
 set PRESERVE_SHORTCUTS=no
-for %%i in (%*) do ( if /i %%i==--preserve-acrotray set PRESERVE_SHORTCUTS=yes )
+for %%i in (%*) do ( if /i %%i==--preserve-shortcuts set PRESERVE_SHORTCUTS=yes )
 
 
 :::::::::::::::
@@ -32,7 +32,7 @@ set LOGPATH=%SystemDrive%\Logs
 set LOGFILE=
 
 :: Package to install. Do not use trailing slashes (\)
-set BINARY=npp.6.9.2.Installer.exe
+set BINARY=npp.7.3.3.Installer.exe
 set FLAGS=/S
 
 :: Create the log directory if it doesn't exist
