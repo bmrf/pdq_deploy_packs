@@ -28,7 +28,7 @@ set LOGFILE=jre8_i586_update.log
 
 :: Package to install. Do not use trailing slashes (\)
 set LOCATION=
-set BINARY=jre-8u102-windows-i586.msi
+set BINARY=jre-8u131-windows-i586.msi
 set FLAGS=ALLUSERS=1 /qn /norestart /l %LOGPATH%\%LOGFILE% JU=0 JAVAUPDATE=0 AUTOUPDATECHECK=0 RebootYesNo=No WEB_JAVA_SECURITY_LEVEL=M
 
 :: Create the log directory if it doesn't exist
