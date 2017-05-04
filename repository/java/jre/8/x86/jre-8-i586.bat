@@ -41,9 +41,9 @@ if not exist %LOGPATH% mkdir %LOGPATH%
 ::::::::::::::::::
 :: This removes previous versions of the JRE
 echo %CUR_DATE% %TIME%   Uninstalling all versions of JRE 8 x86 prior to installation of current version...>> "%LOGPATH%\%LOGFILE%"
-wmic product where "IdentifyingNumber like '{26A24AE4-039D-4CA4-87B4-2F8__180__FF}'" call uninstall /nointeractive >> "%LOGPATH%\%LOGFILE%"
+wmic product where "IdentifyingNumber like '{26A24AE4-039D-4CA4-87B4-2F832180__FF}'" call uninstall /nointeractive >> "%LOGPATH%\%LOGFILE%"
 :: Second version of the command is to catch JRE8 versions above 99 where they start using 3-digit identifiers instead of 2-digit
-wmic product where "IdentifyingNumber like '{26A24AE4-039D-4CA4-87B4-2F__180___FF}'" call uninstall /nointeractive >> "%LOGPATH%\%LOGFILE%"
+wmic product where "IdentifyingNumber like '{26A24AE4-039D-4CA4-87B4-2F32180___FF}'" call uninstall /nointeractive >> "%LOGPATH%\%LOGFILE%"
 
 :: Sometimes the previous line doesn't work for whatever reason, so we run this line as well
 wmic product where "name like 'Java 8 Update ___'" uninstall /nointeractive
