@@ -10,16 +10,154 @@ Legend:
 Do not withold good from those who deserve it, when it is in your power to act. -p3:27
 
 
-
-
-v48.0.0 // 2017-03-29
-URL: No URL; Resilio Sync point release only
+v50.0.0 // 2017-06-10
+URL: https://www.reddit.com/r/sysadmin/comments/6ggzy9/pdq_deploy_packs_v5000_20170610/
 ====================================================================================================
  ! Note: All packages are x64 architecture unless otherwise specified
 
  . 7-Zip v16.04 (x86)                                      //
  . 7-Zip v16.04                                            //
- . Adobe Acrobat Reader DC v15.023.20053                   // It is such a ridiculous pain to build this package. 
+ . Adobe Acrobat Reader DC v15.023.20053                   // It is such a ridiculous pain to build this package.
+                                                              Yes I leave this note in here just to whine about it.
+															  No, I don't think anyone will ever read it.
+															  Yes, I hope someone from Adobe sees this and updates their stupid Customizer to work across all versions of Reader DC instead of being bound to a single version per binary.
+ . Adobe AIR v25.0.0.134                                   //
+ * Adobe Flash Player v25.0.0.171 (Chrome)                 //
+ * Adobe Flash Player v25.0.0.171 (Firefox)                //
+ * Adobe Flash Player v25.0.0.171 (Internet Explorer)      //
+ . Adobe Reader XI v11.0.20 (x86)                          //
+ . Adobe Shockwave v12.2.8.198                             //
+ . Apple iTunes v12.5.1.21                                 //
+ * CDBurnerXP v4.5.7.6623                                  //
+ . CutePDF v3.0 (PDF printer) (x86)                        //
+ * FileZilla Client v3.26.1.0                              //
+ * Gimp v2.8.22                                            //
+ * Google Chrome v59.0.3071.86 (Enterprise)                //
+ * Google Chrome v59.0.3071.86 (Enterprise) (x86)          //
+ . Google Earth v7.1.5.1557                                //
+ . Java Development Kit 6 update 45                        //
+ . Java Development Kit 6 update 45 (x86)                  //
+ . Java Development Kit 7 update 80                        //
+ . Java Development Kit 7 update 80 (x86)                  //
+ . Java Development Kit 8 update 131                       //
+ . Java Development Kit 8 update 131 (x86)                 //
+ . Java Runtime 6 update 81                                //
+ . Java Runtime 6 update 81 (x86)                          //
+ . Java Runtime 7 update 80                                //
+ . Java Runtime 7 update 80 (x86)                          //
+ . Java Runtime 8 update 131                               //
+ . Java Runtime 8 update 131 (x86)                         //
+ . KTS KypM Telnet/SSH Server v1.19c (x86)                 //
+ . Microsoft .NET Framework v3.5.1 SP1 (x86)               //
+ . Microsoft Silverlight v5.1.50901.0 (x86)                //
+ . Microsoft Silverlight v5.1.50901.0                      //
+ * Mozilla Firefox v53.0.3                                 // NOTE: Firefox auto-loads uBlock ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox v53.0.3 (x86)                           // NOTE: Firefox auto-loads uBlock ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox ESR v52.1.2                             // NOTE: Firefox ESR does not auto-load uBlock Origin
+ * Mozilla Firefox ESR v52.1.2 (x86)                       // NOTE: Firefox ESR does not auto-load uBlock Origin
+ * Mozilla Thunderbird v52.1.1 (x86)                       //
+ . Notepad++ v7.3.3 (x86)                                  //
+ . Pale Moon v27.3.0 (x86)                                 //
+ . Spark v2.8.3 (x86)                                      //
+ . TightVNC v2.8.8                                         // remote connection password: nettech2
+ . TightVNC v2.8.8 (x86)                                   // remote connection password: nettech2
+ . UltraVNC v1.2.1.2 (x86)                                 // remote connection password: nettech2
+ * VLC media player v2.2.6 (x86)                           //
+ . WinSCP v5.9.5 (x86)                                     //
+
+Utilities:
+ . Clean Up All Printers                                   //
+ . Clean Up Orphaned Printers                              //
+ . Empty All Recycle Bins                                  //
+ . Enable Remote Desktop                                   //
+ . Install PKI Certificates                                //
+ . Reboot (force target reboot in 15 seconds)              //
+ . Remove Adobe Flash Player (all versions) v2.0.0         //
+ . Remove Java Runtime (all versions) v1.8.1               //
+ . Remove VNC Servers (TightVNC, UltraVNC, RealVNC)        //
+ . Temp File Cleanup v3.7.0 (clean temp folders on target) //
+ . USB Device Cleanup v1.2.0                               //
+
+
+
+v49.0.0 // 2017-04-29
+URL: https://www.reddit.com/r/sysadmin/comments/68a94e/pdq_deploy_packs_v4900_20170429/
+====================================================================================================
+ ! Note: All packages are x64 architecture unless otherwise specified
+
+ . 7-Zip v16.04 (x86)                                      //
+ . 7-Zip v16.04                                            //
+ . Adobe Acrobat Reader DC v15.023.20053                   // It is such a ridiculous pain to build this package.
+                                                              Yes I leave this note in here just to whine about it.
+															  No, I don't think anyone will ever read it.
+															  Yes, I hope someone from Adobe sees this and updates their stupid Customizer to work across all versions of Reader DC instead of being bound to a single version per binary.
+ . Adobe AIR v25.0.0.134                                   //
+ * Adobe Flash Player v25.0.0.148 (Chrome)                 //
+ * Adobe Flash Player v25.0.0.148 (Firefox)                //
+ * Adobe Flash Player v25.0.0.148 (Internet Explorer)      //
+ * Adobe Reader XI v11.0.20 (x86)                          //
+ . Adobe Shockwave v12.2.8.198                             //
+ . Apple iTunes v12.5.1.21                                 //
+ . CDBurnerXP v4.5.7.6521                                  //
+ . CutePDF v3.0 (PDF printer) (x86)                        //
+ * FileZilla v3.25.1.0                                     //
+ . Gimp v2.8.20                                            //
+ * Google Chrome v58.0.3029.81 (Enterprise)                //
+ * Google Chrome v58.0.3029.81 (Enterprise) (x86)          //
+ . Google Earth v7.1.5.1557                                //
+ . Java Development Kit 6 update 45                        //
+ . Java Development Kit 6 update 45 (x86)                  //
+ . Java Development Kit 7 update 80                        //
+ . Java Development Kit 7 update 80 (x86)                  //
+ * Java Development Kit 8 update 131                       //
+ * Java Development Kit 8 update 131 (x86)                 //
+ . Java Runtime 6 update 81                                //
+ . Java Runtime 6 update 81 (x86)                          //
+ . Java Runtime 7 update 80                                //
+ . Java Runtime 7 update 80 (x86)                          //
+ * Java Runtime 8 update 131                               //
+ * Java Runtime 8 update 131 (x86)                         //
+ . KTS KypM Telnet/SSH Server v1.19c (x86)                 //
+ . Microsoft .NET Framework v3.5.1 SP1 (x86)               //
+ . Microsoft Silverlight v5.1.50901.0 (x86)                //
+ . Microsoft Silverlight v5.1.50901.0                      //
+ * Mozilla Firefox v53.0.0                                 // NOTE: Firefox auto-loads uBlock ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox v53.0.0 (x86)                           // NOTE: Firefox auto-loads uBlock ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox ESR v52.1.0                             // NOTE: Firefox ESR does not auto-load uBlock Origin
+ * Mozilla Firefox ESR v52.1.0 (x86)                       // NOTE: Firefox ESR does not auto-load uBlock Origin
+ * Mozilla Thunderbird v52.0.1 (x86)                       //
+ . Notepad++ v7.3.3 (x86)                                  //
+ * Pale Moon v27.3.0 (x86)                                 //
+ . Spark v2.8.3 (x86)                                      //
+ * TightVNC v2.8.8                                         // remote connection password: nettech2
+ * TightVNC v2.8.8 (x86)                                   // remote connection password: nettech2
+ . UltraVNC v1.2.1.2 (x86)                                 // remote connection password: nettech2
+ . VLC media player v2.2.4 (x86)                           //
+ * WinSCP v5.9.5 (x86)                                     //
+
+Utilities:
+ . Clean Up All Printers                                   //
+ . Clean Up Orphaned Printers                              //
+ . Empty All Recycle Bins                                  //
+ . Enable Remote Desktop                                   //
+ . Install PKI Certificates                                //
+ . Reboot (force target reboot in 15 seconds)              //
+ . Remove Adobe Flash Player (all versions) v2.0.0         //
+ . Remove Java Runtime (all versions) v1.8.1               //
+ . Remove VNC Servers (TightVNC, UltraVNC, RealVNC)        //
+ . Temp File Cleanup v3.7.0 (clean temp folders on target) //
+ . USB Device Cleanup v1.2.0                               //
+
+
+
+v48.0.0 // 2017-03-29
+URL: https://www.reddit.com/r/sysadmin/comments/62bnuu/pdq_deploy_packs_v4800_20170329/
+====================================================================================================
+ ! Note: All packages are x64 architecture unless otherwise specified
+
+ . 7-Zip v16.04 (x86)                                      //
+ . 7-Zip v16.04                                            //
+ . Adobe Acrobat Reader DC v15.023.20053                   // It is such a ridiculous pain to build this package.
                                                               Yes I leave this note in here just to whine about it.
 															  No, I don't think anyone will ever read it.
 															  Yes, I hope someone from Adobe sees this and updates their stupid Customizer to work across all versions of Reader DC instead of being bound to a single version per binary.
@@ -3311,5 +3449,5 @@ Uninstallers:
 
 
 # Deployment script helper
-PACK_VERSION=48.0.0
-PACK_DATE=2017-03-29
+PACK_VERSION=50.0.0
+PACK_DATE=2017-06-10
