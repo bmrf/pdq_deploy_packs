@@ -271,9 +271,9 @@
  - Removes the Adobe Acrobat Update Service (AdobeFlashPlayerUpdateSvc)
  - Removes the Adobe Update scheduled task that gets installed (C:\Windows\tasks\Adobe Flash Player Updater.job)</Description>
         <FolderId value="20" />
-        <Name>Adobe Flash Player v25.0.0.127 (Chrome)</Name>
-        <Path>Installers\Adobe Flash Player v25.0.0.127 (Chrome)</Path>
-        <Version>25.0.0.127</Version>
+        <Name>Adobe Flash Player v25.0.0.171 (Chrome)</Name>
+        <Path>Installers\Adobe Flash Player v25.0.0.171 (Chrome)</Path>
+        <Version>25.0.0.171</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -324,9 +324,9 @@
  - Removes the Adobe Acrobat Update Service (AdobeFlashPlayerUpdateSvc)
  - Removes the Adobe Update scheduled task that gets installed (C:\Windows\tasks\Adobe Flash Player Updater.job)</Description>
         <FolderId value="20" />
-        <Name>Adobe Flash Player v25.0.0.127 (Firefox)</Name>
-        <Path>Installers\Adobe Flash Player v25.0.0.127 (Firefox)</Path>
-        <Version>25.0.0.127</Version>
+        <Name>Adobe Flash Player v25.0.0.171 (Firefox)</Name>
+        <Path>Installers\Adobe Flash Player v25.0.0.171 (Firefox)</Path>
+        <Version>25.0.0.171</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -377,9 +377,9 @@
  - Removes the Adobe Acrobat Update Service (AdobeFlashPlayerUpdateSvc)
  - Removes the Adobe Update scheduled task that gets installed (C:\Windows\tasks\Adobe Flash Player Updater.job)</Description>
         <FolderId value="20" />
-        <Name>Adobe Flash Player v25.0.0.127 (IE)</Name>
-        <Path>Installers\Adobe Flash Player v25.0.0.127 (IE)</Path>
-        <Version>25.0.0.127</Version>
+        <Name>Adobe Flash Player v25.0.0.171 (IE)</Name>
+        <Path>Installers\Adobe Flash Player v25.0.0.171 (IE)</Path>
+        <Version>25.0.0.171</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -428,9 +428,9 @@
  - Deletes the "All Users" desktop link to Reader XI
  - Deletes the Adobe Acrobat Reader Update service ( AdobeARMservice )</Description>
         <FolderId value="20" />
-        <Name>Adobe Reader XI v11.0.19</Name>
-        <Path>Installers\Adobe Reader XI v11.0.19</Path>
-        <Version>11.0.19</Version>
+        <Name>Adobe Reader XI v11.0.20</Name>
+        <Path>Installers\Adobe Reader XI v11.0.20</Path>
+        <Version>11.0.20</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -585,9 +585,9 @@
  - Associates some other CD-related files with CDBurnerXP
  - Disables the background online update checker</Description>
         <FolderId value="20" />
-        <Name>CDBurnerXP v4.5.7.6521 (x64)</Name>
-        <Path>Installers\CDBurnerXP v4.5.7.6521 (x64)</Path>
-        <Version>4.5.7.6521</Version>
+        <Name>CDBurnerXP v4.5.7.6623 (x64)</Name>
+        <Path>Installers\CDBurnerXP v4.5.7.6623 (x64)</Path>
+        <Version>4.5.7.6623</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -689,9 +689,9 @@ Thanks to reddit.com/user/b0park for this package.</Description>
         <Description>Installs the FileZilla client with the following customizations:
  - Removes any previous versions before installing</Description>
         <FolderId value="20" />
-        <Name>FileZilla Client v3.24.0.0</Name>
-        <Path>Installers\FileZilla Client v3.24.0.0</Path>
-        <Version>3.24.0.0</Version>
+        <Name>FileZilla Client v3.26.1.0</Name>
+        <Path>Installers\FileZilla Client v3.26.1.0</Path>
+        <Version>3.25.1.0</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -707,7 +707,7 @@ Thanks to reddit.com/user/b0park for this package.</Description>
           <Steps type="list">
             <InstallStep>
               <CustomCommandLine></CustomCommandLine>
-              <FileName>$(Repository)\gimp\x86\Gimp v2.8.20 x86.exe</FileName>
+              <FileName>$(Repository)\gimp\x86\Gimp v2.8.22 x86.exe</FileName>
               <Files></Files>
               <IncludeDirectory value="true" />
               <MsiOperation>Install</MsiOperation>
@@ -738,11 +738,11 @@ Thanks to reddit.com/user/b0park for this package.</Description>
         </PackageDefinition>
         <Description>Installs Gimp silently with the following flags:
 
-Gimp v2.8.20 x86.exe /verysilent /norestart</Description>
+Gimp v2.8.22 x86.exe /verysilent /norestart</Description>
         <FolderId value="20" />
-        <Name>Gimp v2.8.20 x86</Name>
-        <Path>Installers\Gimp v2.8.20 x86</Path>
-        <Version>2.8.20</Version>
+        <Name>Gimp v2.8.22 x86</Name>
+        <Path>Installers\Gimp v2.8.22 x86</Path>
+        <Version>2.8.22</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -796,9 +796,9 @@ Gimp v2.8.20 x86.exe /verysilent /norestart</Description>
 
  * If you wish to disable this behavior, edit the batch file and remove the two lines that start with "sc delete"</Description>
         <FolderId value="20" />
-        <Name>Google Chrome v57.0.2987.133 (Enterprise)</Name>
-        <Path>Installers\Google Chrome v57.0.2987.133 (Enterprise)</Path>
-        <Version>57.0.2987.133</Version>
+        <Name>Google Chrome v59.0.3071.86 (Enterprise)</Name>
+        <Path>Installers\Google Chrome v59.0.3071.86 (Enterprise)</Path>
+        <Version>59.0.3071.86</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -852,9 +852,9 @@ Gimp v2.8.20 x86.exe /verysilent /norestart</Description>
 
  * If you wish to disable this behavior, edit the batch file and remove the two lines that start with "sc delete"</Description>
         <FolderId value="20" />
-        <Name>Google Chrome v57.0.2987.133 (Enterprise) (x86)</Name>
-        <Path>Installers\Google Chrome v57.0.2987.133 (Enterprise) (x86)</Path>
-        <Version>57.0.2987.133</Version>
+        <Name>Google Chrome v59.0.3071.86 (Enterprise) (x86)</Name>
+        <Path>Installers\Google Chrome v59.0.3071.86 (Enterprise) (x86)</Path>
+        <Version>59.0.3071.86</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -1183,8 +1183,8 @@ Thus, if you already had JRE8 installed when you install JDK and instruct it not
 
 There is no option to JUST install JDK8 without touching JRE8 installations.</Description>
         <FolderId value="20" />
-        <Name>Java Development Kit 8 update 112 (x64)</Name>
-        <Path>Installers\Java Development Kit 8 update 112 (x64)</Path>
+        <Name>Java Development Kit 8 update 131 (x64)</Name>
+        <Path>Installers\Java Development Kit 8 update 131 (x64)</Path>
         <Version>8.0.720</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
@@ -1248,8 +1248,8 @@ Thus, if you already had JRE8 installed when you install JDK and instruct it not
 
 There is no option to JUST install JDK8 without touching JRE8 installations.</Description>
         <FolderId value="20" />
-        <Name>Java Development Kit 8 update 112 (x86)</Name>
-        <Path>Installers\Java Development Kit 8 update 112 (x86)</Path>
+        <Name>Java Development Kit 8 update 131 (x86)</Name>
+        <Path>Installers\Java Development Kit 8 update 131 (x86)</Path>
         <Version>8.0.720</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
@@ -1513,8 +1513,8 @@ There is no option to JUST install JDK8 without touching JRE8 installations.</De
 
  * If you wish to disable this behavior, edit the 'deployment.properties' file and comment out or delete the line that reads 'deployment.security.level.locked'</Description>
         <FolderId value="20" />
-        <Name>Java Runtime 8 update 112 (x64)</Name>
-        <Path>Installers\Java Runtime 8 update 112 (x64)</Path>
+        <Name>Java Runtime 8 update 131 (x64)</Name>
+        <Path>Installers\Java Runtime 8 update 131 (x64)</Path>
         <Version>8.0.720</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
@@ -1568,8 +1568,8 @@ There is no option to JUST install JDK8 without touching JRE8 installations.</De
 
  * If you wish to disable this behavior, edit the 'deployment.properties' file and comment out or delete the line that reads 'deployment.security.level.locked'</Description>
         <FolderId value="20" />
-        <Name>Java Runtime 8 update 112 (x86)</Name>
-        <Path>Installers\Java Runtime 8 update 112 (x86)</Path>
+        <Name>Java Runtime 8 update 131 (x86)</Name>
+        <Path>Installers\Java Runtime 8 update 131 (x86)</Path>
         <Version>8.0.720</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
@@ -1843,9 +1843,9 @@ If the target machine is on a domain, the login format is as follows:
 
  * These customizations come from the file '\autoconfig\cck2.cfg' in the package directory. If you want to change them, edit or delete this file. The config file was generated with the CCK2 addon for Firefox.</Description>
         <FolderId value="20" />
-        <Name>Mozilla Firefox v52.0.2 (customized) (x64)</Name>
-        <Path>Installers\Mozilla Firefox v52.0.2 (customized) (x64)</Path>
-        <Version>52.0.2</Version>
+        <Name>Mozilla Firefox v53.0.3 (customized) (x64)</Name>
+        <Path>Installers\Mozilla Firefox v53.0.3 (customized) (x64)</Path>
+        <Version>53.0.3</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -1907,9 +1907,9 @@ If the target machine is on a domain, the login format is as follows:
 
  * These customizations come from the file '\autoconfig\cck2.cfg' in the package directory. If you want to change them, edit or delete this file. The config file was generated with the CCK2 addon for Firefox.</Description>
         <FolderId value="20" />
-        <Name>Mozilla Firefox v52.0.2 (customized) (x86)</Name>
-        <Path>Installers\Mozilla Firefox v52.0.2 (customized) (x86)</Path>
-        <Version>52.0.2</Version>
+        <Name>Mozilla Firefox v53.0.3 (customized) (x86)</Name>
+        <Path>Installers\Mozilla Firefox v53.0.3 (customized) (x86)</Path>
+        <Version>53.0.3</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -1970,9 +1970,9 @@ If the target machine is on a domain, the login format is as follows:
 
  * These customizations come from the file '\autoconfig\cck2.cfg' in the package directory. If you want to change them, edit or delete this file. The config file was generated with the CCK2 addon for Firefox.</Description>
         <FolderId value="20" />
-        <Name>Mozilla Firefox ESR v52.0.0 (customized) (x64)</Name>
-        <Path>Installers\Mozilla Firefox ESR v52.0.0 (customized) (x64)</Path>
-        <Version>52.0.0</Version>
+        <Name>Mozilla Firefox ESR v52.1.2 (customized) (x64)</Name>
+        <Path>Installers\Mozilla Firefox ESR v52.1.2 (customized) (x64)</Path>
+        <Version>52.1.2</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -2033,9 +2033,9 @@ If the target machine is on a domain, the login format is as follows:
 
  * These customizations come from the file '\autoconfig\cck2.cfg' in the package directory. If you want to change them, edit or delete this file. The config file was generated with the CCK2 addon for Firefox.</Description>
         <FolderId value="20" />
-        <Name>Mozilla Firefox v52.0.0 ESR (customized) (x86)</Name>
-        <Path>Installers\Mozilla Firefox v52.0.0 ESR (customized) (x86)</Path>
-        <Version>52.0.0</Version>
+        <Name>Mozilla Firefox v52.1.2 ESR (customized) (x86)</Name>
+        <Path>Installers\Mozilla Firefox v52.1.2 ESR (customized) (x86)</Path>
+        <Version>52.1.2</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -2092,9 +2092,9 @@ If the target machine is on a domain, the login format is as follows:
 * The master settings file it points to is located here:  '\\DOMAIN.NAME\netlogon\applications\thunderbird\thunderbird-global-settings.js'
 * If you wish to disable these settings, remove the three *.js files in the package directory</Description>
         <FolderId value="20" />
-        <Name>Mozilla Thunderbird v45.8.0 (customized)</Name>
-        <Path>Installers\Mozilla Thunderbird v45.8.0 (customized)</Path>
-        <Version>45.8.0</Version>
+        <Name>Mozilla Thunderbird v52.1.1 (customized)</Name>
+        <Path>Installers\Mozilla Thunderbird v52.1.1 (customized)</Path>
+        <Version>52.1.1</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -2197,9 +2197,9 @@ If the target machine is on a domain, the login format is as follows:
 
 Thanks to Moonchild ( http://www.palemoon.org/ ) for redistribution permission.</Description>
         <FolderId value="20" />
-        <Name>Pale Moon v27.2.1</Name>
-        <Path>Installers\Pale Moon v27.2.1</Path>
-        <Version>27.2.1</Version>
+        <Name>Pale Moon v27.3.0</Name>
+        <Path>Installers\Pale Moon v27.3.0</Path>
+        <Version>27.3.0</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -2307,8 +2307,8 @@ Thanks to Moonchild ( http://www.palemoon.org/ ) for redistribution permission.<
 
  * These settings come from the registry file that gets imported. If you wish to disable these customizations, remove the registry file.</Description>
         <FolderId value="20" />
-        <Name>TightVNC v2.8.5 (x64)</Name>
-        <Path>Installers\TightVNC v2.8.5 (x64)</Path>
+        <Name>TightVNC v2.8.8 (x64)</Name>
+        <Path>Installers\TightVNC v2.8.8 (x64)</Path>
         <Version></Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
@@ -2365,8 +2365,8 @@ Thanks to Moonchild ( http://www.palemoon.org/ ) for redistribution permission.<
 
  * These settings come from the registry file that gets imported. If you wish to disable these customizations, remove the registry file.</Description>
         <FolderId value="20" />
-        <Name>TightVNC v2.8.5 (x86)</Name>
-        <Path>Installers\TightVNC v2.8.5 (x86)</Path>
+        <Name>TightVNC v2.8.8 (x86)</Name>
+        <Path>Installers\TightVNC v2.8.8 (x86)</Path>
         <Version></Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
@@ -2471,9 +2471,9 @@ and paste the resulting password in the 'ultravnc.ini' file in the same director
         </PackageDefinition>
         <Description></Description>
         <FolderId value="20" />
-        <Name>VLC Media Player v2.2.4 (x86)</Name>
-        <Path>Installers\VLC Media Player v2.2.4 (x86)</Path>
-        <Version>2.2.4</Version>
+        <Name>VLC Media Player v2.2.6 (x86)</Name>
+        <Path>Installers\VLC Media Player v2.2.6 (x86)</Path>
+        <Version>2.2.6</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -2524,9 +2524,9 @@ and paste the resulting password in the 'ultravnc.ini' file in the same director
  - Doesn't install a desktop icon
  - Associates .scp file extensions with WinSCP</Description>
         <FolderId value="20" />
-        <Name>WinSCP v5.9.4</Name>
-        <Path>Installers\WinSCP v5.9.4</Path>
-        <Version>5.9.4</Version>
+        <Name>WinSCP v5.9.5</Name>
+        <Path>Installers\WinSCP v5.9.5</Path>
+        <Version>5.9.5</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
