@@ -27,7 +27,7 @@ set LOGPATH=%SystemDrive%\Logs
 set LOGFILE=%COMPUTERNAME%_Adobe_Flash_IE_install.log
 
 :: Package to install. Do not use trailing slashes (\)
-set BINARY=install_flash_player_24_active_x.msi
+set BINARY=install_flash_player_25_active_x.msi
 set FLAGS=ALLUSERS=1 /q /norestart
 
 :: Create the log directory if it doesn't exist
@@ -62,11 +62,21 @@ sc delete AdobeFlashPlayerUpdateSvc >> "%LOGPATH%\%LOGFILE%" 2>NUL
 :: Delete scheduled tasks Adobe installs against our wishes
 del /F /Q "%SystemDrive%\Windows\tasks\Adobe Flash Player Update*" >> "%LOGPATH%\%LOGFILE%" 2>NUL
 del /F /Q "%SystemDrive%\Windows\system32\tasks\Adobe Flash Player Update*" >> "%LOGPATH%\%LOGFILE%" 2>NUL
+del /F /Q "%SystemDrive%\Windows\system32\tasks\Adobe Flash Player PPAPI Notifier*" >> "%LOGPATH%\%LOGFILE%" 2>NUL
 
 :: Delete the annoying Acrobat tray icon
 if exist "%ProgramFiles(x86)%\Adobe\Acrobat 7.0\Distillr\acrotray.exe" (
 	taskkill /im "acrotray.exe" >> "%LOGPATH%\%LOGFILE%" 2>NUL
 	del /f /q "%ProgramFiles(x86)%\Adobe\Acrobat 7.0\Distillr\acrotray.exe" >> "%LOGPATH%\%LOGFILE%" 2>NUL
+)
+
+:: Copy config file, this will overwrite any existent file
+if exist "%WinDir%\System32\Macromed\Flash\" (
+	copy mms.cfg %WinDir%\System32\Macromed\Flash\mms.cfg /Y >> "%LOGPATH%\%LOGFILE%" 2>NUL
+)
+
+if exist "%WinDir%\SysWow64\Macromed\Flash\" (
+	copy mms.cfg %WinDir%\SysWow64\Macromed\Flash\mms.cfg /Y >> "%LOGPATH%\%LOGFILE%" 2>NUL
 )
 
 :: Pop back to original directory. This isn't necessary in stand-alone runs of the script, but is needed when being called from another script
