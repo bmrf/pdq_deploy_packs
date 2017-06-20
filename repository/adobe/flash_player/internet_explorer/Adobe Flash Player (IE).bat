@@ -1,7 +1,8 @@
 :: Purpose:       Installs a package
 :: Requirements:  Run this script with Administrator rights
 :: Author:        vocatus on reddit.com/r/sysadmin ( vocatus.gate@gmail.com ) // PGP key ID: 0x07d1490f82a211a2
-:: Version:       1.0.1 * Expand wildcard mask to catch additional Flash Player Updater scheduled tasks
+:: Version:       1.0.2 + Add task to delete PPAPI Notifier. Thanks to github:rfg76
+::                1.0.1 * Expand wildcard mask to catch additional Flash Player Updater scheduled tasks
 ::                1.0.0 + Initial write
 
 
@@ -9,8 +10,8 @@
 :: Prep :: -- Don't change anything in this section
 ::::::::::
 @echo off
-set SCRIPT_VERSION=1.0.1
-set SCRIPT_UPDATED=2017-02-08
+set SCRIPT_VERSION=1.0.2
+set SCRIPT_UPDATED=2017-06-20
 :: Get the date into ISO 8601 standard date format (yyyy-mm-dd) so we can use it
 FOR /f %%a in ('WMIC OS GET LocalDateTime ^| find "."') DO set DTS=%%a
 set CUR_DATE=%DTS:~0,4%-%DTS:~4,2%-%DTS:~6,2%
@@ -70,11 +71,10 @@ if exist "%ProgramFiles(x86)%\Adobe\Acrobat 7.0\Distillr\acrotray.exe" (
 	del /f /q "%ProgramFiles(x86)%\Adobe\Acrobat 7.0\Distillr\acrotray.exe" >> "%LOGPATH%\%LOGFILE%" 2>NUL
 )
 
-:: Copy config file, this will overwrite any existent file
+:: Copy config file, this will overwrite any existing file
 if exist "%WinDir%\System32\Macromed\Flash\" (
 	copy mms.cfg %WinDir%\System32\Macromed\Flash\mms.cfg /Y >> "%LOGPATH%\%LOGFILE%" 2>NUL
 )
-
 if exist "%WinDir%\SysWow64\Macromed\Flash\" (
 	copy mms.cfg %WinDir%\SysWow64\Macromed\Flash\mms.cfg /Y >> "%LOGPATH%\%LOGFILE%" 2>NUL
 )
