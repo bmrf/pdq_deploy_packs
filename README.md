@@ -26,7 +26,7 @@ v8.0 introduced an optional download, Microsoft Offline Update packages. It's no
 
 If you download this package make sure to read the instructions that come with it, otherwise you'll run it, nothing will happen, and you'll feel silly.
 
-# Read-only keys for BitTorrent Sync:
+# Read-only keys for Resilio Sync:
 
 PDQ Deploy installer packages:               `BTRSRPF7Y3VWFRBG64VUDGP7WIIVNTR4Q`
 
@@ -35,6 +35,8 @@ Optional Microsoft Offline Update packages:  `BMHHALGV7WLNSAPIPYDP5DU3NDNSM5XNC`
 
 # Donations
 
-If you're feeling overly charitable, bitcoin donations are accepted at this addres:
+If you're feeling overly charitable, donations are accepted at these addresses:
 
-    1BqZP5i4Cor3GePNcEokjb84L3D2QEHYmY
+Bitcoin: `1BqZP5i4Cor3GePNcEokjb84L3D2QEHYmY`
+
+Monero: `4GG9KsJhwcW3zapDw62UaS71ZfFBjH9uwhc8FeyocPhUHHsuxj5zfvpZpZcZFHWpxoXD99MVt6PnR9QfftXDV8s6Hg1MJkCPytYA3r3KvR`
