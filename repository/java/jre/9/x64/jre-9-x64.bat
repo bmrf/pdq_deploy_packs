@@ -45,7 +45,7 @@ echo %CUR_DATE% %TIME%   Uninstalling all versions of JRE 9 x64 prior to install
 ::wmic product where "IdentifyingNumber like '{26A24AE4-039D-4CA4-87B4-2F64180___F_}'" call uninstall /nointeractive >> "%LOGPATH%\%LOGFILE%"
 
 :: Sometimes the previous line doesn't work for whatever reason, so we run this line as well
-wmic product where "name like 'Java 9 Update %%'" uninstall /nointeractive
+wmic product where "name like 'Java 9%%'" uninstall /nointeractive
 
 :: Install the package from a local directory (if all files are in the same directory)
 :: Nothing below this line will log correctly, because MSI logs in a different format than the standard "echo >> %logfile%" commands. Haven't had time to find a workaround.
