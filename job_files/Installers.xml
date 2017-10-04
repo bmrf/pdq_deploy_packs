@@ -1711,7 +1711,7 @@ There is no option to JUST install JDK9 without touching JRE8 installations.</De
           <Timeout value="60" />
           <UseCustomTimeout value="false" />
         </PackageDefinition>
-        <Description>Installs Java Runtime 8, with the following options:
+        <Description>Installs Java Runtime 9, with the following options:
  - Removes all previous JRE9 x64 installations first (does not specifically target JRE6-8 installations for removal)
  - Disables Java's auto-updater
  - Does not reboot
