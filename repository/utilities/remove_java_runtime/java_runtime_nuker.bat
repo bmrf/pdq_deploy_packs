@@ -10,11 +10,20 @@
 ::                 - /u/MrYiff          : bug fix related to OS_VERSION variable
 ::                 - /u/cannibalkitteh  : additional registry & file cleaning locations
 ::                 - forums.oracle.com/people/mattmn : a lot of stuff from his Java removal script
-:: Version:       1.8.1 ! BUG FIX:     Fix crash error on unescaped "*" character
+:: Version:       1.8.4 + ADDITIONS:   Add support for removal of JRE series 9
+::                1.8.3 * IMPROVEMENT: Add deletion of orphaned Java binaries from the Windows system folders. Thanks to /u/Mikkehy
+::                1.8.2 * IMPROVEMENT: Expand JRE8 mask to catch versions over 99 (3-digit identifier vs. 2). Thanks to /u/flash44007
+::                1.8.1 ! BUG FIX:     Fix crash error on unescaped "*" character
 ::                1.8.0 ! BUG FIX:     Fix uncommon failure where JRE uninstallers fail because they can't find certain files. Thanks to /u/GoogleDrummer
 ::                      * IMPROVEMENT: Import logging function used in Tron and convert all double "echo" statements to log calls
 ::                      * COMMENTS:    Minor comment cleanup
 ::                1.7.2 * IMPROVEMENT: Add section to remove leftover symlinks in PATH folder to JRE exes. Thanks to /u/turnerf
+::                1.7.1 * IMPROVEMENT: Remove all /va flags. This had the effect of deleting key values but leaving keys intact, which could break re-installations that thought Java was still installed when in fact it was not. Big thanks to /u/RazorZero
+::                      * IMPROVEMENT: Reduce 10 JavaSoft registry key deletion commands to 2 by deleting entire JavaSoft key instead of individual subkeys. Thanks to /u/RazorZero
+::                1.7.0 * IMPROVEMENT: Target additional JRE8 GUID {26A24AE4-039D-4CA4-87B4-2F8__180__F0}. Thanks to /u/Caboose816
+::                1.6.9 * IMPROVEMENT: Add process "jp2launcher" to target for killing (or checking) before running. Thanks to /u/citricacidx
+::                1.6.8 ! BUG FIX:     Expand WMI uninstaller mask to catch MSI code for JRE7u67. Thanks to /u/placebonocebo
+::                1.6.7 * IMPROVEMENT: Delete %ProgramData%\Microsoft\Windows\Start Menu\Programs\Java\ if it exists. Thanks to /u/placebonocebo
 ::                <outdated changelog comments removed>
 ::                1.0.0   Initial write
 SETLOCAL
@@ -50,12 +59,12 @@ set REINSTALL_JAVA_x86=no
 :: The JRE installer must be in a place the script can find it (e.g. network path, same directory, etc)
 :: JRE 64-bit reinstaller
 set JAVA_LOCATION_x64=%~dp0
-set JAVA_BINARY_x64=jre-8u31-windows-x64.exe
+set JAVA_BINARY_x64=jre-8u144-windows-x64.exe
 set JAVA_ARGUMENTS_x64=/s
 
 :: JRE 32-bit reinstaller
 set JAVA_LOCATION_x86=%~dp0
-set JAVA_BINARY_x86=jre-8u31-windows-x86.exe
+set JAVA_BINARY_x86=jre-8u144-windows-x86.exe
 set JAVA_ARGUMENTS_x86=/s
 
 
@@ -72,8 +81,8 @@ set JAVA_ARGUMENTS_x86=/s
 :: PREP AND CHECKS ::
 :::::::::::::::::::::
 @echo off && cls
-set SCRIPT_VERSION=1.8.1
-set SCRIPT_UPDATED=2016-01-22
+set SCRIPT_VERSION=1.8.4
+set SCRIPT_UPDATED=2017-10-04
 :: Get the date into ISO 8601 standard format (yyyy-mm-dd) so we can use it
 FOR /f %%a in ('WMIC OS GET LocalDateTime ^| find "."') DO set DTS=%%a
 set CUR_DATE=%DTS:~0,4%-%DTS:~4,2%-%DTS:~6,2%
@@ -106,7 +115,7 @@ echo.
 call :log "%CUR_DATE% %TIME%   Beginning removal of Java Runtime Environments (series 3-8, x86 and x64) and JavaFX..."
 
 :: Do a quick check to make sure WMI is working, and if not, repair it
-wmic timezone >NUL
+%WMIC% timezone >NUL
 if not %ERRORLEVEL%==0 (
     call :log "%CUR_DATE% %TIME% ! WMI appears to be broken. Running WMI repair. This might take a minute, please be patient..."
     net stop winmgmt
@@ -195,20 +204,30 @@ del "%TEMP%\keys_to_delete.txt" >> "%LOGPATH%\%LOGFILE%" 2>NUL
 
 
 :::::::::::::::::::::::::
-:: UNINSTALLER SECTION :: -- Basically here we just brute-force every "normal" method for
-:::::::::::::::::::::::::    removing Java, then resort to more painstaking methods later
+:: UNINSTALLER SECTION :: -- Here we brute-force every "normal" method for removing
+:::::::::::::::::::::::::    Java, then resort to more painstaking methods later
 call :log "%CUR_DATE% %TIME%   Targeting individual JRE versions..."
 call :log "%CUR_DATE% %TIME%   This might take a few minutes. Don't close this window."
 
-:: EXPOSITION DUMP: OK, so all JRE runtimes (series 4-8) use certain GUIDs that increment with each new update (e.g. Update 66)
-:: This makes it easy to catch ALL of them through liberal use of WMI wildcards ("_" is single character, "%" is any number of characters)
+:: EXPOSITION DUMP: OK, so all JRE runtimes (series 4-9) use certain GUIDs that increment with each new update (e.g. Update 66)
+:: This makes it easy to catch them through liberal use of WMI wildcards ("_" is single character, "%" is any number of characters)
 :: Additionally, JRE 6 introduced 64-bit runtimes, so in addition to the two-digit Update XX revision number, we also check for the architecture
 :: type, which always equals '32' or '64'. The first wildcard is the architecture, the second is the revision/update number.
+:: Beginning with JRE versions over 99 (JRE8 was first major version to have subversions go over 99), the GUID string "2F8__", which identified architecture, switched to "2F__", presumably to make room for the new 3rd digit in the version identifying section. You can see this in the JRE8 portion below.
+
+:: JRE 9
+call :log "%CUR_DATE% %TIME%   JRE 9..."
+:: Wildcards aren't used here (yet) because we don't know which portion of the GUID will change with the first "Update xx" release.
+:: Script will be updated when the first Update to series 9 is released by Oracle
+%WMIC% product where "IdentifyingNumber like '{DA69628A-2608-5BA9-8749-1EE90CB29D95}'" call uninstall /nointeractive >> "%LOGPATH%\%LOGFILE%"
+%WMIC% product where "name like 'Java 9%%'" uninstall /nointeractive
 
 :: JRE 8
 call :log "%CUR_DATE% %TIME%   JRE 8..."
-%WMIC% product where "IdentifyingNumber like '{26A24AE4-039D-4CA4-87B4-2F8__180__FF}'" call uninstall /nointeractive >> "%LOGPATH%\%LOGFILE%"
-%WMIC% product where "IdentifyingNumber like '{26A24AE4-039D-4CA4-87B4-2F8__180__F0}'" call uninstall /nointeractive >> "%LOGPATH%\%LOGFILE%"
+%WMIC% product where "IdentifyingNumber like '{26A24AE4-039D-4CA4-87B4-2F8__180__F_}'" call uninstall /nointeractive >> "%LOGPATH%\%LOGFILE%"
+:: This line catches any version above 99 since it's three characters instead of two. Oracle also dropped the "8" from
+:: the last part of the GUID, so instead of "2F8__" it's now "2F__", presumably to make room for the 3rd digit on the right
+%WMIC% product where "IdentifyingNumber like '{26A24AE4-039D-4CA4-87B4-2F__180___F_}'" call uninstall /nointeractive >> "%LOGPATH%\%LOGFILE%"
 
 :: JRE 7
 call :log "%CUR_DATE% %TIME%   JRE 7..."
@@ -243,12 +262,13 @@ FOR %%i IN (01,02,03,04,05,06,07,08,09,10,11,12,13,14,15,16,17,18,19,20,21,22,23
 
 :: Java Update Service
 call :log "%CUR_DATE% %TIME%   Java Update Service..."
-wmic product where "name like 'Java Auto Updater'" call uninstall /nointeractive>> "%LOGPATH%\%LOGFILE%"
+%WMIC% product where "name like 'Java Auto Updater'" call uninstall /nointeractive>> "%LOGPATH%\%LOGFILE%"
 
 :: Wildcard uninstallers
 call :log "%CUR_DATE% %TIME%   Specific targeting done. Now running WMIC wildcard catchall uninstallation..."
 %WMIC% product where "name like '%%J2SE Runtime%%'" call uninstall /nointeractive>> "%LOGPATH%\%LOGFILE%"
 %WMIC% product where "name like 'Java%%Runtime%%'" call uninstall /nointeractive>> "%LOGPATH%\%LOGFILE%"
+%WMIC% product where "name like 'Java%%Update%%'" call uninstall /nointeractive>> "%LOGPATH%\%LOGFILE%"
 %WMIC% product where "name like 'JavaFX%%'" call uninstall /nointeractive>> "%LOGPATH%\%LOGFILE%"
 call :log "%CUR_DATE% %TIME%   Done."
 
@@ -340,14 +360,14 @@ echo.
 :file_cleanup
 call :log "%CUR_DATE% %TIME%   Commencing file and directory cleanup..."
 
-:: Kill the accursed Java tasks in Task Scheduler
+:: Kill the Java tasks in Task Scheduler
 call :log "%CUR_DATE% %TIME%   Removing Java tasks from the Windows Task Scheduler..."
 if exist %WINDIR%\tasks\Java*.job del /F /Q %WINDIR%\tasks\Java*.job >> "%LOGPATH%\%LOGFILE%"
 if exist %WINDIR%\System32\tasks\Java*.job del /F /Q %WINDIR%\System32\tasks\Java*.job >> "%LOGPATH%\%LOGFILE%"
 if exist %WINDIR%\SysWOW64\tasks\Java*.job del /F /Q %WINDIR%\SysWOW64\tasks\Java*.job >> "%LOGPATH%\%LOGFILE%"
 echo.
 
-:: Kill the accursed Java Quickstarter service
+:: Kill the hellspawn known as the Java Quickstarter service
 sc query JavaQuickStarterService >NUL
 if not %ERRORLEVEL%==1060 (
 	call :log "%CUR_DATE% %TIME%   De-registering and removing Java Quickstarter service..."
@@ -355,13 +375,21 @@ if not %ERRORLEVEL%==1060 (
 	sc delete JavaQuickStarterService >> "%LOGPATH%\%LOGFILE%" 2>NUL
 )
 
-:: Kill the accursed Java Update Scheduler service
+:: Kill the Java Update Scheduler service
 sc query jusched >NUL
 if not %ERRORLEVEL%==1060 (
 	call :log "%CUR_DATE% %TIME%   De-registering and removing Java Update Scheduler service..."
 	net stop jusched >> "%LOGPATH%\%LOGFILE%" 2>NUL
 	sc delete jusched >> "%LOGPATH%\%LOGFILE%" 2>NUL
 )
+
+:: Kill any leftover binaries in the Windows system folders
+if exist %WINDIR%\System32\java.exe del /F /Q %WINDIR%\System32\java.exe >> "%LOGPATH%\%LOGFILE%"
+if exist %WINDIR%\System32\javaw.exe del /F /Q %WINDIR%\System32\javaw.exe >> "%LOGPATH%\%LOGFILE%"
+if exist %WINDIR%\System32\javaws.exe del /F /Q %WINDIR%\System32\javaws.exe >> "%LOGPATH%\%LOGFILE%"
+if exist %WINDIR%\SysWOW64\java.exe del /F /Q %WINDIR%\SysWOW64\java.exe >> "%LOGPATH%\%LOGFILE%"
+if exist %WINDIR%\SysWOW64\javaw.exe del /F /Q %WINDIR%\SysWOW64\javaw.exe >> "%LOGPATH%\%LOGFILE%"
+if exist %WINDIR%\SysWOW64\javaws.exe del /F /Q %WINDIR%\SysWOW64\javaws.exe >> "%LOGPATH%\%LOGFILE%" 
 
 :: This is the Oracle method of disabling the Java services. 99% of the time these commands aren't required and will just throw an error message.
 if exist "%ProgramFiles(x86)%\Java\jre6\bin\jqs.exe" "%ProgramFiles(x86)%\Java\jre6\bin\jqs.exe" -disable>> "%LOGPATH%\%LOGFILE%" 2>NUL
