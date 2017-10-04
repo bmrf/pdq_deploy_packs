@@ -399,7 +399,7 @@ http://www.reddit.com/r/usefulscripts/comments/2hzt5c/batch_java_runtime_nuker_p
         <FolderId value="50" />
         <Name>Remove Java Runtime (all versions)</Name>
         <Path>Utilities\Remove Java Runtime (all versions)</Path>
-        <Version>1.8.1</Version>
+        <Version>1.8.4</Version>
         <PackageDefinition name="Definition">
           <CopyMode>Default</CopyMode>
           <InventoryScanProfileId value="null" />
