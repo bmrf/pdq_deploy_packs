@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<AdminArsenal.Export Code="PDQDeploy" Name="PDQ Deploy" Version="6.1.0.0" MinimumVersion="3.1">
+<AdminArsenal.Export Code="PDQDeploy" Name="PDQ Deploy" Version="12.2.0.0" MinimumVersion="7.0">
   <Folder>
-    <Created>2014-09-05T07:57:24.0000000-07:00</Created>
-    <Id value="50" />
-    <Modified>2014-09-05T07:57:24.0000000-07:00</Modified>
+    <Created>2017-10-04T10:22:20.0000000-07:00</Created>
+    <Id value="3" />
+    <Modified>2017-10-04T10:22:20.0000000-07:00</Modified>
     <Name>Utilities</Name>
     <ParentId value="null" />
     <Path>Utilities</Path>
