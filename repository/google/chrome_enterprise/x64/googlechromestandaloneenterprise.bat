@@ -54,8 +54,9 @@ msiexec.exe /i "googlechromestandaloneenterprise.msi" %FLAGS%
 regedit /s Tweak_Disable_Chrome_Auto-Update.reg
 
 :: Delete auto-update tasks that Google installs
-del /f /q %WinDir%\Tasks\GoogleUpdate*.job
-del /f /q %WinDir%\System32\Tasks\GoogleUpdate*.job
+del /f /q %WinDir%\Tasks\GoogleUpdate*
+del /f /q %WinDir%\System32\Tasks\GoogleUpdate*
+del /f /q %WinDir%\System32\Tasks_Migrated\GoogleUpdate*
 
 :: Disable, then delete Google Update services
 net stop gupdatem 2>NUL
