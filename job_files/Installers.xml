@@ -57,9 +57,9 @@
 
 * If you wish to associate with ALL the file extensions 7-Zip supports, go to "Step 1" of this installer and change the argument that's passed to the installer from "associate_common" to "associate_all"</Description>
         <FolderId value="3" />
-        <Name>7-Zip v16.04 (x64)</Name>
-        <Path>Installers\7-Zip v16.04 (x64)</Path>
-        <Version>16.04</Version>
+        <Name>7-Zip v18.01 (x64)</Name>
+        <Path>Installers\7-Zip v18.01 (x64)</Path>
+        <Version>18.01</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -112,9 +112,9 @@
 
 * If you wish to associate with ALL the file extensions 7-Zip supports, go to "Step 1" of this installer and change the argument that's passed to the installer from "associate_common" to "associate_all"</Description>
         <FolderId value="3" />
-        <Name>7-Zip v16.04 (x86)</Name>
-        <Path>Installers\7-Zip v16.04 (x86)</Path>
-        <Version>16.04</Version>
+        <Name>7-Zip v18.01 (x86)</Name>
+        <Path>Installers\7-Zip v18.01 (x86)</Path>
+        <Version>18.01</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -222,9 +222,9 @@
  - Deletes Adobe Update service
  - Deletes Adobe Update Task Scheduler jobs</Description>
         <FolderId value="3" />
-        <Name>Adobe AIR v27.0.0.124</Name>
-        <Path>Installers\Adobe AIR v27.0.0.124</Path>
-        <Version>27.0.0.124</Version>
+        <Name>Adobe AIR v29.0.0.112</Name>
+        <Path>Installers\Adobe AIR v29.0.0.112</Path>
+        <Version>29.0.0.112</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -276,9 +276,9 @@
  - Removes the Adobe Acrobat Update Service (AdobeFlashPlayerUpdateSvc)
  - Removes the Adobe Update scheduled task that gets installed (C:\Windows\tasks\Adobe Flash Player Updater.job)</Description>
         <FolderId value="3" />
-        <Name>Adobe Flash Player v27.0.0.130 (Chrome)</Name>
-        <Path>Installers\Adobe Flash Player v27.0.0.130 (Chrome)</Path>
-        <Version>27.0.0.130</Version>
+        <Name>Adobe Flash Player v29.0.0.140 (Chrome)</Name>
+        <Path>Installers\Adobe Flash Player v29.0.0.140 (Chrome)</Path>
+        <Version>29.0.0.140</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -330,9 +330,9 @@
  - Removes the Adobe Acrobat Update Service (AdobeFlashPlayerUpdateSvc)
  - Removes the Adobe Update scheduled task that gets installed (C:\Windows\tasks\Adobe Flash Player Updater.job)</Description>
         <FolderId value="3" />
-        <Name>Adobe Flash Player v27.0.0.130 (Firefox)</Name>
-        <Path>Installers\Adobe Flash Player v27.0.0.130 (Firefox)</Path>
-        <Version>27.0.0.130</Version>
+        <Name>Adobe Flash Player v29.0.0.140 (Firefox)</Name>
+        <Path>Installers\Adobe Flash Player v29.0.0.140 (Firefox)</Path>
+        <Version>29.0.0.140</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -384,9 +384,9 @@
  - Removes the Adobe Acrobat Update Service (AdobeFlashPlayerUpdateSvc)
  - Removes the Adobe Update scheduled task that gets installed (C:\Windows\tasks\Adobe Flash Player Updater.job)</Description>
         <FolderId value="3" />
-        <Name>Adobe Flash Player v27.0.0.130 (IE)</Name>
-        <Path>Installers\Adobe Flash Player v27.0.0.130 (IE)</Path>
-        <Version>27.0.0.130</Version>
+        <Name>Adobe Flash Player v29.0.0.140 (IE)</Name>
+        <Path>Installers\Adobe Flash Player v29.0.0.140 (IE)</Path>
+        <Version>29.0.0.140</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -488,9 +488,9 @@
  - Disables auto-updater
  - Disables automatic statistics collection and submission</Description>
         <FolderId value="3" />
-        <Name>Adobe Shockwave v12.2.8.198</Name>
-        <Path>Installers\Adobe Shockwave v12.2.8.198</Path>
-        <Version>12.2.8.198</Version>
+        <Name>Adobe Shockwave v12.3.2.202</Name>
+        <Path>Installers\Adobe Shockwave v12.3.2.202</Path>
+        <Version>12.3.2.202</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -596,9 +596,9 @@
  - Associates some other CD-related files with CDBurnerXP
  - Disables the background online update checker</Description>
         <FolderId value="3" />
-        <Name>CDBurnerXP v4.5.7.6623 (x64)</Name>
-        <Path>Installers\CDBurnerXP v4.5.7.6623 (x64)</Path>
-        <Version>4.5.7.6623</Version>
+        <Name>CDBurnerXP v4.5.8.6795 (x64)</Name>
+        <Path>Installers\CDBurnerXP v4.5.8.6795 (x64)</Path>
+        <Version>4.5.8.6795</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -702,9 +702,9 @@ Thanks to reddit.com/user/b0park for this package.</Description>
         <Description>Installs the FileZilla client with the following customizations:
  - Removes any previous versions before installing</Description>
         <FolderId value="3" />
-        <Name>FileZilla Client v3.28.0</Name>
-        <Path>Installers\FileZilla Client v3.28.0</Path>
-        <Version>3.28.0</Version>
+        <Name>FileZilla Client v3.32.0</Name>
+        <Path>Installers\FileZilla Client v3.32.0</Path>
+        <Version>3.32.0</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -811,9 +811,9 @@ Gimp v2.8.22 x86.exe /verysilent /norestart</Description>
 
  * If you wish to disable this behavior, edit the batch file and remove the two lines that start with "sc delete"</Description>
         <FolderId value="3" />
-        <Name>Google Chrome v61.0.3163.100 (Enterprise)</Name>
-        <Path>Installers\Google Chrome v61.0.3163.100 (Enterprise)</Path>
-        <Version>61.0.3163.100</Version>
+        <Name>Google Chrome v65.0.3325.181 (Enterprise)</Name>
+        <Path>Installers\Google Chrome v65.0.3325.181 (Enterprise)</Path>
+        <Version>65.0.3325.181</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -868,9 +868,9 @@ Gimp v2.8.22 x86.exe /verysilent /norestart</Description>
 
  * If you wish to disable this behavior, edit the batch file and remove the two lines that start with "sc delete"</Description>
         <FolderId value="3" />
-        <Name>Google Chrome v61.0.3163.100 (Enterprise) (x86)</Name>
-        <Path>Installers\Google Chrome v61.0.3163.100 (Enterprise) (x86)</Path>
-        <Version>61.0.3163.100</Version>
+        <Name>Google Chrome v65.0.3325.181 (Enterprise) (x86)</Name>
+        <Path>Installers\Google Chrome v65.0.3325.181 (Enterprise) (x86)</Path>
+        <Version>65.0.3325.181</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -928,112 +928,6 @@ Gimp v2.8.22 x86.exe /verysilent /norestart</Description>
         <Name>Google Earth v7.1.5.1557</Name>
         <Path>Installers\Google Earth v7.1.5.1557</Path>
         <Version>7.1.5.1557</Version>
-        <PackageDisplaySettings name="DisplaySettings">
-          <DisplayType>Normal</DisplayType>
-          <IconKey></IconKey>
-          <SortOrder value="7" />
-        </PackageDisplaySettings>
-      </Package>
-      <Package>
-        <PackageDefinition name="Definition">
-          <CopyMode>Default</CopyMode>
-          <InventoryScanProfileId value="null" />
-          <RunAs value="null" />
-          <ScanAfterDeployment value="null" />
-          <Steps type="list">
-            <InstallStep>
-              <CustomCommandLine></CustomCommandLine>
-              <FileName>$(Repository)\java\jdk\6\x64\jdk-6u45-windows-x64.exe</FileName>
-              <Files></Files>
-              <IncludeDirectory value="false" />
-              <LeaveInstallFile value="false" />
-              <MsiOperation>Install</MsiOperation>
-              <MsiQuiet value="true" />
-              <MsiRestart>Never</MsiRestart>
-              <Parameters>/s ADDLOCAL="ToolsFeature" /L C:\Logs\jdk6_x64_update.log</Parameters>
-              <SuccessCodes>0,1641,3010</SuccessCodes>
-              <RunAs value="null" />
-              <Conditions type="list">
-                <PackageStepCondition>
-                  <Architecture>Bits64</Architecture>
-                  <Version>All</Version>
-                  <TypeName>OperatingSystem</TypeName>
-                </PackageStepCondition>
-                <PackageStepCondition>
-                  <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
-                  <TypeName>LoggedOnUser</TypeName>
-                </PackageStepCondition>
-              </Conditions>
-              <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
-              <Title></Title>
-              <TypeName>Install</TypeName>
-            </InstallStep>
-          </Steps>
-          <Timeout value="60" />
-          <UseCustomTimeout value="false" />
-        </PackageDefinition>
-        <Description>Installes Java Development Kit 6, with the following customizations:
- - Disables auto-update
-
-NOTE: The JDK installer will sometimes toss error 1603 (the generic MSI code for "some sort of error happened") even though the install completed successfully. I've been able to reproduce this and it only seems to happen if there is a prior version of the JDK installed and you install on top of it. The install still goes through OK, but MSI will toss error 1603. In my experience you can safely ignore this error.</Description>
-        <FolderId value="3" />
-        <Name>Java Development Kit 6 update 45 (x64)</Name>
-        <Path>Installers\Java Development Kit 6 update 45 (x64)</Path>
-        <Version>1.6.0.450</Version>
-        <PackageDisplaySettings name="DisplaySettings">
-          <DisplayType>Normal</DisplayType>
-          <IconKey></IconKey>
-          <SortOrder value="7" />
-        </PackageDisplaySettings>
-      </Package>
-      <Package>
-        <PackageDefinition name="Definition">
-          <CopyMode>Default</CopyMode>
-          <InventoryScanProfileId value="null" />
-          <RunAs value="null" />
-          <ScanAfterDeployment value="null" />
-          <Steps type="list">
-            <InstallStep>
-              <CustomCommandLine></CustomCommandLine>
-              <FileName>$(Repository)\java\jdk\6\x86\jdk-6u45-windows-i586.exe</FileName>
-              <Files></Files>
-              <IncludeDirectory value="false" />
-              <LeaveInstallFile value="false" />
-              <MsiOperation>Install</MsiOperation>
-              <MsiQuiet value="true" />
-              <MsiRestart>Never</MsiRestart>
-              <Parameters>/s ADDLOCAL="ToolsFeature"</Parameters>
-              <SuccessCodes>0,1641,3010</SuccessCodes>
-              <RunAs value="null" />
-              <Conditions type="list">
-                <PackageStepCondition>
-                  <Architecture>Both</Architecture>
-                  <Version>All</Version>
-                  <TypeName>OperatingSystem</TypeName>
-                </PackageStepCondition>
-                <PackageStepCondition>
-                  <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
-                  <TypeName>LoggedOnUser</TypeName>
-                </PackageStepCondition>
-              </Conditions>
-              <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
-              <Title></Title>
-              <TypeName>Install</TypeName>
-            </InstallStep>
-          </Steps>
-          <Timeout value="60" />
-          <UseCustomTimeout value="false" />
-        </PackageDefinition>
-        <Description>Installes Java Development Kit 6, with the following customizations:
- - Disables auto-update
-
-NOTE: The JDK installer will sometimes toss error 1603 (the generic MSI code for "some sort of error happened") even though the install completed successfully. I've been able to reproduce this and it only seems to happen if there is a prior version of the JDK installed and you install on top of it. The install still goes through OK, but MSI will toss error 1603. In my experience you can safely ignore this error.</Description>
-        <FolderId value="3" />
-        <Name>Java Development Kit 6 update 45 (x86)</Name>
-        <Path>Installers\Java Development Kit 6 update 45 (x86)</Path>
-        <Version>1.6.0.450</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -1205,9 +1099,9 @@ Thus, if you already had JRE8 installed when you install JDK and instruct it not
 
 There is no option to JUST install JDK8 without touching JRE8 installations.</Description>
         <FolderId value="3" />
-        <Name>Java Development Kit 8 update 144 (x64)</Name>
-        <Path>Installers\Java Development Kit 8 update 144 (x64)</Path>
-        <Version>8.0.144</Version>
+        <Name>Java Development Kit 8 update 162 (x64)</Name>
+        <Path>Installers\Java Development Kit 8 update 162 (x64)</Path>
+        <Version>8.0.162</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -1271,9 +1165,9 @@ Thus, if you already had JRE8 installed when you install JDK and instruct it not
 
 There is no option to JUST install JDK8 without touching JRE8 installations.</Description>
         <FolderId value="3" />
-        <Name>Java Development Kit 8 update 144 (x86)</Name>
-        <Path>Installers\Java Development Kit 8 update 144 (x86)</Path>
-        <Version>8.0.144</Version>
+        <Name>Java Development Kit 8 update 162 (x86)</Name>
+        <Path>Installers\Java Development Kit 8 update 162 (x86)</Path>
+        <Version>8.0.162</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -1319,7 +1213,7 @@ There is no option to JUST install JDK8 without touching JRE8 installations.</De
           <Timeout value="60" />
           <UseCustomTimeout value="false" />
         </PackageDefinition>
-        <Description>Installs Java Development Kit 9, with the following customizations:
+        <Description>Installs Java Development Kit 9.0.4, with the following customizations:
  - Removes all previous JDK9 x64 installations first (leaves any JDK7 or JDK8 x86 installations intact)
  - Adds "Development Tools" feature
  * Installs matching JRE 9 version ("PublicJreFeature feature")
@@ -1337,117 +1231,9 @@ Thus, if you already had JRE9 installed when you install JDK and instruct it not
 
 There is no option to JUST install JDK9 without touching JRE8 installations.</Description>
         <FolderId value="3" />
-        <Name>Java Development Kit 9 (x64)</Name>
-        <Path>Installers\Java Development Kit 9 (x64)</Path>
-        <Version>9.0.0</Version>
-        <PackageDisplaySettings name="DisplaySettings">
-          <DisplayType>Normal</DisplayType>
-          <IconKey></IconKey>
-          <SortOrder value="7" />
-        </PackageDisplaySettings>
-      </Package>
-      <Package>
-        <PackageDefinition name="Definition">
-          <CopyMode>Default</CopyMode>
-          <InventoryScanProfileId value="null" />
-          <RunAs value="null" />
-          <ScanAfterDeployment value="null" />
-          <Steps type="list">
-            <InstallStep>
-              <CustomCommandLine></CustomCommandLine>
-              <FileName>$(Repository)\java\jre\6\x64\jre-6-windows-x64.bat</FileName>
-              <Files></Files>
-              <IncludeDirectory value="true" />
-              <LeaveInstallFile value="false" />
-              <MsiOperation>Install</MsiOperation>
-              <MsiQuiet value="true" />
-              <MsiRestart>Never</MsiRestart>
-              <Parameters></Parameters>
-              <SuccessCodes>0,1641,3010</SuccessCodes>
-              <RunAs value="null" />
-              <Conditions type="list">
-                <PackageStepCondition>
-                  <Architecture>Bits64</Architecture>
-                  <Version>All</Version>
-                  <TypeName>OperatingSystem</TypeName>
-                </PackageStepCondition>
-                <PackageStepCondition>
-                  <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
-                  <TypeName>LoggedOnUser</TypeName>
-                </PackageStepCondition>
-              </Conditions>
-              <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
-              <Title></Title>
-              <TypeName>Install</TypeName>
-            </InstallStep>
-          </Steps>
-          <Timeout value="60" />
-          <UseCustomTimeout value="false" />
-        </PackageDefinition>
-        <Description>Installs Java Runtime 6, with the following customizations:
- - Removes all previous JRE6 installations (leaves JRE7 installations intact)
- - Disables Java's auto-updater
- - Does not reboot
- - NOTE: JRE6 u45 was the final public release of the 6-series JRE. This binary is from Sun but was not widely disseminated. It is the same as JRE6u45 with security fixes from JRE7 backported.</Description>
-        <FolderId value="3" />
-        <Name>Java Runtime 6 update 115 (x64)</Name>
-        <Path>Installers\Java Runtime 6 update 115 (x64)</Path>
-        <Version>6.0.115</Version>
-        <PackageDisplaySettings name="DisplaySettings">
-          <DisplayType>Normal</DisplayType>
-          <IconKey></IconKey>
-          <SortOrder value="7" />
-        </PackageDisplaySettings>
-      </Package>
-      <Package>
-        <PackageDefinition name="Definition">
-          <CopyMode>Default</CopyMode>
-          <InventoryScanProfileId value="null" />
-          <RunAs value="null" />
-          <ScanAfterDeployment value="null" />
-          <Steps type="list">
-            <InstallStep>
-              <CustomCommandLine></CustomCommandLine>
-              <FileName>$(Repository)\java\jre\6\x86\jre-6-windows-i586.bat</FileName>
-              <Files></Files>
-              <IncludeDirectory value="true" />
-              <LeaveInstallFile value="false" />
-              <MsiOperation>Install</MsiOperation>
-              <MsiQuiet value="true" />
-              <MsiRestart>Never</MsiRestart>
-              <Parameters></Parameters>
-              <SuccessCodes>0,1641,3010</SuccessCodes>
-              <RunAs value="null" />
-              <Conditions type="list">
-                <PackageStepCondition>
-                  <Architecture>Both</Architecture>
-                  <Version>All</Version>
-                  <TypeName>OperatingSystem</TypeName>
-                </PackageStepCondition>
-                <PackageStepCondition>
-                  <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
-                  <TypeName>LoggedOnUser</TypeName>
-                </PackageStepCondition>
-              </Conditions>
-              <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
-              <Title></Title>
-              <TypeName>Install</TypeName>
-            </InstallStep>
-          </Steps>
-          <Timeout value="60" />
-          <UseCustomTimeout value="false" />
-        </PackageDefinition>
-        <Description>Installs Java Runtime 6, with the following customizations:
- - Removes all previous JRE6 installations (leaves JRE7 installations intact)
- - Disables Java's auto-updater
- - Does not reboot
- - NOTE: JRE6 u45 was the final public release of the 6-series JRE. This binary is from Sun but was not widely disseminated. It is the same as JRE6u45 with security fixes from JRE7 backported.</Description>
-        <FolderId value="3" />
-        <Name>Java Runtime 6 update 115 (x86)</Name>
-        <Path>Installers\Java Runtime 6 update 115 (x86)</Path>
-        <Version>6.0.115</Version>
+        <Name>Java Development Kit 9.0.4 (x64)</Name>
+        <Path>Installers\Java Development Kit 9.0.4 (x64)</Path>
+        <Version>9.0.4</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -1607,9 +1393,9 @@ There is no option to JUST install JDK9 without touching JRE8 installations.</De
 
  * If you wish to disable this behavior, edit the 'deployment.properties' file and comment out or delete the line that reads 'deployment.security.level.locked'</Description>
         <FolderId value="3" />
-        <Name>Java Runtime 8 update 144 (x64)</Name>
-        <Path>Installers\Java Runtime 8 update 144 (x64)</Path>
-        <Version>8.0.144</Version>
+        <Name>Java Runtime 8 update 162 (x64)</Name>
+        <Path>Installers\Java Runtime 8 update 162 (x64)</Path>
+        <Version>8.0.162</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -1663,9 +1449,9 @@ There is no option to JUST install JDK9 without touching JRE8 installations.</De
 
  * If you wish to disable this behavior, edit the 'deployment.properties' file and comment out or delete the line that reads 'deployment.security.level.locked'</Description>
         <FolderId value="3" />
-        <Name>Java Runtime 8 update 144 (x86)</Name>
-        <Path>Installers\Java Runtime 8 update 144 (x86)</Path>
-        <Version>8.0.144</Version>
+        <Name>Java Runtime 8 update 162 (x86)</Name>
+        <Path>Installers\Java Runtime 8 update 162 (x86)</Path>
+        <Version>8.0.162</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -1719,9 +1505,9 @@ There is no option to JUST install JDK9 without touching JRE8 installations.</De
 
  * If you wish to disable this behavior, edit the 'deployment.properties' file and comment out or delete the line that reads 'deployment.security.level.locked'</Description>
         <FolderId value="3" />
-        <Name>Java Runtime 9 (x64)</Name>
-        <Path>Installers\Java Runtime 9 (x64)</Path>
-        <Version>9.0.0</Version>
+        <Name>Java Runtime 9.0.4 (x64)</Name>
+        <Path>Installers\Java Runtime 9.0.4 (x64)</Path>
+        <Version>9.0.4</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -1998,9 +1784,9 @@ If the target machine is on a domain, the login format is as follows:
 
  * These customizations come from the file '\autoconfig\cck2.cfg' in the package directory. If you want to change them, edit or delete this file. The config file was generated with the CCK2 addon for Firefox.</Description>
         <FolderId value="3" />
-        <Name>Mozilla Firefox ESR v52.4.0 (customized) (x64)</Name>
-        <Path>Installers\Mozilla Firefox ESR v52.4.0 (customized) (x64)</Path>
-        <Version>52.4.0</Version>
+        <Name>Mozilla Firefox ESR v52.7.3 (customized) (x64)</Name>
+        <Path>Installers\Mozilla Firefox ESR v52.7.3 (customized) (x64)</Path>
+        <Version>52.7.3</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -2062,9 +1848,9 @@ If the target machine is on a domain, the login format is as follows:
 
  * These customizations come from the file '\autoconfig\cck2.cfg' in the package directory. If you want to change them, edit or delete this file. The config file was generated with the CCK2 addon for Firefox.</Description>
         <FolderId value="3" />
-        <Name>Mozilla Firefox v52.4.0 ESR (customized) (x86)</Name>
-        <Path>Installers\Mozilla Firefox v52.4.0 ESR (customized) (x86)</Path>
-        <Version>52.4.0</Version>
+        <Name>Mozilla Firefox v52.7.3 ESR (customized) (x86)</Name>
+        <Path>Installers\Mozilla Firefox v52.7.3 ESR (customized) (x86)</Path>
+        <Version>52.7.3</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -2127,9 +1913,9 @@ If the target machine is on a domain, the login format is as follows:
 
  * These customizations come from the file '\autoconfig\cck2.cfg' in the package directory. If you want to change them, edit or delete this file. The config file was generated with the CCK2 addon for Firefox.</Description>
         <FolderId value="3" />
-        <Name>Mozilla Firefox v56.0.0 (customized) (x64)</Name>
-        <Path>Installers\Mozilla Firefox v56.0.0 (customized) (x64)</Path>
-        <Version>56.0.0</Version>
+        <Name>Mozilla Firefox v59.0.2 (customized) (x64)</Name>
+        <Path>Installers\Mozilla Firefox v59.0.2 (customized) (x64)</Path>
+        <Version>59.0.2</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -2192,9 +1978,9 @@ If the target machine is on a domain, the login format is as follows:
 
  * These customizations come from the file '\autoconfig\cck2.cfg' in the package directory. If you want to change them, edit or delete this file. The config file was generated with the CCK2 addon for Firefox.</Description>
         <FolderId value="3" />
-        <Name>Mozilla Firefox v56.0.0 (customized) (x86)</Name>
-        <Path>Installers\Mozilla Firefox v56.0.0 (customized) (x86)</Path>
-        <Version>56.0.0</Version>
+        <Name>Mozilla Firefox v59.0.2 (customized) (x86)</Name>
+        <Path>Installers\Mozilla Firefox v59.0.2 (customized) (x86)</Path>
+        <Version>59.0.2</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -2252,9 +2038,9 @@ If the target machine is on a domain, the login format is as follows:
 * The master settings file it points to is located here:  '\\DOMAIN.NAME\netlogon\applications\thunderbird\thunderbird-global-settings.js'
 * If you wish to disable these settings, remove the three *.js files in the package directory</Description>
         <FolderId value="3" />
-        <Name>Mozilla Thunderbird v52.3.0 (customized)</Name>
-        <Path>Installers\Mozilla Thunderbird v52.3.0 (customized)</Path>
-        <Version>52.3.0</Version>
+        <Name>Mozilla Thunderbird v52.7.0 (customized)</Name>
+        <Path>Installers\Mozilla Thunderbird v52.7.0 (customized)</Path>
+        <Version>52.7.0</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -2305,9 +2091,9 @@ If the target machine is on a domain, the login format is as follows:
  - Disables auto-updater by deleting the folder "C:\Program Files\Notepad++\updater"
  - Deletes the DSpellCheck plugin</Description>
         <FolderId value="3" />
-        <Name>Notepad++ v7.5.1</Name>
-        <Path>Installers\Notepad++ v7.5.1</Path>
-        <Version>7.5.1</Version>
+        <Name>Notepad++ v7.5.6</Name>
+        <Path>Installers\Notepad++ v7.5.6</Path>
+        <Version>7.5.6</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -2359,9 +2145,9 @@ If the target machine is on a domain, the login format is as follows:
 
 Thanks to Moonchild ( http://www.palemoon.org/ ) for redistribution permission.</Description>
         <FolderId value="3" />
-        <Name>Pale Moon v27.5.0</Name>
-        <Path>Installers\Pale Moon v27.5.0</Path>
-        <Version>27.5.0</Version>
+        <Name>Pale Moon v27.8.3</Name>
+        <Path>Installers\Pale Moon v27.8.3</Path>
+        <Version>27.8.3</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -2638,9 +2424,9 @@ and paste the resulting password in the 'ultravnc.ini' file in the same director
         </PackageDefinition>
         <Description></Description>
         <FolderId value="3" />
-        <Name>VLC Media Player v2.2.6 (x86)</Name>
-        <Path>Installers\VLC Media Player v2.2.6 (x86)</Path>
-        <Version>2.2.6</Version>
+        <Name>VLC Media Player v3.0.1 (x86)</Name>
+        <Path>Installers\VLC Media Player v3.0.1 (x86)</Path>
+        <Version>3.0.1</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -2692,9 +2478,9 @@ and paste the resulting password in the 'ultravnc.ini' file in the same director
  - Doesn't install a desktop icon
  - Associates .scp file extensions with WinSCP</Description>
         <FolderId value="3" />
-        <Name>WinSCP v5.11.1</Name>
-        <Path>Installers\WinSCP v5.11.1</Path>
-        <Version>5.11.1</Version>
+        <Name>WinSCP v5.13.1</Name>
+        <Path>Installers\WinSCP v5.13.1</Path>
+        <Version>5.13.1</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
