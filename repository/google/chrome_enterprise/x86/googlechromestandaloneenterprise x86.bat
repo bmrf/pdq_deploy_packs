@@ -26,7 +26,7 @@ if not exist %LOGPATH% mkdir %LOGPATH%
 ::::::::::
 @echo off
 set SCRIPT_VERSION=1.0.1
-set SCRIPT_UPDATED=2017-08-30
+set SCRIPT_UPDATED=2018-04-10
 :: Get the date into ISO 8601 standard date format (yyyy-mm-dd) so we can use it
 FOR /f %%a in ('WMIC OS GET LocalDateTime ^| find "."') DO set DTS=%%a
 set CUR_DATE=%DTS:~0,4%-%DTS:~4,2%-%DTS:~6,2%
@@ -55,8 +55,9 @@ msiexec.exe /i "googlechromestandaloneenterprise %BINARY_VERSION%.msi" %FLAGS%
 regedit /s Tweak_Disable_Chrome_Auto-Update.reg
 
 :: Delete auto-update tasks that Google installs
-del /f /q %WinDir%\Tasks\GoogleUpdate*.job
-del /f /q %WinDir%\System32\Tasks\GoogleUpdate*.job
+del /f /q %WinDir%\Tasks\GoogleUpdate*
+del /f /q %WinDir%\System32\Tasks\GoogleUpdate*
+del /f /q %WinDir%\System32\Tasks_Migrated\GoogleUpdate*
 
 :: Disable, then delete Google Update services
 net stop gupdatem 2>NUL
