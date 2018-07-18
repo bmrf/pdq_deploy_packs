@@ -222,9 +222,9 @@
  - Deletes Adobe Update service
  - Deletes Adobe Update Task Scheduler jobs</Description>
         <FolderId value="3" />
-        <Name>Adobe AIR v29.0.0.112</Name>
-        <Path>Installers\Adobe AIR v29.0.0.112</Path>
-        <Version>29.0.0.112</Version>
+        <Name>Adobe AIR v30.0.0.107</Name>
+        <Path>Installers\Adobe AIR v30.0.0.107</Path>
+        <Version>30.0.0.107</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -276,9 +276,9 @@
  - Removes the Adobe Acrobat Update Service (AdobeFlashPlayerUpdateSvc)
  - Removes the Adobe Update scheduled task that gets installed (C:\Windows\tasks\Adobe Flash Player Updater.job)</Description>
         <FolderId value="3" />
-        <Name>Adobe Flash Player v29.0.0.171 (Chrome)</Name>
-        <Path>Installers\Adobe Flash Player v29.0.0.171 (Chrome)</Path>
-        <Version>29.0.0.171</Version>
+        <Name>Adobe Flash Player v30.0.0.134 (Chrome)</Name>
+        <Path>Installers\Adobe Flash Player v30.0.0.134 (Chrome)</Path>
+        <Version>30.0.0.134</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -330,9 +330,9 @@
  - Removes the Adobe Acrobat Update Service (AdobeFlashPlayerUpdateSvc)
  - Removes the Adobe Update scheduled task that gets installed (C:\Windows\tasks\Adobe Flash Player Updater.job)</Description>
         <FolderId value="3" />
-        <Name>Adobe Flash Player v29.0.0.171 (Firefox)</Name>
-        <Path>Installers\Adobe Flash Player v29.0.0.171 (Firefox)</Path>
-        <Version>29.0.0.171</Version>
+        <Name>Adobe Flash Player v30.0.0.134 (Firefox)</Name>
+        <Path>Installers\Adobe Flash Player v30.0.0.134 (Firefox)</Path>
+        <Version>30.0.0.134</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -384,9 +384,9 @@
  - Removes the Adobe Acrobat Update Service (AdobeFlashPlayerUpdateSvc)
  - Removes the Adobe Update scheduled task that gets installed (C:\Windows\tasks\Adobe Flash Player Updater.job)</Description>
         <FolderId value="3" />
-        <Name>Adobe Flash Player v29.0.0.171 (IE)</Name>
-        <Path>Installers\Adobe Flash Player v29.0.0.171 (IE)</Path>
-        <Version>29.0.0.171</Version>
+        <Name>Adobe Flash Player v30.0.0.134 (IE)</Name>
+        <Path>Installers\Adobe Flash Player v30.0.0.134 (IE)</Path>
+        <Version>30.0.0.134</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -702,9 +702,9 @@ Thanks to reddit.com/user/b0park for this package.</Description>
         <Description>Installs the FileZilla client with the following customizations:
  - Removes any previous versions before installing</Description>
         <FolderId value="3" />
-        <Name>FileZilla Client v3.33.0</Name>
-        <Path>Installers\FileZilla Client v3.33.0</Path>
-        <Version>3.33.0</Version>
+        <Name>FileZilla Client v3.34.0</Name>
+        <Path>Installers\FileZilla Client v3.34.0</Path>
+        <Version>3.34.0</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -720,7 +720,7 @@ Thanks to reddit.com/user/b0park for this package.</Description>
           <Steps type="list">
             <InstallStep>
               <CustomCommandLine></CustomCommandLine>
-              <FileName>$(Repository)\gimp\x86\Gimp v2.10.2 x86.exe</FileName>
+              <FileName>$(Repository)\gimp\x86\Gimp v2.10.4 x86.exe</FileName>
               <Files></Files>
               <IncludeDirectory value="true" />
               <LeaveInstallFile value="false" />
@@ -752,11 +752,11 @@ Thanks to reddit.com/user/b0park for this package.</Description>
         </PackageDefinition>
         <Description>Installs Gimp silently with the following flags:
 
-Gimp v2.10.2 x86.exe /verysilent /norestart</Description>
+Gimp v2.10.4 x86.exe /verysilent /norestart</Description>
         <FolderId value="3" />
-        <Name>Gimp v2.10.2 x86</Name>
-        <Path>Installers\Gimp v2.10.2 x86</Path>
-        <Version>2.10.2</Version>
+        <Name>Gimp v2.10.4 x86</Name>
+        <Path>Installers\Gimp v2.10.4 x86</Path>
+        <Version>2.10.4</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -811,9 +811,9 @@ Gimp v2.10.2 x86.exe /verysilent /norestart</Description>
 
  * If you wish to disable this behavior, edit the batch file and remove the two lines that start with "sc delete"</Description>
         <FolderId value="3" />
-        <Name>Google Chrome v67.0.3396.62 (Enterprise)</Name>
-        <Path>Installers\Google Chrome v67.0.3396.62 (Enterprise)</Path>
-        <Version>67.0.3396.62</Version>
+        <Name>Google Chrome v67.0.3396.99 (Enterprise)</Name>
+        <Path>Installers\Google Chrome v67.0.3396.99 (Enterprise)</Path>
+        <Version>67.0.3396.99</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -868,9 +868,9 @@ Gimp v2.10.2 x86.exe /verysilent /norestart</Description>
 
  * If you wish to disable this behavior, edit the batch file and remove the two lines that start with "sc delete"</Description>
         <FolderId value="3" />
-        <Name>Google Chrome v67.0.3396.62 (Enterprise) (x86)</Name>
-        <Path>Installers\Google Chrome v67.0.3396.62 (Enterprise) (x86)</Path>
-        <Version>67.0.3396.62</Version>
+        <Name>Google Chrome v67.0.3396.99 (Enterprise) (x86)</Name>
+        <Path>Installers\Google Chrome v67.0.3396.99 (Enterprise) (x86)</Path>
+        <Version>67.0.3396.99</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -1784,9 +1784,9 @@ If the target machine is on a domain, the login format is as follows:
 
  * These customizations come from the file '\autoconfig\cck2.cfg' in the package directory. If you want to change them, edit or delete this file. The config file was generated with the CCK2 addon for Firefox.</Description>
         <FolderId value="3" />
-        <Name>Mozilla Firefox ESR v60.0.1 (customized) (x64)</Name>
-        <Path>Installers\Mozilla Firefox ESR v60.0.1 (customized) (x64)</Path>
-        <Version>60.0.1</Version>
+        <Name>Mozilla Firefox ESR v60.1.0 (customized) (x64)</Name>
+        <Path>Installers\Mozilla Firefox ESR v60.1.0 (customized) (x64)</Path>
+        <Version>60.1.0</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -1848,9 +1848,9 @@ If the target machine is on a domain, the login format is as follows:
 
  * These customizations come from the file '\autoconfig\cck2.cfg' in the package directory. If you want to change them, edit or delete this file. The config file was generated with the CCK2 addon for Firefox.</Description>
         <FolderId value="3" />
-        <Name>Mozilla Firefox v60.0.1 ESR (customized) (x86)</Name>
-        <Path>Installers\Mozilla Firefox v60.0.1 ESR (customized) (x86)</Path>
-        <Version>60.0.1</Version>
+        <Name>Mozilla Firefox v60.1.0 ESR (customized) (x86)</Name>
+        <Path>Installers\Mozilla Firefox v60.1.0 ESR (customized) (x86)</Path>
+        <Version>60.1.0</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -1913,9 +1913,9 @@ If the target machine is on a domain, the login format is as follows:
 
  * These customizations come from the file '\autoconfig\cck2.cfg' in the package directory. If you want to change them, edit or delete this file. The config file was generated with the CCK2 addon for Firefox.</Description>
         <FolderId value="3" />
-        <Name>Mozilla Firefox v59.0.2 (customized) (x64)</Name>
-        <Path>Installers\Mozilla Firefox v59.0.2 (customized) (x64)</Path>
-        <Version>59.0.2</Version>
+        <Name>Mozilla Firefox v61.0.1 (customized) (x64)</Name>
+        <Path>Installers\Mozilla Firefox v61.0.1 (customized) (x64)</Path>
+        <Version>61.0.1</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -1978,9 +1978,9 @@ If the target machine is on a domain, the login format is as follows:
 
  * These customizations come from the file '\autoconfig\cck2.cfg' in the package directory. If you want to change them, edit or delete this file. The config file was generated with the CCK2 addon for Firefox.</Description>
         <FolderId value="3" />
-        <Name>Mozilla Firefox v59.0.2 (customized) (x86)</Name>
-        <Path>Installers\Mozilla Firefox v59.0.2 (customized) (x86)</Path>
-        <Version>59.0.2</Version>
+        <Name>Mozilla Firefox v61.0.1 (customized) (x86)</Name>
+        <Path>Installers\Mozilla Firefox v61.0.1 (customized) (x86)</Path>
+        <Version>61.0.1</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -2038,9 +2038,9 @@ If the target machine is on a domain, the login format is as follows:
 * The master settings file it points to is located here:  '\\DOMAIN.NAME\netlogon\applications\thunderbird\thunderbird-global-settings.js'
 * If you wish to disable these settings, remove the three *.js files in the package directory</Description>
         <FolderId value="3" />
-        <Name>Mozilla Thunderbird v52.8.0 (customized)</Name>
-        <Path>Installers\Mozilla Thunderbird v52.8.0 (customized)</Path>
-        <Version>52.8.0</Version>
+        <Name>Mozilla Thunderbird v52.9.1 (customized)</Name>
+        <Path>Installers\Mozilla Thunderbird v52.9.1 (customized)</Path>
+        <Version>52.9.1</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -2091,9 +2091,9 @@ If the target machine is on a domain, the login format is as follows:
  - Disables auto-updater by deleting the folder "C:\Program Files\Notepad++\updater"
  - Deletes the DSpellCheck plugin</Description>
         <FolderId value="3" />
-        <Name>Notepad++ v7.5.6</Name>
-        <Path>Installers\Notepad++ v7.5.6</Path>
-        <Version>7.5.6</Version>
+        <Name>Notepad++ v7.5.7</Name>
+        <Path>Installers\Notepad++ v7.5.7</Path>
+        <Version>7.5.7</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -2145,9 +2145,9 @@ If the target machine is on a domain, the login format is as follows:
 
 Thanks to Moonchild ( http://www.palemoon.org/ ) for redistribution permission.</Description>
         <FolderId value="3" />
-        <Name>Pale Moon v27.9.2</Name>
-        <Path>Installers\Pale Moon v27.9.2</Path>
-        <Version>27.9.2</Version>
+        <Name>Pale Moon v27.9.4</Name>
+        <Path>Installers\Pale Moon v27.9.4</Path>
+        <Version>27.9.4</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -2374,9 +2374,9 @@ Thanks to Moonchild ( http://www.palemoon.org/ ) for redistribution permission.<
      $(Repository)\ultravnc\ultravnc_password_generator
 and paste the resulting password in the 'ultravnc.ini' file in the same directory as the UltraVNC exe</Description>
         <FolderId value="3" />
-        <Name>UltraVNC v1.2.1.2 (x86)</Name>
-        <Path>Installers\UltraVNC v1.2.1.2 (x86)</Path>
-        <Version>1.2.1.2</Version>
+        <Name>UltraVNC v1.2.2.1 (x86)</Name>
+        <Path>Installers\UltraVNC v1.2.2.1 (x86)</Path>
+        <Version>1.2.2.1</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -2478,9 +2478,9 @@ and paste the resulting password in the 'ultravnc.ini' file in the same director
  - Doesn't install a desktop icon
  - Associates .scp file extensions with WinSCP</Description>
         <FolderId value="3" />
-        <Name>WinSCP v5.13.2</Name>
-        <Path>Installers\WinSCP v5.13.2</Path>
-        <Version>5.13.2</Version>
+        <Name>WinSCP v5.13.3</Name>
+        <Path>Installers\WinSCP v5.13.3</Path>
+        <Version>5.13.3</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
