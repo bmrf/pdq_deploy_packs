@@ -11,8 +11,75 @@ Do not withold good from those who deserve it, when it is in your power to act. 
 
 
 
+v59.0.0 // 2018-09-06
+URL: https://www.reddit.com/r/sysadmin/comments/9dlktf/pdq_deploy_packs_v5900_20180906/
+====================================================================================================
+ ! Note: All packages are x64 architecture unless otherwise specified
+
+ . 7-Zip v18.05 (x86)                                      //
+ . 7-Zip v18.05                                            //
+ * Adobe Acrobat Reader DC v18.011.20058                   // It is such a ridiculous pain to build this package.
+                                                              Yes I leave this note in here just to whine about it.
+															  Adobe: update your Customizer to work across all versions of Reader DC instead of being bound to a single version per binary!
+ . Adobe AIR v30.0.0.107                                   //
+ * Adobe Flash Player v30.0.0.154 (Chrome)                 //
+ * Adobe Flash Player v30.0.0.154 (Firefox)                //
+ * Adobe Flash Player v30.0.0.154 (Internet Explorer)      //
+ . Adobe Reader XI v11.0.23 (x86)                          //
+ . Adobe Shockwave v12.3.3.203                             //
+ . Apple iTunes v12.5.1.21                                 //
+ . CDBurnerXP v4.5.8.6795                                  //
+ . CutePDF v3.0 (PDF printer) (x86)                        //
+ * FileZilla Client v3.36.0                                //
+ * Gimp v2.10.6                                            //
+ * Google Chrome v69.0.3497.81 (Enterprise)                //
+ * Google Chrome v69.0.3497.81 (Enterprise) (x86)          //
+ . Google Earth v7.1.5.1557                                //
+ . Java Development Kit 7 update 80                        //
+ . Java Development Kit 7 update 80 (x86)                  //
+ . Java Development Kit 8 update 181                       //
+ . Java Development Kit 8 update 181 (x86)                 //
+ . Java Development Kit 10.0.2                             //
+ . Java Runtime 7 update 80                                //
+ . Java Runtime 7 update 80 (x86)                          //
+ . Java Runtime 8 update 181                               //
+ . Java Runtime 8 update 181 (x86)                         //
+ . Java Runtime 10.0.2                                     //
+ . KTS KypM Telnet/SSH Server v1.19c (x86)                 //
+ . Microsoft .NET Framework v3.5.1 SP1 (x86)               //
+ . Microsoft Silverlight v5.1.50901.0 (x86)                //
+ . Microsoft Silverlight v5.1.50901.0                      //
+ * Mozilla Firefox v62.0.0                                 // NOTE: Firefox auto-loads uBlock Origin ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox v62.0.0 (x86)                           // NOTE: Firefox auto-loads uBlock Origin ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox ESR v60.2.0                             // NOTE: Firefox ESR does not auto-load uBlock Origin
+ * Mozilla Firefox ESR v60.2.0 (x86)                       // NOTE: Firefox ESR does not auto-load uBlock Origin
+ * Mozilla Thunderbird v60.0.0 (x86)                       //
+ * Notepad++ v7.5.8 (x86)                                  //
+ * Pale Moon v28.0.1 (x86)                                 //
+ . Spark v2.8.3 (x86)                                      //
+ . TightVNC v2.8.11                                        // remote connection password: nettech2
+ . TightVNC v2.8.11 (x86)                                  // remote connection password: nettech2
+ * UltraVNC v1.2.2.2 (x86)                                 // remote connection password: nettech2
+ * VLC media player v3.0.4 (x86)                           //
+ * WinSCP v5.13.4 (x86)                                    //
+
+Utilities:
+ . Clean Up All Printers                                   //
+ . Clean Up Orphaned Printers                              //
+ . Empty All Recycle Bins                                  //
+ . Enable Remote Desktop                                   //
+ . Install PKI Certificates                                //
+ . Reboot (force target reboot in 15 seconds)              //
+ . Remove Adobe Flash Player (all versions) v2.0.0         //
+ . Remove Java Runtime (all versions) v1.8.6               // add support for removing JRE 10.0.2
+ . Remove VNC Servers (TightVNC, UltraVNC, RealVNC)        //
+ . Temp File Cleanup v3.7.0 (clean temp folders on target) //
+ . USB Device Cleanup v1.2.0                               //
+
+
+
 v58.0.0 // 2018-07-18
-URL: 
+URL: https://www.reddit.com/r/sysadmin/comments/900ini/pdq_deploy_packs_v5800_20180718/
 ====================================================================================================
  ! Note: All packages are x64 architecture unless otherwise specified
 
@@ -30,7 +97,7 @@ URL:
  . Apple iTunes v12.5.1.21                                 //
  . CDBurnerXP v4.5.8.6795                                  //
  . CutePDF v3.0 (PDF printer) (x86)                        //
- * FileZilla Client v3.33.0                                //
+ * FileZilla Client v3.34.0                                //
  * Gimp v2.10.4                                            //
  * Google Chrome v67.0.3396.99 (Enterprise)                //
  * Google Chrome v67.0.3396.99 (Enterprise) (x86)          //
@@ -75,6 +142,7 @@ Utilities:
  . Remove VNC Servers (TightVNC, UltraVNC, RealVNC)        //
  . Temp File Cleanup v3.7.0 (clean temp folders on target) //
  . USB Device Cleanup v1.2.0                               //
+
 
 
 v57.0.0 // 2018-05-31
@@ -4012,5 +4080,5 @@ Uninstallers:
 
 
 # Deployment script helper
-PACK_VERSION=58.0.0
-PACK_DATE=2018-07-18
+PACK_VERSION=59.0.0
+PACK_DATE=2018-09-06
