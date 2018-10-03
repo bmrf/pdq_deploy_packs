@@ -57,6 +57,8 @@ regedit /s Tweak_Disable_Chrome_Auto-Update.reg
 del /f /q %WinDir%\Tasks\GoogleUpdate*
 del /f /q %WinDir%\System32\Tasks\GoogleUpdate*
 del /f /q %WinDir%\System32\Tasks_Migrated\GoogleUpdate*
+schtasks /delete /F /TN "\GoogleUpdateTaskMachineCore"
+schtasks /delete /F /TN "\GoogleUpdateTaskMachineUA"
 
 :: Disable, then delete Google Update services
 net stop gupdatem 2>NUL
