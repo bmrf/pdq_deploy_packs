@@ -1,7 +1,7 @@
 Vocatus' PDQ Deploy Packs
 ===
 
-This repository contains all the scripts used in Vocatus' [PDQ Deploy packs](https://www.reddit.com/r/sysadmin/comments/6tqgdr/pdq_deploy_packs_v5100_20170814/).
+This repository contains all the scripts used in Vocatus' [PDQ Deploy packs](https://www.reddit.com/r/sysadmin/search?q=pdq+deploy+author%3Avocatus+self%3Ayes&restrict_sr=on&sort=new&t=all).
 
 Note that this repository contains ONLY the scripts - you will need to download the full package from the latest [Reddit thread](https://www.reddit.com/r/sysadmin/search?q=pdq+deploy+author%3Avocatus+self%3Ayes&restrict_sr=on&sort=new&t=all) if you want to import them and start using them. The Github is provided mostly for people to see the installation wrapper scripts in a hope they're beneficial to those who don't need the full package.
 
