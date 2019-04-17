@@ -46,6 +46,11 @@ pushd "%~dp0"
 ::::::::::::::::::
 :: INSTALLATION ::
 ::::::::::::::::::
+:: Uninstall existing copies of 7-Zip
+IF EXIST "%ProgramFiles%\7-Zip\Uninstall.exe" "%ProgramFiles%\7-Zip\Uninstall.exe" /S /V"/qn /norestart"
+IF EXIST "%ProgramFiles(x86)%\7-Zip\Uninstall.exe" "%ProgramFiles(x86)%\7-Zip\Uninstall.exe" /S /V"/qn /norestart"
+wmic product where "name like '7-Zip%%'" uninstall /nointeractive
+
 :: Install the package from the local folder (if all files are in the same directory)
 "%BINARY%" %FLAGS%
 
