@@ -83,6 +83,9 @@ if exist "%ProgramFiles(x86)%\Adobe\Acrobat 7.0\Distillr\acrotray.exe" (
 	del /f /q "%ProgramFiles(x86)%\Adobe\Acrobat 7.0\Distillr\acrotray.exe" >> "%LOGPATH%\%LOGFILE%" 2>NUL
 )
 
+:: Delete the desktop icon
+if exist "%PUBLIC%\Desktop\Acrobat Reader DC.lnk" del /f "%PUBLIC%\Desktop\Acrobat Reader DC.lnk"
+
 :: Delete the stupid Chrome plugin Adobe loads without our consent
 reg delete HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Google\Chrome\Extensions\efaidnbmnnnibpcajpcglclefindmkaj /f >> "%LOGPATH%\%LOGFILE%" 2>NUL
 
