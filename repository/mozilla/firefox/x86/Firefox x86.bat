@@ -46,6 +46,8 @@ if not exist %LOGPATH% mkdir %LOGPATH%
 wmic process where name="firefox.exe" call terminate 2>NUL
 
 :: Remove old version first
+IF EXIST "%ProgramFiles%\Mozilla Firefox\uninstall\helper.exe" "%ProgramFiles%\Mozilla Firefox\uninstall\helper.exe" /S
+IF EXIST "%ProgramFiles(x86)%\Mozilla Firefox\uninstall\helper.exe" "%ProgramFiles(x86)%\Mozilla Firefox\uninstall\helper.exe" /S
 wmic product where "name like 'Mozille Firefox%%'" call uninstall /nointeractive
 
 :: Install the package from the local folder (if all files are in the same directory)
