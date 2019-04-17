@@ -38,6 +38,10 @@ if not exist %LOGPATH% mkdir %LOGPATH
 ::::::::::::::::::
 :: INSTALLATION ::
 ::::::::::::::::::
+:: Uninstall VLC
+if exist "%PROGRAMFILES%\VideoLAN\VLC\uninstall.exe" "%PROGRAMFILES%\VideoLAN\VLC\uninstall.exe" /S
+if exist "%PROGRAMFILES(x86)%\VideoLAN\VLC\uninstall.exe" "%PROGRAMFILES(x86)%\VideoLAN\VLC\uninstall.exe" /S
+
 :: Install the package from the local folder (if all files are in the same directory)
 "%BINARY%" %FLAGS%
 
