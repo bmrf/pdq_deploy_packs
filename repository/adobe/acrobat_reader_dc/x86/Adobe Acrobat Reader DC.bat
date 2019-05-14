@@ -1,7 +1,8 @@
 :: Purpose:       Installs a package
 :: Requirements:  Run this script with Administrator rights
 :: Author:        vocatus on reddit.com/r/sysadmin ( vocatus.gate@gmail.com ) // PGP key ID: 0x07d1490f82a211a2
-:: Version:       1.0.5 + Add removal of previous installations prior to running new installation. Thanks to u/devoar999
+:: Version:       1.0.6 + Add deletion of the desktop icon. Thanks to github:abulgatz
+::                1.0.5 + Add removal of previous installations prior to running new installation. Thanks to u/devoar999
 ::                1.0.4 + Add associating PDF files to Acrobat after installation. Thanks to u/dimm0k
 ::                1.0.3 + Add killing of Chrome Acrobat plugin registry entry
 ::                1.0.2 + Add killing of additional Updater registry keys
@@ -14,8 +15,8 @@
 :: Prep :: -- Don't change anything in this section
 ::::::::::
 @echo off
-set SCRIPT_VERSION=1.0.5
-set SCRIPT_UPDATED=2018-10-16
+set SCRIPT_VERSION=1.0.6
+set SCRIPT_UPDATED=2019-05-14
 :: Get the date into ISO 8601 standard date format (yyyy-mm-dd) so we can use it
 FOR /f %%a in ('WMIC OS GET LocalDateTime ^| find "."') DO set DTS=%%a
 set CUR_DATE=%DTS:~0,4%-%DTS:~4,2%-%DTS:~6,2%
