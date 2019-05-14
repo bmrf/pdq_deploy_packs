@@ -1,14 +1,15 @@
 :: Purpose:       Installs a package
 :: Requirements:  Run this script with Administrator rights
 :: Author:        vocatus on reddit.com/r/sysadmin ( vocatus.gate@gmail.com ) // PGP key ID: 0x07d1490f82a211a2
-:: History:       1.0.0 + Initial write
+:: History:       1.0.1 - Remove old versions first. Thanks to github:abulgatz
+::                1.0.0 + Initial write
 
 :: Usage:         Run the script and pass one of the following arguments to it:
 ::                  associate_common  Associate 7-Zip with the common file compression formats 
 ::                                     (7z,bz2,bzip2,gz,gzip,lzh,lzma,rar,tar,tgz,zip)
 ::                  associate_all     Associate 7-zip with ALL the file compression formats it supports
 ::
-::                e.g. 7-Zip v9.20 x86.bat associate_all  
+::                e.g. 7-Zip v9.36 x86.bat associate_all  
 ::
 ::                Default is "associate_common" unless told otherwise
 
@@ -17,8 +18,8 @@
 :: Prep :: -- Don't change anything in this section
 ::::::::::
 @echo off
-set SCRIPT_VERSION=1.0.0
-set SCRIPT_UPDATED=2015-01-06
+set SCRIPT_VERSION=1.0.1
+set SCRIPT_UPDATED=2019-05-14
 :: Get the date into ISO 8601 standard date format (yyyy-mm-dd) so we can use it
 FOR /f %%a in ('WMIC OS GET LocalDateTime ^| find "."') DO set DTS=%%a
 set CUR_DATE=%DTS:~0,4%-%DTS:~4,2%-%DTS:~6,2%
@@ -33,7 +34,7 @@ set LOGFILE=
 
 :: Package to install. Do not use trailing slashes (\)
 set LOCATION=
-set BINARY=7-Zip v16.02 x86.msi
+set BINARY=7-Zip v19.00 x86.msi
 set FLAGS=ALLUSERS=1 /q /norestart INSTALLDIR="C:\Program Files\7-Zip"
 
 :: Create the log directory if it doesn't exist
@@ -46,7 +47,7 @@ pushd "%~dp0"
 ::::::::::::::::::
 :: INSTALLATION ::
 ::::::::::::::::::
-:: Uninstall existing copies of 7-Zip
+:: Uninstall other versions of 7-zip
 IF EXIST "%ProgramFiles%\7-Zip\Uninstall.exe" "%ProgramFiles%\7-Zip\Uninstall.exe" /S /V"/qn /norestart"
 IF EXIST "%ProgramFiles(x86)%\7-Zip\Uninstall.exe" "%ProgramFiles(x86)%\7-Zip\Uninstall.exe" /S /V"/qn /norestart"
 wmic product where "name like '7-Zip%%'" uninstall /nointeractive
