@@ -48,6 +48,9 @@ cls
 %SystemDrive%\windows\system32\taskkill.exe /F /IM chrome.exe /T 2>NUL
 wmic process where name="chrome.exe" call terminate 2>NUL
 
+:: Uninstall existing versions of Chrome by calling powershell script
+PowerShell.exe -NoLogo -NonInteractive -NoProfile -ExecutionPolicy Bypass -File "uninstall-chrome.ps1"
+
 :: Install package from local directory (if all files are in the same directory)
 msiexec.exe /i "googlechromestandaloneenterprise.msi" %FLAGS%
 
