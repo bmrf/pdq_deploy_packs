@@ -1,16 +1,17 @@
 :: Purpose:       Installs a package
 :: Requirements:  Run this script with Administrator rights
 :: Author:        vocatus on reddit.com/r/sysadmin ( vocatus.gate@gmail.com ) // PGP key ID: 0x07d1490f82a211a2
-:: History:       1.0.1 * Expand Desktop shortcut deletion mask to sweep all subdirectories under the base user profile directory
+:: History:       1.0.2 + Add additional uninstall commands make sure we fully remove old versions first. Thanks to github:abulgatz
+::                1.0.1 * Expand Desktop shortcut deletion mask to sweep all subdirectories under the base user profile directory
 ::                1.0.0 + Initial write
 
 
 ::::::::::
 :: Prep :: -- Don't change anything in this section
 ::::::::::
-@echo off
-set SCRIPT_VERSION=1.0.1
-set SCRIPT_UPDATED=2017-08-09
+::@echo off
+set SCRIPT_VERSION=1.0.2
+set SCRIPT_UPDATED=2019-05-14
 :: Get the date into ISO 8601 standard date format (yyyy-mm-dd) so we can use it
 FOR /f %%a in ('WMIC OS GET LocalDateTime ^| find "."') DO set DTS=%%a
 set CUR_DATE=%DTS:~0,4%-%DTS:~4,2%-%DTS:~6,2%
@@ -60,6 +61,7 @@ if exist "%ProgramFiles%\Mozilla Firefox\" xcopy /s /e /y "autoconfig\*" "%Progr
 :: Remove desktop icons
 REM if exist "%allusersprofile%\Desktop\Mozilla Firefox.lnk" del "%allusersprofile%\Desktop\Mozilla Firefox.lnk" /S
 REM if exist "%public%\Desktop\Mozilla Firefox.lnk" del "%public%\Desktop\Mozilla Firefox.lnk"
+REM if exist "%SystemDrive%\users\default\Desktop\Mozilla Firefox.lnk" del "%SystemDrive%\users\default\Desktop\Mozilla Firefox.lnk"
 REM if exist "%SystemDrive%\users\default\Desktop\Mozilla Firefox.lnk" del "%SystemDrive%\users\default\Desktop\Mozilla Firefox.lnk"
 
 :: Lets just amp this up and catch ANYWHERE it might drop a shortcut 
