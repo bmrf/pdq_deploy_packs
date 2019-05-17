@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <AdminArsenal.Export Code="PDQDeploy" Name="PDQ Deploy" Version="12.2.0.0" MinimumVersion="7.0">
   <Folder>
-    <Created>2017-10-04T10:22:20.0000000-07:00</Created>
-    <Id value="3" />
-    <Modified>2017-10-04T10:22:20.0000000-07:00</Modified>
+    <Created>2019-01-28T11:23:44.0000000-07:00</Created>
+    <Id value="6" />
+    <Modified>2019-01-28T11:23:44.0000000-07:00</Modified>
     <Name>Installers</Name>
     <ParentId value="null" />
     <Path>Installers</Path>
     <FolderDisplaySettings name="DisplaySettings">
       <DisplayType>Normal</DisplayType>
       <IconKey></IconKey>
-      <SortOrder value="7" />
+      <SortOrder value="3" />
     </FolderDisplaySettings>
     <Children type="list">
       <Package>
@@ -56,10 +56,10 @@
  - Associates the following file extensions with 7-Zip: 7z,bz2,bzip2,gz,gzip,lzh,lzma,rar,tar,tgz,zip  *
 
 * If you wish to associate with ALL the file extensions 7-Zip supports, go to "Step 1" of this installer and change the argument that's passed to the installer from "associate_common" to "associate_all"</Description>
-        <FolderId value="3" />
-        <Name>7-Zip v18.05 (x64)</Name>
-        <Path>Installers\7-Zip v18.05 (x64)</Path>
-        <Version>18.05</Version>
+        <FolderId value="6" />
+        <Name>7-Zip v19.00 (x64)</Name>
+        <Path>Installers\7-Zip v19.00 (x64)</Path>
+        <Version>19.00</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -111,10 +111,10 @@
 
 
 * If you wish to associate with ALL the file extensions 7-Zip supports, go to "Step 1" of this installer and change the argument that's passed to the installer from "associate_common" to "associate_all"</Description>
-        <FolderId value="3" />
-        <Name>7-Zip v18.05 (x86)</Name>
-        <Path>Installers\7-Zip v18.05 (x86)</Path>
-        <Version>18.05</Version>
+        <FolderId value="6" />
+        <Name>7-Zip v19.00 (x86)</Name>
+        <Path>Installers\7-Zip v19.00 (x86)</Path>
+        <Version>19.00</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -166,10 +166,10 @@
  - Remove the Adobe Update scheduled task that gets installed (C:\Windows\tasks\Adobe Acrobat Update Task.job)
  - Disable all auto-update and telemetry collection options I could find via the bundled customization file
  - Disable all third-party service connectors (Dropbox, Google Drive, SharePoint, etc) via the bundled customization file</Description>
-        <FolderId value="3" />
+        <FolderId value="6" />
         <Name>Adobe Acrobat Reader DC</Name>
         <Path>Installers\Adobe Acrobat Reader DC</Path>
-        <Version>15.023.20053</Version>
+        <Version>19.008.20071</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -221,10 +221,10 @@
  - Accepts the EULA for all users
  - Deletes Adobe Update service
  - Deletes Adobe Update Task Scheduler jobs</Description>
-        <FolderId value="3" />
-        <Name>Adobe AIR v30.0.0.107</Name>
-        <Path>Installers\Adobe AIR v30.0.0.107</Path>
-        <Version>30.0.0.107</Version>
+        <FolderId value="6" />
+        <Name>Adobe AIR v32.0.0.125</Name>
+        <Path>Installers\Adobe AIR v32.0.0.125</Path>
+        <Version>32.0.0.125</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -275,10 +275,10 @@
  - Removes all prior versions of Adobe Flash, Chrome version
  - Removes the Adobe Acrobat Update Service (AdobeFlashPlayerUpdateSvc)
  - Removes the Adobe Update scheduled task that gets installed (C:\Windows\tasks\Adobe Flash Player Updater.job)</Description>
-        <FolderId value="3" />
-        <Name>Adobe Flash Player v30.0.0.134 (Chrome)</Name>
-        <Path>Installers\Adobe Flash Player v30.0.0.134 (Chrome)</Path>
-        <Version>30.0.0.134</Version>
+        <FolderId value="6" />
+        <Name>Adobe Flash Player v32.0.0.192 (Chrome)</Name>
+        <Path>Installers\Adobe Flash Player v32.0.0.192 (Chrome)</Path>
+        <Version>32.0.0.192</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -329,10 +329,10 @@
  - Removes all prior versions of Adobe Flash, Firefox/plugin version
  - Removes the Adobe Acrobat Update Service (AdobeFlashPlayerUpdateSvc)
  - Removes the Adobe Update scheduled task that gets installed (C:\Windows\tasks\Adobe Flash Player Updater.job)</Description>
-        <FolderId value="3" />
-        <Name>Adobe Flash Player v30.0.0.134 (Firefox)</Name>
-        <Path>Installers\Adobe Flash Player v30.0.0.134 (Firefox)</Path>
-        <Version>30.0.0.134</Version>
+        <FolderId value="6" />
+        <Name>Adobe Flash Player v32.0.0.192 (Firefox)</Name>
+        <Path>Installers\Adobe Flash Player v32.0.0.192 (Firefox)</Path>
+        <Version>32.0.0.192</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -383,114 +383,10 @@
  - Removes all prior versions of Adobe Flash, ActiveX version
  - Removes the Adobe Acrobat Update Service (AdobeFlashPlayerUpdateSvc)
  - Removes the Adobe Update scheduled task that gets installed (C:\Windows\tasks\Adobe Flash Player Updater.job)</Description>
-        <FolderId value="3" />
-        <Name>Adobe Flash Player v30.0.0.134 (IE)</Name>
-        <Path>Installers\Adobe Flash Player v30.0.0.134 (IE)</Path>
-        <Version>30.0.0.134</Version>
-        <PackageDisplaySettings name="DisplaySettings">
-          <DisplayType>Normal</DisplayType>
-          <IconKey></IconKey>
-          <SortOrder value="7" />
-        </PackageDisplaySettings>
-      </Package>
-      <Package>
-        <PackageDefinition name="Definition">
-          <CopyMode>Default</CopyMode>
-          <InventoryScanProfileId value="null" />
-          <RunAs value="null" />
-          <ScanAfterDeployment value="null" />
-          <Steps type="list">
-            <InstallStep>
-              <CustomCommandLine></CustomCommandLine>
-              <FileName>$(Repository)\adobe\reader\x86\Adobe Reader.bat</FileName>
-              <Files></Files>
-              <IncludeDirectory value="true" />
-              <LeaveInstallFile value="false" />
-              <MsiOperation>Install</MsiOperation>
-              <MsiQuiet value="true" />
-              <MsiRestart>Never</MsiRestart>
-              <Parameters></Parameters>
-              <SuccessCodes>0,1641,3010</SuccessCodes>
-              <RunAs value="null" />
-              <Conditions type="list">
-                <PackageStepCondition>
-                  <Architecture>Both</Architecture>
-                  <Version>All</Version>
-                  <TypeName>OperatingSystem</TypeName>
-                </PackageStepCondition>
-                <PackageStepCondition>
-                  <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
-                  <TypeName>LoggedOnUser</TypeName>
-                </PackageStepCondition>
-              </Conditions>
-              <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
-              <Title></Title>
-              <TypeName>Install</TypeName>
-            </InstallStep>
-          </Steps>
-          <Timeout value="60" />
-          <UseCustomTimeout value="false" />
-        </PackageDefinition>
-        <Description>Installs Adobe Reader XI, with the following customizations:
- - Deletes the "All Users" desktop link to Reader XI
- - Deletes the Adobe Acrobat Reader Update service ( AdobeARMservice )</Description>
-        <FolderId value="3" />
-        <Name>Adobe Reader XI v11.0.22</Name>
-        <Path>Installers\Adobe Reader XI v11.0.22</Path>
-        <Version>11.0.22</Version>
-        <PackageDisplaySettings name="DisplaySettings">
-          <DisplayType>Normal</DisplayType>
-          <IconKey></IconKey>
-          <SortOrder value="7" />
-        </PackageDisplaySettings>
-      </Package>
-      <Package>
-        <PackageDefinition name="Definition">
-          <CopyMode>Default</CopyMode>
-          <InventoryScanProfileId value="null" />
-          <RunAs value="null" />
-          <ScanAfterDeployment value="null" />
-          <Steps type="list">
-            <InstallStep>
-              <CustomCommandLine></CustomCommandLine>
-              <FileName>$(Repository)\adobe\shockwave\x86\Adobe Shockwave.bat</FileName>
-              <Files></Files>
-              <IncludeDirectory value="true" />
-              <LeaveInstallFile value="false" />
-              <MsiOperation>Install</MsiOperation>
-              <MsiQuiet value="true" />
-              <MsiRestart>Never</MsiRestart>
-              <Parameters></Parameters>
-              <SuccessCodes>0,1641,3010</SuccessCodes>
-              <RunAs value="null" />
-              <Conditions type="list">
-                <PackageStepCondition>
-                  <Architecture>Both</Architecture>
-                  <Version>All</Version>
-                  <TypeName>OperatingSystem</TypeName>
-                </PackageStepCondition>
-                <PackageStepCondition>
-                  <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
-                  <TypeName>LoggedOnUser</TypeName>
-                </PackageStepCondition>
-              </Conditions>
-              <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
-              <Title></Title>
-              <TypeName>Install</TypeName>
-            </InstallStep>
-          </Steps>
-          <Timeout value="60" />
-          <UseCustomTimeout value="false" />
-        </PackageDefinition>
-        <Description>Installs Adobe Shockwave with the following customizations:
- - Disables auto-updater
- - Disables automatic statistics collection and submission</Description>
-        <FolderId value="3" />
-        <Name>Adobe Shockwave v12.3.3.203</Name>
-        <Path>Installers\Adobe Shockwave v12.3.3.203</Path>
-        <Version>12.3.3.203</Version>
+        <FolderId value="6" />
+        <Name>Adobe Flash Player v32.0.0.192 (IE)</Name>
+        <Path>Installers\Adobe Flash Player v32.0.0.192 (IE)</Path>
+        <Version>32.0.0.192</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -541,7 +437,7 @@
  - Stops and deletes the "iPod Service"
  - Stops iTunesHelper
  - Deletes Public desktop iTunes.lnk</Description>
-        <FolderId value="3" />
+        <FolderId value="6" />
         <Name>Apple iTunes v12.5.1.21 (x64)</Name>
         <Path>Installers\Apple iTunes v12.5.1.21 (x64)</Path>
         <Version>12.5.1.21</Version>
@@ -595,10 +491,10 @@
  - Associates ISO files with CDBurnerXP
  - Associates some other CD-related files with CDBurnerXP
  - Disables the background online update checker</Description>
-        <FolderId value="3" />
-        <Name>CDBurnerXP v4.5.8.6795 (x64)</Name>
-        <Path>Installers\CDBurnerXP v4.5.8.6795 (x64)</Path>
-        <Version>4.5.8.6795</Version>
+        <FolderId value="6" />
+        <Name>CDBurnerXP v4.5.8.7042 (x64)</Name>
+        <Path>Installers\CDBurnerXP v4.5.8.7042 (x64)</Path>
+        <Version>4.5.8.7042</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -650,7 +546,7 @@
  - Deletes Start Menu shortcuts for CutePDF
 
 Thanks to reddit.com/user/b0park for this package.</Description>
-        <FolderId value="3" />
+        <FolderId value="6" />
         <Name>CutePDF Writer v3.0 (x86)</Name>
         <Path>Installers\CutePDF Writer v3.0 (x86)</Path>
         <Version>3.0</Version>
@@ -701,10 +597,10 @@ Thanks to reddit.com/user/b0park for this package.</Description>
         </PackageDefinition>
         <Description>Installs the FileZilla client with the following customizations:
  - Removes any previous versions before installing</Description>
-        <FolderId value="3" />
-        <Name>FileZilla Client v3.34.0</Name>
-        <Path>Installers\FileZilla Client v3.34.0</Path>
-        <Version>3.34.0</Version>
+        <FolderId value="6" />
+        <Name>FileZilla Client v3.42.1</Name>
+        <Path>Installers\FileZilla Client v3.42.1</Path>
+        <Version>3.42.1</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -720,7 +616,7 @@ Thanks to reddit.com/user/b0park for this package.</Description>
           <Steps type="list">
             <InstallStep>
               <CustomCommandLine></CustomCommandLine>
-              <FileName>$(Repository)\gimp\x86\Gimp v2.10.4 x86.exe</FileName>
+              <FileName>$(Repository)\gimp\x86\Gimp v2.10.10 x86.exe</FileName>
               <Files></Files>
               <IncludeDirectory value="true" />
               <LeaveInstallFile value="false" />
@@ -752,11 +648,11 @@ Thanks to reddit.com/user/b0park for this package.</Description>
         </PackageDefinition>
         <Description>Installs Gimp silently with the following flags:
 
-Gimp v2.10.4 x86.exe /verysilent /norestart</Description>
-        <FolderId value="3" />
-        <Name>Gimp v2.10.4 x86</Name>
-        <Path>Installers\Gimp v2.10.4 x86</Path>
-        <Version>2.10.4</Version>
+Gimp v2.10.10 x86.exe /verysilent /norestart</Description>
+        <FolderId value="6" />
+        <Name>Gimp v2.10.10 x86</Name>
+        <Path>Installers\Gimp v2.10.10 x86</Path>
+        <Version>2.10.10</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -810,10 +706,10 @@ Gimp v2.10.4 x86.exe /verysilent /norestart</Description>
  ! Removes Google Update services  (gupdatem and gupdate) *
 
  * If you wish to disable this behavior, edit the batch file and remove the two lines that start with "sc delete"</Description>
-        <FolderId value="3" />
-        <Name>Google Chrome v67.0.3396.99 (Enterprise)</Name>
-        <Path>Installers\Google Chrome v67.0.3396.99 (Enterprise)</Path>
-        <Version>67.0.3396.99</Version>
+        <FolderId value="6" />
+        <Name>Google Chrome v74.0.3729.157 (Enterprise)</Name>
+        <Path>Installers\Google Chrome v74.0.3729.157 (Enterprise)</Path>
+        <Version>74.0.3729.157</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -867,10 +763,10 @@ Gimp v2.10.4 x86.exe /verysilent /norestart</Description>
  ! Removes Google Update services  (gupdatem and gupdate) *
 
  * If you wish to disable this behavior, edit the batch file and remove the two lines that start with "sc delete"</Description>
-        <FolderId value="3" />
-        <Name>Google Chrome v67.0.3396.99 (Enterprise) (x86)</Name>
-        <Path>Installers\Google Chrome v67.0.3396.99 (Enterprise) (x86)</Path>
-        <Version>67.0.3396.99</Version>
+        <FolderId value="6" />
+        <Name>Google Chrome v74.0.3729.157 (Enterprise) (x86)</Name>
+        <Path>Installers\Google Chrome v74.0.3729.157 (Enterprise) (x86)</Path>
+        <Version>74.0.3729.157</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -886,7 +782,7 @@ Gimp v2.10.4 x86.exe /verysilent /norestart</Description>
           <Steps type="list">
             <InstallStep>
               <CustomCommandLine></CustomCommandLine>
-              <FileName>$(Repository)\google\earth\x86\Google Earth v7.1.5.1557.exe</FileName>
+              <FileName>$(Repository)\google\earth_pro\x64\Google Earth Pro.bat</FileName>
               <Files></Files>
               <IncludeDirectory value="true" />
               <LeaveInstallFile value="false" />
@@ -894,7 +790,7 @@ Gimp v2.10.4 x86.exe /verysilent /norestart</Description>
               <MsiQuiet value="true" />
               <MsiRestart>Never</MsiRestart>
               <Parameters></Parameters>
-              <SuccessCodes>0,1641,3010</SuccessCodes>
+              <SuccessCodes>0,1641,3010,2359302</SuccessCodes>
               <RunAs value="null" />
               <Conditions type="list">
                 <PackageStepCondition>
@@ -916,7 +812,7 @@ Gimp v2.10.4 x86.exe /verysilent /norestart</Description>
           <Timeout value="60" />
           <UseCustomTimeout value="false" />
         </PackageDefinition>
-        <Description>Installs Google Earth, with the following customizations:
+        <Description>Installs Google Earth Pro, with the following customizations:
  - Installs for All Users
  - Disables Google Update registry keys
  - Removes Google Update jobs in Task Scheduler
@@ -924,10 +820,76 @@ Gimp v2.10.4 x86.exe /verysilent /norestart</Description>
  ! Removes Google Update services (gupdatem and gupdate) **
 
  ** If you wish to disable this behavior, edit the batch file and remove the two lines that start with "sc delete"</Description>
-        <FolderId value="3" />
-        <Name>Google Earth v7.1.5.1557</Name>
-        <Path>Installers\Google Earth v7.1.5.1557</Path>
-        <Version>7.1.5.1557</Version>
+        <FolderId value="6" />
+        <Name>Google Earth Pro v7.3.2</Name>
+        <Path>Installers\Google Earth Pro v7.3.2</Path>
+        <Version>7.3.2</Version>
+        <PackageDisplaySettings name="DisplaySettings">
+          <DisplayType>Normal</DisplayType>
+          <IconKey></IconKey>
+          <SortOrder value="7" />
+        </PackageDisplaySettings>
+      </Package>
+      <Package>
+        <PackageDefinition name="Definition">
+          <CopyMode>Default</CopyMode>
+          <InventoryScanProfileId value="null" />
+          <RunAs value="null" />
+          <ScanAfterDeployment value="null" />
+          <Steps type="list">
+            <InstallStep>
+              <CustomCommandLine></CustomCommandLine>
+              <FileName>$(Repository)\java\jdk\11\x64\jdk-11-windows-x64.bat</FileName>
+              <Files></Files>
+              <IncludeDirectory value="true" />
+              <LeaveInstallFile value="false" />
+              <MsiOperation>Install</MsiOperation>
+              <MsiQuiet value="true" />
+              <MsiRestart>Never</MsiRestart>
+              <Parameters>/s</Parameters>
+              <SuccessCodes>0,1641,3010</SuccessCodes>
+              <RunAs value="null" />
+              <Conditions type="list">
+                <PackageStepCondition>
+                  <Architecture>Bits64</Architecture>
+                  <Version>All</Version>
+                  <TypeName>OperatingSystem</TypeName>
+                </PackageStepCondition>
+                <PackageStepCondition>
+                  <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
+                  <TypeName>LoggedOnUser</TypeName>
+                </PackageStepCondition>
+              </Conditions>
+              <ErrorMode>StopDeploymentFail</ErrorMode>
+              <IsEnabled value="true" />
+              <Title></Title>
+              <TypeName>Install</TypeName>
+            </InstallStep>
+          </Steps>
+          <Timeout value="60" />
+          <UseCustomTimeout value="false" />
+        </PackageDefinition>
+        <Description>Installs Java Development Kit 11.0.2, with the following customizations:
+ - Removes all previous JDK10 x64 installations first (leaves any JDK7 or JDK8 x86 installations intact)
+ - Adds "Development Tools" feature
+ * Installs matching JRE 9 version ("PublicJreFeature feature")
+ - Disables Java's auto-updater
+ - Does not reboot
+
+* Due to changes starting in JDK8 by Oracle, there are two options when installing the JDK:
+  1. Install JDK10 + the "public" JRE (aka standard/machine-wide) at the same time as the JDK, or
+  2. Install only JDK10 and wipe out any existing JRE9 installations.
+
+Thus, if you already had JRE9 installed when you install JDK and instruct it not to install the "public" JRE, it will REMOVE any existing JRE9 installations that have matching architecture (e.g. JDK10 x64 will remove all JRE9 x64 installations). So your options are either:
+
+  a) let the JDK10 installer load the matching JRE9 binary to Program Files, or
+  b) let the JDK10 installer blow away any matching-architecture JRE9 installations
+
+There is no option to JUST install JDK10 without touching JRE8 installations.</Description>
+        <FolderId value="6" />
+        <Name>Java Development Kit 11.0.2 (x64)</Name>
+        <Path>Installers\Java Development Kit 11.0.2 (x64)</Path>
+        <Version>11.0.2</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -978,7 +940,7 @@ Gimp v2.10.4 x86.exe /verysilent /norestart</Description>
  - Removes any previous versions of the series 7 JDK (JDK 7 Update XX); leaves other JDK installations intact
  - Disables Java's auto-updater
  - Does not reboot</Description>
-        <FolderId value="3" />
+        <FolderId value="6" />
         <Name>Java Development Kit 7 update 80 (x64)</Name>
         <Path>Installers\Java Development Kit 7 update 80 (x64)</Path>
         <Version>1.7.0.800</Version>
@@ -1032,7 +994,7 @@ Gimp v2.10.4 x86.exe /verysilent /norestart</Description>
  - Removes any previous versions of the series 7 JDK (JDK 7 Update XX); leaves other JDK installations intact
  - Disables Java's auto-updater
  - Does not reboot</Description>
-        <FolderId value="3" />
+        <FolderId value="6" />
         <Name>Java Development Kit 7 update 80 (x86)</Name>
         <Path>Installers\Java Development Kit 7 update 80 (x86)</Path>
         <Version>1.7.0.800</Version>
@@ -1098,10 +1060,10 @@ Thus, if you already had JRE8 installed when you install JDK and instruct it not
   b) let the JDK8 installer blow away any matching-architecture JRE8 installations
 
 There is no option to JUST install JDK8 without touching JRE8 installations.</Description>
-        <FolderId value="3" />
-        <Name>Java Development Kit 8 update 181 (x64)</Name>
-        <Path>Installers\Java Development Kit 8 update 181 (x64)</Path>
-        <Version>8.0.181</Version>
+        <FolderId value="6" />
+        <Name>Java Development Kit 8 update 211 (x64)</Name>
+        <Path>Installers\Java Development Kit 8 update 211 (x64)</Path>
+        <Version>8.0.211</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -1164,10 +1126,10 @@ Thus, if you already had JRE8 installed when you install JDK and instruct it not
   b) let the JDK8 installer blow away any matching-architecture JRE8 installations
 
 There is no option to JUST install JDK8 without touching JRE8 installations.</Description>
-        <FolderId value="3" />
-        <Name>Java Development Kit 8 update 181 (x86)</Name>
-        <Path>Installers\Java Development Kit 8 update 181 (x86)</Path>
-        <Version>8.0.181</Version>
+        <FolderId value="6" />
+        <Name>Java Development Kit 8 update 211 (x86)</Name>
+        <Path>Installers\Java Development Kit 8 update 211 (x86)</Path>
+        <Version>8.0.211</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -1183,14 +1145,14 @@ There is no option to JUST install JDK8 without touching JRE8 installations.</De
           <Steps type="list">
             <InstallStep>
               <CustomCommandLine></CustomCommandLine>
-              <FileName>$(Repository)\java\jdk\10\x64\jdk-10-windows-x64.bat</FileName>
+              <FileName>$(Repository)\java\jre\10\x64\jre-10-x64.bat</FileName>
               <Files></Files>
               <IncludeDirectory value="true" />
               <LeaveInstallFile value="false" />
               <MsiOperation>Install</MsiOperation>
               <MsiQuiet value="true" />
               <MsiRestart>Never</MsiRestart>
-              <Parameters>/s</Parameters>
+              <Parameters></Parameters>
               <SuccessCodes>0,1641,3010</SuccessCodes>
               <RunAs value="null" />
               <Conditions type="list">
@@ -1213,27 +1175,17 @@ There is no option to JUST install JDK8 without touching JRE8 installations.</De
           <Timeout value="60" />
           <UseCustomTimeout value="false" />
         </PackageDefinition>
-        <Description>Installs Java Development Kit 10.0.2, with the following customizations:
- - Removes all previous JDK9 x64 installations first (leaves any JDK7 or JDK8 x86 installations intact)
- - Adds "Development Tools" feature
- * Installs matching JRE 9 version ("PublicJreFeature feature")
+        <Description>Installs Java Runtime 9, with the following options:
+ - Removes all previous JRE9 x64 installations first (does not specifically target JRE6-8 installations for removal)
  - Disables Java's auto-updater
  - Does not reboot
+ - Forces Java Web Security level to MEDIUM* (default in all JRE7 and earlier). Thanks to reddit.com/user/matt314159 for this contribution.
 
-* Due to changes starting in JDK8 by Oracle, there are two options when installing the JDK:
-  1. Install JDK9 + the "public" JRE (aka standard/machine-wide) at the same time as the JDK, or
-  2. Install only JDK9 and wipe out any existing JRE9 installations.
-
-Thus, if you already had JRE9 installed when you install JDK and instruct it not to install the "public" JRE, it will REMOVE any existing JRE9 installations that have matching architecture (e.g. JDK9 x64 will remove all JRE9 x64 installations). So your options are either:
-
-  a) let the JDK9 installer load the matching JRE9 binary to Program Files, or
-  b) let the JDK9 installer blow away any matching-architecture JRE9 installations
-
-There is no option to JUST install JDK9 without touching JRE8 installations.</Description>
-        <FolderId value="3" />
-        <Name>Java Development Kit 10.0.2 (x64)</Name>
-        <Path>Installers\Java Development Kit 10.0.2 (x64)</Path>
-        <Version>10.0.2</Version>
+ * If you wish to disable this behavior, edit the 'deployment.properties' file and comment out or delete the line that reads 'deployment.security.level.locked'</Description>
+        <FolderId value="6" />
+        <Name>Java Runtime 11.0.2 (x64)</Name>
+        <Path>Installers\Java Runtime 11.0.2 (x64)</Path>
+        <Version>11.0.2</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -1283,7 +1235,7 @@ There is no option to JUST install JDK9 without touching JRE8 installations.</De
  - Removes all previous JRE7 x64 installations first (leaves any JRE6 or JRE7 x86 installations intact)
  - Disables Java's auto-updater
  - Does not reboot</Description>
-        <FolderId value="3" />
+        <FolderId value="6" />
         <Name>Java Runtime 7 update 80 (x64)</Name>
         <Path>Installers\Java Runtime 7 update 80 (x64)</Path>
         <Version>7.0.800</Version>
@@ -1336,7 +1288,7 @@ There is no option to JUST install JDK9 without touching JRE8 installations.</De
  - Removes all previous JRE7 x86 installations first (leaves any JRE6 or JRE7 x64 installations intact)
  - Disables Java's auto-updater
  - Does not reboot</Description>
-        <FolderId value="3" />
+        <FolderId value="6" />
         <Name>Java Runtime 7 update 80 (x86)</Name>
         <Path>Installers\Java Runtime 7 update 80 (x86)</Path>
         <Version>7.0.800</Version>
@@ -1392,10 +1344,10 @@ There is no option to JUST install JDK9 without touching JRE8 installations.</De
  - Forces Java Web Security level to MEDIUM* (default in all prior versions of JRE). Thanks to reddit.com/user/matt314159 for this contribution.
 
  * If you wish to disable this behavior, edit the 'deployment.properties' file and comment out or delete the line that reads 'deployment.security.level.locked'</Description>
-        <FolderId value="3" />
-        <Name>Java Runtime 8 update 181 (x64)</Name>
-        <Path>Installers\Java Runtime 8 update 181 (x64)</Path>
-        <Version>8.0.181</Version>
+        <FolderId value="6" />
+        <Name>Java Runtime 8 update 211 (x64)</Name>
+        <Path>Installers\Java Runtime 8 update 211 (x64)</Path>
+        <Version>8.0.211</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -1448,66 +1400,10 @@ There is no option to JUST install JDK9 without touching JRE8 installations.</De
  - Forces Java Web Security level to MEDIUM* (default in all prior versions of JRE). Thanks to reddit.com/user/matt314159 for this contribution.
 
  * If you wish to disable this behavior, edit the 'deployment.properties' file and comment out or delete the line that reads 'deployment.security.level.locked'</Description>
-        <FolderId value="3" />
-        <Name>Java Runtime 8 update 181 (x86)</Name>
-        <Path>Installers\Java Runtime 8 update 181 (x86)</Path>
-        <Version>8.0.181</Version>
-        <PackageDisplaySettings name="DisplaySettings">
-          <DisplayType>Normal</DisplayType>
-          <IconKey></IconKey>
-          <SortOrder value="7" />
-        </PackageDisplaySettings>
-      </Package>
-      <Package>
-        <PackageDefinition name="Definition">
-          <CopyMode>Default</CopyMode>
-          <InventoryScanProfileId value="null" />
-          <RunAs value="null" />
-          <ScanAfterDeployment value="null" />
-          <Steps type="list">
-            <InstallStep>
-              <CustomCommandLine></CustomCommandLine>
-              <FileName>$(Repository)\java\jre\10\x64\jre-10-x64.bat</FileName>
-              <Files></Files>
-              <IncludeDirectory value="true" />
-              <LeaveInstallFile value="false" />
-              <MsiOperation>Install</MsiOperation>
-              <MsiQuiet value="true" />
-              <MsiRestart>Never</MsiRestart>
-              <Parameters></Parameters>
-              <SuccessCodes>0,1641,3010</SuccessCodes>
-              <RunAs value="null" />
-              <Conditions type="list">
-                <PackageStepCondition>
-                  <Architecture>Bits64</Architecture>
-                  <Version>All</Version>
-                  <TypeName>OperatingSystem</TypeName>
-                </PackageStepCondition>
-                <PackageStepCondition>
-                  <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
-                  <TypeName>LoggedOnUser</TypeName>
-                </PackageStepCondition>
-              </Conditions>
-              <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
-              <Title></Title>
-              <TypeName>Install</TypeName>
-            </InstallStep>
-          </Steps>
-          <Timeout value="60" />
-          <UseCustomTimeout value="false" />
-        </PackageDefinition>
-        <Description>Installs Java Runtime 9, with the following options:
- - Removes all previous JRE9 x64 installations first (does not specifically target JRE6-8 installations for removal)
- - Disables Java's auto-updater
- - Does not reboot
- - Forces Java Web Security level to MEDIUM* (default in all JRE7 and earlier). Thanks to reddit.com/user/matt314159 for this contribution.
-
- * If you wish to disable this behavior, edit the 'deployment.properties' file and comment out or delete the line that reads 'deployment.security.level.locked'</Description>
-        <FolderId value="3" />
-        <Name>Java Runtime 10.0.2 (x64)</Name>
-        <Path>Installers\Java Runtime 10.0.2 (x64)</Path>
-        <Version>10.0.2</Version>
+        <FolderId value="6" />
+        <Name>Java Runtime 8 update 211 (x86)</Name>
+        <Path>Installers\Java Runtime 8 update 211 (x86)</Path>
+        <Version>8.0.211</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -1561,7 +1457,7 @@ If the target machine is on a domain, the login format is as follows:
  - username@domain.com
 
 * if you require this, edit the kts.ini file in C:\Program Files\KTS\ and set the 'use_ssh' variable to 0 instead of 1</Description>
-        <FolderId value="3" />
+        <FolderId value="6" />
         <Name>KpyM Telnet/SSH Server v1.19c (x86)</Name>
         <Path>Installers\KpyM Telnet/SSH Server v1.19c (x86)</Path>
         <Version>1.19c</Version>
@@ -1582,7 +1478,7 @@ If the target machine is on a domain, the login format is as follows:
               <CustomCommandLine></CustomCommandLine>
               <FileName>$(Repository)\microsoft\dot-net-framework\.NET Framework v3.5 SP1.exe</FileName>
               <Files></Files>
-              <IncludeDirectory value="true" />
+              <IncludeDirectory value="false" />
               <LeaveInstallFile value="false" />
               <MsiOperation>Install</MsiOperation>
               <MsiQuiet value="true" />
@@ -1611,7 +1507,7 @@ If the target machine is on a domain, the login format is as follows:
           <UseCustomTimeout value="false" />
         </PackageDefinition>
         <Description></Description>
-        <FolderId value="3" />
+        <FolderId value="6" />
         <Name>Microsoft .NET Framework 3.5 SP1 v3.5.1</Name>
         <Path>Installers\Microsoft .NET Framework 3.5 SP1 v3.5.1</Path>
         <Version>3.5.1</Version>
@@ -1665,7 +1561,7 @@ If the target machine is on a domain, the login format is as follows:
      1. The /noupdate flag
      2. The "HKEY_LOCAL_MACHINE\Software\Microsoft\Silverlight\UpdateMode" registry key (0x00000002)
  - Deletes the icons the from All Users Start Menu</Description>
-        <FolderId value="3" />
+        <FolderId value="6" />
         <Name>Microsoft Silverlight v5.1.50901.0 (x64)</Name>
         <Path>Installers\Microsoft Silverlight v5.1.50901.0 (x64)</Path>
         <Version>5.1.50901.0</Version>
@@ -1719,7 +1615,7 @@ If the target machine is on a domain, the login format is as follows:
      1. The /noupdate flag
      2. The "HKEY_LOCAL_MACHINE\Software\Microsoft\Silverlight\UpdateMode" registry key (0x00000002)
  - Deletes the icons the from All Users Start Menu</Description>
-        <FolderId value="3" />
+        <FolderId value="6" />
         <Name>Microsoft Silverlight v5.1.50901.0 (x86)</Name>
         <Path>Installers\Microsoft Silverlight v5.1.50901.0 (x86)</Path>
         <Version>5.1.50901.0</Version>
@@ -1783,10 +1679,10 @@ If the target machine is on a domain, the login format is as follows:
  - Deletes All Users desktop icon
 
  * These customizations come from the file '\autoconfig\cck2.cfg' in the package directory. If you want to change them, edit or delete this file. The config file was generated with the CCK2 addon for Firefox.</Description>
-        <FolderId value="3" />
-        <Name>Mozilla Firefox ESR v60.1.0 (customized) (x64)</Name>
-        <Path>Installers\Mozilla Firefox ESR v60.1.0 (customized) (x64)</Path>
-        <Version>60.1.0</Version>
+        <FolderId value="6" />
+        <Name>Mozilla Firefox ESR v60.6.3 (customized) (x64)</Name>
+        <Path>Installers\Mozilla Firefox ESR v60.6.3 (customized) (x64)</Path>
+        <Version>60.6.3</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -1847,10 +1743,10 @@ If the target machine is on a domain, the login format is as follows:
  - Deletes All Users desktop icon
 
  * These customizations come from the file '\autoconfig\cck2.cfg' in the package directory. If you want to change them, edit or delete this file. The config file was generated with the CCK2 addon for Firefox.</Description>
-        <FolderId value="3" />
-        <Name>Mozilla Firefox v60.1.0 ESR (customized) (x86)</Name>
-        <Path>Installers\Mozilla Firefox v60.1.0 ESR (customized) (x86)</Path>
-        <Version>60.1.0</Version>
+        <FolderId value="6" />
+        <Name>Mozilla Firefox v60.6.3 ESR (customized) (x86)</Name>
+        <Path>Installers\Mozilla Firefox v60.6.3 ESR (customized) (x86)</Path>
+        <Version>60.6.3</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -1912,10 +1808,10 @@ If the target machine is on a domain, the login format is as follows:
  - Autoloads the latest version of the uBlock Origin plugin
 
  * These customizations come from the file '\autoconfig\cck2.cfg' in the package directory. If you want to change them, edit or delete this file. The config file was generated with the CCK2 addon for Firefox.</Description>
-        <FolderId value="3" />
-        <Name>Mozilla Firefox v61.0.1 (customized) (x64)</Name>
-        <Path>Installers\Mozilla Firefox v61.0.1 (customized) (x64)</Path>
-        <Version>61.0.1</Version>
+        <FolderId value="6" />
+        <Name>Mozilla Firefox v66.0.5 (customized) (x64)</Name>
+        <Path>Installers\Mozilla Firefox v66.0.5 (customized) (x64)</Path>
+        <Version>66.0.5</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -1977,10 +1873,10 @@ If the target machine is on a domain, the login format is as follows:
  - Autoloads the latest version of the uBlock Origin plugin
 
  * These customizations come from the file '\autoconfig\cck2.cfg' in the package directory. If you want to change them, edit or delete this file. The config file was generated with the CCK2 addon for Firefox.</Description>
-        <FolderId value="3" />
-        <Name>Mozilla Firefox v61.0.1 (customized) (x86)</Name>
-        <Path>Installers\Mozilla Firefox v61.0.1 (customized) (x86)</Path>
-        <Version>61.0.1</Version>
+        <FolderId value="6" />
+        <Name>Mozilla Firefox v66.0.5 (customized) (x86)</Name>
+        <Path>Installers\Mozilla Firefox v66.0.5 (customized) (x86)</Path>
+        <Version>66.0.5</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -2037,10 +1933,10 @@ If the target machine is on a domain, the login format is as follows:
 
 * The master settings file it points to is located here:  '\\DOMAIN.NAME\netlogon\applications\thunderbird\thunderbird-global-settings.js'
 * If you wish to disable these settings, remove the three *.js files in the package directory</Description>
-        <FolderId value="3" />
-        <Name>Mozilla Thunderbird v52.9.1 (customized)</Name>
-        <Path>Installers\Mozilla Thunderbird v52.9.1 (customized)</Path>
-        <Version>52.9.1</Version>
+        <FolderId value="6" />
+        <Name>Mozilla Thunderbird v60.6.1 (customized)</Name>
+        <Path>Installers\Mozilla Thunderbird v60.6.1 (customized)</Path>
+        <Version>60.6.1</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -2090,10 +1986,64 @@ If the target machine is on a domain, the login format is as follows:
  - Kills any running instance of Notepad++ first
  - Disables auto-updater by deleting the folder "C:\Program Files\Notepad++\updater"
  - Deletes the DSpellCheck plugin</Description>
-        <FolderId value="3" />
-        <Name>Notepad++ v7.5.7</Name>
-        <Path>Installers\Notepad++ v7.5.7</Path>
-        <Version>7.5.7</Version>
+        <FolderId value="6" />
+        <Name>Notepad++ v7.6.6</Name>
+        <Path>Installers\Notepad++ v7.6.6</Path>
+        <Version>7.6.6</Version>
+        <PackageDisplaySettings name="DisplaySettings">
+          <DisplayType>Normal</DisplayType>
+          <IconKey></IconKey>
+          <SortOrder value="7" />
+        </PackageDisplaySettings>
+      </Package>
+      <Package>
+        <PackageDefinition name="Definition">
+          <CopyMode>Default</CopyMode>
+          <InventoryScanProfileId value="null" />
+          <RunAs value="null" />
+          <ScanAfterDeployment value="null" />
+          <Steps type="list">
+            <InstallStep>
+              <CustomCommandLine></CustomCommandLine>
+              <FileName>$(Repository)\moonchild\palemoon\x64\palemoon.bat</FileName>
+              <Files></Files>
+              <IncludeDirectory value="true" />
+              <LeaveInstallFile value="false" />
+              <MsiOperation>Install</MsiOperation>
+              <MsiQuiet value="true" />
+              <MsiRestart>Never</MsiRestart>
+              <Parameters></Parameters>
+              <SuccessCodes>0,1641,3010</SuccessCodes>
+              <RunAs value="null" />
+              <Conditions type="list">
+                <PackageStepCondition>
+                  <Architecture>Bits64</Architecture>
+                  <Version>All</Version>
+                  <TypeName>OperatingSystem</TypeName>
+                </PackageStepCondition>
+                <PackageStepCondition>
+                  <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
+                  <TypeName>LoggedOnUser</TypeName>
+                </PackageStepCondition>
+              </Conditions>
+              <ErrorMode>StopDeploymentFail</ErrorMode>
+              <IsEnabled value="true" />
+              <Title></Title>
+              <TypeName>Install</TypeName>
+            </InstallStep>
+          </Steps>
+          <Timeout value="60" />
+          <UseCustomTimeout value="false" />
+        </PackageDefinition>
+        <Description>Install's Pale Moon, an open-source, Windows-optimized, binary-compatible Firefox build, with the following modifications:
+ - Removes desktop icon
+
+
+Thanks to Moonchild ( http://www.palemoon.org/ ) for redistribution permission.</Description>
+        <FolderId value="6" />
+        <Name>Pale Moon v28.5.0</Name>
+        <Path>Installers\Pale Moon v28.5.0</Path>
+        <Version>28.5.0</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -2144,10 +2094,10 @@ If the target machine is on a domain, the login format is as follows:
 
 
 Thanks to Moonchild ( http://www.palemoon.org/ ) for redistribution permission.</Description>
-        <FolderId value="3" />
-        <Name>Pale Moon v27.9.4</Name>
-        <Path>Installers\Pale Moon v27.9.4</Path>
-        <Version>27.9.4</Version>
+        <FolderId value="6" />
+        <Name>Pale Moon v28.5.0 (x86)</Name>
+        <Path>Installers\Pale Moon v28.5.0 (x86)</Path>
+        <Version>28.5.0</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -2197,7 +2147,7 @@ Thanks to Moonchild ( http://www.palemoon.org/ ) for redistribution permission.<
  - Silent install
  - Deletes "All Users" desktop icon
  - Deletes the OTR ("Off the Record") encryption plugin</Description>
-        <FolderId value="3" />
+        <FolderId value="6" />
         <Name>Spark v2.8.3</Name>
         <Path>Installers\Spark v2.8.3</Path>
         <Version></Version>
@@ -2256,7 +2206,7 @@ Thanks to Moonchild ( http://www.palemoon.org/ ) for redistribution permission.<
  - Sets the control panel protection password to 'nettech2' *
 
  * These settings come from the registry file that gets imported. If you wish to disable these customizations, remove the registry file.</Description>
-        <FolderId value="3" />
+        <FolderId value="6" />
         <Name>TightVNC v2.8.11 (x64)</Name>
         <Path>Installers\TightVNC v2.8.11 (x64)</Path>
         <Version></Version>
@@ -2315,7 +2265,7 @@ Thanks to Moonchild ( http://www.palemoon.org/ ) for redistribution permission.<
  - Sets the control panel protection password to 'nettech2' *
 
  * These settings come from the registry file that gets imported. If you wish to disable these customizations, remove the registry file.</Description>
-        <FolderId value="3" />
+        <FolderId value="6" />
         <Name>TightVNC v2.8.11 (x86)</Name>
         <Path>Installers\TightVNC v2.8.11 (x86)</Path>
         <Version></Version>
@@ -2373,10 +2323,10 @@ Thanks to Moonchild ( http://www.palemoon.org/ ) for redistribution permission.<
 * If you wish to change this, use the password generator tool located in:
      $(Repository)\ultravnc\ultravnc_password_generator
 and paste the resulting password in the 'ultravnc.ini' file in the same directory as the UltraVNC exe</Description>
-        <FolderId value="3" />
-        <Name>UltraVNC v1.2.2.1 (x86)</Name>
-        <Path>Installers\UltraVNC v1.2.2.1 (x86)</Path>
-        <Version>1.2.2.1</Version>
+        <FolderId value="6" />
+        <Name>UltraVNC v1.2.2.4 (x86)</Name>
+        <Path>Installers\UltraVNC v1.2.2.4 (x86)</Path>
+        <Version>1.2.2.4</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -2423,10 +2373,10 @@ and paste the resulting password in the 'ultravnc.ini' file in the same director
           <UseCustomTimeout value="false" />
         </PackageDefinition>
         <Description></Description>
-        <FolderId value="3" />
-        <Name>VLC Media Player v3.0.3 (x86)</Name>
-        <Path>Installers\VLC Media Player v3.0.3 (x86)</Path>
-        <Version>3.0.3</Version>
+        <FolderId value="6" />
+        <Name>VLC Media Player v3.0.6 (x86)</Name>
+        <Path>Installers\VLC Media Player v3.0.6 (x86)</Path>
+        <Version>3.0.6</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
@@ -2477,10 +2427,10 @@ and paste the resulting password in the 'ultravnc.ini' file in the same director
  - Disables auto-reboot
  - Doesn't install a desktop icon
  - Associates .scp file extensions with WinSCP</Description>
-        <FolderId value="3" />
-        <Name>WinSCP v5.13.3</Name>
-        <Path>Installers\WinSCP v5.13.3</Path>
-        <Version>5.13.3</Version>
+        <FolderId value="6" />
+        <Name>WinSCP v5.15.1</Name>
+        <Path>Installers\WinSCP v5.15.1</Path>
+        <Version>5.15.1</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey></IconKey>
