@@ -63,7 +63,7 @@ REM if exist "%public%\Desktop\Mozilla Firefox.lnk" del "%public%\Desktop\Mozill
 REM if exist "%SystemDrive%\users\default\Desktop\Mozilla Firefox.lnk" del "%SystemDrive%\users\default\Desktop\Mozilla Firefox.lnk"
 
 :: Lets just amp this up and catch ANYWHERE it might drop a shortcut 
-del /f /s "%SystemDrive%\Users\*Mozilla Firefox.lnk" 2>nul
+del /f /s "%SystemDrive%\Users\*Firefox.lnk" 2>nul
 
 :: Pop back to original directory. This isn't necessary in stand-alone runs of the script, but is needed when being called from another script
 popd
