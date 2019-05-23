@@ -28,7 +28,7 @@ set LOGFILE=jdk8_x64_update.log
 
 :: Package to install. Do not use trailing slashes (\)
 set LOCATION=
-set BINARY=jdk-8u112-windows-x64.exe
+set BINARY=jdk-8u211-windows-x64.exe
 set FLAGS=/s /l %LOGPATH%\%LOGFILE% ADDLOCAL="ToolsFeature"
 
 :: Create the log directory if it doesn't exist
