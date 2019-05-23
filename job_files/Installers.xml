@@ -1,23 +1,43 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<AdminArsenal.Export Code="PDQDeploy" Name="PDQ Deploy" Version="12.2.0.0" MinimumVersion="7.0">
+<AdminArsenal.Export Code="PDQDeploy" Name="PDQ Deploy" Version="17.2.0.0" MinimumVersion="15.0">
   <Folder>
-    <Created>2019-01-28T11:23:44.0000000-07:00</Created>
-    <Id value="6" />
-    <Modified>2019-01-28T11:23:44.0000000-07:00</Modified>
+    <Created>2019-05-23T17:18:02.0000000-06:00</Created>
+    <Id value="2" />
+    <Modified>2019-05-23T17:18:02.0000000-06:00</Modified>
     <Name>Installers</Name>
     <ParentId value="null" />
     <Path>Installers</Path>
     <FolderDisplaySettings name="DisplaySettings">
       <DisplayType>Normal</DisplayType>
-      <IconKey></IconKey>
-      <SortOrder value="3" />
+      <IconKey>Icon-Folder</IconKey>
+      <SortOrder value="7" />
     </FolderDisplaySettings>
     <Children type="list">
       <Package>
+        <CurrentLibraryPackageVersionId value="null" />
         <PackageDefinition name="Definition">
+          <Conditions type="list">
+            <PackageStepCondition>
+              <Architecture>Both</Architecture>
+              <Version>All</Version>
+              <TypeName>OperatingSystem</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
+              <TypeName>LoggedOnUser</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <ConditionMode>None</ConditionMode>
+              <InventoryCollectionId value="null" />
+              <InventoryCollectionName></InventoryCollectionName>
+              <TypeName>Collection</TypeName>
+            </PackageStepCondition>
+          </Conditions>
           <CopyMode>Default</CopyMode>
+          <DelayedApprovalTimeSpan>7.00:00:00</DelayedApprovalTimeSpan>
+          <DownloadApprovalMode>Manual</DownloadApprovalMode>
           <InventoryScanProfileId value="null" />
-          <RunAs value="null" />
+          <IsDownloadApprovalModeInherited value="true" />
           <ScanAfterDeployment value="null" />
           <Steps type="list">
             <InstallStep>
@@ -42,35 +62,68 @@
                   <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
                   <TypeName>LoggedOnUser</TypeName>
                 </PackageStepCondition>
+                <PackageStepCondition>
+                  <ConditionMode>None</ConditionMode>
+                  <InventoryCollectionId value="null" />
+                  <InventoryCollectionName></InventoryCollectionName>
+                  <TypeName>Collection</TypeName>
+                </PackageStepCondition>
               </Conditions>
               <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
               <Title></Title>
               <TypeName>Install</TypeName>
+              <IsEnabled value="true" />
+              <IsPostStep value="false" />
+              <IsPreStep value="false" />
             </InstallStep>
           </Steps>
           <Timeout value="60" />
           <UseCustomTimeout value="false" />
+          <RunAs value="null" />
         </PackageDefinition>
         <Description>Installs Igor Pavlov's 7-Zip file compression utility, with the following modifications:
  - Associates the following file extensions with 7-Zip: 7z,bz2,bzip2,gz,gzip,lzh,lzma,rar,tar,tgz,zip  *
 
 * If you wish to associate with ALL the file extensions 7-Zip supports, go to "Step 1" of this installer and change the argument that's passed to the installer from "associate_common" to "associate_all"</Description>
-        <FolderId value="6" />
+        <NewLibraryPackageVersionId value="null" />
+        <OriginalId value="null" />
+        <Version>19.00</Version>
+        <IsAutoDownload value="false" />
+        <FolderId value="2" />
+        <LibraryPackageVersionId value="null" />
         <Name>7-Zip v19.00 (x64)</Name>
         <Path>Installers\7-Zip v19.00 (x64)</Path>
-        <Version>19.00</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
-          <IconKey></IconKey>
+          <IconKey>Icon-Package</IconKey>
           <SortOrder value="7" />
         </PackageDisplaySettings>
       </Package>
       <Package>
+        <CurrentLibraryPackageVersionId value="null" />
         <PackageDefinition name="Definition">
+          <Conditions type="list">
+            <PackageStepCondition>
+              <Architecture>Both</Architecture>
+              <Version>All</Version>
+              <TypeName>OperatingSystem</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
+              <TypeName>LoggedOnUser</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <ConditionMode>None</ConditionMode>
+              <InventoryCollectionId value="null" />
+              <InventoryCollectionName></InventoryCollectionName>
+              <TypeName>Collection</TypeName>
+            </PackageStepCondition>
+          </Conditions>
           <CopyMode>Default</CopyMode>
+          <DelayedApprovalTimeSpan>7.00:00:00</DelayedApprovalTimeSpan>
+          <DownloadApprovalMode>Manual</DownloadApprovalMode>
           <InventoryScanProfileId value="null" />
-          <RunAs value="null" />
+          <IsDownloadApprovalModeInherited value="true" />
           <ScanAfterDeployment value="null" />
           <Steps type="list">
             <InstallStep>
@@ -95,15 +148,24 @@
                   <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
                   <TypeName>LoggedOnUser</TypeName>
                 </PackageStepCondition>
+                <PackageStepCondition>
+                  <ConditionMode>None</ConditionMode>
+                  <InventoryCollectionId value="null" />
+                  <InventoryCollectionName></InventoryCollectionName>
+                  <TypeName>Collection</TypeName>
+                </PackageStepCondition>
               </Conditions>
               <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
               <Title></Title>
               <TypeName>Install</TypeName>
+              <IsEnabled value="true" />
+              <IsPostStep value="false" />
+              <IsPreStep value="false" />
             </InstallStep>
           </Steps>
           <Timeout value="60" />
           <UseCustomTimeout value="false" />
+          <RunAs value="null" />
         </PackageDefinition>
         <Description>Installs Igor Pavlov's 7-Zip file compression utility, with the following modifications:
  - Associates the following file extensions with 7-Zip: 7z,bz2,bzip2,gz,gzip,lzh,lzma,rar,tar,tgz,zip  *
@@ -111,21 +173,45 @@
 
 
 * If you wish to associate with ALL the file extensions 7-Zip supports, go to "Step 1" of this installer and change the argument that's passed to the installer from "associate_common" to "associate_all"</Description>
-        <FolderId value="6" />
+        <NewLibraryPackageVersionId value="null" />
+        <OriginalId value="null" />
+        <Version>19.00</Version>
+        <IsAutoDownload value="false" />
+        <FolderId value="2" />
+        <LibraryPackageVersionId value="null" />
         <Name>7-Zip v19.00 (x86)</Name>
         <Path>Installers\7-Zip v19.00 (x86)</Path>
-        <Version>19.00</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
-          <IconKey></IconKey>
+          <IconKey>Icon-Package</IconKey>
           <SortOrder value="7" />
         </PackageDisplaySettings>
       </Package>
       <Package>
+        <CurrentLibraryPackageVersionId value="null" />
         <PackageDefinition name="Definition">
+          <Conditions type="list">
+            <PackageStepCondition>
+              <Architecture>Both</Architecture>
+              <Version>All</Version>
+              <TypeName>OperatingSystem</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
+              <TypeName>LoggedOnUser</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <ConditionMode>None</ConditionMode>
+              <InventoryCollectionId value="null" />
+              <InventoryCollectionName></InventoryCollectionName>
+              <TypeName>Collection</TypeName>
+            </PackageStepCondition>
+          </Conditions>
           <CopyMode>Default</CopyMode>
+          <DelayedApprovalTimeSpan>7.00:00:00</DelayedApprovalTimeSpan>
+          <DownloadApprovalMode>Manual</DownloadApprovalMode>
           <InventoryScanProfileId value="null" />
-          <RunAs value="null" />
+          <IsDownloadApprovalModeInherited value="true" />
           <ScanAfterDeployment value="null" />
           <Steps type="list">
             <InstallStep>
@@ -150,15 +236,24 @@
                   <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
                   <TypeName>LoggedOnUser</TypeName>
                 </PackageStepCondition>
+                <PackageStepCondition>
+                  <ConditionMode>None</ConditionMode>
+                  <InventoryCollectionId value="null" />
+                  <InventoryCollectionName></InventoryCollectionName>
+                  <TypeName>Collection</TypeName>
+                </PackageStepCondition>
               </Conditions>
               <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
               <Title></Title>
               <TypeName>Install</TypeName>
+              <IsEnabled value="true" />
+              <IsPostStep value="false" />
+              <IsPreStep value="false" />
             </InstallStep>
           </Steps>
           <Timeout value="60" />
           <UseCustomTimeout value="false" />
+          <RunAs value="null" />
         </PackageDefinition>
         <Description>Installs Adobe Acrobat Reader DC, with the following changes:
  - Remove all prior versions of Adobe Reader from 6.x and up
@@ -166,21 +261,45 @@
  - Remove the Adobe Update scheduled task that gets installed (C:\Windows\tasks\Adobe Acrobat Update Task.job)
  - Disable all auto-update and telemetry collection options I could find via the bundled customization file
  - Disable all third-party service connectors (Dropbox, Google Drive, SharePoint, etc) via the bundled customization file</Description>
-        <FolderId value="6" />
+        <NewLibraryPackageVersionId value="null" />
+        <OriginalId value="null" />
+        <Version>19.008.20071</Version>
+        <IsAutoDownload value="false" />
+        <FolderId value="2" />
+        <LibraryPackageVersionId value="null" />
         <Name>Adobe Acrobat Reader DC</Name>
         <Path>Installers\Adobe Acrobat Reader DC</Path>
-        <Version>19.008.20071</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
-          <IconKey></IconKey>
+          <IconKey>Icon-Package</IconKey>
           <SortOrder value="7" />
         </PackageDisplaySettings>
       </Package>
       <Package>
+        <CurrentLibraryPackageVersionId value="null" />
         <PackageDefinition name="Definition">
+          <Conditions type="list">
+            <PackageStepCondition>
+              <Architecture>Both</Architecture>
+              <Version>All</Version>
+              <TypeName>OperatingSystem</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
+              <TypeName>LoggedOnUser</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <ConditionMode>None</ConditionMode>
+              <InventoryCollectionId value="null" />
+              <InventoryCollectionName></InventoryCollectionName>
+              <TypeName>Collection</TypeName>
+            </PackageStepCondition>
+          </Conditions>
           <CopyMode>Default</CopyMode>
+          <DelayedApprovalTimeSpan>7.00:00:00</DelayedApprovalTimeSpan>
+          <DownloadApprovalMode>Manual</DownloadApprovalMode>
           <InventoryScanProfileId value="null" />
-          <RunAs value="null" />
+          <IsDownloadApprovalModeInherited value="true" />
           <ScanAfterDeployment value="null" />
           <Steps type="list">
             <InstallStep>
@@ -205,15 +324,24 @@
                   <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
                   <TypeName>LoggedOnUser</TypeName>
                 </PackageStepCondition>
+                <PackageStepCondition>
+                  <ConditionMode>None</ConditionMode>
+                  <InventoryCollectionId value="null" />
+                  <InventoryCollectionName></InventoryCollectionName>
+                  <TypeName>Collection</TypeName>
+                </PackageStepCondition>
               </Conditions>
               <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
               <Title></Title>
               <TypeName>Install</TypeName>
+              <IsEnabled value="true" />
+              <IsPostStep value="false" />
+              <IsPreStep value="false" />
             </InstallStep>
           </Steps>
           <Timeout value="60" />
           <UseCustomTimeout value="false" />
+          <RunAs value="null" />
         </PackageDefinition>
         <Description>Installs Adobe AIR with the following customizations:
 
@@ -221,21 +349,45 @@
  - Accepts the EULA for all users
  - Deletes Adobe Update service
  - Deletes Adobe Update Task Scheduler jobs</Description>
-        <FolderId value="6" />
+        <NewLibraryPackageVersionId value="null" />
+        <OriginalId value="null" />
+        <Version>32.0.0.125</Version>
+        <IsAutoDownload value="false" />
+        <FolderId value="2" />
+        <LibraryPackageVersionId value="null" />
         <Name>Adobe AIR v32.0.0.125</Name>
         <Path>Installers\Adobe AIR v32.0.0.125</Path>
-        <Version>32.0.0.125</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
-          <IconKey></IconKey>
+          <IconKey>Icon-Package</IconKey>
           <SortOrder value="7" />
         </PackageDisplaySettings>
       </Package>
       <Package>
+        <CurrentLibraryPackageVersionId value="null" />
         <PackageDefinition name="Definition">
+          <Conditions type="list">
+            <PackageStepCondition>
+              <Architecture>Both</Architecture>
+              <Version>All</Version>
+              <TypeName>OperatingSystem</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
+              <TypeName>LoggedOnUser</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <ConditionMode>None</ConditionMode>
+              <InventoryCollectionId value="null" />
+              <InventoryCollectionName></InventoryCollectionName>
+              <TypeName>Collection</TypeName>
+            </PackageStepCondition>
+          </Conditions>
           <CopyMode>Default</CopyMode>
+          <DelayedApprovalTimeSpan>7.00:00:00</DelayedApprovalTimeSpan>
+          <DownloadApprovalMode>Manual</DownloadApprovalMode>
           <InventoryScanProfileId value="null" />
-          <RunAs value="null" />
+          <IsDownloadApprovalModeInherited value="true" />
           <ScanAfterDeployment value="null" />
           <Steps type="list">
             <InstallStep>
@@ -260,36 +412,69 @@
                   <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
                   <TypeName>LoggedOnUser</TypeName>
                 </PackageStepCondition>
+                <PackageStepCondition>
+                  <ConditionMode>None</ConditionMode>
+                  <InventoryCollectionId value="null" />
+                  <InventoryCollectionName></InventoryCollectionName>
+                  <TypeName>Collection</TypeName>
+                </PackageStepCondition>
               </Conditions>
               <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
               <Title></Title>
               <TypeName>Install</TypeName>
+              <IsEnabled value="true" />
+              <IsPostStep value="false" />
+              <IsPreStep value="false" />
             </InstallStep>
           </Steps>
           <Timeout value="60" />
           <UseCustomTimeout value="false" />
+          <RunAs value="null" />
         </PackageDefinition>
         <Description>Installs Adobe Flash Player for Chrome, with the following changes:
  ! Kills running instances of Chrome
  - Removes all prior versions of Adobe Flash, Chrome version
  - Removes the Adobe Acrobat Update Service (AdobeFlashPlayerUpdateSvc)
  - Removes the Adobe Update scheduled task that gets installed (C:\Windows\tasks\Adobe Flash Player Updater.job)</Description>
-        <FolderId value="6" />
+        <NewLibraryPackageVersionId value="null" />
+        <OriginalId value="null" />
+        <Version>32.0.0.192</Version>
+        <IsAutoDownload value="false" />
+        <FolderId value="2" />
+        <LibraryPackageVersionId value="null" />
         <Name>Adobe Flash Player v32.0.0.192 (Chrome)</Name>
         <Path>Installers\Adobe Flash Player v32.0.0.192 (Chrome)</Path>
-        <Version>32.0.0.192</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
-          <IconKey></IconKey>
+          <IconKey>Icon-Package</IconKey>
           <SortOrder value="7" />
         </PackageDisplaySettings>
       </Package>
       <Package>
+        <CurrentLibraryPackageVersionId value="null" />
         <PackageDefinition name="Definition">
+          <Conditions type="list">
+            <PackageStepCondition>
+              <Architecture>Both</Architecture>
+              <Version>All</Version>
+              <TypeName>OperatingSystem</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
+              <TypeName>LoggedOnUser</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <ConditionMode>None</ConditionMode>
+              <InventoryCollectionId value="null" />
+              <InventoryCollectionName></InventoryCollectionName>
+              <TypeName>Collection</TypeName>
+            </PackageStepCondition>
+          </Conditions>
           <CopyMode>Default</CopyMode>
+          <DelayedApprovalTimeSpan>7.00:00:00</DelayedApprovalTimeSpan>
+          <DownloadApprovalMode>Manual</DownloadApprovalMode>
           <InventoryScanProfileId value="null" />
-          <RunAs value="null" />
+          <IsDownloadApprovalModeInherited value="true" />
           <ScanAfterDeployment value="null" />
           <Steps type="list">
             <InstallStep>
@@ -314,36 +499,69 @@
                   <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
                   <TypeName>LoggedOnUser</TypeName>
                 </PackageStepCondition>
+                <PackageStepCondition>
+                  <ConditionMode>None</ConditionMode>
+                  <InventoryCollectionId value="null" />
+                  <InventoryCollectionName></InventoryCollectionName>
+                  <TypeName>Collection</TypeName>
+                </PackageStepCondition>
               </Conditions>
               <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
               <Title></Title>
               <TypeName>Install</TypeName>
+              <IsEnabled value="true" />
+              <IsPostStep value="false" />
+              <IsPreStep value="false" />
             </InstallStep>
           </Steps>
           <Timeout value="60" />
           <UseCustomTimeout value="false" />
+          <RunAs value="null" />
         </PackageDefinition>
         <Description>Installs Adobe Flash Player for Firefox (as a plugin), with the following changes:
  ! Kills running instances of Firefox
  - Removes all prior versions of Adobe Flash, Firefox/plugin version
  - Removes the Adobe Acrobat Update Service (AdobeFlashPlayerUpdateSvc)
  - Removes the Adobe Update scheduled task that gets installed (C:\Windows\tasks\Adobe Flash Player Updater.job)</Description>
-        <FolderId value="6" />
+        <NewLibraryPackageVersionId value="null" />
+        <OriginalId value="null" />
+        <Version>32.0.0.192</Version>
+        <IsAutoDownload value="false" />
+        <FolderId value="2" />
+        <LibraryPackageVersionId value="null" />
         <Name>Adobe Flash Player v32.0.0.192 (Firefox)</Name>
         <Path>Installers\Adobe Flash Player v32.0.0.192 (Firefox)</Path>
-        <Version>32.0.0.192</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
-          <IconKey></IconKey>
+          <IconKey>Icon-Package</IconKey>
           <SortOrder value="7" />
         </PackageDisplaySettings>
       </Package>
       <Package>
+        <CurrentLibraryPackageVersionId value="null" />
         <PackageDefinition name="Definition">
+          <Conditions type="list">
+            <PackageStepCondition>
+              <Architecture>Both</Architecture>
+              <Version>All</Version>
+              <TypeName>OperatingSystem</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
+              <TypeName>LoggedOnUser</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <ConditionMode>None</ConditionMode>
+              <InventoryCollectionId value="null" />
+              <InventoryCollectionName></InventoryCollectionName>
+              <TypeName>Collection</TypeName>
+            </PackageStepCondition>
+          </Conditions>
           <CopyMode>Default</CopyMode>
+          <DelayedApprovalTimeSpan>7.00:00:00</DelayedApprovalTimeSpan>
+          <DownloadApprovalMode>Manual</DownloadApprovalMode>
           <InventoryScanProfileId value="null" />
-          <RunAs value="null" />
+          <IsDownloadApprovalModeInherited value="true" />
           <ScanAfterDeployment value="null" />
           <Steps type="list">
             <InstallStep>
@@ -368,36 +586,69 @@
                   <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
                   <TypeName>LoggedOnUser</TypeName>
                 </PackageStepCondition>
+                <PackageStepCondition>
+                  <ConditionMode>None</ConditionMode>
+                  <InventoryCollectionId value="null" />
+                  <InventoryCollectionName></InventoryCollectionName>
+                  <TypeName>Collection</TypeName>
+                </PackageStepCondition>
               </Conditions>
               <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
               <Title></Title>
               <TypeName>Install</TypeName>
+              <IsEnabled value="true" />
+              <IsPostStep value="false" />
+              <IsPreStep value="false" />
             </InstallStep>
           </Steps>
           <Timeout value="60" />
           <UseCustomTimeout value="false" />
+          <RunAs value="null" />
         </PackageDefinition>
         <Description>Installs Adobe Flash Player for Internet Explorer (as an ActiveX plugin), with the following changes:
  ! Kills running instances of Internet Explorer
  - Removes all prior versions of Adobe Flash, ActiveX version
  - Removes the Adobe Acrobat Update Service (AdobeFlashPlayerUpdateSvc)
  - Removes the Adobe Update scheduled task that gets installed (C:\Windows\tasks\Adobe Flash Player Updater.job)</Description>
-        <FolderId value="6" />
+        <NewLibraryPackageVersionId value="null" />
+        <OriginalId value="null" />
+        <Version>32.0.0.192</Version>
+        <IsAutoDownload value="false" />
+        <FolderId value="2" />
+        <LibraryPackageVersionId value="null" />
         <Name>Adobe Flash Player v32.0.0.192 (IE)</Name>
         <Path>Installers\Adobe Flash Player v32.0.0.192 (IE)</Path>
-        <Version>32.0.0.192</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
-          <IconKey></IconKey>
+          <IconKey>Icon-Package</IconKey>
           <SortOrder value="7" />
         </PackageDisplaySettings>
       </Package>
       <Package>
+        <CurrentLibraryPackageVersionId value="null" />
         <PackageDefinition name="Definition">
+          <Conditions type="list">
+            <PackageStepCondition>
+              <Architecture>Both</Architecture>
+              <Version>All</Version>
+              <TypeName>OperatingSystem</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
+              <TypeName>LoggedOnUser</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <ConditionMode>None</ConditionMode>
+              <InventoryCollectionId value="null" />
+              <InventoryCollectionName></InventoryCollectionName>
+              <TypeName>Collection</TypeName>
+            </PackageStepCondition>
+          </Conditions>
           <CopyMode>Default</CopyMode>
+          <DelayedApprovalTimeSpan>7.00:00:00</DelayedApprovalTimeSpan>
+          <DownloadApprovalMode>Manual</DownloadApprovalMode>
           <InventoryScanProfileId value="null" />
-          <RunAs value="null" />
+          <IsDownloadApprovalModeInherited value="true" />
           <ScanAfterDeployment value="null" />
           <Steps type="list">
             <InstallStep>
@@ -422,36 +673,69 @@
                   <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
                   <TypeName>LoggedOnUser</TypeName>
                 </PackageStepCondition>
+                <PackageStepCondition>
+                  <ConditionMode>None</ConditionMode>
+                  <InventoryCollectionId value="null" />
+                  <InventoryCollectionName></InventoryCollectionName>
+                  <TypeName>Collection</TypeName>
+                </PackageStepCondition>
               </Conditions>
               <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
               <Title></Title>
               <TypeName>Install</TypeName>
+              <IsEnabled value="true" />
+              <IsPostStep value="false" />
+              <IsPreStep value="false" />
             </InstallStep>
           </Steps>
           <Timeout value="60" />
           <UseCustomTimeout value="false" />
+          <RunAs value="null" />
         </PackageDefinition>
         <Description>Installs Apple iTunes 64-bit, with the following customizations:
  - Uninstalls all prior versions first
  - Stops and deletes the "iPod Service"
  - Stops iTunesHelper
  - Deletes Public desktop iTunes.lnk</Description>
-        <FolderId value="6" />
+        <NewLibraryPackageVersionId value="null" />
+        <OriginalId value="null" />
+        <Version>12.5.1.21</Version>
+        <IsAutoDownload value="false" />
+        <FolderId value="2" />
+        <LibraryPackageVersionId value="null" />
         <Name>Apple iTunes v12.5.1.21 (x64)</Name>
         <Path>Installers\Apple iTunes v12.5.1.21 (x64)</Path>
-        <Version>12.5.1.21</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
-          <IconKey></IconKey>
+          <IconKey>Icon-Package</IconKey>
           <SortOrder value="7" />
         </PackageDisplaySettings>
       </Package>
       <Package>
+        <CurrentLibraryPackageVersionId value="null" />
         <PackageDefinition name="Definition">
+          <Conditions type="list">
+            <PackageStepCondition>
+              <Architecture>Both</Architecture>
+              <Version>All</Version>
+              <TypeName>OperatingSystem</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
+              <TypeName>LoggedOnUser</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <ConditionMode>None</ConditionMode>
+              <InventoryCollectionId value="null" />
+              <InventoryCollectionName></InventoryCollectionName>
+              <TypeName>Collection</TypeName>
+            </PackageStepCondition>
+          </Conditions>
           <CopyMode>Default</CopyMode>
+          <DelayedApprovalTimeSpan>7.00:00:00</DelayedApprovalTimeSpan>
+          <DownloadApprovalMode>Manual</DownloadApprovalMode>
           <InventoryScanProfileId value="null" />
-          <RunAs value="null" />
+          <IsDownloadApprovalModeInherited value="true" />
           <ScanAfterDeployment value="null" />
           <Steps type="list">
             <InstallStep>
@@ -476,36 +760,69 @@
                   <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
                   <TypeName>LoggedOnUser</TypeName>
                 </PackageStepCondition>
+                <PackageStepCondition>
+                  <ConditionMode>None</ConditionMode>
+                  <InventoryCollectionId value="null" />
+                  <InventoryCollectionName></InventoryCollectionName>
+                  <TypeName>Collection</TypeName>
+                </PackageStepCondition>
               </Conditions>
               <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
               <Title></Title>
               <TypeName>Install</TypeName>
+              <IsEnabled value="true" />
+              <IsPostStep value="false" />
+              <IsPreStep value="false" />
             </InstallStep>
           </Steps>
           <Timeout value="60" />
           <UseCustomTimeout value="false" />
+          <RunAs value="null" />
         </PackageDefinition>
         <Description>Installs CDBurnerXP (x64), with the following customizations:
  - Removes desktop icon
  - Associates ISO files with CDBurnerXP
  - Associates some other CD-related files with CDBurnerXP
  - Disables the background online update checker</Description>
-        <FolderId value="6" />
+        <NewLibraryPackageVersionId value="null" />
+        <OriginalId value="null" />
+        <Version>4.5.8.7042</Version>
+        <IsAutoDownload value="false" />
+        <FolderId value="2" />
+        <LibraryPackageVersionId value="null" />
         <Name>CDBurnerXP v4.5.8.7042 (x64)</Name>
         <Path>Installers\CDBurnerXP v4.5.8.7042 (x64)</Path>
-        <Version>4.5.8.7042</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
-          <IconKey></IconKey>
+          <IconKey>Icon-Package</IconKey>
           <SortOrder value="7" />
         </PackageDisplaySettings>
       </Package>
       <Package>
+        <CurrentLibraryPackageVersionId value="null" />
         <PackageDefinition name="Definition">
+          <Conditions type="list">
+            <PackageStepCondition>
+              <Architecture>Both</Architecture>
+              <Version>All</Version>
+              <TypeName>OperatingSystem</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
+              <TypeName>LoggedOnUser</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <ConditionMode>None</ConditionMode>
+              <InventoryCollectionId value="null" />
+              <InventoryCollectionName></InventoryCollectionName>
+              <TypeName>Collection</TypeName>
+            </PackageStepCondition>
+          </Conditions>
           <CopyMode>Default</CopyMode>
+          <DelayedApprovalTimeSpan>7.00:00:00</DelayedApprovalTimeSpan>
+          <DownloadApprovalMode>Manual</DownloadApprovalMode>
           <InventoryScanProfileId value="null" />
-          <RunAs value="null" />
+          <IsDownloadApprovalModeInherited value="true" />
           <ScanAfterDeployment value="null" />
           <Steps type="list">
             <InstallStep>
@@ -530,15 +847,24 @@
                   <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
                   <TypeName>LoggedOnUser</TypeName>
                 </PackageStepCondition>
+                <PackageStepCondition>
+                  <ConditionMode>None</ConditionMode>
+                  <InventoryCollectionId value="null" />
+                  <InventoryCollectionName></InventoryCollectionName>
+                  <TypeName>Collection</TypeName>
+                </PackageStepCondition>
               </Conditions>
               <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
               <Title></Title>
               <TypeName>Install</TypeName>
+              <IsEnabled value="true" />
+              <IsPostStep value="false" />
+              <IsPreStep value="false" />
             </InstallStep>
           </Steps>
           <Timeout value="60" />
           <UseCustomTimeout value="false" />
+          <RunAs value="null" />
         </PackageDefinition>
         <Description>Installs CutePDF Writer with the following customizations:
  - Installs GhostScript v8.13 (can be disabled if you ONLY want PDF print functionality)
@@ -546,21 +872,45 @@
  - Deletes Start Menu shortcuts for CutePDF
 
 Thanks to reddit.com/user/b0park for this package.</Description>
-        <FolderId value="6" />
+        <NewLibraryPackageVersionId value="null" />
+        <OriginalId value="null" />
+        <Version>3.0</Version>
+        <IsAutoDownload value="false" />
+        <FolderId value="2" />
+        <LibraryPackageVersionId value="null" />
         <Name>CutePDF Writer v3.0 (x86)</Name>
         <Path>Installers\CutePDF Writer v3.0 (x86)</Path>
-        <Version>3.0</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
-          <IconKey></IconKey>
+          <IconKey>Icon-Package</IconKey>
           <SortOrder value="7" />
         </PackageDisplaySettings>
       </Package>
       <Package>
+        <CurrentLibraryPackageVersionId value="null" />
         <PackageDefinition name="Definition">
+          <Conditions type="list">
+            <PackageStepCondition>
+              <Architecture>Both</Architecture>
+              <Version>All</Version>
+              <TypeName>OperatingSystem</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
+              <TypeName>LoggedOnUser</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <ConditionMode>None</ConditionMode>
+              <InventoryCollectionId value="null" />
+              <InventoryCollectionName></InventoryCollectionName>
+              <TypeName>Collection</TypeName>
+            </PackageStepCondition>
+          </Conditions>
           <CopyMode>Default</CopyMode>
+          <DelayedApprovalTimeSpan>7.00:00:00</DelayedApprovalTimeSpan>
+          <DownloadApprovalMode>Manual</DownloadApprovalMode>
           <InventoryScanProfileId value="null" />
-          <RunAs value="null" />
+          <IsDownloadApprovalModeInherited value="true" />
           <ScanAfterDeployment value="null" />
           <Steps type="list">
             <InstallStep>
@@ -578,40 +928,73 @@ Thanks to reddit.com/user/b0park for this package.</Description>
               <Conditions type="list">
                 <PackageStepCondition>
                   <Architecture>Bits64</Architecture>
-                  <Version>WindowsVista, Windows7, Windows8, Server2003R2, Server2008, Server2008R2, Server2012, Windows81, Server2012R2, Windows10, Server2016</Version>
+                  <Version>Server2003R2, All</Version>
                   <TypeName>OperatingSystem</TypeName>
                 </PackageStepCondition>
                 <PackageStepCondition>
                   <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
                   <TypeName>LoggedOnUser</TypeName>
                 </PackageStepCondition>
+                <PackageStepCondition>
+                  <ConditionMode>None</ConditionMode>
+                  <InventoryCollectionId value="null" />
+                  <InventoryCollectionName></InventoryCollectionName>
+                  <TypeName>Collection</TypeName>
+                </PackageStepCondition>
               </Conditions>
               <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
               <Title></Title>
               <TypeName>Install</TypeName>
+              <IsEnabled value="true" />
+              <IsPostStep value="false" />
+              <IsPreStep value="false" />
             </InstallStep>
           </Steps>
           <Timeout value="60" />
           <UseCustomTimeout value="false" />
+          <RunAs value="null" />
         </PackageDefinition>
         <Description>Installs the FileZilla client with the following customizations:
  - Removes any previous versions before installing</Description>
-        <FolderId value="6" />
+        <NewLibraryPackageVersionId value="null" />
+        <OriginalId value="null" />
+        <Version>3.42.1</Version>
+        <IsAutoDownload value="false" />
+        <FolderId value="2" />
+        <LibraryPackageVersionId value="null" />
         <Name>FileZilla Client v3.42.1</Name>
         <Path>Installers\FileZilla Client v3.42.1</Path>
-        <Version>3.42.1</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
-          <IconKey></IconKey>
+          <IconKey>Icon-Package</IconKey>
           <SortOrder value="7" />
         </PackageDisplaySettings>
       </Package>
       <Package>
+        <CurrentLibraryPackageVersionId value="null" />
         <PackageDefinition name="Definition">
+          <Conditions type="list">
+            <PackageStepCondition>
+              <Architecture>Both</Architecture>
+              <Version>All</Version>
+              <TypeName>OperatingSystem</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
+              <TypeName>LoggedOnUser</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <ConditionMode>None</ConditionMode>
+              <InventoryCollectionId value="null" />
+              <InventoryCollectionName></InventoryCollectionName>
+              <TypeName>Collection</TypeName>
+            </PackageStepCondition>
+          </Conditions>
           <CopyMode>Default</CopyMode>
+          <DelayedApprovalTimeSpan>7.00:00:00</DelayedApprovalTimeSpan>
+          <DownloadApprovalMode>Manual</DownloadApprovalMode>
           <InventoryScanProfileId value="null" />
-          <RunAs value="null" />
+          <IsDownloadApprovalModeInherited value="true" />
           <ScanAfterDeployment value="null" />
           <Steps type="list">
             <InstallStep>
@@ -636,34 +1019,67 @@ Thanks to reddit.com/user/b0park for this package.</Description>
                   <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
                   <TypeName>LoggedOnUser</TypeName>
                 </PackageStepCondition>
+                <PackageStepCondition>
+                  <ConditionMode>None</ConditionMode>
+                  <InventoryCollectionId value="null" />
+                  <InventoryCollectionName></InventoryCollectionName>
+                  <TypeName>Collection</TypeName>
+                </PackageStepCondition>
               </Conditions>
               <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
               <Title></Title>
               <TypeName>Install</TypeName>
+              <IsEnabled value="true" />
+              <IsPostStep value="false" />
+              <IsPreStep value="false" />
             </InstallStep>
           </Steps>
           <Timeout value="60" />
           <UseCustomTimeout value="false" />
+          <RunAs value="null" />
         </PackageDefinition>
         <Description>Installs Gimp silently with the following flags:
 
 Gimp v2.10.10 x86.exe /verysilent /norestart</Description>
-        <FolderId value="6" />
+        <NewLibraryPackageVersionId value="null" />
+        <OriginalId value="null" />
+        <Version>2.10.10</Version>
+        <IsAutoDownload value="false" />
+        <FolderId value="2" />
+        <LibraryPackageVersionId value="null" />
         <Name>Gimp v2.10.10 x86</Name>
         <Path>Installers\Gimp v2.10.10 x86</Path>
-        <Version>2.10.10</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
-          <IconKey></IconKey>
+          <IconKey>Icon-Package</IconKey>
           <SortOrder value="7" />
         </PackageDisplaySettings>
       </Package>
       <Package>
+        <CurrentLibraryPackageVersionId value="null" />
         <PackageDefinition name="Definition">
+          <Conditions type="list">
+            <PackageStepCondition>
+              <Architecture>Both</Architecture>
+              <Version>All</Version>
+              <TypeName>OperatingSystem</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
+              <TypeName>LoggedOnUser</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <ConditionMode>None</ConditionMode>
+              <InventoryCollectionId value="null" />
+              <InventoryCollectionName></InventoryCollectionName>
+              <TypeName>Collection</TypeName>
+            </PackageStepCondition>
+          </Conditions>
           <CopyMode>Default</CopyMode>
+          <DelayedApprovalTimeSpan>7.00:00:00</DelayedApprovalTimeSpan>
+          <DownloadApprovalMode>Manual</DownloadApprovalMode>
           <InventoryScanProfileId value="null" />
-          <RunAs value="null" />
+          <IsDownloadApprovalModeInherited value="true" />
           <ScanAfterDeployment value="null" />
           <Steps type="list">
             <InstallStep>
@@ -688,15 +1104,24 @@ Gimp v2.10.10 x86.exe /verysilent /norestart</Description>
                   <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
                   <TypeName>LoggedOnUser</TypeName>
                 </PackageStepCondition>
+                <PackageStepCondition>
+                  <ConditionMode>None</ConditionMode>
+                  <InventoryCollectionId value="null" />
+                  <InventoryCollectionName></InventoryCollectionName>
+                  <TypeName>Collection</TypeName>
+                </PackageStepCondition>
               </Conditions>
               <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
               <Title></Title>
               <TypeName>Install</TypeName>
+              <IsEnabled value="true" />
+              <IsPostStep value="false" />
+              <IsPreStep value="false" />
             </InstallStep>
           </Steps>
           <Timeout value="60" />
           <UseCustomTimeout value="false" />
+          <RunAs value="null" />
         </PackageDefinition>
         <Description>Installs Google Chrome Enterprise 64-bit, with the following customizations:
  ! Kills all running Chrome instances before beginning installation
@@ -706,21 +1131,45 @@ Gimp v2.10.10 x86.exe /verysilent /norestart</Description>
  ! Removes Google Update services  (gupdatem and gupdate) *
 
  * If you wish to disable this behavior, edit the batch file and remove the two lines that start with "sc delete"</Description>
-        <FolderId value="6" />
+        <NewLibraryPackageVersionId value="null" />
+        <OriginalId value="null" />
+        <Version>74.0.3729.157</Version>
+        <IsAutoDownload value="false" />
+        <FolderId value="2" />
+        <LibraryPackageVersionId value="null" />
         <Name>Google Chrome v74.0.3729.157 (Enterprise)</Name>
         <Path>Installers\Google Chrome v74.0.3729.157 (Enterprise)</Path>
-        <Version>74.0.3729.157</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
-          <IconKey></IconKey>
+          <IconKey>Icon-Package</IconKey>
           <SortOrder value="7" />
         </PackageDisplaySettings>
       </Package>
       <Package>
+        <CurrentLibraryPackageVersionId value="null" />
         <PackageDefinition name="Definition">
+          <Conditions type="list">
+            <PackageStepCondition>
+              <Architecture>Both</Architecture>
+              <Version>All</Version>
+              <TypeName>OperatingSystem</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
+              <TypeName>LoggedOnUser</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <ConditionMode>None</ConditionMode>
+              <InventoryCollectionId value="null" />
+              <InventoryCollectionName></InventoryCollectionName>
+              <TypeName>Collection</TypeName>
+            </PackageStepCondition>
+          </Conditions>
           <CopyMode>Default</CopyMode>
+          <DelayedApprovalTimeSpan>7.00:00:00</DelayedApprovalTimeSpan>
+          <DownloadApprovalMode>Manual</DownloadApprovalMode>
           <InventoryScanProfileId value="null" />
-          <RunAs value="null" />
+          <IsDownloadApprovalModeInherited value="true" />
           <ScanAfterDeployment value="null" />
           <Steps type="list">
             <InstallStep>
@@ -745,15 +1194,24 @@ Gimp v2.10.10 x86.exe /verysilent /norestart</Description>
                   <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
                   <TypeName>LoggedOnUser</TypeName>
                 </PackageStepCondition>
+                <PackageStepCondition>
+                  <ConditionMode>None</ConditionMode>
+                  <InventoryCollectionId value="null" />
+                  <InventoryCollectionName></InventoryCollectionName>
+                  <TypeName>Collection</TypeName>
+                </PackageStepCondition>
               </Conditions>
               <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
               <Title></Title>
               <TypeName>Install</TypeName>
+              <IsEnabled value="true" />
+              <IsPostStep value="false" />
+              <IsPreStep value="false" />
             </InstallStep>
           </Steps>
           <Timeout value="60" />
           <UseCustomTimeout value="false" />
+          <RunAs value="null" />
         </PackageDefinition>
         <Description>Installs Google Chrome Enterprise 32-bit, with the following customizations:
  ! Kills all running Chrome instances before beginning installation
@@ -763,21 +1221,45 @@ Gimp v2.10.10 x86.exe /verysilent /norestart</Description>
  ! Removes Google Update services  (gupdatem and gupdate) *
 
  * If you wish to disable this behavior, edit the batch file and remove the two lines that start with "sc delete"</Description>
-        <FolderId value="6" />
+        <NewLibraryPackageVersionId value="null" />
+        <OriginalId value="null" />
+        <Version>74.0.3729.157</Version>
+        <IsAutoDownload value="false" />
+        <FolderId value="2" />
+        <LibraryPackageVersionId value="null" />
         <Name>Google Chrome v74.0.3729.157 (Enterprise) (x86)</Name>
         <Path>Installers\Google Chrome v74.0.3729.157 (Enterprise) (x86)</Path>
-        <Version>74.0.3729.157</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
-          <IconKey></IconKey>
+          <IconKey>Icon-Package</IconKey>
           <SortOrder value="7" />
         </PackageDisplaySettings>
       </Package>
       <Package>
+        <CurrentLibraryPackageVersionId value="null" />
         <PackageDefinition name="Definition">
+          <Conditions type="list">
+            <PackageStepCondition>
+              <Architecture>Both</Architecture>
+              <Version>All</Version>
+              <TypeName>OperatingSystem</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
+              <TypeName>LoggedOnUser</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <ConditionMode>None</ConditionMode>
+              <InventoryCollectionId value="null" />
+              <InventoryCollectionName></InventoryCollectionName>
+              <TypeName>Collection</TypeName>
+            </PackageStepCondition>
+          </Conditions>
           <CopyMode>Default</CopyMode>
+          <DelayedApprovalTimeSpan>7.00:00:00</DelayedApprovalTimeSpan>
+          <DownloadApprovalMode>Manual</DownloadApprovalMode>
           <InventoryScanProfileId value="null" />
-          <RunAs value="null" />
+          <IsDownloadApprovalModeInherited value="true" />
           <ScanAfterDeployment value="null" />
           <Steps type="list">
             <InstallStep>
@@ -802,15 +1284,24 @@ Gimp v2.10.10 x86.exe /verysilent /norestart</Description>
                   <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
                   <TypeName>LoggedOnUser</TypeName>
                 </PackageStepCondition>
+                <PackageStepCondition>
+                  <ConditionMode>None</ConditionMode>
+                  <InventoryCollectionId value="null" />
+                  <InventoryCollectionName></InventoryCollectionName>
+                  <TypeName>Collection</TypeName>
+                </PackageStepCondition>
               </Conditions>
               <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
               <Title></Title>
               <TypeName>Install</TypeName>
+              <IsEnabled value="true" />
+              <IsPostStep value="false" />
+              <IsPreStep value="false" />
             </InstallStep>
           </Steps>
           <Timeout value="60" />
           <UseCustomTimeout value="false" />
+          <RunAs value="null" />
         </PackageDefinition>
         <Description>Installs Google Earth Pro, with the following customizations:
  - Installs for All Users
@@ -820,87 +1311,45 @@ Gimp v2.10.10 x86.exe /verysilent /norestart</Description>
  ! Removes Google Update services (gupdatem and gupdate) **
 
  ** If you wish to disable this behavior, edit the batch file and remove the two lines that start with "sc delete"</Description>
-        <FolderId value="6" />
+        <NewLibraryPackageVersionId value="null" />
+        <OriginalId value="null" />
+        <Version>7.3.2</Version>
+        <IsAutoDownload value="false" />
+        <FolderId value="2" />
+        <LibraryPackageVersionId value="null" />
         <Name>Google Earth Pro v7.3.2</Name>
         <Path>Installers\Google Earth Pro v7.3.2</Path>
-        <Version>7.3.2</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
-          <IconKey></IconKey>
+          <IconKey>Icon-Package</IconKey>
           <SortOrder value="7" />
         </PackageDisplaySettings>
       </Package>
       <Package>
+        <CurrentLibraryPackageVersionId value="null" />
         <PackageDefinition name="Definition">
+          <Conditions type="list">
+            <PackageStepCondition>
+              <Architecture>Both</Architecture>
+              <Version>All</Version>
+              <TypeName>OperatingSystem</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
+              <TypeName>LoggedOnUser</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <ConditionMode>None</ConditionMode>
+              <InventoryCollectionId value="null" />
+              <InventoryCollectionName></InventoryCollectionName>
+              <TypeName>Collection</TypeName>
+            </PackageStepCondition>
+          </Conditions>
           <CopyMode>Default</CopyMode>
+          <DelayedApprovalTimeSpan>7.00:00:00</DelayedApprovalTimeSpan>
+          <DownloadApprovalMode>Manual</DownloadApprovalMode>
           <InventoryScanProfileId value="null" />
-          <RunAs value="null" />
-          <ScanAfterDeployment value="null" />
-          <Steps type="list">
-            <InstallStep>
-              <CustomCommandLine></CustomCommandLine>
-              <FileName>$(Repository)\java\jdk\11\x64\jdk-11-windows-x64.bat</FileName>
-              <Files></Files>
-              <IncludeDirectory value="true" />
-              <LeaveInstallFile value="false" />
-              <MsiOperation>Install</MsiOperation>
-              <MsiQuiet value="true" />
-              <MsiRestart>Never</MsiRestart>
-              <Parameters>/s</Parameters>
-              <SuccessCodes>0,1641,3010</SuccessCodes>
-              <RunAs value="null" />
-              <Conditions type="list">
-                <PackageStepCondition>
-                  <Architecture>Bits64</Architecture>
-                  <Version>All</Version>
-                  <TypeName>OperatingSystem</TypeName>
-                </PackageStepCondition>
-                <PackageStepCondition>
-                  <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
-                  <TypeName>LoggedOnUser</TypeName>
-                </PackageStepCondition>
-              </Conditions>
-              <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
-              <Title></Title>
-              <TypeName>Install</TypeName>
-            </InstallStep>
-          </Steps>
-          <Timeout value="60" />
-          <UseCustomTimeout value="false" />
-        </PackageDefinition>
-        <Description>Installs Java Development Kit 11.0.2, with the following customizations:
- - Removes all previous JDK10 x64 installations first (leaves any JDK7 or JDK8 x86 installations intact)
- - Adds "Development Tools" feature
- * Installs matching JRE 9 version ("PublicJreFeature feature")
- - Disables Java's auto-updater
- - Does not reboot
-
-* Due to changes starting in JDK8 by Oracle, there are two options when installing the JDK:
-  1. Install JDK10 + the "public" JRE (aka standard/machine-wide) at the same time as the JDK, or
-  2. Install only JDK10 and wipe out any existing JRE9 installations.
-
-Thus, if you already had JRE9 installed when you install JDK and instruct it not to install the "public" JRE, it will REMOVE any existing JRE9 installations that have matching architecture (e.g. JDK10 x64 will remove all JRE9 x64 installations). So your options are either:
-
-  a) let the JDK10 installer load the matching JRE9 binary to Program Files, or
-  b) let the JDK10 installer blow away any matching-architecture JRE9 installations
-
-There is no option to JUST install JDK10 without touching JRE8 installations.</Description>
-        <FolderId value="6" />
-        <Name>Java Development Kit 11.0.2 (x64)</Name>
-        <Path>Installers\Java Development Kit 11.0.2 (x64)</Path>
-        <Version>11.0.2</Version>
-        <PackageDisplaySettings name="DisplaySettings">
-          <DisplayType>Normal</DisplayType>
-          <IconKey></IconKey>
-          <SortOrder value="7" />
-        </PackageDisplaySettings>
-      </Package>
-      <Package>
-        <PackageDefinition name="Definition">
-          <CopyMode>Default</CopyMode>
-          <InventoryScanProfileId value="null" />
-          <RunAs value="null" />
+          <IsDownloadApprovalModeInherited value="true" />
           <ScanAfterDeployment value="null" />
           <Steps type="list">
             <InstallStep>
@@ -925,36 +1374,69 @@ There is no option to JUST install JDK10 without touching JRE8 installations.</D
                   <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
                   <TypeName>LoggedOnUser</TypeName>
                 </PackageStepCondition>
+                <PackageStepCondition>
+                  <ConditionMode>None</ConditionMode>
+                  <InventoryCollectionId value="null" />
+                  <InventoryCollectionName></InventoryCollectionName>
+                  <TypeName>Collection</TypeName>
+                </PackageStepCondition>
               </Conditions>
               <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
               <Title></Title>
               <TypeName>Install</TypeName>
+              <IsEnabled value="true" />
+              <IsPostStep value="false" />
+              <IsPreStep value="false" />
             </InstallStep>
           </Steps>
           <Timeout value="60" />
           <UseCustomTimeout value="false" />
+          <RunAs value="null" />
         </PackageDefinition>
         <Description>Installs Java Development Kit 7, with the following customizations:
  - Adds the "Development Tools" feature
  - Removes any previous versions of the series 7 JDK (JDK 7 Update XX); leaves other JDK installations intact
  - Disables Java's auto-updater
  - Does not reboot</Description>
-        <FolderId value="6" />
+        <NewLibraryPackageVersionId value="null" />
+        <OriginalId value="null" />
+        <Version>1.7.0.800</Version>
+        <IsAutoDownload value="false" />
+        <FolderId value="2" />
+        <LibraryPackageVersionId value="null" />
         <Name>Java Development Kit 7 update 80 (x64)</Name>
         <Path>Installers\Java Development Kit 7 update 80 (x64)</Path>
-        <Version>1.7.0.800</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
-          <IconKey></IconKey>
+          <IconKey>Icon-Package</IconKey>
           <SortOrder value="7" />
         </PackageDisplaySettings>
       </Package>
       <Package>
+        <CurrentLibraryPackageVersionId value="null" />
         <PackageDefinition name="Definition">
+          <Conditions type="list">
+            <PackageStepCondition>
+              <Architecture>Both</Architecture>
+              <Version>All</Version>
+              <TypeName>OperatingSystem</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
+              <TypeName>LoggedOnUser</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <ConditionMode>None</ConditionMode>
+              <InventoryCollectionId value="null" />
+              <InventoryCollectionName></InventoryCollectionName>
+              <TypeName>Collection</TypeName>
+            </PackageStepCondition>
+          </Conditions>
           <CopyMode>Default</CopyMode>
+          <DelayedApprovalTimeSpan>7.00:00:00</DelayedApprovalTimeSpan>
+          <DownloadApprovalMode>Manual</DownloadApprovalMode>
           <InventoryScanProfileId value="null" />
-          <RunAs value="null" />
+          <IsDownloadApprovalModeInherited value="true" />
           <ScanAfterDeployment value="null" />
           <Steps type="list">
             <InstallStep>
@@ -979,36 +1461,69 @@ There is no option to JUST install JDK10 without touching JRE8 installations.</D
                   <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
                   <TypeName>LoggedOnUser</TypeName>
                 </PackageStepCondition>
+                <PackageStepCondition>
+                  <ConditionMode>None</ConditionMode>
+                  <InventoryCollectionId value="null" />
+                  <InventoryCollectionName></InventoryCollectionName>
+                  <TypeName>Collection</TypeName>
+                </PackageStepCondition>
               </Conditions>
               <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
               <Title></Title>
               <TypeName>Install</TypeName>
+              <IsEnabled value="true" />
+              <IsPostStep value="false" />
+              <IsPreStep value="false" />
             </InstallStep>
           </Steps>
           <Timeout value="60" />
           <UseCustomTimeout value="false" />
+          <RunAs value="null" />
         </PackageDefinition>
         <Description>Installs Java Development Kit 7, with the following customizations:
  - Adds the "Development Tools" feature
  - Removes any previous versions of the series 7 JDK (JDK 7 Update XX); leaves other JDK installations intact
  - Disables Java's auto-updater
  - Does not reboot</Description>
-        <FolderId value="6" />
+        <NewLibraryPackageVersionId value="null" />
+        <OriginalId value="null" />
+        <Version>1.7.0.800</Version>
+        <IsAutoDownload value="false" />
+        <FolderId value="2" />
+        <LibraryPackageVersionId value="null" />
         <Name>Java Development Kit 7 update 80 (x86)</Name>
         <Path>Installers\Java Development Kit 7 update 80 (x86)</Path>
-        <Version>1.7.0.800</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
-          <IconKey></IconKey>
+          <IconKey>Icon-Package</IconKey>
           <SortOrder value="7" />
         </PackageDisplaySettings>
       </Package>
       <Package>
+        <CurrentLibraryPackageVersionId value="null" />
         <PackageDefinition name="Definition">
+          <Conditions type="list">
+            <PackageStepCondition>
+              <Architecture>Both</Architecture>
+              <Version>All</Version>
+              <TypeName>OperatingSystem</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
+              <TypeName>LoggedOnUser</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <ConditionMode>None</ConditionMode>
+              <InventoryCollectionId value="null" />
+              <InventoryCollectionName></InventoryCollectionName>
+              <TypeName>Collection</TypeName>
+            </PackageStepCondition>
+          </Conditions>
           <CopyMode>Default</CopyMode>
+          <DelayedApprovalTimeSpan>7.00:00:00</DelayedApprovalTimeSpan>
+          <DownloadApprovalMode>Manual</DownloadApprovalMode>
           <InventoryScanProfileId value="null" />
-          <RunAs value="null" />
+          <IsDownloadApprovalModeInherited value="true" />
           <ScanAfterDeployment value="null" />
           <Steps type="list">
             <InstallStep>
@@ -1033,15 +1548,24 @@ There is no option to JUST install JDK10 without touching JRE8 installations.</D
                   <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
                   <TypeName>LoggedOnUser</TypeName>
                 </PackageStepCondition>
+                <PackageStepCondition>
+                  <ConditionMode>None</ConditionMode>
+                  <InventoryCollectionId value="null" />
+                  <InventoryCollectionName></InventoryCollectionName>
+                  <TypeName>Collection</TypeName>
+                </PackageStepCondition>
               </Conditions>
               <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
               <Title></Title>
               <TypeName>Install</TypeName>
+              <IsEnabled value="true" />
+              <IsPostStep value="false" />
+              <IsPreStep value="false" />
             </InstallStep>
           </Steps>
           <Timeout value="60" />
           <UseCustomTimeout value="false" />
+          <RunAs value="null" />
         </PackageDefinition>
         <Description>Installs Java Development Kit 8, with the following customizations:
  - Removes all previous JDK8 x64 installations first (leaves any JDK7 or JDK8 x86 installations intact)
@@ -1060,21 +1584,45 @@ Thus, if you already had JRE8 installed when you install JDK and instruct it not
   b) let the JDK8 installer blow away any matching-architecture JRE8 installations
 
 There is no option to JUST install JDK8 without touching JRE8 installations.</Description>
-        <FolderId value="6" />
+        <NewLibraryPackageVersionId value="null" />
+        <OriginalId value="null" />
+        <Version>8.0.211</Version>
+        <IsAutoDownload value="false" />
+        <FolderId value="2" />
+        <LibraryPackageVersionId value="null" />
         <Name>Java Development Kit 8 update 211 (x64)</Name>
         <Path>Installers\Java Development Kit 8 update 211 (x64)</Path>
-        <Version>8.0.211</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
-          <IconKey></IconKey>
+          <IconKey>Icon-Package</IconKey>
           <SortOrder value="7" />
         </PackageDisplaySettings>
       </Package>
       <Package>
+        <CurrentLibraryPackageVersionId value="null" />
         <PackageDefinition name="Definition">
+          <Conditions type="list">
+            <PackageStepCondition>
+              <Architecture>Both</Architecture>
+              <Version>All</Version>
+              <TypeName>OperatingSystem</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
+              <TypeName>LoggedOnUser</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <ConditionMode>None</ConditionMode>
+              <InventoryCollectionId value="null" />
+              <InventoryCollectionName></InventoryCollectionName>
+              <TypeName>Collection</TypeName>
+            </PackageStepCondition>
+          </Conditions>
           <CopyMode>Default</CopyMode>
+          <DelayedApprovalTimeSpan>7.00:00:00</DelayedApprovalTimeSpan>
+          <DownloadApprovalMode>Manual</DownloadApprovalMode>
           <InventoryScanProfileId value="null" />
-          <RunAs value="null" />
+          <IsDownloadApprovalModeInherited value="true" />
           <ScanAfterDeployment value="null" />
           <Steps type="list">
             <InstallStep>
@@ -1099,15 +1647,24 @@ There is no option to JUST install JDK8 without touching JRE8 installations.</De
                   <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
                   <TypeName>LoggedOnUser</TypeName>
                 </PackageStepCondition>
+                <PackageStepCondition>
+                  <ConditionMode>None</ConditionMode>
+                  <InventoryCollectionId value="null" />
+                  <InventoryCollectionName></InventoryCollectionName>
+                  <TypeName>Collection</TypeName>
+                </PackageStepCondition>
               </Conditions>
               <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
               <Title></Title>
               <TypeName>Install</TypeName>
+              <IsEnabled value="true" />
+              <IsPostStep value="false" />
+              <IsPreStep value="false" />
             </InstallStep>
           </Steps>
           <Timeout value="60" />
           <UseCustomTimeout value="false" />
+          <RunAs value="null" />
         </PackageDefinition>
         <Description>Installs Java Development Kit 8, with the following customizations:
  - Removes all previous JDK8 x86 installations first (leaves any JDK7 or JDK8 x64 installations intact)
@@ -1126,33 +1683,57 @@ Thus, if you already had JRE8 installed when you install JDK and instruct it not
   b) let the JDK8 installer blow away any matching-architecture JRE8 installations
 
 There is no option to JUST install JDK8 without touching JRE8 installations.</Description>
-        <FolderId value="6" />
+        <NewLibraryPackageVersionId value="null" />
+        <OriginalId value="null" />
+        <Version>8.0.211</Version>
+        <IsAutoDownload value="false" />
+        <FolderId value="2" />
+        <LibraryPackageVersionId value="null" />
         <Name>Java Development Kit 8 update 211 (x86)</Name>
         <Path>Installers\Java Development Kit 8 update 211 (x86)</Path>
-        <Version>8.0.211</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
-          <IconKey></IconKey>
+          <IconKey>Icon-Package</IconKey>
           <SortOrder value="7" />
         </PackageDisplaySettings>
       </Package>
       <Package>
+        <CurrentLibraryPackageVersionId value="null" />
         <PackageDefinition name="Definition">
+          <Conditions type="list">
+            <PackageStepCondition>
+              <Architecture>Both</Architecture>
+              <Version>All</Version>
+              <TypeName>OperatingSystem</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
+              <TypeName>LoggedOnUser</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <ConditionMode>None</ConditionMode>
+              <InventoryCollectionId value="null" />
+              <InventoryCollectionName></InventoryCollectionName>
+              <TypeName>Collection</TypeName>
+            </PackageStepCondition>
+          </Conditions>
           <CopyMode>Default</CopyMode>
+          <DelayedApprovalTimeSpan>7.00:00:00</DelayedApprovalTimeSpan>
+          <DownloadApprovalMode>Manual</DownloadApprovalMode>
           <InventoryScanProfileId value="null" />
-          <RunAs value="null" />
+          <IsDownloadApprovalModeInherited value="true" />
           <ScanAfterDeployment value="null" />
           <Steps type="list">
             <InstallStep>
               <CustomCommandLine></CustomCommandLine>
-              <FileName>$(Repository)\java\jre\10\x64\jre-10-x64.bat</FileName>
+              <FileName>$(Repository)\java\jdk\11\x64\jdk-11-windows-x64.bat</FileName>
               <Files></Files>
               <IncludeDirectory value="true" />
               <LeaveInstallFile value="false" />
               <MsiOperation>Install</MsiOperation>
               <MsiQuiet value="true" />
               <MsiRestart>Never</MsiRestart>
-              <Parameters></Parameters>
+              <Parameters>/s</Parameters>
               <SuccessCodes>0,1641,3010</SuccessCodes>
               <RunAs value="null" />
               <Conditions type="list">
@@ -1165,38 +1746,81 @@ There is no option to JUST install JDK8 without touching JRE8 installations.</De
                   <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
                   <TypeName>LoggedOnUser</TypeName>
                 </PackageStepCondition>
+                <PackageStepCondition>
+                  <ConditionMode>None</ConditionMode>
+                  <InventoryCollectionId value="null" />
+                  <InventoryCollectionName></InventoryCollectionName>
+                  <TypeName>Collection</TypeName>
+                </PackageStepCondition>
               </Conditions>
               <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
               <Title></Title>
               <TypeName>Install</TypeName>
+              <IsEnabled value="true" />
+              <IsPostStep value="false" />
+              <IsPreStep value="false" />
             </InstallStep>
           </Steps>
           <Timeout value="60" />
           <UseCustomTimeout value="false" />
+          <RunAs value="null" />
         </PackageDefinition>
-        <Description>Installs Java Runtime 9, with the following options:
- - Removes all previous JRE9 x64 installations first (does not specifically target JRE6-8 installations for removal)
+        <Description>Installs Java Development Kit 11.0.2, with the following customizations:
+ - Removes all previous JDK10 x64 installations first (leaves any JDK7 or JDK8 x86 installations intact)
+ - Adds "Development Tools" feature
+ * Installs matching JRE 9 version ("PublicJreFeature feature")
  - Disables Java's auto-updater
  - Does not reboot
- - Forces Java Web Security level to MEDIUM* (default in all JRE7 and earlier). Thanks to reddit.com/user/matt314159 for this contribution.
 
- * If you wish to disable this behavior, edit the 'deployment.properties' file and comment out or delete the line that reads 'deployment.security.level.locked'</Description>
-        <FolderId value="6" />
-        <Name>Java Runtime 11.0.2 (x64)</Name>
-        <Path>Installers\Java Runtime 11.0.2 (x64)</Path>
+* Due to changes starting in JDK8 by Oracle, there are two options when installing the JDK:
+  1. Install JDK10 + the "public" JRE (aka standard/machine-wide) at the same time as the JDK, or
+  2. Install only JDK10 and wipe out any existing JRE9 installations.
+
+Thus, if you already had JRE9 installed when you install JDK and instruct it not to install the "public" JRE, it will REMOVE any existing JRE9 installations that have matching architecture (e.g. JDK10 x64 will remove all JRE9 x64 installations). So your options are either:
+
+  a) let the JDK10 installer load the matching JRE9 binary to Program Files, or
+  b) let the JDK10 installer blow away any matching-architecture JRE9 installations
+
+There is no option to JUST install JDK10 without touching JRE8 installations.</Description>
+        <NewLibraryPackageVersionId value="null" />
+        <OriginalId value="null" />
         <Version>11.0.2</Version>
+        <IsAutoDownload value="false" />
+        <FolderId value="2" />
+        <LibraryPackageVersionId value="null" />
+        <Name>Java Development Kit 11.0.2 (x64)</Name>
+        <Path>Installers\Java Development Kit 11.0.2 (x64)</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
-          <IconKey></IconKey>
+          <IconKey>Icon-Package</IconKey>
           <SortOrder value="7" />
         </PackageDisplaySettings>
       </Package>
       <Package>
+        <CurrentLibraryPackageVersionId value="null" />
         <PackageDefinition name="Definition">
+          <Conditions type="list">
+            <PackageStepCondition>
+              <Architecture>Both</Architecture>
+              <Version>All</Version>
+              <TypeName>OperatingSystem</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
+              <TypeName>LoggedOnUser</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <ConditionMode>None</ConditionMode>
+              <InventoryCollectionId value="null" />
+              <InventoryCollectionName></InventoryCollectionName>
+              <TypeName>Collection</TypeName>
+            </PackageStepCondition>
+          </Conditions>
           <CopyMode>Default</CopyMode>
+          <DelayedApprovalTimeSpan>7.00:00:00</DelayedApprovalTimeSpan>
+          <DownloadApprovalMode>Manual</DownloadApprovalMode>
           <InventoryScanProfileId value="null" />
-          <RunAs value="null" />
+          <IsDownloadApprovalModeInherited value="true" />
           <ScanAfterDeployment value="null" />
           <Steps type="list">
             <InstallStep>
@@ -1221,35 +1845,68 @@ There is no option to JUST install JDK8 without touching JRE8 installations.</De
                   <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
                   <TypeName>LoggedOnUser</TypeName>
                 </PackageStepCondition>
+                <PackageStepCondition>
+                  <ConditionMode>None</ConditionMode>
+                  <InventoryCollectionId value="null" />
+                  <InventoryCollectionName></InventoryCollectionName>
+                  <TypeName>Collection</TypeName>
+                </PackageStepCondition>
               </Conditions>
               <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
               <Title></Title>
               <TypeName>Install</TypeName>
+              <IsEnabled value="true" />
+              <IsPostStep value="false" />
+              <IsPreStep value="false" />
             </InstallStep>
           </Steps>
           <Timeout value="60" />
           <UseCustomTimeout value="false" />
+          <RunAs value="null" />
         </PackageDefinition>
         <Description>Installs Java Runtime 7, with the following customizations:
  - Removes all previous JRE7 x64 installations first (leaves any JRE6 or JRE7 x86 installations intact)
  - Disables Java's auto-updater
  - Does not reboot</Description>
-        <FolderId value="6" />
+        <NewLibraryPackageVersionId value="null" />
+        <OriginalId value="null" />
+        <Version>7.0.800</Version>
+        <IsAutoDownload value="false" />
+        <FolderId value="2" />
+        <LibraryPackageVersionId value="null" />
         <Name>Java Runtime 7 update 80 (x64)</Name>
         <Path>Installers\Java Runtime 7 update 80 (x64)</Path>
-        <Version>7.0.800</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
-          <IconKey></IconKey>
+          <IconKey>Icon-Package</IconKey>
           <SortOrder value="7" />
         </PackageDisplaySettings>
       </Package>
       <Package>
+        <CurrentLibraryPackageVersionId value="null" />
         <PackageDefinition name="Definition">
+          <Conditions type="list">
+            <PackageStepCondition>
+              <Architecture>Both</Architecture>
+              <Version>All</Version>
+              <TypeName>OperatingSystem</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
+              <TypeName>LoggedOnUser</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <ConditionMode>None</ConditionMode>
+              <InventoryCollectionId value="null" />
+              <InventoryCollectionName></InventoryCollectionName>
+              <TypeName>Collection</TypeName>
+            </PackageStepCondition>
+          </Conditions>
           <CopyMode>Default</CopyMode>
+          <DelayedApprovalTimeSpan>7.00:00:00</DelayedApprovalTimeSpan>
+          <DownloadApprovalMode>Manual</DownloadApprovalMode>
           <InventoryScanProfileId value="null" />
-          <RunAs value="null" />
+          <IsDownloadApprovalModeInherited value="true" />
           <ScanAfterDeployment value="null" />
           <Steps type="list">
             <InstallStep>
@@ -1274,35 +1931,68 @@ There is no option to JUST install JDK8 without touching JRE8 installations.</De
                   <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
                   <TypeName>LoggedOnUser</TypeName>
                 </PackageStepCondition>
+                <PackageStepCondition>
+                  <ConditionMode>None</ConditionMode>
+                  <InventoryCollectionId value="null" />
+                  <InventoryCollectionName></InventoryCollectionName>
+                  <TypeName>Collection</TypeName>
+                </PackageStepCondition>
               </Conditions>
               <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
               <Title></Title>
               <TypeName>Install</TypeName>
+              <IsEnabled value="true" />
+              <IsPostStep value="false" />
+              <IsPreStep value="false" />
             </InstallStep>
           </Steps>
           <Timeout value="60" />
           <UseCustomTimeout value="false" />
+          <RunAs value="null" />
         </PackageDefinition>
         <Description>Installs Java Runtime 7, with the following options:
  - Removes all previous JRE7 x86 installations first (leaves any JRE6 or JRE7 x64 installations intact)
  - Disables Java's auto-updater
  - Does not reboot</Description>
-        <FolderId value="6" />
+        <NewLibraryPackageVersionId value="null" />
+        <OriginalId value="null" />
+        <Version>7.0.800</Version>
+        <IsAutoDownload value="false" />
+        <FolderId value="2" />
+        <LibraryPackageVersionId value="null" />
         <Name>Java Runtime 7 update 80 (x86)</Name>
         <Path>Installers\Java Runtime 7 update 80 (x86)</Path>
-        <Version>7.0.800</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
-          <IconKey></IconKey>
+          <IconKey>Icon-Package</IconKey>
           <SortOrder value="7" />
         </PackageDisplaySettings>
       </Package>
       <Package>
+        <CurrentLibraryPackageVersionId value="null" />
         <PackageDefinition name="Definition">
+          <Conditions type="list">
+            <PackageStepCondition>
+              <Architecture>Both</Architecture>
+              <Version>All</Version>
+              <TypeName>OperatingSystem</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
+              <TypeName>LoggedOnUser</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <ConditionMode>None</ConditionMode>
+              <InventoryCollectionId value="null" />
+              <InventoryCollectionName></InventoryCollectionName>
+              <TypeName>Collection</TypeName>
+            </PackageStepCondition>
+          </Conditions>
           <CopyMode>Default</CopyMode>
+          <DelayedApprovalTimeSpan>7.00:00:00</DelayedApprovalTimeSpan>
+          <DownloadApprovalMode>Manual</DownloadApprovalMode>
           <InventoryScanProfileId value="null" />
-          <RunAs value="null" />
+          <IsDownloadApprovalModeInherited value="true" />
           <ScanAfterDeployment value="null" />
           <Steps type="list">
             <InstallStep>
@@ -1327,15 +2017,24 @@ There is no option to JUST install JDK8 without touching JRE8 installations.</De
                   <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
                   <TypeName>LoggedOnUser</TypeName>
                 </PackageStepCondition>
+                <PackageStepCondition>
+                  <ConditionMode>None</ConditionMode>
+                  <InventoryCollectionId value="null" />
+                  <InventoryCollectionName></InventoryCollectionName>
+                  <TypeName>Collection</TypeName>
+                </PackageStepCondition>
               </Conditions>
               <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
               <Title></Title>
               <TypeName>Install</TypeName>
+              <IsEnabled value="true" />
+              <IsPostStep value="false" />
+              <IsPreStep value="false" />
             </InstallStep>
           </Steps>
           <Timeout value="60" />
           <UseCustomTimeout value="false" />
+          <RunAs value="null" />
         </PackageDefinition>
         <Description>Installs Java Runtime 8, with the following options:
  - Removes all previous JRE8 x64 installations first (leaves any JRE7 or JRE8 x86 installations intact)
@@ -1344,21 +2043,45 @@ There is no option to JUST install JDK8 without touching JRE8 installations.</De
  - Forces Java Web Security level to MEDIUM* (default in all prior versions of JRE). Thanks to reddit.com/user/matt314159 for this contribution.
 
  * If you wish to disable this behavior, edit the 'deployment.properties' file and comment out or delete the line that reads 'deployment.security.level.locked'</Description>
-        <FolderId value="6" />
+        <NewLibraryPackageVersionId value="null" />
+        <OriginalId value="null" />
+        <Version>8.0.211</Version>
+        <IsAutoDownload value="false" />
+        <FolderId value="2" />
+        <LibraryPackageVersionId value="null" />
         <Name>Java Runtime 8 update 211 (x64)</Name>
         <Path>Installers\Java Runtime 8 update 211 (x64)</Path>
-        <Version>8.0.211</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
-          <IconKey></IconKey>
+          <IconKey>Icon-Package</IconKey>
           <SortOrder value="7" />
         </PackageDisplaySettings>
       </Package>
       <Package>
+        <CurrentLibraryPackageVersionId value="null" />
         <PackageDefinition name="Definition">
+          <Conditions type="list">
+            <PackageStepCondition>
+              <Architecture>Both</Architecture>
+              <Version>All</Version>
+              <TypeName>OperatingSystem</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
+              <TypeName>LoggedOnUser</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <ConditionMode>None</ConditionMode>
+              <InventoryCollectionId value="null" />
+              <InventoryCollectionName></InventoryCollectionName>
+              <TypeName>Collection</TypeName>
+            </PackageStepCondition>
+          </Conditions>
           <CopyMode>Default</CopyMode>
+          <DelayedApprovalTimeSpan>7.00:00:00</DelayedApprovalTimeSpan>
+          <DownloadApprovalMode>Manual</DownloadApprovalMode>
           <InventoryScanProfileId value="null" />
-          <RunAs value="null" />
+          <IsDownloadApprovalModeInherited value="true" />
           <ScanAfterDeployment value="null" />
           <Steps type="list">
             <InstallStep>
@@ -1383,15 +2106,24 @@ There is no option to JUST install JDK8 without touching JRE8 installations.</De
                   <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
                   <TypeName>LoggedOnUser</TypeName>
                 </PackageStepCondition>
+                <PackageStepCondition>
+                  <ConditionMode>None</ConditionMode>
+                  <InventoryCollectionId value="null" />
+                  <InventoryCollectionName></InventoryCollectionName>
+                  <TypeName>Collection</TypeName>
+                </PackageStepCondition>
               </Conditions>
               <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
               <Title></Title>
               <TypeName>Install</TypeName>
+              <IsEnabled value="true" />
+              <IsPostStep value="false" />
+              <IsPreStep value="false" />
             </InstallStep>
           </Steps>
           <Timeout value="60" />
           <UseCustomTimeout value="false" />
+          <RunAs value="null" />
         </PackageDefinition>
         <Description>Installs Java Runtime 8, with the following options:
  - Removes all previous JRE8 x86 installations first (leaves any JRE7 or JRE8 x64 installations intact)
@@ -1400,21 +2132,134 @@ There is no option to JUST install JDK8 without touching JRE8 installations.</De
  - Forces Java Web Security level to MEDIUM* (default in all prior versions of JRE). Thanks to reddit.com/user/matt314159 for this contribution.
 
  * If you wish to disable this behavior, edit the 'deployment.properties' file and comment out or delete the line that reads 'deployment.security.level.locked'</Description>
-        <FolderId value="6" />
+        <NewLibraryPackageVersionId value="null" />
+        <OriginalId value="null" />
+        <Version>8.0.211</Version>
+        <IsAutoDownload value="false" />
+        <FolderId value="2" />
+        <LibraryPackageVersionId value="null" />
         <Name>Java Runtime 8 update 211 (x86)</Name>
         <Path>Installers\Java Runtime 8 update 211 (x86)</Path>
-        <Version>8.0.211</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
-          <IconKey></IconKey>
+          <IconKey>Icon-Package</IconKey>
           <SortOrder value="7" />
         </PackageDisplaySettings>
       </Package>
       <Package>
+        <CurrentLibraryPackageVersionId value="null" />
         <PackageDefinition name="Definition">
+          <Conditions type="list">
+            <PackageStepCondition>
+              <Architecture>Both</Architecture>
+              <Version>All</Version>
+              <TypeName>OperatingSystem</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
+              <TypeName>LoggedOnUser</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <ConditionMode>None</ConditionMode>
+              <InventoryCollectionId value="null" />
+              <InventoryCollectionName></InventoryCollectionName>
+              <TypeName>Collection</TypeName>
+            </PackageStepCondition>
+          </Conditions>
           <CopyMode>Default</CopyMode>
+          <DelayedApprovalTimeSpan>7.00:00:00</DelayedApprovalTimeSpan>
+          <DownloadApprovalMode>Manual</DownloadApprovalMode>
           <InventoryScanProfileId value="null" />
+          <IsDownloadApprovalModeInherited value="true" />
+          <ScanAfterDeployment value="null" />
+          <Steps type="list">
+            <InstallStep>
+              <CustomCommandLine></CustomCommandLine>
+              <FileName>$(Repository)\java\jre\10\x64\jre-10-x64.bat</FileName>
+              <Files></Files>
+              <IncludeDirectory value="true" />
+              <LeaveInstallFile value="false" />
+              <MsiOperation>Install</MsiOperation>
+              <MsiQuiet value="true" />
+              <MsiRestart>Never</MsiRestart>
+              <Parameters></Parameters>
+              <SuccessCodes>0,1641,3010</SuccessCodes>
+              <RunAs value="null" />
+              <Conditions type="list">
+                <PackageStepCondition>
+                  <Architecture>Bits64</Architecture>
+                  <Version>All</Version>
+                  <TypeName>OperatingSystem</TypeName>
+                </PackageStepCondition>
+                <PackageStepCondition>
+                  <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
+                  <TypeName>LoggedOnUser</TypeName>
+                </PackageStepCondition>
+                <PackageStepCondition>
+                  <ConditionMode>None</ConditionMode>
+                  <InventoryCollectionId value="null" />
+                  <InventoryCollectionName></InventoryCollectionName>
+                  <TypeName>Collection</TypeName>
+                </PackageStepCondition>
+              </Conditions>
+              <ErrorMode>StopDeploymentFail</ErrorMode>
+              <Title></Title>
+              <TypeName>Install</TypeName>
+              <IsEnabled value="true" />
+              <IsPostStep value="false" />
+              <IsPreStep value="false" />
+            </InstallStep>
+          </Steps>
+          <Timeout value="60" />
+          <UseCustomTimeout value="false" />
           <RunAs value="null" />
+        </PackageDefinition>
+        <Description>Installs Java Runtime 9, with the following options:
+ - Removes all previous JRE9 x64 installations first (does not specifically target JRE6-8 installations for removal)
+ - Disables Java's auto-updater
+ - Does not reboot
+ - Forces Java Web Security level to MEDIUM* (default in all JRE7 and earlier). Thanks to reddit.com/user/matt314159 for this contribution.
+
+ * If you wish to disable this behavior, edit the 'deployment.properties' file and comment out or delete the line that reads 'deployment.security.level.locked'</Description>
+        <NewLibraryPackageVersionId value="null" />
+        <OriginalId value="null" />
+        <Version>11.0.2</Version>
+        <IsAutoDownload value="false" />
+        <FolderId value="2" />
+        <LibraryPackageVersionId value="null" />
+        <Name>Java Runtime 11.0.2 (x64)</Name>
+        <Path>Installers\Java Runtime 11.0.2 (x64)</Path>
+        <PackageDisplaySettings name="DisplaySettings">
+          <DisplayType>Normal</DisplayType>
+          <IconKey>Icon-Package</IconKey>
+          <SortOrder value="7" />
+        </PackageDisplaySettings>
+      </Package>
+      <Package>
+        <CurrentLibraryPackageVersionId value="null" />
+        <PackageDefinition name="Definition">
+          <Conditions type="list">
+            <PackageStepCondition>
+              <Architecture>Both</Architecture>
+              <Version>All</Version>
+              <TypeName>OperatingSystem</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
+              <TypeName>LoggedOnUser</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <ConditionMode>None</ConditionMode>
+              <InventoryCollectionId value="null" />
+              <InventoryCollectionName></InventoryCollectionName>
+              <TypeName>Collection</TypeName>
+            </PackageStepCondition>
+          </Conditions>
+          <CopyMode>Default</CopyMode>
+          <DelayedApprovalTimeSpan>7.00:00:00</DelayedApprovalTimeSpan>
+          <DownloadApprovalMode>Manual</DownloadApprovalMode>
+          <InventoryScanProfileId value="null" />
+          <IsDownloadApprovalModeInherited value="true" />
           <ScanAfterDeployment value="null" />
           <Steps type="list">
             <InstallStep>
@@ -1439,15 +2284,24 @@ There is no option to JUST install JDK8 without touching JRE8 installations.</De
                   <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
                   <TypeName>LoggedOnUser</TypeName>
                 </PackageStepCondition>
+                <PackageStepCondition>
+                  <ConditionMode>None</ConditionMode>
+                  <InventoryCollectionId value="null" />
+                  <InventoryCollectionName></InventoryCollectionName>
+                  <TypeName>Collection</TypeName>
+                </PackageStepCondition>
               </Conditions>
               <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
               <Title></Title>
               <TypeName>Install</TypeName>
+              <IsEnabled value="true" />
+              <IsPostStep value="false" />
+              <IsPreStep value="false" />
             </InstallStep>
           </Steps>
           <Timeout value="60" />
           <UseCustomTimeout value="false" />
+          <RunAs value="null" />
         </PackageDefinition>
         <Description>Installs KpyM's Telnet/SSH server for Windows, with the following customizations: 
  - Starts SSH server listening on port 22
@@ -1457,21 +2311,45 @@ If the target machine is on a domain, the login format is as follows:
  - username@domain.com
 
 * if you require this, edit the kts.ini file in C:\Program Files\KTS\ and set the 'use_ssh' variable to 0 instead of 1</Description>
-        <FolderId value="6" />
+        <NewLibraryPackageVersionId value="null" />
+        <OriginalId value="null" />
+        <Version>1.19c</Version>
+        <IsAutoDownload value="false" />
+        <FolderId value="2" />
+        <LibraryPackageVersionId value="null" />
         <Name>KpyM Telnet/SSH Server v1.19c (x86)</Name>
         <Path>Installers\KpyM Telnet/SSH Server v1.19c (x86)</Path>
-        <Version>1.19c</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
-          <IconKey></IconKey>
+          <IconKey>Icon-Package</IconKey>
           <SortOrder value="7" />
         </PackageDisplaySettings>
       </Package>
       <Package>
+        <CurrentLibraryPackageVersionId value="null" />
         <PackageDefinition name="Definition">
+          <Conditions type="list">
+            <PackageStepCondition>
+              <Architecture>Both</Architecture>
+              <Version>All</Version>
+              <TypeName>OperatingSystem</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
+              <TypeName>LoggedOnUser</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <ConditionMode>None</ConditionMode>
+              <InventoryCollectionId value="null" />
+              <InventoryCollectionName></InventoryCollectionName>
+              <TypeName>Collection</TypeName>
+            </PackageStepCondition>
+          </Conditions>
           <CopyMode>Default</CopyMode>
+          <DelayedApprovalTimeSpan>7.00:00:00</DelayedApprovalTimeSpan>
+          <DownloadApprovalMode>Manual</DownloadApprovalMode>
           <InventoryScanProfileId value="null" />
-          <RunAs value="null" />
+          <IsDownloadApprovalModeInherited value="true" />
           <ScanAfterDeployment value="null" />
           <Steps type="list">
             <InstallStep>
@@ -1489,39 +2367,72 @@ If the target machine is on a domain, the login format is as follows:
               <Conditions type="list">
                 <PackageStepCondition>
                   <Architecture>Both</Architecture>
-                  <Version>WindowsXp, WindowsVista, Windows8, Server2003, Server2008, Server2008R2, Server2012, Windows81, Server2012R2, Windows10, Server2016</Version>
+                  <Version>WindowsXp, WindowsVista, Windows8, Server2003, Windows81, Windows10, AllServers</Version>
                   <TypeName>OperatingSystem</TypeName>
                 </PackageStepCondition>
                 <PackageStepCondition>
                   <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
                   <TypeName>LoggedOnUser</TypeName>
                 </PackageStepCondition>
+                <PackageStepCondition>
+                  <ConditionMode>None</ConditionMode>
+                  <InventoryCollectionId value="null" />
+                  <InventoryCollectionName></InventoryCollectionName>
+                  <TypeName>Collection</TypeName>
+                </PackageStepCondition>
               </Conditions>
               <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
               <Title>Install .NET 3.5 SP1</Title>
               <TypeName>Install</TypeName>
+              <IsEnabled value="true" />
+              <IsPostStep value="false" />
+              <IsPreStep value="false" />
             </InstallStep>
           </Steps>
           <Timeout value="60" />
           <UseCustomTimeout value="false" />
+          <RunAs value="null" />
         </PackageDefinition>
         <Description></Description>
-        <FolderId value="6" />
+        <NewLibraryPackageVersionId value="null" />
+        <OriginalId value="null" />
+        <Version>3.5.1</Version>
+        <IsAutoDownload value="false" />
+        <FolderId value="2" />
+        <LibraryPackageVersionId value="null" />
         <Name>Microsoft .NET Framework 3.5 SP1 v3.5.1</Name>
         <Path>Installers\Microsoft .NET Framework 3.5 SP1 v3.5.1</Path>
-        <Version>3.5.1</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
-          <IconKey></IconKey>
+          <IconKey>Icon-Package</IconKey>
           <SortOrder value="7" />
         </PackageDisplaySettings>
       </Package>
       <Package>
+        <CurrentLibraryPackageVersionId value="null" />
         <PackageDefinition name="Definition">
+          <Conditions type="list">
+            <PackageStepCondition>
+              <Architecture>Both</Architecture>
+              <Version>All</Version>
+              <TypeName>OperatingSystem</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
+              <TypeName>LoggedOnUser</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <ConditionMode>None</ConditionMode>
+              <InventoryCollectionId value="null" />
+              <InventoryCollectionName></InventoryCollectionName>
+              <TypeName>Collection</TypeName>
+            </PackageStepCondition>
+          </Conditions>
           <CopyMode>Default</CopyMode>
+          <DelayedApprovalTimeSpan>7.00:00:00</DelayedApprovalTimeSpan>
+          <DownloadApprovalMode>Manual</DownloadApprovalMode>
           <InventoryScanProfileId value="null" />
-          <RunAs value="null" />
+          <IsDownloadApprovalModeInherited value="true" />
           <ScanAfterDeployment value="null" />
           <Steps type="list">
             <InstallStep>
@@ -1546,36 +2457,69 @@ If the target machine is on a domain, the login format is as follows:
                   <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
                   <TypeName>LoggedOnUser</TypeName>
                 </PackageStepCondition>
+                <PackageStepCondition>
+                  <ConditionMode>None</ConditionMode>
+                  <InventoryCollectionId value="null" />
+                  <InventoryCollectionName></InventoryCollectionName>
+                  <TypeName>Collection</TypeName>
+                </PackageStepCondition>
               </Conditions>
               <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
               <Title></Title>
               <TypeName>Install</TypeName>
+              <IsEnabled value="true" />
+              <IsPostStep value="false" />
+              <IsPreStep value="false" />
             </InstallStep>
           </Steps>
           <Timeout value="60" />
           <UseCustomTimeout value="false" />
+          <RunAs value="null" />
         </PackageDefinition>
         <Description>Installs Microsoft Silverlight Multimedia Framework, with the following customizations:
  - Disables the auto-updater via the following two Microsoft-supported methods:
      1. The /noupdate flag
      2. The "HKEY_LOCAL_MACHINE\Software\Microsoft\Silverlight\UpdateMode" registry key (0x00000002)
  - Deletes the icons the from All Users Start Menu</Description>
-        <FolderId value="6" />
+        <NewLibraryPackageVersionId value="null" />
+        <OriginalId value="null" />
+        <Version>5.1.50901.0</Version>
+        <IsAutoDownload value="false" />
+        <FolderId value="2" />
+        <LibraryPackageVersionId value="null" />
         <Name>Microsoft Silverlight v5.1.50901.0 (x64)</Name>
         <Path>Installers\Microsoft Silverlight v5.1.50901.0 (x64)</Path>
-        <Version>5.1.50901.0</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
-          <IconKey></IconKey>
+          <IconKey>Icon-Package</IconKey>
           <SortOrder value="7" />
         </PackageDisplaySettings>
       </Package>
       <Package>
+        <CurrentLibraryPackageVersionId value="null" />
         <PackageDefinition name="Definition">
+          <Conditions type="list">
+            <PackageStepCondition>
+              <Architecture>Both</Architecture>
+              <Version>All</Version>
+              <TypeName>OperatingSystem</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
+              <TypeName>LoggedOnUser</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <ConditionMode>None</ConditionMode>
+              <InventoryCollectionId value="null" />
+              <InventoryCollectionName></InventoryCollectionName>
+              <TypeName>Collection</TypeName>
+            </PackageStepCondition>
+          </Conditions>
           <CopyMode>Default</CopyMode>
+          <DelayedApprovalTimeSpan>7.00:00:00</DelayedApprovalTimeSpan>
+          <DownloadApprovalMode>Manual</DownloadApprovalMode>
           <InventoryScanProfileId value="null" />
-          <RunAs value="null" />
+          <IsDownloadApprovalModeInherited value="true" />
           <ScanAfterDeployment value="null" />
           <Steps type="list">
             <InstallStep>
@@ -1600,36 +2544,69 @@ If the target machine is on a domain, the login format is as follows:
                   <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
                   <TypeName>LoggedOnUser</TypeName>
                 </PackageStepCondition>
+                <PackageStepCondition>
+                  <ConditionMode>None</ConditionMode>
+                  <InventoryCollectionId value="null" />
+                  <InventoryCollectionName></InventoryCollectionName>
+                  <TypeName>Collection</TypeName>
+                </PackageStepCondition>
               </Conditions>
               <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
               <Title></Title>
               <TypeName>Install</TypeName>
+              <IsEnabled value="true" />
+              <IsPostStep value="false" />
+              <IsPreStep value="false" />
             </InstallStep>
           </Steps>
           <Timeout value="60" />
           <UseCustomTimeout value="false" />
+          <RunAs value="null" />
         </PackageDefinition>
         <Description>Installs Microsoft Silverlight Multimedia Framework, with the following customizations:
  - Disables the auto-updater via the following two Microsoft-supported methods:
      1. The /noupdate flag
      2. The "HKEY_LOCAL_MACHINE\Software\Microsoft\Silverlight\UpdateMode" registry key (0x00000002)
  - Deletes the icons the from All Users Start Menu</Description>
-        <FolderId value="6" />
+        <NewLibraryPackageVersionId value="null" />
+        <OriginalId value="null" />
+        <Version>5.1.50901.0</Version>
+        <IsAutoDownload value="false" />
+        <FolderId value="2" />
+        <LibraryPackageVersionId value="null" />
         <Name>Microsoft Silverlight v5.1.50901.0 (x86)</Name>
         <Path>Installers\Microsoft Silverlight v5.1.50901.0 (x86)</Path>
-        <Version>5.1.50901.0</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
-          <IconKey></IconKey>
+          <IconKey>Icon-Package</IconKey>
           <SortOrder value="7" />
         </PackageDisplaySettings>
       </Package>
       <Package>
+        <CurrentLibraryPackageVersionId value="null" />
         <PackageDefinition name="Definition">
+          <Conditions type="list">
+            <PackageStepCondition>
+              <Architecture>Both</Architecture>
+              <Version>All</Version>
+              <TypeName>OperatingSystem</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
+              <TypeName>LoggedOnUser</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <ConditionMode>None</ConditionMode>
+              <InventoryCollectionId value="null" />
+              <InventoryCollectionName></InventoryCollectionName>
+              <TypeName>Collection</TypeName>
+            </PackageStepCondition>
+          </Conditions>
           <CopyMode>Default</CopyMode>
+          <DelayedApprovalTimeSpan>7.00:00:00</DelayedApprovalTimeSpan>
+          <DownloadApprovalMode>Manual</DownloadApprovalMode>
           <InventoryScanProfileId value="null" />
-          <RunAs value="null" />
+          <IsDownloadApprovalModeInherited value="true" />
           <ScanAfterDeployment value="null" />
           <Steps type="list">
             <InstallStep>
@@ -1654,15 +2631,24 @@ If the target machine is on a domain, the login format is as follows:
                   <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
                   <TypeName>LoggedOnUser</TypeName>
                 </PackageStepCondition>
+                <PackageStepCondition>
+                  <ConditionMode>None</ConditionMode>
+                  <InventoryCollectionId value="null" />
+                  <InventoryCollectionName></InventoryCollectionName>
+                  <TypeName>Collection</TypeName>
+                </PackageStepCondition>
               </Conditions>
               <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
               <Title>Install Firefox</Title>
               <TypeName>Install</TypeName>
+              <IsEnabled value="true" />
+              <IsPostStep value="false" />
+              <IsPreStep value="false" />
             </InstallStep>
           </Steps>
           <Timeout value="60" />
           <UseCustomTimeout value="false" />
+          <RunAs value="null" />
         </PackageDefinition>
         <Description>Installs Mozilla Firefox ESR, with the following customizations*:
 
@@ -1679,21 +2665,45 @@ If the target machine is on a domain, the login format is as follows:
  - Deletes All Users desktop icon
 
  * These customizations come from the file '\autoconfig\cck2.cfg' in the package directory. If you want to change them, edit or delete this file. The config file was generated with the CCK2 addon for Firefox.</Description>
-        <FolderId value="6" />
+        <NewLibraryPackageVersionId value="null" />
+        <OriginalId value="null" />
+        <Version>60.6.3</Version>
+        <IsAutoDownload value="false" />
+        <FolderId value="2" />
+        <LibraryPackageVersionId value="null" />
         <Name>Mozilla Firefox ESR v60.6.3 (customized) (x64)</Name>
         <Path>Installers\Mozilla Firefox ESR v60.6.3 (customized) (x64)</Path>
-        <Version>60.6.3</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
-          <IconKey></IconKey>
+          <IconKey>Icon-Package</IconKey>
           <SortOrder value="7" />
         </PackageDisplaySettings>
       </Package>
       <Package>
+        <CurrentLibraryPackageVersionId value="null" />
         <PackageDefinition name="Definition">
+          <Conditions type="list">
+            <PackageStepCondition>
+              <Architecture>Both</Architecture>
+              <Version>All</Version>
+              <TypeName>OperatingSystem</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
+              <TypeName>LoggedOnUser</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <ConditionMode>None</ConditionMode>
+              <InventoryCollectionId value="null" />
+              <InventoryCollectionName></InventoryCollectionName>
+              <TypeName>Collection</TypeName>
+            </PackageStepCondition>
+          </Conditions>
           <CopyMode>Default</CopyMode>
+          <DelayedApprovalTimeSpan>7.00:00:00</DelayedApprovalTimeSpan>
+          <DownloadApprovalMode>Manual</DownloadApprovalMode>
           <InventoryScanProfileId value="null" />
-          <RunAs value="null" />
+          <IsDownloadApprovalModeInherited value="true" />
           <ScanAfterDeployment value="null" />
           <Steps type="list">
             <InstallStep>
@@ -1718,15 +2728,24 @@ If the target machine is on a domain, the login format is as follows:
                   <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
                   <TypeName>LoggedOnUser</TypeName>
                 </PackageStepCondition>
+                <PackageStepCondition>
+                  <ConditionMode>None</ConditionMode>
+                  <InventoryCollectionId value="null" />
+                  <InventoryCollectionName></InventoryCollectionName>
+                  <TypeName>Collection</TypeName>
+                </PackageStepCondition>
               </Conditions>
               <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
               <Title>Install Firefox</Title>
               <TypeName>Install</TypeName>
+              <IsEnabled value="true" />
+              <IsPostStep value="false" />
+              <IsPreStep value="false" />
             </InstallStep>
           </Steps>
           <Timeout value="60" />
           <UseCustomTimeout value="false" />
+          <RunAs value="null" />
         </PackageDefinition>
         <Description>Installs Mozilla Firefox ESR x86, with the following customizations*:
 
@@ -1743,21 +2762,45 @@ If the target machine is on a domain, the login format is as follows:
  - Deletes All Users desktop icon
 
  * These customizations come from the file '\autoconfig\cck2.cfg' in the package directory. If you want to change them, edit or delete this file. The config file was generated with the CCK2 addon for Firefox.</Description>
-        <FolderId value="6" />
+        <NewLibraryPackageVersionId value="null" />
+        <OriginalId value="null" />
+        <Version>60.6.3</Version>
+        <IsAutoDownload value="false" />
+        <FolderId value="2" />
+        <LibraryPackageVersionId value="null" />
         <Name>Mozilla Firefox v60.6.3 ESR (customized) (x86)</Name>
         <Path>Installers\Mozilla Firefox v60.6.3 ESR (customized) (x86)</Path>
-        <Version>60.6.3</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
-          <IconKey></IconKey>
+          <IconKey>Icon-Package</IconKey>
           <SortOrder value="7" />
         </PackageDisplaySettings>
       </Package>
       <Package>
+        <CurrentLibraryPackageVersionId value="null" />
         <PackageDefinition name="Definition">
+          <Conditions type="list">
+            <PackageStepCondition>
+              <Architecture>Both</Architecture>
+              <Version>All</Version>
+              <TypeName>OperatingSystem</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
+              <TypeName>LoggedOnUser</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <ConditionMode>None</ConditionMode>
+              <InventoryCollectionId value="null" />
+              <InventoryCollectionName></InventoryCollectionName>
+              <TypeName>Collection</TypeName>
+            </PackageStepCondition>
+          </Conditions>
           <CopyMode>Default</CopyMode>
+          <DelayedApprovalTimeSpan>7.00:00:00</DelayedApprovalTimeSpan>
+          <DownloadApprovalMode>Manual</DownloadApprovalMode>
           <InventoryScanProfileId value="null" />
-          <RunAs value="null" />
+          <IsDownloadApprovalModeInherited value="true" />
           <ScanAfterDeployment value="null" />
           <Steps type="list">
             <InstallStep>
@@ -1782,15 +2825,24 @@ If the target machine is on a domain, the login format is as follows:
                   <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
                   <TypeName>LoggedOnUser</TypeName>
                 </PackageStepCondition>
+                <PackageStepCondition>
+                  <ConditionMode>None</ConditionMode>
+                  <InventoryCollectionId value="null" />
+                  <InventoryCollectionName></InventoryCollectionName>
+                  <TypeName>Collection</TypeName>
+                </PackageStepCondition>
               </Conditions>
               <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
               <Title>Install Firefox</Title>
               <TypeName>Install</TypeName>
+              <IsEnabled value="true" />
+              <IsPostStep value="false" />
+              <IsPreStep value="false" />
             </InstallStep>
           </Steps>
           <Timeout value="60" />
           <UseCustomTimeout value="false" />
+          <RunAs value="null" />
         </PackageDefinition>
         <Description>Installs Mozilla Firefox, with the following customizations*:
 
@@ -1808,21 +2860,45 @@ If the target machine is on a domain, the login format is as follows:
  - Autoloads the latest version of the uBlock Origin plugin
 
  * These customizations come from the file '\autoconfig\cck2.cfg' in the package directory. If you want to change them, edit or delete this file. The config file was generated with the CCK2 addon for Firefox.</Description>
-        <FolderId value="6" />
+        <NewLibraryPackageVersionId value="null" />
+        <OriginalId value="null" />
+        <Version>66.0.5</Version>
+        <IsAutoDownload value="false" />
+        <FolderId value="2" />
+        <LibraryPackageVersionId value="null" />
         <Name>Mozilla Firefox v66.0.5 (customized) (x64)</Name>
         <Path>Installers\Mozilla Firefox v66.0.5 (customized) (x64)</Path>
-        <Version>66.0.5</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
-          <IconKey></IconKey>
+          <IconKey>Icon-Package</IconKey>
           <SortOrder value="7" />
         </PackageDisplaySettings>
       </Package>
       <Package>
+        <CurrentLibraryPackageVersionId value="null" />
         <PackageDefinition name="Definition">
+          <Conditions type="list">
+            <PackageStepCondition>
+              <Architecture>Both</Architecture>
+              <Version>All</Version>
+              <TypeName>OperatingSystem</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
+              <TypeName>LoggedOnUser</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <ConditionMode>None</ConditionMode>
+              <InventoryCollectionId value="null" />
+              <InventoryCollectionName></InventoryCollectionName>
+              <TypeName>Collection</TypeName>
+            </PackageStepCondition>
+          </Conditions>
           <CopyMode>Default</CopyMode>
+          <DelayedApprovalTimeSpan>7.00:00:00</DelayedApprovalTimeSpan>
+          <DownloadApprovalMode>Manual</DownloadApprovalMode>
           <InventoryScanProfileId value="null" />
-          <RunAs value="null" />
+          <IsDownloadApprovalModeInherited value="true" />
           <ScanAfterDeployment value="null" />
           <Steps type="list">
             <InstallStep>
@@ -1847,15 +2923,24 @@ If the target machine is on a domain, the login format is as follows:
                   <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
                   <TypeName>LoggedOnUser</TypeName>
                 </PackageStepCondition>
+                <PackageStepCondition>
+                  <ConditionMode>None</ConditionMode>
+                  <InventoryCollectionId value="null" />
+                  <InventoryCollectionName></InventoryCollectionName>
+                  <TypeName>Collection</TypeName>
+                </PackageStepCondition>
               </Conditions>
               <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
               <Title>Install Firefox</Title>
               <TypeName>Install</TypeName>
+              <IsEnabled value="true" />
+              <IsPostStep value="false" />
+              <IsPreStep value="false" />
             </InstallStep>
           </Steps>
           <Timeout value="60" />
           <UseCustomTimeout value="false" />
+          <RunAs value="null" />
         </PackageDefinition>
         <Description>Installs Mozilla Firefox, with the following customizations*:
 
@@ -1873,21 +2958,45 @@ If the target machine is on a domain, the login format is as follows:
  - Autoloads the latest version of the uBlock Origin plugin
 
  * These customizations come from the file '\autoconfig\cck2.cfg' in the package directory. If you want to change them, edit or delete this file. The config file was generated with the CCK2 addon for Firefox.</Description>
-        <FolderId value="6" />
+        <NewLibraryPackageVersionId value="null" />
+        <OriginalId value="null" />
+        <Version>66.0.5</Version>
+        <IsAutoDownload value="false" />
+        <FolderId value="2" />
+        <LibraryPackageVersionId value="null" />
         <Name>Mozilla Firefox v66.0.5 (customized) (x86)</Name>
         <Path>Installers\Mozilla Firefox v66.0.5 (customized) (x86)</Path>
-        <Version>66.0.5</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
-          <IconKey></IconKey>
+          <IconKey>Icon-Package</IconKey>
           <SortOrder value="7" />
         </PackageDisplaySettings>
       </Package>
       <Package>
+        <CurrentLibraryPackageVersionId value="null" />
         <PackageDefinition name="Definition">
+          <Conditions type="list">
+            <PackageStepCondition>
+              <Architecture>Both</Architecture>
+              <Version>All</Version>
+              <TypeName>OperatingSystem</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
+              <TypeName>LoggedOnUser</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <ConditionMode>None</ConditionMode>
+              <InventoryCollectionId value="null" />
+              <InventoryCollectionName></InventoryCollectionName>
+              <TypeName>Collection</TypeName>
+            </PackageStepCondition>
+          </Conditions>
           <CopyMode>Default</CopyMode>
+          <DelayedApprovalTimeSpan>7.00:00:00</DelayedApprovalTimeSpan>
+          <DownloadApprovalMode>Manual</DownloadApprovalMode>
           <InventoryScanProfileId value="null" />
-          <RunAs value="null" />
+          <IsDownloadApprovalModeInherited value="true" />
           <ScanAfterDeployment value="null" />
           <Steps type="list">
             <InstallStep>
@@ -1912,15 +3021,24 @@ If the target machine is on a domain, the login format is as follows:
                   <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
                   <TypeName>LoggedOnUser</TypeName>
                 </PackageStepCondition>
+                <PackageStepCondition>
+                  <ConditionMode>None</ConditionMode>
+                  <InventoryCollectionId value="null" />
+                  <InventoryCollectionName></InventoryCollectionName>
+                  <TypeName>Collection</TypeName>
+                </PackageStepCondition>
               </Conditions>
               <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
               <Title>Install Thunderbird</Title>
               <TypeName>Install</TypeName>
+              <IsEnabled value="true" />
+              <IsPostStep value="false" />
+              <IsPreStep value="false" />
             </InstallStep>
           </Steps>
           <Timeout value="60" />
           <UseCustomTimeout value="false" />
+          <RunAs value="null" />
         </PackageDefinition>
         <Description>Installs Mozilla Thunderbird with the following customizations:
  ! Kills any running instances of Thunderbird before installing
@@ -1933,21 +3051,45 @@ If the target machine is on a domain, the login format is as follows:
 
 * The master settings file it points to is located here:  '\\DOMAIN.NAME\netlogon\applications\thunderbird\thunderbird-global-settings.js'
 * If you wish to disable these settings, remove the three *.js files in the package directory</Description>
-        <FolderId value="6" />
+        <NewLibraryPackageVersionId value="null" />
+        <OriginalId value="null" />
+        <Version>60.6.1</Version>
+        <IsAutoDownload value="false" />
+        <FolderId value="2" />
+        <LibraryPackageVersionId value="null" />
         <Name>Mozilla Thunderbird v60.6.1 (customized)</Name>
         <Path>Installers\Mozilla Thunderbird v60.6.1 (customized)</Path>
-        <Version>60.6.1</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
-          <IconKey></IconKey>
+          <IconKey>Icon-Package</IconKey>
           <SortOrder value="7" />
         </PackageDisplaySettings>
       </Package>
       <Package>
+        <CurrentLibraryPackageVersionId value="null" />
         <PackageDefinition name="Definition">
+          <Conditions type="list">
+            <PackageStepCondition>
+              <Architecture>Both</Architecture>
+              <Version>All</Version>
+              <TypeName>OperatingSystem</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
+              <TypeName>LoggedOnUser</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <ConditionMode>None</ConditionMode>
+              <InventoryCollectionId value="null" />
+              <InventoryCollectionName></InventoryCollectionName>
+              <TypeName>Collection</TypeName>
+            </PackageStepCondition>
+          </Conditions>
           <CopyMode>Default</CopyMode>
+          <DelayedApprovalTimeSpan>7.00:00:00</DelayedApprovalTimeSpan>
+          <DownloadApprovalMode>Manual</DownloadApprovalMode>
           <InventoryScanProfileId value="null" />
-          <RunAs value="null" />
+          <IsDownloadApprovalModeInherited value="true" />
           <ScanAfterDeployment value="null" />
           <Steps type="list">
             <InstallStep>
@@ -1972,35 +3114,68 @@ If the target machine is on a domain, the login format is as follows:
                   <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
                   <TypeName>LoggedOnUser</TypeName>
                 </PackageStepCondition>
+                <PackageStepCondition>
+                  <ConditionMode>None</ConditionMode>
+                  <InventoryCollectionId value="null" />
+                  <InventoryCollectionName></InventoryCollectionName>
+                  <TypeName>Collection</TypeName>
+                </PackageStepCondition>
               </Conditions>
               <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
               <Title></Title>
               <TypeName>Install</TypeName>
+              <IsEnabled value="true" />
+              <IsPostStep value="false" />
+              <IsPreStep value="false" />
             </InstallStep>
           </Steps>
           <Timeout value="60" />
           <UseCustomTimeout value="false" />
+          <RunAs value="null" />
         </PackageDefinition>
         <Description>Installs Notepad++ silently, with the following customizations:
  - Kills any running instance of Notepad++ first
  - Disables auto-updater by deleting the folder "C:\Program Files\Notepad++\updater"
  - Deletes the DSpellCheck plugin</Description>
-        <FolderId value="6" />
+        <NewLibraryPackageVersionId value="null" />
+        <OriginalId value="null" />
+        <Version>7.6.6</Version>
+        <IsAutoDownload value="false" />
+        <FolderId value="2" />
+        <LibraryPackageVersionId value="null" />
         <Name>Notepad++ v7.6.6</Name>
         <Path>Installers\Notepad++ v7.6.6</Path>
-        <Version>7.6.6</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
-          <IconKey></IconKey>
+          <IconKey>Icon-Package</IconKey>
           <SortOrder value="7" />
         </PackageDisplaySettings>
       </Package>
       <Package>
+        <CurrentLibraryPackageVersionId value="null" />
         <PackageDefinition name="Definition">
+          <Conditions type="list">
+            <PackageStepCondition>
+              <Architecture>Both</Architecture>
+              <Version>All</Version>
+              <TypeName>OperatingSystem</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
+              <TypeName>LoggedOnUser</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <ConditionMode>None</ConditionMode>
+              <InventoryCollectionId value="null" />
+              <InventoryCollectionName></InventoryCollectionName>
+              <TypeName>Collection</TypeName>
+            </PackageStepCondition>
+          </Conditions>
           <CopyMode>Default</CopyMode>
+          <DelayedApprovalTimeSpan>7.00:00:00</DelayedApprovalTimeSpan>
+          <DownloadApprovalMode>Manual</DownloadApprovalMode>
           <InventoryScanProfileId value="null" />
-          <RunAs value="null" />
+          <IsDownloadApprovalModeInherited value="true" />
           <ScanAfterDeployment value="null" />
           <Steps type="list">
             <InstallStep>
@@ -2025,36 +3200,69 @@ If the target machine is on a domain, the login format is as follows:
                   <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
                   <TypeName>LoggedOnUser</TypeName>
                 </PackageStepCondition>
+                <PackageStepCondition>
+                  <ConditionMode>None</ConditionMode>
+                  <InventoryCollectionId value="null" />
+                  <InventoryCollectionName></InventoryCollectionName>
+                  <TypeName>Collection</TypeName>
+                </PackageStepCondition>
               </Conditions>
               <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
               <Title></Title>
               <TypeName>Install</TypeName>
+              <IsEnabled value="true" />
+              <IsPostStep value="false" />
+              <IsPreStep value="false" />
             </InstallStep>
           </Steps>
           <Timeout value="60" />
           <UseCustomTimeout value="false" />
+          <RunAs value="null" />
         </PackageDefinition>
         <Description>Install's Pale Moon, an open-source, Windows-optimized, binary-compatible Firefox build, with the following modifications:
  - Removes desktop icon
 
 
 Thanks to Moonchild ( http://www.palemoon.org/ ) for redistribution permission.</Description>
-        <FolderId value="6" />
+        <NewLibraryPackageVersionId value="null" />
+        <OriginalId value="null" />
+        <Version>28.5.0</Version>
+        <IsAutoDownload value="false" />
+        <FolderId value="2" />
+        <LibraryPackageVersionId value="null" />
         <Name>Pale Moon v28.5.0</Name>
         <Path>Installers\Pale Moon v28.5.0</Path>
-        <Version>28.5.0</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
-          <IconKey></IconKey>
+          <IconKey>Icon-Package</IconKey>
           <SortOrder value="7" />
         </PackageDisplaySettings>
       </Package>
       <Package>
+        <CurrentLibraryPackageVersionId value="null" />
         <PackageDefinition name="Definition">
+          <Conditions type="list">
+            <PackageStepCondition>
+              <Architecture>Both</Architecture>
+              <Version>All</Version>
+              <TypeName>OperatingSystem</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
+              <TypeName>LoggedOnUser</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <ConditionMode>None</ConditionMode>
+              <InventoryCollectionId value="null" />
+              <InventoryCollectionName></InventoryCollectionName>
+              <TypeName>Collection</TypeName>
+            </PackageStepCondition>
+          </Conditions>
           <CopyMode>Default</CopyMode>
+          <DelayedApprovalTimeSpan>7.00:00:00</DelayedApprovalTimeSpan>
+          <DownloadApprovalMode>Manual</DownloadApprovalMode>
           <InventoryScanProfileId value="null" />
-          <RunAs value="null" />
+          <IsDownloadApprovalModeInherited value="true" />
           <ScanAfterDeployment value="null" />
           <Steps type="list">
             <InstallStep>
@@ -2079,36 +3287,69 @@ Thanks to Moonchild ( http://www.palemoon.org/ ) for redistribution permission.<
                   <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
                   <TypeName>LoggedOnUser</TypeName>
                 </PackageStepCondition>
+                <PackageStepCondition>
+                  <ConditionMode>None</ConditionMode>
+                  <InventoryCollectionId value="null" />
+                  <InventoryCollectionName></InventoryCollectionName>
+                  <TypeName>Collection</TypeName>
+                </PackageStepCondition>
               </Conditions>
               <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
               <Title></Title>
               <TypeName>Install</TypeName>
+              <IsEnabled value="true" />
+              <IsPostStep value="false" />
+              <IsPreStep value="false" />
             </InstallStep>
           </Steps>
           <Timeout value="60" />
           <UseCustomTimeout value="false" />
+          <RunAs value="null" />
         </PackageDefinition>
         <Description>Install's Pale Moon, an open-source, Windows-optimized, binary-compatible Firefox build, with the following modifications:
  - Removes desktop icon
 
 
 Thanks to Moonchild ( http://www.palemoon.org/ ) for redistribution permission.</Description>
-        <FolderId value="6" />
+        <NewLibraryPackageVersionId value="null" />
+        <OriginalId value="null" />
+        <Version>28.5.0</Version>
+        <IsAutoDownload value="false" />
+        <FolderId value="2" />
+        <LibraryPackageVersionId value="null" />
         <Name>Pale Moon v28.5.0 (x86)</Name>
         <Path>Installers\Pale Moon v28.5.0 (x86)</Path>
-        <Version>28.5.0</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
-          <IconKey></IconKey>
+          <IconKey>Icon-Package</IconKey>
           <SortOrder value="7" />
         </PackageDisplaySettings>
       </Package>
       <Package>
+        <CurrentLibraryPackageVersionId value="null" />
         <PackageDefinition name="Definition">
+          <Conditions type="list">
+            <PackageStepCondition>
+              <Architecture>Both</Architecture>
+              <Version>All</Version>
+              <TypeName>OperatingSystem</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
+              <TypeName>LoggedOnUser</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <ConditionMode>None</ConditionMode>
+              <InventoryCollectionId value="null" />
+              <InventoryCollectionName></InventoryCollectionName>
+              <TypeName>Collection</TypeName>
+            </PackageStepCondition>
+          </Conditions>
           <CopyMode>Default</CopyMode>
+          <DelayedApprovalTimeSpan>7.00:00:00</DelayedApprovalTimeSpan>
+          <DownloadApprovalMode>Manual</DownloadApprovalMode>
           <InventoryScanProfileId value="null" />
-          <RunAs value="null" />
+          <IsDownloadApprovalModeInherited value="true" />
           <ScanAfterDeployment value="null" />
           <Steps type="list">
             <InstallStep>
@@ -2133,35 +3374,68 @@ Thanks to Moonchild ( http://www.palemoon.org/ ) for redistribution permission.<
                   <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
                   <TypeName>LoggedOnUser</TypeName>
                 </PackageStepCondition>
+                <PackageStepCondition>
+                  <ConditionMode>None</ConditionMode>
+                  <InventoryCollectionId value="null" />
+                  <InventoryCollectionName></InventoryCollectionName>
+                  <TypeName>Collection</TypeName>
+                </PackageStepCondition>
               </Conditions>
               <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
               <Title></Title>
               <TypeName>Install</TypeName>
+              <IsEnabled value="true" />
+              <IsPostStep value="false" />
+              <IsPreStep value="false" />
             </InstallStep>
           </Steps>
           <Timeout value="60" />
           <UseCustomTimeout value="false" />
+          <RunAs value="null" />
         </PackageDefinition>
         <Description>Installs the Spark instant messaging client (for use with OpenFire chat servers), with the following customizations:
  - Silent install
  - Deletes "All Users" desktop icon
  - Deletes the OTR ("Off the Record") encryption plugin</Description>
-        <FolderId value="6" />
+        <NewLibraryPackageVersionId value="null" />
+        <OriginalId value="null" />
+        <Version></Version>
+        <IsAutoDownload value="false" />
+        <FolderId value="2" />
+        <LibraryPackageVersionId value="null" />
         <Name>Spark v2.8.3</Name>
         <Path>Installers\Spark v2.8.3</Path>
-        <Version></Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
-          <IconKey></IconKey>
+          <IconKey>Icon-Package</IconKey>
           <SortOrder value="7" />
         </PackageDisplaySettings>
       </Package>
       <Package>
+        <CurrentLibraryPackageVersionId value="null" />
         <PackageDefinition name="Definition">
+          <Conditions type="list">
+            <PackageStepCondition>
+              <Architecture>Both</Architecture>
+              <Version>All</Version>
+              <TypeName>OperatingSystem</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
+              <TypeName>LoggedOnUser</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <ConditionMode>None</ConditionMode>
+              <InventoryCollectionId value="null" />
+              <InventoryCollectionName></InventoryCollectionName>
+              <TypeName>Collection</TypeName>
+            </PackageStepCondition>
+          </Conditions>
           <CopyMode>Default</CopyMode>
+          <DelayedApprovalTimeSpan>7.00:00:00</DelayedApprovalTimeSpan>
+          <DownloadApprovalMode>Manual</DownloadApprovalMode>
           <InventoryScanProfileId value="null" />
-          <RunAs value="null" />
+          <IsDownloadApprovalModeInherited value="true" />
           <ScanAfterDeployment value="null" />
           <Steps type="list">
             <InstallStep>
@@ -2186,15 +3460,24 @@ Thanks to Moonchild ( http://www.palemoon.org/ ) for redistribution permission.<
                   <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
                   <TypeName>LoggedOnUser</TypeName>
                 </PackageStepCondition>
+                <PackageStepCondition>
+                  <ConditionMode>None</ConditionMode>
+                  <InventoryCollectionId value="null" />
+                  <InventoryCollectionName></InventoryCollectionName>
+                  <TypeName>Collection</TypeName>
+                </PackageStepCondition>
               </Conditions>
               <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
               <Title></Title>
               <TypeName>Install</TypeName>
+              <IsEnabled value="true" />
+              <IsPostStep value="false" />
+              <IsPreStep value="false" />
             </InstallStep>
           </Steps>
           <Timeout value="60" />
           <UseCustomTimeout value="false" />
+          <RunAs value="null" />
         </PackageDefinition>
         <Description>Installs TightVNC, with the following customizations:
  - Removes any prior versions of TightVNC
@@ -2206,21 +3489,45 @@ Thanks to Moonchild ( http://www.palemoon.org/ ) for redistribution permission.<
  - Sets the control panel protection password to 'nettech2' *
 
  * These settings come from the registry file that gets imported. If you wish to disable these customizations, remove the registry file.</Description>
-        <FolderId value="6" />
+        <NewLibraryPackageVersionId value="null" />
+        <OriginalId value="null" />
+        <Version></Version>
+        <IsAutoDownload value="false" />
+        <FolderId value="2" />
+        <LibraryPackageVersionId value="null" />
         <Name>TightVNC v2.8.11 (x64)</Name>
         <Path>Installers\TightVNC v2.8.11 (x64)</Path>
-        <Version></Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
-          <IconKey></IconKey>
+          <IconKey>Icon-Package</IconKey>
           <SortOrder value="7" />
         </PackageDisplaySettings>
       </Package>
       <Package>
+        <CurrentLibraryPackageVersionId value="null" />
         <PackageDefinition name="Definition">
+          <Conditions type="list">
+            <PackageStepCondition>
+              <Architecture>Both</Architecture>
+              <Version>All</Version>
+              <TypeName>OperatingSystem</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
+              <TypeName>LoggedOnUser</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <ConditionMode>None</ConditionMode>
+              <InventoryCollectionId value="null" />
+              <InventoryCollectionName></InventoryCollectionName>
+              <TypeName>Collection</TypeName>
+            </PackageStepCondition>
+          </Conditions>
           <CopyMode>Default</CopyMode>
+          <DelayedApprovalTimeSpan>7.00:00:00</DelayedApprovalTimeSpan>
+          <DownloadApprovalMode>Manual</DownloadApprovalMode>
           <InventoryScanProfileId value="null" />
-          <RunAs value="null" />
+          <IsDownloadApprovalModeInherited value="true" />
           <ScanAfterDeployment value="null" />
           <Steps type="list">
             <InstallStep>
@@ -2245,15 +3552,24 @@ Thanks to Moonchild ( http://www.palemoon.org/ ) for redistribution permission.<
                   <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
                   <TypeName>LoggedOnUser</TypeName>
                 </PackageStepCondition>
+                <PackageStepCondition>
+                  <ConditionMode>None</ConditionMode>
+                  <InventoryCollectionId value="null" />
+                  <InventoryCollectionName></InventoryCollectionName>
+                  <TypeName>Collection</TypeName>
+                </PackageStepCondition>
               </Conditions>
               <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
               <Title></Title>
               <TypeName>Install</TypeName>
+              <IsEnabled value="true" />
+              <IsPostStep value="false" />
+              <IsPreStep value="false" />
             </InstallStep>
           </Steps>
           <Timeout value="60" />
           <UseCustomTimeout value="false" />
+          <RunAs value="null" />
         </PackageDefinition>
         <Description>Installs TightVNC, with the following customizations:
  - Removes any prior versions of TightVNC
@@ -2265,21 +3581,45 @@ Thanks to Moonchild ( http://www.palemoon.org/ ) for redistribution permission.<
  - Sets the control panel protection password to 'nettech2' *
 
  * These settings come from the registry file that gets imported. If you wish to disable these customizations, remove the registry file.</Description>
-        <FolderId value="6" />
+        <NewLibraryPackageVersionId value="null" />
+        <OriginalId value="null" />
+        <Version></Version>
+        <IsAutoDownload value="false" />
+        <FolderId value="2" />
+        <LibraryPackageVersionId value="null" />
         <Name>TightVNC v2.8.11 (x86)</Name>
         <Path>Installers\TightVNC v2.8.11 (x86)</Path>
-        <Version></Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
-          <IconKey></IconKey>
+          <IconKey>Icon-Package</IconKey>
           <SortOrder value="7" />
         </PackageDisplaySettings>
       </Package>
       <Package>
+        <CurrentLibraryPackageVersionId value="null" />
         <PackageDefinition name="Definition">
+          <Conditions type="list">
+            <PackageStepCondition>
+              <Architecture>Both</Architecture>
+              <Version>All</Version>
+              <TypeName>OperatingSystem</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
+              <TypeName>LoggedOnUser</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <ConditionMode>None</ConditionMode>
+              <InventoryCollectionId value="null" />
+              <InventoryCollectionName></InventoryCollectionName>
+              <TypeName>Collection</TypeName>
+            </PackageStepCondition>
+          </Conditions>
           <CopyMode>Default</CopyMode>
+          <DelayedApprovalTimeSpan>7.00:00:00</DelayedApprovalTimeSpan>
+          <DownloadApprovalMode>Manual</DownloadApprovalMode>
           <InventoryScanProfileId value="null" />
-          <RunAs value="null" />
+          <IsDownloadApprovalModeInherited value="true" />
           <ScanAfterDeployment value="null" />
           <Steps type="list">
             <InstallStep>
@@ -2304,15 +3644,24 @@ Thanks to Moonchild ( http://www.palemoon.org/ ) for redistribution permission.<
                   <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
                   <TypeName>LoggedOnUser</TypeName>
                 </PackageStepCondition>
+                <PackageStepCondition>
+                  <ConditionMode>None</ConditionMode>
+                  <InventoryCollectionId value="null" />
+                  <InventoryCollectionName></InventoryCollectionName>
+                  <TypeName>Collection</TypeName>
+                </PackageStepCondition>
               </Conditions>
               <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
               <Title></Title>
               <TypeName>Install</TypeName>
+              <IsEnabled value="true" />
+              <IsPostStep value="false" />
+              <IsPreStep value="false" />
             </InstallStep>
           </Steps>
           <Timeout value="60" />
           <UseCustomTimeout value="false" />
+          <RunAs value="null" />
         </PackageDefinition>
         <Description>Installs UltraVNC with the following customizations:
  - Removes icons (desktop, start menu)
@@ -2323,21 +3672,45 @@ Thanks to Moonchild ( http://www.palemoon.org/ ) for redistribution permission.<
 * If you wish to change this, use the password generator tool located in:
      $(Repository)\ultravnc\ultravnc_password_generator
 and paste the resulting password in the 'ultravnc.ini' file in the same directory as the UltraVNC exe</Description>
-        <FolderId value="6" />
+        <NewLibraryPackageVersionId value="null" />
+        <OriginalId value="null" />
+        <Version>1.2.2.4</Version>
+        <IsAutoDownload value="false" />
+        <FolderId value="2" />
+        <LibraryPackageVersionId value="null" />
         <Name>UltraVNC v1.2.2.4 (x86)</Name>
         <Path>Installers\UltraVNC v1.2.2.4 (x86)</Path>
-        <Version>1.2.2.4</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
-          <IconKey></IconKey>
+          <IconKey>Icon-Package</IconKey>
           <SortOrder value="7" />
         </PackageDisplaySettings>
       </Package>
       <Package>
+        <CurrentLibraryPackageVersionId value="null" />
         <PackageDefinition name="Definition">
+          <Conditions type="list">
+            <PackageStepCondition>
+              <Architecture>Both</Architecture>
+              <Version>All</Version>
+              <TypeName>OperatingSystem</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
+              <TypeName>LoggedOnUser</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <ConditionMode>None</ConditionMode>
+              <InventoryCollectionId value="null" />
+              <InventoryCollectionName></InventoryCollectionName>
+              <TypeName>Collection</TypeName>
+            </PackageStepCondition>
+          </Conditions>
           <CopyMode>Default</CopyMode>
+          <DelayedApprovalTimeSpan>7.00:00:00</DelayedApprovalTimeSpan>
+          <DownloadApprovalMode>Manual</DownloadApprovalMode>
           <InventoryScanProfileId value="null" />
-          <RunAs value="null" />
+          <IsDownloadApprovalModeInherited value="true" />
           <ScanAfterDeployment value="null" />
           <Steps type="list">
             <InstallStep>
@@ -2362,32 +3735,65 @@ and paste the resulting password in the 'ultravnc.ini' file in the same director
                   <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
                   <TypeName>LoggedOnUser</TypeName>
                 </PackageStepCondition>
+                <PackageStepCondition>
+                  <ConditionMode>None</ConditionMode>
+                  <InventoryCollectionId value="null" />
+                  <InventoryCollectionName></InventoryCollectionName>
+                  <TypeName>Collection</TypeName>
+                </PackageStepCondition>
               </Conditions>
               <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
               <Title></Title>
               <TypeName>Install</TypeName>
+              <IsEnabled value="true" />
+              <IsPostStep value="false" />
+              <IsPreStep value="false" />
             </InstallStep>
           </Steps>
           <Timeout value="60" />
           <UseCustomTimeout value="false" />
+          <RunAs value="null" />
         </PackageDefinition>
         <Description></Description>
-        <FolderId value="6" />
+        <NewLibraryPackageVersionId value="null" />
+        <OriginalId value="null" />
+        <Version>3.0.6</Version>
+        <IsAutoDownload value="false" />
+        <FolderId value="2" />
+        <LibraryPackageVersionId value="null" />
         <Name>VLC Media Player v3.0.6 (x86)</Name>
         <Path>Installers\VLC Media Player v3.0.6 (x86)</Path>
-        <Version>3.0.6</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
-          <IconKey></IconKey>
+          <IconKey>Icon-Package</IconKey>
           <SortOrder value="7" />
         </PackageDisplaySettings>
       </Package>
       <Package>
+        <CurrentLibraryPackageVersionId value="null" />
         <PackageDefinition name="Definition">
+          <Conditions type="list">
+            <PackageStepCondition>
+              <Architecture>Both</Architecture>
+              <Version>All</Version>
+              <TypeName>OperatingSystem</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
+              <TypeName>LoggedOnUser</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <ConditionMode>None</ConditionMode>
+              <InventoryCollectionId value="null" />
+              <InventoryCollectionName></InventoryCollectionName>
+              <TypeName>Collection</TypeName>
+            </PackageStepCondition>
+          </Conditions>
           <CopyMode>Default</CopyMode>
+          <DelayedApprovalTimeSpan>7.00:00:00</DelayedApprovalTimeSpan>
+          <DownloadApprovalMode>Manual</DownloadApprovalMode>
           <InventoryScanProfileId value="null" />
-          <RunAs value="null" />
+          <IsDownloadApprovalModeInherited value="true" />
           <ScanAfterDeployment value="null" />
           <Steps type="list">
             <InstallStep>
@@ -2412,28 +3818,41 @@ and paste the resulting password in the 'ultravnc.ini' file in the same director
                   <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
                   <TypeName>LoggedOnUser</TypeName>
                 </PackageStepCondition>
+                <PackageStepCondition>
+                  <ConditionMode>None</ConditionMode>
+                  <InventoryCollectionId value="null" />
+                  <InventoryCollectionName></InventoryCollectionName>
+                  <TypeName>Collection</TypeName>
+                </PackageStepCondition>
               </Conditions>
               <ErrorMode>StopDeploymentFail</ErrorMode>
-              <IsEnabled value="true" />
               <Title></Title>
               <TypeName>Install</TypeName>
+              <IsEnabled value="true" />
+              <IsPostStep value="false" />
+              <IsPreStep value="false" />
             </InstallStep>
           </Steps>
           <Timeout value="60" />
           <UseCustomTimeout value="false" />
+          <RunAs value="null" />
         </PackageDefinition>
         <Description>Installs WinSCP silently, with the following customizations:
  - Disables OpenCandy advertising
  - Disables auto-reboot
  - Doesn't install a desktop icon
  - Associates .scp file extensions with WinSCP</Description>
-        <FolderId value="6" />
+        <NewLibraryPackageVersionId value="null" />
+        <OriginalId value="null" />
+        <Version>5.15.1</Version>
+        <IsAutoDownload value="false" />
+        <FolderId value="2" />
+        <LibraryPackageVersionId value="null" />
         <Name>WinSCP v5.15.1</Name>
         <Path>Installers\WinSCP v5.15.1</Path>
-        <Version>5.15.1</Version>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
-          <IconKey></IconKey>
+          <IconKey>Icon-Package</IconKey>
           <SortOrder value="7" />
         </PackageDisplaySettings>
       </Package>
