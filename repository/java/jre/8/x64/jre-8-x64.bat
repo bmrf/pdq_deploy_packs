@@ -1,7 +1,7 @@
 :: Purpose:       Installs a package
 :: Requirements:  Run this script with Administrator rights
 :: Author:        vocatus on reddit.com/r/sysadmin ( vocatus.gate@gmail.com ) // PGP key ID: 0x07d1490f82a211a2
-:: History:       1.0.1 * Expand JRE8 mask to catch versions over 99 (3-digit identifier vs. 2). Thanks to /u/flash44007
+:: History:       1.0.2 * Expand JRE8 mask to catch versions over 99 (3-digit identifier vs. 2). Thanks to /u/flash44007
 ::                1.0.0 + Initial write
 
 
@@ -29,7 +29,7 @@ set LOGFILE=jre8_x64_update.log
 
 :: Package to install. Do not use trailing slashes (\)
 set LOCATION=
-set BINARY=jre-8u131-windows-x64.msi
+set BINARY=jre-8u211-windows-x64.msi
 set FLAGS=ALLUSERS=1 /qn /norestart /l %LOGPATH%\%LOGFILE% JU=0 JAVAUPDATE=0 AUTOUPDATECHECK=0 RebootYesNo=No WEB_JAVA_SECURITY_LEVEL=M
 
 :: Create the log directory if it doesn't exist
