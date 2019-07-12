@@ -30,7 +30,7 @@ set LOGFILE=
 
 :: Package to install. Do not use trailing slashes (\)
 set LOCATION=
-set BINARY=VLC v3.0.6 x86.exe
+set BINARY=VLC v3.0.7.1 x86.exe
 set FLAGS=ALLUSERS=1 /L=1033 /S INSTALLDIR="C:\Program Files (x86)\VLC"
 
 :: Create the log directory if it doesn't exist
