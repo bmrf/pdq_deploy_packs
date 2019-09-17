@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <AdminArsenal.Export Code="PDQDeploy" Name="PDQ Deploy" Version="17.2.0.0" MinimumVersion="15.0">
   <Folder>
-    <Created>2019-05-23T17:18:02.0000000-06:00</Created>
-    <Id value="2" />
-    <Modified>2019-05-23T17:18:02.0000000-06:00</Modified>
+    <Created>2019-09-11T18:58:59.0000000-06:00</Created>
+    <Id value="3" />
+    <Modified>2019-09-11T18:58:59.0000000-06:00</Modified>
     <Name>Installers</Name>
     <ParentId value="null" />
     <Path>Installers</Path>
@@ -89,10 +89,10 @@
         <OriginalId value="null" />
         <Version>19.00</Version>
         <IsAutoDownload value="false" />
-        <FolderId value="2" />
+        <FolderId value="3" />
         <LibraryPackageVersionId value="null" />
-        <Name>7-Zip v19.00 (x64)</Name>
-        <Path>Installers\7-Zip v19.00 (x64)</Path>
+        <Name>7-Zip v19.00</Name>
+        <Path>Installers\7-Zip v19.00</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -177,7 +177,7 @@
         <OriginalId value="null" />
         <Version>19.00</Version>
         <IsAutoDownload value="false" />
-        <FolderId value="2" />
+        <FolderId value="3" />
         <LibraryPackageVersionId value="null" />
         <Name>7-Zip v19.00 (x86)</Name>
         <Path>Installers\7-Zip v19.00 (x86)</Path>
@@ -265,7 +265,7 @@
         <OriginalId value="null" />
         <Version>19.008.20071</Version>
         <IsAutoDownload value="false" />
-        <FolderId value="2" />
+        <FolderId value="3" />
         <LibraryPackageVersionId value="null" />
         <Name>Adobe Acrobat Reader DC</Name>
         <Path>Installers\Adobe Acrobat Reader DC</Path>
@@ -353,7 +353,7 @@
         <OriginalId value="null" />
         <Version>32.0.0.125</Version>
         <IsAutoDownload value="false" />
-        <FolderId value="2" />
+        <FolderId value="3" />
         <LibraryPackageVersionId value="null" />
         <Name>Adobe AIR v32.0.0.125</Name>
         <Path>Installers\Adobe AIR v32.0.0.125</Path>
@@ -438,12 +438,12 @@
  - Removes the Adobe Update scheduled task that gets installed (C:\Windows\tasks\Adobe Flash Player Updater.job)</Description>
         <NewLibraryPackageVersionId value="null" />
         <OriginalId value="null" />
-        <Version>32.0.0.192</Version>
+        <Version>32.0.0.255</Version>
         <IsAutoDownload value="false" />
-        <FolderId value="2" />
+        <FolderId value="3" />
         <LibraryPackageVersionId value="null" />
-        <Name>Adobe Flash Player v32.0.0.192 (Chrome)</Name>
-        <Path>Installers\Adobe Flash Player v32.0.0.192 (Chrome)</Path>
+        <Name>Adobe Flash Player v32.0.0.255 (Chrome)</Name>
+        <Path>Installers\Adobe Flash Player v32.0.0.255 (Chrome)</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -525,12 +525,12 @@
  - Removes the Adobe Update scheduled task that gets installed (C:\Windows\tasks\Adobe Flash Player Updater.job)</Description>
         <NewLibraryPackageVersionId value="null" />
         <OriginalId value="null" />
-        <Version>32.0.0.192</Version>
+        <Version>32.0.0.255</Version>
         <IsAutoDownload value="false" />
-        <FolderId value="2" />
+        <FolderId value="3" />
         <LibraryPackageVersionId value="null" />
-        <Name>Adobe Flash Player v32.0.0.192 (Firefox)</Name>
-        <Path>Installers\Adobe Flash Player v32.0.0.192 (Firefox)</Path>
+        <Name>Adobe Flash Player v32.0.0.255 (Firefox)</Name>
+        <Path>Installers\Adobe Flash Player v32.0.0.255 (Firefox)</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -612,12 +612,12 @@
  - Removes the Adobe Update scheduled task that gets installed (C:\Windows\tasks\Adobe Flash Player Updater.job)</Description>
         <NewLibraryPackageVersionId value="null" />
         <OriginalId value="null" />
-        <Version>32.0.0.192</Version>
+        <Version>32.0.0.255</Version>
         <IsAutoDownload value="false" />
-        <FolderId value="2" />
+        <FolderId value="3" />
         <LibraryPackageVersionId value="null" />
-        <Name>Adobe Flash Player v32.0.0.192 (IE)</Name>
-        <Path>Installers\Adobe Flash Player v32.0.0.192 (IE)</Path>
+        <Name>Adobe Flash Player v32.0.0.255 (IE)</Name>
+        <Path>Installers\Adobe Flash Player v32.0.0.255 (IE)</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -701,10 +701,10 @@
         <OriginalId value="null" />
         <Version>12.5.1.21</Version>
         <IsAutoDownload value="false" />
-        <FolderId value="2" />
+        <FolderId value="3" />
         <LibraryPackageVersionId value="null" />
-        <Name>Apple iTunes v12.5.1.21 (x64)</Name>
-        <Path>Installers\Apple iTunes v12.5.1.21 (x64)</Path>
+        <Name>Apple iTunes v12.5.1.21</Name>
+        <Path>Installers\Apple iTunes v12.5.1.21</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -788,10 +788,10 @@
         <OriginalId value="null" />
         <Version>4.5.8.7042</Version>
         <IsAutoDownload value="false" />
-        <FolderId value="2" />
+        <FolderId value="3" />
         <LibraryPackageVersionId value="null" />
-        <Name>CDBurnerXP v4.5.8.7042 (x64)</Name>
-        <Path>Installers\CDBurnerXP v4.5.8.7042 (x64)</Path>
+        <Name>CDBurnerXP v4.5.8.7042</Name>
+        <Path>Installers\CDBurnerXP v4.5.8.7042</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -876,7 +876,7 @@ Thanks to reddit.com/user/b0park for this package.</Description>
         <OriginalId value="null" />
         <Version>3.0</Version>
         <IsAutoDownload value="false" />
-        <FolderId value="2" />
+        <FolderId value="3" />
         <LibraryPackageVersionId value="null" />
         <Name>CutePDF Writer v3.0 (x86)</Name>
         <Path>Installers\CutePDF Writer v3.0 (x86)</Path>
@@ -958,12 +958,12 @@ Thanks to reddit.com/user/b0park for this package.</Description>
  - Removes any previous versions before installing</Description>
         <NewLibraryPackageVersionId value="null" />
         <OriginalId value="null" />
-        <Version>3.42.1</Version>
+        <Version>3.44.2</Version>
         <IsAutoDownload value="false" />
-        <FolderId value="2" />
+        <FolderId value="3" />
         <LibraryPackageVersionId value="null" />
-        <Name>FileZilla Client v3.42.1</Name>
-        <Path>Installers\FileZilla Client v3.42.1</Path>
+        <Name>FileZilla Client v3.44.2</Name>
+        <Path>Installers\FileZilla Client v3.44.2</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -999,7 +999,7 @@ Thanks to reddit.com/user/b0park for this package.</Description>
           <Steps type="list">
             <InstallStep>
               <CustomCommandLine></CustomCommandLine>
-              <FileName>$(Repository)\gimp\x86\Gimp v2.10.10 x86.exe</FileName>
+              <FileName>$(Repository)\gimp\x86\Gimp v2.10.12 x86.exe</FileName>
               <Files></Files>
               <IncludeDirectory value="true" />
               <LeaveInstallFile value="false" />
@@ -1040,15 +1040,15 @@ Thanks to reddit.com/user/b0park for this package.</Description>
         </PackageDefinition>
         <Description>Installs Gimp silently with the following flags:
 
-Gimp v2.10.10 x86.exe /verysilent /norestart</Description>
+Gimp v2.10.12 x86.exe /verysilent /norestart</Description>
         <NewLibraryPackageVersionId value="null" />
         <OriginalId value="null" />
         <Version>2.10.10</Version>
         <IsAutoDownload value="false" />
-        <FolderId value="2" />
+        <FolderId value="3" />
         <LibraryPackageVersionId value="null" />
-        <Name>Gimp v2.10.10 x86</Name>
-        <Path>Installers\Gimp v2.10.10 x86</Path>
+        <Name>Gimp v2.10.12 (x86)</Name>
+        <Path>Installers\Gimp v2.10.12 (x86)</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -1133,12 +1133,12 @@ Gimp v2.10.10 x86.exe /verysilent /norestart</Description>
  * If you wish to disable this behavior, edit the batch file and remove the two lines that start with "sc delete"</Description>
         <NewLibraryPackageVersionId value="null" />
         <OriginalId value="null" />
-        <Version>74.0.3729.157</Version>
+        <Version>77.0.3865.75</Version>
         <IsAutoDownload value="false" />
-        <FolderId value="2" />
+        <FolderId value="3" />
         <LibraryPackageVersionId value="null" />
-        <Name>Google Chrome v74.0.3729.157 (Enterprise)</Name>
-        <Path>Installers\Google Chrome v74.0.3729.157 (Enterprise)</Path>
+        <Name>Google Chrome v77.0.3865.75 (Enterprise)</Name>
+        <Path>Installers\Google Chrome v77.0.3865.75 (Enterprise)</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -1223,12 +1223,12 @@ Gimp v2.10.10 x86.exe /verysilent /norestart</Description>
  * If you wish to disable this behavior, edit the batch file and remove the two lines that start with "sc delete"</Description>
         <NewLibraryPackageVersionId value="null" />
         <OriginalId value="null" />
-        <Version>74.0.3729.157</Version>
+        <Version>77.0.3865.75</Version>
         <IsAutoDownload value="false" />
-        <FolderId value="2" />
+        <FolderId value="3" />
         <LibraryPackageVersionId value="null" />
-        <Name>Google Chrome v74.0.3729.157 (Enterprise) (x86)</Name>
-        <Path>Installers\Google Chrome v74.0.3729.157 (Enterprise) (x86)</Path>
+        <Name>Google Chrome v77.0.3865.75 (Enterprise) (x86)</Name>
+        <Path>Installers\Google Chrome v77.0.3865.75 (Enterprise) (x86)</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -1315,184 +1315,10 @@ Gimp v2.10.10 x86.exe /verysilent /norestart</Description>
         <OriginalId value="null" />
         <Version>7.3.2</Version>
         <IsAutoDownload value="false" />
-        <FolderId value="2" />
+        <FolderId value="3" />
         <LibraryPackageVersionId value="null" />
         <Name>Google Earth Pro v7.3.2</Name>
         <Path>Installers\Google Earth Pro v7.3.2</Path>
-        <PackageDisplaySettings name="DisplaySettings">
-          <DisplayType>Normal</DisplayType>
-          <IconKey>Icon-Package</IconKey>
-          <SortOrder value="7" />
-        </PackageDisplaySettings>
-      </Package>
-      <Package>
-        <CurrentLibraryPackageVersionId value="null" />
-        <PackageDefinition name="Definition">
-          <Conditions type="list">
-            <PackageStepCondition>
-              <Architecture>Both</Architecture>
-              <Version>All</Version>
-              <TypeName>OperatingSystem</TypeName>
-            </PackageStepCondition>
-            <PackageStepCondition>
-              <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
-              <TypeName>LoggedOnUser</TypeName>
-            </PackageStepCondition>
-            <PackageStepCondition>
-              <ConditionMode>None</ConditionMode>
-              <InventoryCollectionId value="null" />
-              <InventoryCollectionName></InventoryCollectionName>
-              <TypeName>Collection</TypeName>
-            </PackageStepCondition>
-          </Conditions>
-          <CopyMode>Default</CopyMode>
-          <DelayedApprovalTimeSpan>7.00:00:00</DelayedApprovalTimeSpan>
-          <DownloadApprovalMode>Manual</DownloadApprovalMode>
-          <InventoryScanProfileId value="null" />
-          <IsDownloadApprovalModeInherited value="true" />
-          <ScanAfterDeployment value="null" />
-          <Steps type="list">
-            <InstallStep>
-              <CustomCommandLine></CustomCommandLine>
-              <FileName>$(Repository)\java\jdk\7\x64\jdk-7-windows-x64.bat</FileName>
-              <Files></Files>
-              <IncludeDirectory value="true" />
-              <LeaveInstallFile value="false" />
-              <MsiOperation>Install</MsiOperation>
-              <MsiQuiet value="true" />
-              <MsiRestart>Never</MsiRestart>
-              <Parameters>/s</Parameters>
-              <SuccessCodes>0,1641,3010</SuccessCodes>
-              <RunAs value="null" />
-              <Conditions type="list">
-                <PackageStepCondition>
-                  <Architecture>Bits64</Architecture>
-                  <Version>All</Version>
-                  <TypeName>OperatingSystem</TypeName>
-                </PackageStepCondition>
-                <PackageStepCondition>
-                  <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
-                  <TypeName>LoggedOnUser</TypeName>
-                </PackageStepCondition>
-                <PackageStepCondition>
-                  <ConditionMode>None</ConditionMode>
-                  <InventoryCollectionId value="null" />
-                  <InventoryCollectionName></InventoryCollectionName>
-                  <TypeName>Collection</TypeName>
-                </PackageStepCondition>
-              </Conditions>
-              <ErrorMode>StopDeploymentFail</ErrorMode>
-              <Title></Title>
-              <TypeName>Install</TypeName>
-              <IsEnabled value="true" />
-              <IsPostStep value="false" />
-              <IsPreStep value="false" />
-            </InstallStep>
-          </Steps>
-          <Timeout value="60" />
-          <UseCustomTimeout value="false" />
-          <RunAs value="null" />
-        </PackageDefinition>
-        <Description>Installs Java Development Kit 7, with the following customizations:
- - Adds the "Development Tools" feature
- - Removes any previous versions of the series 7 JDK (JDK 7 Update XX); leaves other JDK installations intact
- - Disables Java's auto-updater
- - Does not reboot</Description>
-        <NewLibraryPackageVersionId value="null" />
-        <OriginalId value="null" />
-        <Version>1.7.0.800</Version>
-        <IsAutoDownload value="false" />
-        <FolderId value="2" />
-        <LibraryPackageVersionId value="null" />
-        <Name>Java Development Kit 7 update 80 (x64)</Name>
-        <Path>Installers\Java Development Kit 7 update 80 (x64)</Path>
-        <PackageDisplaySettings name="DisplaySettings">
-          <DisplayType>Normal</DisplayType>
-          <IconKey>Icon-Package</IconKey>
-          <SortOrder value="7" />
-        </PackageDisplaySettings>
-      </Package>
-      <Package>
-        <CurrentLibraryPackageVersionId value="null" />
-        <PackageDefinition name="Definition">
-          <Conditions type="list">
-            <PackageStepCondition>
-              <Architecture>Both</Architecture>
-              <Version>All</Version>
-              <TypeName>OperatingSystem</TypeName>
-            </PackageStepCondition>
-            <PackageStepCondition>
-              <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
-              <TypeName>LoggedOnUser</TypeName>
-            </PackageStepCondition>
-            <PackageStepCondition>
-              <ConditionMode>None</ConditionMode>
-              <InventoryCollectionId value="null" />
-              <InventoryCollectionName></InventoryCollectionName>
-              <TypeName>Collection</TypeName>
-            </PackageStepCondition>
-          </Conditions>
-          <CopyMode>Default</CopyMode>
-          <DelayedApprovalTimeSpan>7.00:00:00</DelayedApprovalTimeSpan>
-          <DownloadApprovalMode>Manual</DownloadApprovalMode>
-          <InventoryScanProfileId value="null" />
-          <IsDownloadApprovalModeInherited value="true" />
-          <ScanAfterDeployment value="null" />
-          <Steps type="list">
-            <InstallStep>
-              <CustomCommandLine></CustomCommandLine>
-              <FileName>$(Repository)\java\jdk\7\x86\jdk-7-windows-i586.bat</FileName>
-              <Files></Files>
-              <IncludeDirectory value="true" />
-              <LeaveInstallFile value="false" />
-              <MsiOperation>Install</MsiOperation>
-              <MsiQuiet value="true" />
-              <MsiRestart>Never</MsiRestart>
-              <Parameters>/s</Parameters>
-              <SuccessCodes>0,1641,3010</SuccessCodes>
-              <RunAs value="null" />
-              <Conditions type="list">
-                <PackageStepCondition>
-                  <Architecture>Both</Architecture>
-                  <Version>All</Version>
-                  <TypeName>OperatingSystem</TypeName>
-                </PackageStepCondition>
-                <PackageStepCondition>
-                  <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
-                  <TypeName>LoggedOnUser</TypeName>
-                </PackageStepCondition>
-                <PackageStepCondition>
-                  <ConditionMode>None</ConditionMode>
-                  <InventoryCollectionId value="null" />
-                  <InventoryCollectionName></InventoryCollectionName>
-                  <TypeName>Collection</TypeName>
-                </PackageStepCondition>
-              </Conditions>
-              <ErrorMode>StopDeploymentFail</ErrorMode>
-              <Title></Title>
-              <TypeName>Install</TypeName>
-              <IsEnabled value="true" />
-              <IsPostStep value="false" />
-              <IsPreStep value="false" />
-            </InstallStep>
-          </Steps>
-          <Timeout value="60" />
-          <UseCustomTimeout value="false" />
-          <RunAs value="null" />
-        </PackageDefinition>
-        <Description>Installs Java Development Kit 7, with the following customizations:
- - Adds the "Development Tools" feature
- - Removes any previous versions of the series 7 JDK (JDK 7 Update XX); leaves other JDK installations intact
- - Disables Java's auto-updater
- - Does not reboot</Description>
-        <NewLibraryPackageVersionId value="null" />
-        <OriginalId value="null" />
-        <Version>1.7.0.800</Version>
-        <IsAutoDownload value="false" />
-        <FolderId value="2" />
-        <LibraryPackageVersionId value="null" />
-        <Name>Java Development Kit 7 update 80 (x86)</Name>
-        <Path>Installers\Java Development Kit 7 update 80 (x86)</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -1588,10 +1414,10 @@ There is no option to JUST install JDK8 without touching JRE8 installations.</De
         <OriginalId value="null" />
         <Version>8.0.211</Version>
         <IsAutoDownload value="false" />
-        <FolderId value="2" />
+        <FolderId value="3" />
         <LibraryPackageVersionId value="null" />
-        <Name>Java Development Kit 8 update 211 (x64)</Name>
-        <Path>Installers\Java Development Kit 8 update 211 (x64)</Path>
+        <Name>Java Development Kit 8 update 211</Name>
+        <Path>Installers\Java Development Kit 8 update 211</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -1687,7 +1513,7 @@ There is no option to JUST install JDK8 without touching JRE8 installations.</De
         <OriginalId value="null" />
         <Version>8.0.211</Version>
         <IsAutoDownload value="false" />
-        <FolderId value="2" />
+        <FolderId value="3" />
         <LibraryPackageVersionId value="null" />
         <Name>Java Development Kit 8 update 211 (x86)</Name>
         <Path>Installers\Java Development Kit 8 update 211 (x86)</Path>
@@ -1765,7 +1591,7 @@ There is no option to JUST install JDK8 without touching JRE8 installations.</De
           <UseCustomTimeout value="false" />
           <RunAs value="null" />
         </PackageDefinition>
-        <Description>Installs Java Development Kit 11.0.2, with the following customizations:
+        <Description>Installs Java Development Kit 11.0.4, with the following customizations:
  - Removes all previous JDK10 x64 installations first (leaves any JDK7 or JDK8 x86 installations intact)
  - Adds "Development Tools" feature
  * Installs matching JRE 9 version ("PublicJreFeature feature")
@@ -1784,184 +1610,12 @@ Thus, if you already had JRE9 installed when you install JDK and instruct it not
 There is no option to JUST install JDK10 without touching JRE8 installations.</Description>
         <NewLibraryPackageVersionId value="null" />
         <OriginalId value="null" />
-        <Version>11.0.2</Version>
+        <Version>11.0.4</Version>
         <IsAutoDownload value="false" />
-        <FolderId value="2" />
+        <FolderId value="3" />
         <LibraryPackageVersionId value="null" />
-        <Name>Java Development Kit 11.0.2 (x64)</Name>
-        <Path>Installers\Java Development Kit 11.0.2 (x64)</Path>
-        <PackageDisplaySettings name="DisplaySettings">
-          <DisplayType>Normal</DisplayType>
-          <IconKey>Icon-Package</IconKey>
-          <SortOrder value="7" />
-        </PackageDisplaySettings>
-      </Package>
-      <Package>
-        <CurrentLibraryPackageVersionId value="null" />
-        <PackageDefinition name="Definition">
-          <Conditions type="list">
-            <PackageStepCondition>
-              <Architecture>Both</Architecture>
-              <Version>All</Version>
-              <TypeName>OperatingSystem</TypeName>
-            </PackageStepCondition>
-            <PackageStepCondition>
-              <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
-              <TypeName>LoggedOnUser</TypeName>
-            </PackageStepCondition>
-            <PackageStepCondition>
-              <ConditionMode>None</ConditionMode>
-              <InventoryCollectionId value="null" />
-              <InventoryCollectionName></InventoryCollectionName>
-              <TypeName>Collection</TypeName>
-            </PackageStepCondition>
-          </Conditions>
-          <CopyMode>Default</CopyMode>
-          <DelayedApprovalTimeSpan>7.00:00:00</DelayedApprovalTimeSpan>
-          <DownloadApprovalMode>Manual</DownloadApprovalMode>
-          <InventoryScanProfileId value="null" />
-          <IsDownloadApprovalModeInherited value="true" />
-          <ScanAfterDeployment value="null" />
-          <Steps type="list">
-            <InstallStep>
-              <CustomCommandLine></CustomCommandLine>
-              <FileName>$(Repository)\java\jre\7\x64\jre-7-x64.bat</FileName>
-              <Files></Files>
-              <IncludeDirectory value="true" />
-              <LeaveInstallFile value="false" />
-              <MsiOperation>Install</MsiOperation>
-              <MsiQuiet value="true" />
-              <MsiRestart>Never</MsiRestart>
-              <Parameters></Parameters>
-              <SuccessCodes>0,1641,3010</SuccessCodes>
-              <RunAs value="null" />
-              <Conditions type="list">
-                <PackageStepCondition>
-                  <Architecture>Bits64</Architecture>
-                  <Version>All</Version>
-                  <TypeName>OperatingSystem</TypeName>
-                </PackageStepCondition>
-                <PackageStepCondition>
-                  <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
-                  <TypeName>LoggedOnUser</TypeName>
-                </PackageStepCondition>
-                <PackageStepCondition>
-                  <ConditionMode>None</ConditionMode>
-                  <InventoryCollectionId value="null" />
-                  <InventoryCollectionName></InventoryCollectionName>
-                  <TypeName>Collection</TypeName>
-                </PackageStepCondition>
-              </Conditions>
-              <ErrorMode>StopDeploymentFail</ErrorMode>
-              <Title></Title>
-              <TypeName>Install</TypeName>
-              <IsEnabled value="true" />
-              <IsPostStep value="false" />
-              <IsPreStep value="false" />
-            </InstallStep>
-          </Steps>
-          <Timeout value="60" />
-          <UseCustomTimeout value="false" />
-          <RunAs value="null" />
-        </PackageDefinition>
-        <Description>Installs Java Runtime 7, with the following customizations:
- - Removes all previous JRE7 x64 installations first (leaves any JRE6 or JRE7 x86 installations intact)
- - Disables Java's auto-updater
- - Does not reboot</Description>
-        <NewLibraryPackageVersionId value="null" />
-        <OriginalId value="null" />
-        <Version>7.0.800</Version>
-        <IsAutoDownload value="false" />
-        <FolderId value="2" />
-        <LibraryPackageVersionId value="null" />
-        <Name>Java Runtime 7 update 80 (x64)</Name>
-        <Path>Installers\Java Runtime 7 update 80 (x64)</Path>
-        <PackageDisplaySettings name="DisplaySettings">
-          <DisplayType>Normal</DisplayType>
-          <IconKey>Icon-Package</IconKey>
-          <SortOrder value="7" />
-        </PackageDisplaySettings>
-      </Package>
-      <Package>
-        <CurrentLibraryPackageVersionId value="null" />
-        <PackageDefinition name="Definition">
-          <Conditions type="list">
-            <PackageStepCondition>
-              <Architecture>Both</Architecture>
-              <Version>All</Version>
-              <TypeName>OperatingSystem</TypeName>
-            </PackageStepCondition>
-            <PackageStepCondition>
-              <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
-              <TypeName>LoggedOnUser</TypeName>
-            </PackageStepCondition>
-            <PackageStepCondition>
-              <ConditionMode>None</ConditionMode>
-              <InventoryCollectionId value="null" />
-              <InventoryCollectionName></InventoryCollectionName>
-              <TypeName>Collection</TypeName>
-            </PackageStepCondition>
-          </Conditions>
-          <CopyMode>Default</CopyMode>
-          <DelayedApprovalTimeSpan>7.00:00:00</DelayedApprovalTimeSpan>
-          <DownloadApprovalMode>Manual</DownloadApprovalMode>
-          <InventoryScanProfileId value="null" />
-          <IsDownloadApprovalModeInherited value="true" />
-          <ScanAfterDeployment value="null" />
-          <Steps type="list">
-            <InstallStep>
-              <CustomCommandLine></CustomCommandLine>
-              <FileName>$(Repository)\java\jre\7\x86\jre-7-i586.bat</FileName>
-              <Files></Files>
-              <IncludeDirectory value="true" />
-              <LeaveInstallFile value="false" />
-              <MsiOperation>Install</MsiOperation>
-              <MsiQuiet value="true" />
-              <MsiRestart>Never</MsiRestart>
-              <Parameters></Parameters>
-              <SuccessCodes>0,1641,3010</SuccessCodes>
-              <RunAs value="null" />
-              <Conditions type="list">
-                <PackageStepCondition>
-                  <Architecture>Both</Architecture>
-                  <Version>All</Version>
-                  <TypeName>OperatingSystem</TypeName>
-                </PackageStepCondition>
-                <PackageStepCondition>
-                  <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
-                  <TypeName>LoggedOnUser</TypeName>
-                </PackageStepCondition>
-                <PackageStepCondition>
-                  <ConditionMode>None</ConditionMode>
-                  <InventoryCollectionId value="null" />
-                  <InventoryCollectionName></InventoryCollectionName>
-                  <TypeName>Collection</TypeName>
-                </PackageStepCondition>
-              </Conditions>
-              <ErrorMode>StopDeploymentFail</ErrorMode>
-              <Title></Title>
-              <TypeName>Install</TypeName>
-              <IsEnabled value="true" />
-              <IsPostStep value="false" />
-              <IsPreStep value="false" />
-            </InstallStep>
-          </Steps>
-          <Timeout value="60" />
-          <UseCustomTimeout value="false" />
-          <RunAs value="null" />
-        </PackageDefinition>
-        <Description>Installs Java Runtime 7, with the following options:
- - Removes all previous JRE7 x86 installations first (leaves any JRE6 or JRE7 x64 installations intact)
- - Disables Java's auto-updater
- - Does not reboot</Description>
-        <NewLibraryPackageVersionId value="null" />
-        <OriginalId value="null" />
-        <Version>7.0.800</Version>
-        <IsAutoDownload value="false" />
-        <FolderId value="2" />
-        <LibraryPackageVersionId value="null" />
-        <Name>Java Runtime 7 update 80 (x86)</Name>
-        <Path>Installers\Java Runtime 7 update 80 (x86)</Path>
+        <Name>Java Development Kit 11.0.4 (x64)</Name>
+        <Path>Installers\Java Development Kit 11.0.4 (x64)</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -2047,10 +1701,10 @@ There is no option to JUST install JDK10 without touching JRE8 installations.</D
         <OriginalId value="null" />
         <Version>8.0.211</Version>
         <IsAutoDownload value="false" />
-        <FolderId value="2" />
+        <FolderId value="3" />
         <LibraryPackageVersionId value="null" />
-        <Name>Java Runtime 8 update 211 (x64)</Name>
-        <Path>Installers\Java Runtime 8 update 211 (x64)</Path>
+        <Name>Java Runtime 8 update 211</Name>
+        <Path>Installers\Java Runtime 8 update 211</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -2136,7 +1790,7 @@ There is no option to JUST install JDK10 without touching JRE8 installations.</D
         <OriginalId value="null" />
         <Version>8.0.211</Version>
         <IsAutoDownload value="false" />
-        <FolderId value="2" />
+        <FolderId value="3" />
         <LibraryPackageVersionId value="null" />
         <Name>Java Runtime 8 update 211 (x86)</Name>
         <Path>Installers\Java Runtime 8 update 211 (x86)</Path>
@@ -2223,12 +1877,12 @@ There is no option to JUST install JDK10 without touching JRE8 installations.</D
  * If you wish to disable this behavior, edit the 'deployment.properties' file and comment out or delete the line that reads 'deployment.security.level.locked'</Description>
         <NewLibraryPackageVersionId value="null" />
         <OriginalId value="null" />
-        <Version>11.0.2</Version>
+        <Version>11.0.4</Version>
         <IsAutoDownload value="false" />
-        <FolderId value="2" />
+        <FolderId value="3" />
         <LibraryPackageVersionId value="null" />
-        <Name>Java Runtime 11.0.2 (x64)</Name>
-        <Path>Installers\Java Runtime 11.0.2 (x64)</Path>
+        <Name>Java Runtime 11.0.4 (x64)</Name>
+        <Path>Installers\Java Runtime 11.0.4 (x64)</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -2315,7 +1969,7 @@ If the target machine is on a domain, the login format is as follows:
         <OriginalId value="null" />
         <Version>1.19c</Version>
         <IsAutoDownload value="false" />
-        <FolderId value="2" />
+        <FolderId value="3" />
         <LibraryPackageVersionId value="null" />
         <Name>KpyM Telnet/SSH Server v1.19c (x86)</Name>
         <Path>Installers\KpyM Telnet/SSH Server v1.19c (x86)</Path>
@@ -2398,7 +2052,7 @@ If the target machine is on a domain, the login format is as follows:
         <OriginalId value="null" />
         <Version>3.5.1</Version>
         <IsAutoDownload value="false" />
-        <FolderId value="2" />
+        <FolderId value="3" />
         <LibraryPackageVersionId value="null" />
         <Name>Microsoft .NET Framework 3.5 SP1 v3.5.1</Name>
         <Path>Installers\Microsoft .NET Framework 3.5 SP1 v3.5.1</Path>
@@ -2437,7 +2091,7 @@ If the target machine is on a domain, the login format is as follows:
           <Steps type="list">
             <InstallStep>
               <CustomCommandLine></CustomCommandLine>
-              <FileName>$(Repository)\microsoft\silverlight\x64\Silverlight x64.bat</FileName>
+              <FileName>$(Repository)\microsoft\silverlight\x64\Silverlight.bat</FileName>
               <Files></Files>
               <IncludeDirectory value="true" />
               <LeaveInstallFile value="false" />
@@ -2485,10 +2139,10 @@ If the target machine is on a domain, the login format is as follows:
         <OriginalId value="null" />
         <Version>5.1.50901.0</Version>
         <IsAutoDownload value="false" />
-        <FolderId value="2" />
+        <FolderId value="3" />
         <LibraryPackageVersionId value="null" />
-        <Name>Microsoft Silverlight v5.1.50901.0 (x64)</Name>
-        <Path>Installers\Microsoft Silverlight v5.1.50901.0 (x64)</Path>
+        <Name>Microsoft Silverlight v5.1.50901.0</Name>
+        <Path>Installers\Microsoft Silverlight v5.1.50901.0</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -2572,7 +2226,7 @@ If the target machine is on a domain, the login format is as follows:
         <OriginalId value="null" />
         <Version>5.1.50901.0</Version>
         <IsAutoDownload value="false" />
-        <FolderId value="2" />
+        <FolderId value="3" />
         <LibraryPackageVersionId value="null" />
         <Name>Microsoft Silverlight v5.1.50901.0 (x86)</Name>
         <Path>Installers\Microsoft Silverlight v5.1.50901.0 (x86)</Path>
@@ -2667,12 +2321,12 @@ If the target machine is on a domain, the login format is as follows:
  * These customizations come from the file '\autoconfig\cck2.cfg' in the package directory. If you want to change them, edit or delete this file. The config file was generated with the CCK2 addon for Firefox.</Description>
         <NewLibraryPackageVersionId value="null" />
         <OriginalId value="null" />
-        <Version>60.6.3</Version>
+        <Version>68.1.0</Version>
         <IsAutoDownload value="false" />
-        <FolderId value="2" />
+        <FolderId value="3" />
         <LibraryPackageVersionId value="null" />
-        <Name>Mozilla Firefox ESR v60.6.3 (customized) (x64)</Name>
-        <Path>Installers\Mozilla Firefox ESR v60.6.3 (customized) (x64)</Path>
+        <Name>Mozilla Firefox ESR v68.1.0 (customized)</Name>
+        <Path>Installers\Mozilla Firefox ESR v68.1.0 (customized)</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -2720,7 +2374,7 @@ If the target machine is on a domain, the login format is as follows:
               <RunAs value="null" />
               <Conditions type="list">
                 <PackageStepCondition>
-                  <Architecture>Both</Architecture>
+                  <Architecture>Bits64</Architecture>
                   <Version>All</Version>
                   <TypeName>OperatingSystem</TypeName>
                 </PackageStepCondition>
@@ -2747,7 +2401,7 @@ If the target machine is on a domain, the login format is as follows:
           <UseCustomTimeout value="false" />
           <RunAs value="null" />
         </PackageDefinition>
-        <Description>Installs Mozilla Firefox ESR x86, with the following customizations*:
+        <Description>Installs Mozilla Firefox ESR, with the following customizations*:
 
  ! Kills any running Firefox process first
  - Disables 'Always check to see if Firefox is the default browser on startup'
@@ -2764,12 +2418,12 @@ If the target machine is on a domain, the login format is as follows:
  * These customizations come from the file '\autoconfig\cck2.cfg' in the package directory. If you want to change them, edit or delete this file. The config file was generated with the CCK2 addon for Firefox.</Description>
         <NewLibraryPackageVersionId value="null" />
         <OriginalId value="null" />
-        <Version>60.6.3</Version>
+        <Version>68.1.0</Version>
         <IsAutoDownload value="false" />
-        <FolderId value="2" />
+        <FolderId value="3" />
         <LibraryPackageVersionId value="null" />
-        <Name>Mozilla Firefox v60.6.3 ESR (customized) (x86)</Name>
-        <Path>Installers\Mozilla Firefox v60.6.3 ESR (customized) (x86)</Path>
+        <Name>Mozilla Firefox ESR v68.1.0 (x86)</Name>
+        <Path>Installers\Mozilla Firefox ESR v68.1.0 (x86)</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -2862,12 +2516,12 @@ If the target machine is on a domain, the login format is as follows:
  * These customizations come from the file '\autoconfig\cck2.cfg' in the package directory. If you want to change them, edit or delete this file. The config file was generated with the CCK2 addon for Firefox.</Description>
         <NewLibraryPackageVersionId value="null" />
         <OriginalId value="null" />
-        <Version>66.0.5</Version>
+        <Version>69.0.0</Version>
         <IsAutoDownload value="false" />
-        <FolderId value="2" />
+        <FolderId value="3" />
         <LibraryPackageVersionId value="null" />
-        <Name>Mozilla Firefox v66.0.5 (customized) (x64)</Name>
-        <Path>Installers\Mozilla Firefox v66.0.5 (customized) (x64)</Path>
+        <Name>Mozilla Firefox v69.0.0 (customized)</Name>
+        <Path>Installers\Mozilla Firefox v69.0.0 (customized)</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -2960,12 +2614,206 @@ If the target machine is on a domain, the login format is as follows:
  * These customizations come from the file '\autoconfig\cck2.cfg' in the package directory. If you want to change them, edit or delete this file. The config file was generated with the CCK2 addon for Firefox.</Description>
         <NewLibraryPackageVersionId value="null" />
         <OriginalId value="null" />
-        <Version>66.0.5</Version>
+        <Version>69.0.0</Version>
         <IsAutoDownload value="false" />
-        <FolderId value="2" />
+        <FolderId value="3" />
         <LibraryPackageVersionId value="null" />
-        <Name>Mozilla Firefox v66.0.5 (customized) (x86)</Name>
-        <Path>Installers\Mozilla Firefox v66.0.5 (customized) (x86)</Path>
+        <Name>Mozilla Firefox v69.0.0 (customized) (x86)</Name>
+        <Path>Installers\Mozilla Firefox v69.0.0 (customized) (x86)</Path>
+        <PackageDisplaySettings name="DisplaySettings">
+          <DisplayType>Normal</DisplayType>
+          <IconKey>Icon-Package</IconKey>
+          <SortOrder value="7" />
+        </PackageDisplaySettings>
+      </Package>
+      <Package>
+        <CurrentLibraryPackageVersionId value="null" />
+        <PackageDefinition name="Definition">
+          <Conditions type="list">
+            <PackageStepCondition>
+              <Architecture>Both</Architecture>
+              <Version>All</Version>
+              <TypeName>OperatingSystem</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
+              <TypeName>LoggedOnUser</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <ConditionMode>None</ConditionMode>
+              <InventoryCollectionId value="null" />
+              <InventoryCollectionName></InventoryCollectionName>
+              <TypeName>Collection</TypeName>
+            </PackageStepCondition>
+          </Conditions>
+          <CopyMode>Default</CopyMode>
+          <DelayedApprovalTimeSpan>7.00:00:00</DelayedApprovalTimeSpan>
+          <DownloadApprovalMode>Manual</DownloadApprovalMode>
+          <InventoryScanProfileId value="null" />
+          <IsDownloadApprovalModeInherited value="true" />
+          <ScanAfterDeployment value="null" />
+          <Steps type="list">
+            <InstallStep>
+              <CustomCommandLine></CustomCommandLine>
+              <FileName>$(Repository)\mozilla\firefox_esr\x64\Firefox ESR.bat</FileName>
+              <Files></Files>
+              <IncludeDirectory value="true" />
+              <LeaveInstallFile value="false" />
+              <MsiOperation>Install</MsiOperation>
+              <MsiQuiet value="true" />
+              <MsiRestart>Never</MsiRestart>
+              <Parameters></Parameters>
+              <SuccessCodes>0,1641,3010</SuccessCodes>
+              <RunAs value="null" />
+              <Conditions type="list">
+                <PackageStepCondition>
+                  <Architecture>Both</Architecture>
+                  <Version>All</Version>
+                  <TypeName>OperatingSystem</TypeName>
+                </PackageStepCondition>
+                <PackageStepCondition>
+                  <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
+                  <TypeName>LoggedOnUser</TypeName>
+                </PackageStepCondition>
+                <PackageStepCondition>
+                  <ConditionMode>None</ConditionMode>
+                  <InventoryCollectionId value="null" />
+                  <InventoryCollectionName></InventoryCollectionName>
+                  <TypeName>Collection</TypeName>
+                </PackageStepCondition>
+              </Conditions>
+              <ErrorMode>StopDeploymentFail</ErrorMode>
+              <Title>Install Firefox</Title>
+              <TypeName>Install</TypeName>
+              <IsEnabled value="true" />
+              <IsPostStep value="false" />
+              <IsPreStep value="false" />
+            </InstallStep>
+          </Steps>
+          <Timeout value="60" />
+          <UseCustomTimeout value="false" />
+          <RunAs value="null" />
+        </PackageDefinition>
+        <Description>Installs Mozilla Firefox ESR x86, with the following customizations*:
+
+ ! Kills any running Firefox process first
+ - Disables 'Always check to see if Firefox is the default browser on startup'
+ - Disables 'Automatically install updates'
+ - Disables 'Know your rights' bar from displaying on first run
+ - Disables 'Telemetry' (request to send performance data)
+ - Disables 'Firefox Health Report'
+ - Disables 'Crash Reporter'
+ - Disables 'Hello' embedded chat plugin
+ - Disables 'Pocket' embedded plugin
+ - Disables 'Tiles' new-tab screen (defaults to about:blank; user can change this setting)
+ - Deletes All Users desktop icon
+
+ * These customizations come from the file '\autoconfig\cck2.cfg' in the package directory. If you want to change them, edit or delete this file. The config file was generated with the CCK2 addon for Firefox.</Description>
+        <NewLibraryPackageVersionId value="null" />
+        <OriginalId value="null" />
+        <Version>68.1.0</Version>
+        <IsAutoDownload value="false" />
+        <FolderId value="3" />
+        <LibraryPackageVersionId value="null" />
+        <Name>Mozilla Firefox v68.1.0 ESR (customized)</Name>
+        <Path>Installers\Mozilla Firefox v68.1.0 ESR (customized)</Path>
+        <PackageDisplaySettings name="DisplaySettings">
+          <DisplayType>Normal</DisplayType>
+          <IconKey>Icon-Package</IconKey>
+          <SortOrder value="7" />
+        </PackageDisplaySettings>
+      </Package>
+      <Package>
+        <CurrentLibraryPackageVersionId value="null" />
+        <PackageDefinition name="Definition">
+          <Conditions type="list">
+            <PackageStepCondition>
+              <Architecture>Both</Architecture>
+              <Version>All</Version>
+              <TypeName>OperatingSystem</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
+              <TypeName>LoggedOnUser</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <ConditionMode>None</ConditionMode>
+              <InventoryCollectionId value="null" />
+              <InventoryCollectionName></InventoryCollectionName>
+              <TypeName>Collection</TypeName>
+            </PackageStepCondition>
+          </Conditions>
+          <CopyMode>Default</CopyMode>
+          <DelayedApprovalTimeSpan>7.00:00:00</DelayedApprovalTimeSpan>
+          <DownloadApprovalMode>Manual</DownloadApprovalMode>
+          <InventoryScanProfileId value="null" />
+          <IsDownloadApprovalModeInherited value="true" />
+          <ScanAfterDeployment value="null" />
+          <Steps type="list">
+            <InstallStep>
+              <CustomCommandLine></CustomCommandLine>
+              <FileName>$(Repository)\mozilla\firefox_esr\x86\Firefox ESR x86.bat</FileName>
+              <Files></Files>
+              <IncludeDirectory value="true" />
+              <LeaveInstallFile value="false" />
+              <MsiOperation>Install</MsiOperation>
+              <MsiQuiet value="true" />
+              <MsiRestart>Never</MsiRestart>
+              <Parameters></Parameters>
+              <SuccessCodes>0,1641,3010</SuccessCodes>
+              <RunAs value="null" />
+              <Conditions type="list">
+                <PackageStepCondition>
+                  <Architecture>Both</Architecture>
+                  <Version>All</Version>
+                  <TypeName>OperatingSystem</TypeName>
+                </PackageStepCondition>
+                <PackageStepCondition>
+                  <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
+                  <TypeName>LoggedOnUser</TypeName>
+                </PackageStepCondition>
+                <PackageStepCondition>
+                  <ConditionMode>None</ConditionMode>
+                  <InventoryCollectionId value="null" />
+                  <InventoryCollectionName></InventoryCollectionName>
+                  <TypeName>Collection</TypeName>
+                </PackageStepCondition>
+              </Conditions>
+              <ErrorMode>StopDeploymentFail</ErrorMode>
+              <Title>Install Firefox</Title>
+              <TypeName>Install</TypeName>
+              <IsEnabled value="true" />
+              <IsPostStep value="false" />
+              <IsPreStep value="false" />
+            </InstallStep>
+          </Steps>
+          <Timeout value="60" />
+          <UseCustomTimeout value="false" />
+          <RunAs value="null" />
+        </PackageDefinition>
+        <Description>Installs Mozilla Firefox ESR x86, with the following customizations*:
+
+ ! Kills any running Firefox process first
+ - Disables 'Always check to see if Firefox is the default browser on startup'
+ - Disables 'Automatically install updates'
+ - Disables 'Know your rights' bar from displaying on first run
+ - Disables 'Telemetry' (request to send performance data)
+ - Disables 'Firefox Health Report'
+ - Disables 'Crash Reporter'
+ - Disables 'Hello' embedded chat plugin
+ - Disables 'Pocket' embedded plugin
+ - Disables 'Tiles' new-tab screen (defaults to about:blank; user can change this setting)
+ - Deletes All Users desktop icon
+
+ * These customizations come from the file '\autoconfig\cck2.cfg' in the package directory. If you want to change them, edit or delete this file. The config file was generated with the CCK2 addon for Firefox.</Description>
+        <NewLibraryPackageVersionId value="null" />
+        <OriginalId value="null" />
+        <Version>68.1.0</Version>
+        <IsAutoDownload value="false" />
+        <FolderId value="3" />
+        <LibraryPackageVersionId value="null" />
+        <Name>Mozilla Firefox v68.1.0 ESR (customized) (x86)</Name>
+        <Path>Installers\Mozilla Firefox v68.1.0 ESR (customized) (x86)</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -3053,12 +2901,12 @@ If the target machine is on a domain, the login format is as follows:
 * If you wish to disable these settings, remove the three *.js files in the package directory</Description>
         <NewLibraryPackageVersionId value="null" />
         <OriginalId value="null" />
-        <Version>60.6.1</Version>
+        <Version>68.1.0</Version>
         <IsAutoDownload value="false" />
-        <FolderId value="2" />
+        <FolderId value="3" />
         <LibraryPackageVersionId value="null" />
-        <Name>Mozilla Thunderbird v60.6.1 (customized)</Name>
-        <Path>Installers\Mozilla Thunderbird v60.6.1 (customized)</Path>
+        <Name>Mozilla Thunderbird v68.1.0 (customized) (x86)</Name>
+        <Path>Installers\Mozilla Thunderbird v68.1.0 (customized) (x86)</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -3139,12 +2987,12 @@ If the target machine is on a domain, the login format is as follows:
  - Deletes the DSpellCheck plugin</Description>
         <NewLibraryPackageVersionId value="null" />
         <OriginalId value="null" />
-        <Version>7.6.6</Version>
+        <Version>7.7.1</Version>
         <IsAutoDownload value="false" />
-        <FolderId value="2" />
+        <FolderId value="3" />
         <LibraryPackageVersionId value="null" />
-        <Name>Notepad++ v7.6.6</Name>
-        <Path>Installers\Notepad++ v7.6.6</Path>
+        <Name>Notepad++ v7.7.1</Name>
+        <Path>Installers\Notepad++ v7.7.1</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -3226,12 +3074,12 @@ If the target machine is on a domain, the login format is as follows:
 Thanks to Moonchild ( http://www.palemoon.org/ ) for redistribution permission.</Description>
         <NewLibraryPackageVersionId value="null" />
         <OriginalId value="null" />
-        <Version>28.5.0</Version>
+        <Version>28.7.1.0</Version>
         <IsAutoDownload value="false" />
-        <FolderId value="2" />
+        <FolderId value="3" />
         <LibraryPackageVersionId value="null" />
-        <Name>Pale Moon v28.5.0</Name>
-        <Path>Installers\Pale Moon v28.5.0</Path>
+        <Name>Pale Moon v28.7.1.0</Name>
+        <Path>Installers\Pale Moon v28.7.1.0</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -3313,12 +3161,12 @@ Thanks to Moonchild ( http://www.palemoon.org/ ) for redistribution permission.<
 Thanks to Moonchild ( http://www.palemoon.org/ ) for redistribution permission.</Description>
         <NewLibraryPackageVersionId value="null" />
         <OriginalId value="null" />
-        <Version>28.5.0</Version>
+        <Version>28.7.1.0</Version>
         <IsAutoDownload value="false" />
-        <FolderId value="2" />
+        <FolderId value="3" />
         <LibraryPackageVersionId value="null" />
-        <Name>Pale Moon v28.5.0 (x86)</Name>
-        <Path>Installers\Pale Moon v28.5.0 (x86)</Path>
+        <Name>Pale Moon v28.7.1.0 (x86)</Name>
+        <Path>Installers\Pale Moon v28.7.1.0 (x86)</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -3399,12 +3247,12 @@ Thanks to Moonchild ( http://www.palemoon.org/ ) for redistribution permission.<
  - Deletes the OTR ("Off the Record") encryption plugin</Description>
         <NewLibraryPackageVersionId value="null" />
         <OriginalId value="null" />
-        <Version></Version>
+        <Version>2.8.3</Version>
         <IsAutoDownload value="false" />
-        <FolderId value="2" />
+        <FolderId value="3" />
         <LibraryPackageVersionId value="null" />
-        <Name>Spark v2.8.3</Name>
-        <Path>Installers\Spark v2.8.3</Path>
+        <Name>Spark v2.8.3 (x86)</Name>
+        <Path>Installers\Spark v2.8.3 (x86)</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -3491,12 +3339,12 @@ Thanks to Moonchild ( http://www.palemoon.org/ ) for redistribution permission.<
  * These settings come from the registry file that gets imported. If you wish to disable these customizations, remove the registry file.</Description>
         <NewLibraryPackageVersionId value="null" />
         <OriginalId value="null" />
-        <Version></Version>
+        <Version>2.8.23</Version>
         <IsAutoDownload value="false" />
-        <FolderId value="2" />
+        <FolderId value="3" />
         <LibraryPackageVersionId value="null" />
-        <Name>TightVNC v2.8.11 (x64)</Name>
-        <Path>Installers\TightVNC v2.8.11 (x64)</Path>
+        <Name>TightVNC v2.8.23</Name>
+        <Path>Installers\TightVNC v2.8.23</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -3583,12 +3431,12 @@ Thanks to Moonchild ( http://www.palemoon.org/ ) for redistribution permission.<
  * These settings come from the registry file that gets imported. If you wish to disable these customizations, remove the registry file.</Description>
         <NewLibraryPackageVersionId value="null" />
         <OriginalId value="null" />
-        <Version></Version>
+        <Version>2.8.23</Version>
         <IsAutoDownload value="false" />
-        <FolderId value="2" />
+        <FolderId value="3" />
         <LibraryPackageVersionId value="null" />
-        <Name>TightVNC v2.8.11 (x86)</Name>
-        <Path>Installers\TightVNC v2.8.11 (x86)</Path>
+        <Name>TightVNC v2.8.23 (x86)</Name>
+        <Path>Installers\TightVNC v2.8.23 (x86)</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -3676,10 +3524,93 @@ and paste the resulting password in the 'ultravnc.ini' file in the same director
         <OriginalId value="null" />
         <Version>1.2.2.4</Version>
         <IsAutoDownload value="false" />
-        <FolderId value="2" />
+        <FolderId value="3" />
         <LibraryPackageVersionId value="null" />
         <Name>UltraVNC v1.2.2.4 (x86)</Name>
         <Path>Installers\UltraVNC v1.2.2.4 (x86)</Path>
+        <PackageDisplaySettings name="DisplaySettings">
+          <DisplayType>Normal</DisplayType>
+          <IconKey>Icon-Package</IconKey>
+          <SortOrder value="7" />
+        </PackageDisplaySettings>
+      </Package>
+      <Package>
+        <CurrentLibraryPackageVersionId value="null" />
+        <PackageDefinition name="Definition">
+          <Conditions type="list">
+            <PackageStepCondition>
+              <Architecture>Both</Architecture>
+              <Version>All</Version>
+              <TypeName>OperatingSystem</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
+              <TypeName>LoggedOnUser</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <ConditionMode>None</ConditionMode>
+              <InventoryCollectionId value="null" />
+              <InventoryCollectionName></InventoryCollectionName>
+              <TypeName>Collection</TypeName>
+            </PackageStepCondition>
+          </Conditions>
+          <CopyMode>Default</CopyMode>
+          <DelayedApprovalTimeSpan>7.00:00:00</DelayedApprovalTimeSpan>
+          <DownloadApprovalMode>Manual</DownloadApprovalMode>
+          <InventoryScanProfileId value="null" />
+          <IsDownloadApprovalModeInherited value="true" />
+          <ScanAfterDeployment value="null" />
+          <Steps type="list">
+            <InstallStep>
+              <CustomCommandLine></CustomCommandLine>
+              <FileName>$(Repository)\vlc\x64\vlc.bat</FileName>
+              <Files></Files>
+              <IncludeDirectory value="true" />
+              <LeaveInstallFile value="false" />
+              <MsiOperation>Install</MsiOperation>
+              <MsiQuiet value="true" />
+              <MsiRestart>Never</MsiRestart>
+              <Parameters></Parameters>
+              <SuccessCodes>0,1641,3010</SuccessCodes>
+              <RunAs value="null" />
+              <Conditions type="list">
+                <PackageStepCondition>
+                  <Architecture>Both</Architecture>
+                  <Version>All</Version>
+                  <TypeName>OperatingSystem</TypeName>
+                </PackageStepCondition>
+                <PackageStepCondition>
+                  <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
+                  <TypeName>LoggedOnUser</TypeName>
+                </PackageStepCondition>
+                <PackageStepCondition>
+                  <ConditionMode>None</ConditionMode>
+                  <InventoryCollectionId value="null" />
+                  <InventoryCollectionName></InventoryCollectionName>
+                  <TypeName>Collection</TypeName>
+                </PackageStepCondition>
+              </Conditions>
+              <ErrorMode>StopDeploymentFail</ErrorMode>
+              <Title></Title>
+              <TypeName>Install</TypeName>
+              <IsEnabled value="true" />
+              <IsPostStep value="false" />
+              <IsPreStep value="false" />
+            </InstallStep>
+          </Steps>
+          <Timeout value="60" />
+          <UseCustomTimeout value="false" />
+          <RunAs value="null" />
+        </PackageDefinition>
+        <Description></Description>
+        <NewLibraryPackageVersionId value="null" />
+        <OriginalId value="null" />
+        <Version>3.0.8</Version>
+        <IsAutoDownload value="false" />
+        <FolderId value="3" />
+        <LibraryPackageVersionId value="null" />
+        <Name>VLC Media Player v3.0.8</Name>
+        <Path>Installers\VLC Media Player v3.0.8</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -3757,12 +3688,12 @@ and paste the resulting password in the 'ultravnc.ini' file in the same director
         <Description></Description>
         <NewLibraryPackageVersionId value="null" />
         <OriginalId value="null" />
-        <Version>3.0.6</Version>
+        <Version>3.0.8</Version>
         <IsAutoDownload value="false" />
-        <FolderId value="2" />
+        <FolderId value="3" />
         <LibraryPackageVersionId value="null" />
-        <Name>VLC Media Player v3.0.6 (x86)</Name>
-        <Path>Installers\VLC Media Player v3.0.6 (x86)</Path>
+        <Name>VLC Media Player v3.0.8 (x86)</Name>
+        <Path>Installers\VLC Media Player v3.0.8 (x86)</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -3844,12 +3775,12 @@ and paste the resulting password in the 'ultravnc.ini' file in the same director
  - Associates .scp file extensions with WinSCP</Description>
         <NewLibraryPackageVersionId value="null" />
         <OriginalId value="null" />
-        <Version>5.15.1</Version>
+        <Version>5.15.4</Version>
         <IsAutoDownload value="false" />
-        <FolderId value="2" />
+        <FolderId value="3" />
         <LibraryPackageVersionId value="null" />
-        <Name>WinSCP v5.15.1</Name>
-        <Path>Installers\WinSCP v5.15.1</Path>
+        <Name>WinSCP v5.15.4 (x86)</Name>
+        <Path>Installers\WinSCP v5.15.4 (x86)</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
