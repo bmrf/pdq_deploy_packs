@@ -1,7 +1,7 @@
 :: Purpose:       Installs a package
 :: Requirements:  1. Run this script with Administrator rights
 :: Author:        vocatus on reddit.com/r/sysadmin ( vocatus.gate@gmail.com ) // PGP key ID: 0x07d1490f82a211a2
-:: History:       1.0.3 + Add removal of any pre-existing Chrome installations prior to installing. Thanks to github:abulgatz
+:: History:       1.0.3 + Add removal of any pre-existing Chrome installations prior to installing
 ::                1.0.2 + Add deletion of additional Google Update scheduled tasks
 ::                1.0.1 * Add command line argument to preserve shortcuts, default to False
 ::                1.0.0 + Initial write
@@ -28,7 +28,7 @@ if not exist %LOGPATH% mkdir %LOGPATH%
 ::::::::::
 @echo off
 set SCRIPT_VERSION=1.0.3
-set SCRIPT_UPDATED=2019-05-16
+set SCRIPT_UPDATED=2019-09-17
 :: Get the date into ISO 8601 standard date format (yyyy-mm-dd) so we can use it
 FOR /f %%a in ('WMIC OS GET LocalDateTime ^| find "."') DO set DTS=%%a
 set CUR_DATE=%DTS:~0,4%-%DTS:~4,2%-%DTS:~6,2%
@@ -49,8 +49,8 @@ cls
 %SystemDrive%\windows\system32\taskkill.exe /F /IM chrome.exe /T 2>NUL
 wmic process where name="chrome.exe" call terminate 2>NUL
 
-:: Uninstall existing versions of Chrome by calling powershell script
-PowerShell.exe -NoLogo -NonInteractive -NoProfile -ExecutionPolicy Bypass -File "uninstall-chrome.ps1"
+:: Uninstall existing versions of Chrome
+wmic product where "name like 'Google Chrome'" call uninstall /nointeractive
 
 :: Install package from local directory (if all files are in the same directory)
 msiexec.exe /i "googlechromestandaloneenterprise.msi" %FLAGS%
