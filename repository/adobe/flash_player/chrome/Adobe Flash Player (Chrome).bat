@@ -1,7 +1,8 @@
 :: Purpose:       Installs a package
 :: Requirements:  Run this script with Administrator rights
 :: Author:        vocatus on reddit.com/r/sysadmin ( vocatus.gate@gmail.com ) // PGP key ID: 0x07d1490f82a211a2
-:: Version:       1.0.1 * Expand wildcard mask to catch additional Flash Player Updater scheduled tasks
+:: Version:       1.0.2 + Add additional commands to remove Adobe scheduled tasks
+::                1.0.1 * Expand wildcard mask to catch additional Flash Player Updater scheduled tasks
 ::                1.0.0 + Initial write
 
 
@@ -9,8 +10,8 @@
 :: Prep :: -- Don't change anything in this section
 ::::::::::
 @echo off
-set SCRIPT_VERSION=1.0.1
-set SCRIPT_UPDATED=2017-02-08
+set SCRIPT_VERSION=1.0.2
+set SCRIPT_UPDATED=2019-10-09
 :: Get the date into ISO 8601 standard date format (yyyy-mm-dd) so we can use it
 FOR /f %%a in ('WMIC OS GET LocalDateTime ^| find "."') DO set DTS=%%a
 set CUR_DATE=%DTS:~0,4%-%DTS:~4,2%-%DTS:~6,2%
@@ -27,7 +28,7 @@ set LOGPATH=%SystemDrive%\Logs
 set LOGFILE=%COMPUTERNAME%_Adobe_Flash_Chrome_install.log
 
 :: Package to install. Do not use trailing slashes (\)
-set BINARY=install_flash_player_30_ppapi.msi
+set BINARY=install_flash_player_32_ppapi.msi
 set FLAGS=ALLUSERS=1 /q /norestart
 
 :: Create the log directory if it doesn't exist
@@ -65,6 +66,7 @@ del /F /Q "%SystemDrive%\Windows\system32\tasks\Adobe Acrobat Update*" >> "%LOGP
 del /F /Q "%SystemDrive%\Windows\system32\tasks\Adobe Flash Player Update*" >> "%LOGPATH%\%LOGFILE%" 2>NUL
 del /F /Q "%SystemDrive%\Windows\system32\tasks\Adobe Flash Player * Notifier" >> "%LOGPATH%\%LOGFILE%" 2>NUL
 schtasks.exe /tn "Adobe Flash Player Updater" /delete /f >> "%LOGPATH%\%LOGFILE%" 2>NUL
+schtasks.exe /tn "Adobe Flash Player PPAPI Notifier" /delete /f>> "%LOGPATH%\%LOGFILE%" 2>NUL
 schtasks.exe /tn "Adobe Flash Player NPAPI Notifier" /delete /f >> "%LOGPATH%\%LOGFILE%" 2>NUL
 
 :: Delete the annoying Acrobat tray icon
