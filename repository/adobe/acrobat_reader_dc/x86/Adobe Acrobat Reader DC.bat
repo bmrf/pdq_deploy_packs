@@ -1,7 +1,8 @@
 :: Purpose:       Installs a package
 :: Requirements:  Run this script with Administrator rights
 :: Author:        vocatus on reddit.com/r/sysadmin ( vocatus.gate@gmail.com ) // PGP key ID: 0x07d1490f82a211a2
-:: Version:       1.0.6 + Add deletion of the desktop icon. Thanks to github:abulgatz
+:: Version:       1.0.7 + Add basic status messages ("Installing base package" "Cleaning up" etc)
+::                1.0.6 + Add deletion of the desktop icon. Thanks to github:abulgatz
 ::                1.0.5 + Add removal of previous installations prior to running new installation. Thanks to u/devoar999
 ::                1.0.4 + Add associating PDF files to Acrobat after installation. Thanks to u/dimm0k
 ::                1.0.3 + Add killing of Chrome Acrobat plugin registry entry
@@ -15,8 +16,8 @@
 :: Prep :: -- Don't change anything in this section
 ::::::::::
 @echo off
-set SCRIPT_VERSION=1.0.6
-set SCRIPT_UPDATED=2019-05-14
+set SCRIPT_VERSION=1.0.7
+set SCRIPT_UPDATED=2019-10-16
 :: Get the date into ISO 8601 standard date format (yyyy-mm-dd) so we can use it
 FOR /f %%a in ('WMIC OS GET LocalDateTime ^| find "."') DO set DTS=%%a
 set CUR_DATE=%DTS:~0,4%-%DTS:~4,2%-%DTS:~6,2%
@@ -34,7 +35,7 @@ set LOGFILE=%COMPUTERNAME%_Adobe_Acrobat_DC_install.log
 
 :: Package to install. Do not use trailing slashes (\)
 set BINARY_VERSION=15.007.20033
-set PATCH_VERSION=19.008.20071
+set PATCH_VERSION=19.021.20047
 set FLAGS=ALLUSERS=1 /qn /norestart TRANSFORMS="Adobe Acrobat Reader DC v%BINARY_VERSION%_customizations.mst"
 
 :: Create the log directory if it doesn't exist
@@ -45,15 +46,29 @@ if not exist %LOGPATH% mkdir %LOGPATH%
 :: INSTALLATION ::
 ::::::::::::::::::
 :: Remove prior package
+echo %TIME% Removing prior versions, please wait...
+echo %TIME% Removing prior versions, please wait...>> "%LOGPATH%\%LOGFILE%" 2>NUL
 %WMIC% product where "name like 'Adobe Acrobat Reader%%'" uninstall /nointeractive >> "%LOGPATH%\%LOGFILE%" 2>NUL
+echo %TIME% Done.
+echo %TIME% Done.>> "%LOGPATH%\%LOGFILE%" 2>NUL
 
 :: Install base package
+echo %TIME% Installing base package...
+echo %TIME% Installing base package...>> "%LOGPATH%\%LOGFILE%" 2>NUL
 msiexec /i "Adobe Acrobat Reader DC v%BINARY_VERSION%.msi" %FLAGS% >> "%LOGPATH%\%LOGFILE%" 2>NUL
+echo %TIME% Done.
+echo %TIME% Done.>> "%LOGPATH%\%LOGFILE%" 2>NUL
 
 :: Install patch
+echo %TIME% Installing updates...
+echo %TIME% Installing updates...>> "%LOGPATH%\%LOGFILE%" 2>NUL
 msiexec /p "Adobe Acrobat Reader DC v%PATCH_VERSION%_patch.msp" REINSTALL=ALL REINSTALLMODE=omus /qn >> "%LOGPATH%\%LOGFILE%" 2>NUL
+echo %TIME% Done.
+echo %TIME% Done.>> "%LOGPATH%\%LOGFILE%" 2>NUL
 
 :: Disable Adobe Updater via registry; both methods
+echo %TIME% Disabling telemetry and cleaning up...
+echo %TIME% Disabling telemetry and cleaning up...>> "%LOGPATH%\%LOGFILE%" 2>NUL
 reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Adobe\Acrobat Reader\11.0\FeatureLockDown" /v bUpdater /t REG_DWORD /d 00000000 /f >> "%LOGPATH%\%LOGFILE%" 2>NUL
 %SystemRoot%\System32\reg.exe delete "HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Run" /v "Adobe ARM" /f >> "%LOGPATH%\%LOGFILE%" 2>NUL
 
@@ -92,6 +107,9 @@ reg delete HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Google\Chrome\Extensions\efai
 
 :: Associate PDF files to Acrobat
 "%ProgramFiles(x86)%\Adobe\Acrobat Reader DC\Reader\ADelRCP.exe"
+
+echo %TIME% Done.
+echo %TIME% Done.>> "%LOGPATH%\%LOGFILE%" 2>NUL
 
 :: Pop back to original directory. This isn't necessary in stand-alone runs of the script, but is needed when being called from another script
 popd
