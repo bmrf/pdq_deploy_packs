@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <AdminArsenal.Export Code="PDQDeploy" Name="PDQ Deploy" Version="17.2.0.0" MinimumVersion="15.0">
   <Folder>
     <Created>2019-09-11T18:58:59.0000000-06:00</Created>
@@ -438,12 +438,12 @@
  - Removes the Adobe Update scheduled task that gets installed (C:\Windows\tasks\Adobe Flash Player Updater.job)</Description>
         <NewLibraryPackageVersionId value="null" />
         <OriginalId value="null" />
-        <Version>32.0.0.223</Version>
+        <Version>32.0.0.270</Version>
         <IsAutoDownload value="false" />
         <FolderId value="3" />
         <LibraryPackageVersionId value="null" />
-        <Name>Adobe Flash Player v32.0.0.223 (Chrome)</Name>
-        <Path>Installers\Adobe Flash Player v32.0.0.223 (Chrome)</Path>
+        <Name>Adobe Flash Player v32.0.0.270 (Chrome)</Name>
+        <Path>Installers\Adobe Flash Player v32.0.0.270 (Chrome)</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -525,12 +525,12 @@
  - Removes the Adobe Update scheduled task that gets installed (C:\Windows\tasks\Adobe Flash Player Updater.job)</Description>
         <NewLibraryPackageVersionId value="null" />
         <OriginalId value="null" />
-        <Version>32.0.0.223</Version>
+        <Version>32.0.0.270</Version>
         <IsAutoDownload value="false" />
         <FolderId value="3" />
         <LibraryPackageVersionId value="null" />
-        <Name>Adobe Flash Player v32.0.0.223 (Firefox)</Name>
-        <Path>Installers\Adobe Flash Player v32.0.0.223 (Firefox)</Path>
+        <Name>Adobe Flash Player v32.0.0.270 (Firefox)</Name>
+        <Path>Installers\Adobe Flash Player v32.0.0.270 (Firefox)</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -612,12 +612,12 @@
  - Removes the Adobe Update scheduled task that gets installed (C:\Windows\tasks\Adobe Flash Player Updater.job)</Description>
         <NewLibraryPackageVersionId value="null" />
         <OriginalId value="null" />
-        <Version>32.0.0.223</Version>
+        <Version>32.0.0.270</Version>
         <IsAutoDownload value="false" />
         <FolderId value="3" />
         <LibraryPackageVersionId value="null" />
-        <Name>Adobe Flash Player v32.0.0.223 (IE)</Name>
-        <Path>Installers\Adobe Flash Player v32.0.0.223 (IE)</Path>
+        <Name>Adobe Flash Player v32.0.0.270 (IE)</Name>
+        <Path>Installers\Adobe Flash Player v32.0.0.270 (IE)</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -958,12 +958,12 @@ Thanks to reddit.com/user/b0park for this package.</Description>
  - Removes any previous versions before installing</Description>
         <NewLibraryPackageVersionId value="null" />
         <OriginalId value="null" />
-        <Version>3.43.0</Version>
+        <Version>3.45.1</Version>
         <IsAutoDownload value="false" />
         <FolderId value="3" />
         <LibraryPackageVersionId value="null" />
-        <Name>FileZilla Client v3.43.0</Name>
-        <Path>Installers\FileZilla Client v3.43.0</Path>
+        <Name>FileZilla Client v3.45.1</Name>
+        <Path>Installers\FileZilla Client v3.45.1</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -1133,12 +1133,12 @@ Gimp v2.10.12 x86.exe /verysilent /norestart</Description>
  * If you wish to disable this behavior, edit the batch file and remove the two lines that start with "sc delete"</Description>
         <NewLibraryPackageVersionId value="null" />
         <OriginalId value="null" />
-        <Version>75.0.3770.100</Version>
+        <Version>77.0.3865.120</Version>
         <IsAutoDownload value="false" />
         <FolderId value="3" />
         <LibraryPackageVersionId value="null" />
-        <Name>Google Chrome v75.0.3770.100 (Enterprise)</Name>
-        <Path>Installers\Google Chrome v75.0.3770.100 (Enterprise)</Path>
+        <Name>Google Chrome v77.0.3865.120 (Enterprise)</Name>
+        <Path>Installers\Google Chrome v77.0.3865.120 (Enterprise)</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -1223,12 +1223,12 @@ Gimp v2.10.12 x86.exe /verysilent /norestart</Description>
  * If you wish to disable this behavior, edit the batch file and remove the two lines that start with "sc delete"</Description>
         <NewLibraryPackageVersionId value="null" />
         <OriginalId value="null" />
-        <Version>75.0.3770.100</Version>
+        <Version>77.0.3865.120</Version>
         <IsAutoDownload value="false" />
         <FolderId value="3" />
         <LibraryPackageVersionId value="null" />
-        <Name>Google Chrome v75.0.3770.100 (Enterprise) (x86)</Name>
-        <Path>Installers\Google Chrome v75.0.3770.100 (Enterprise) (x86)</Path>
+        <Name>Google Chrome v77.0.3865.120 (Enterprise) (x86)</Name>
+        <Path>Installers\Google Chrome v77.0.3865.120 (Enterprise) (x86)</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -1412,12 +1412,12 @@ Thus, if you already had JRE8 installed when you install JDK and instruct it not
 There is no option to JUST install JDK8 without touching JRE8 installations.</Description>
         <NewLibraryPackageVersionId value="null" />
         <OriginalId value="null" />
-        <Version>8.0.211</Version>
+        <Version>8.0.231</Version>
         <IsAutoDownload value="false" />
         <FolderId value="3" />
         <LibraryPackageVersionId value="null" />
-        <Name>Java Development Kit 8 update 211</Name>
-        <Path>Installers\Java Development Kit 8 update 211</Path>
+        <Name>Java Development Kit 8 update 231</Name>
+        <Path>Installers\Java Development Kit 8 update 231</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -1511,12 +1511,12 @@ Thus, if you already had JRE8 installed when you install JDK and instruct it not
 There is no option to JUST install JDK8 without touching JRE8 installations.</Description>
         <NewLibraryPackageVersionId value="null" />
         <OriginalId value="null" />
-        <Version>8.0.211</Version>
+        <Version>8.0.231</Version>
         <IsAutoDownload value="false" />
         <FolderId value="3" />
         <LibraryPackageVersionId value="null" />
-        <Name>Java Development Kit 8 update 211 (x86)</Name>
-        <Path>Installers\Java Development Kit 8 update 211 (x86)</Path>
+        <Name>Java Development Kit 8 update 231 (x86)</Name>
+        <Path>Installers\Java Development Kit 8 update 231 (x86)</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -1591,7 +1591,7 @@ There is no option to JUST install JDK8 without touching JRE8 installations.</De
           <UseCustomTimeout value="false" />
           <RunAs value="null" />
         </PackageDefinition>
-        <Description>Installs Java Development Kit 11.0.2, with the following customizations:
+        <Description>Installs Java Development Kit 11.0.5, with the following customizations:
  - Removes all previous JDK10 x64 installations first (leaves any JDK7 or JDK8 x86 installations intact)
  - Adds "Development Tools" feature
  * Installs matching JRE 9 version ("PublicJreFeature feature")
@@ -1699,12 +1699,12 @@ There is no option to JUST install JDK10 without touching JRE8 installations.</D
  * If you wish to disable this behavior, edit the 'deployment.properties' file and comment out or delete the line that reads 'deployment.security.level.locked'</Description>
         <NewLibraryPackageVersionId value="null" />
         <OriginalId value="null" />
-        <Version>8.0.211</Version>
+        <Version>8.0.231</Version>
         <IsAutoDownload value="false" />
         <FolderId value="3" />
         <LibraryPackageVersionId value="null" />
-        <Name>Java Runtime 8 update 211</Name>
-        <Path>Installers\Java Runtime 8 update 211</Path>
+        <Name>Java Runtime 8 update 231</Name>
+        <Path>Installers\Java Runtime 8 update 231</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -1788,12 +1788,12 @@ There is no option to JUST install JDK10 without touching JRE8 installations.</D
  * If you wish to disable this behavior, edit the 'deployment.properties' file and comment out or delete the line that reads 'deployment.security.level.locked'</Description>
         <NewLibraryPackageVersionId value="null" />
         <OriginalId value="null" />
-        <Version>8.0.211</Version>
+        <Version>8.0.231</Version>
         <IsAutoDownload value="false" />
         <FolderId value="3" />
         <LibraryPackageVersionId value="null" />
-        <Name>Java Runtime 8 update 211 (x86)</Name>
-        <Path>Installers\Java Runtime 8 update 211 (x86)</Path>
+        <Name>Java Runtime 8 update 231 (x86)</Name>
+        <Path>Installers\Java Runtime 8 update 231 (x86)</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -2603,12 +2603,12 @@ If the target machine is on a domain, the login format is as follows:
  * These customizations come from the file '\autoconfig\cck2.cfg' in the package directory. If you want to change them, edit or delete this file. The config file was generated with the CCK2 addon for Firefox.</Description>
         <NewLibraryPackageVersionId value="null" />
         <OriginalId value="null" />
-        <Version>68.0.0</Version>
+        <Version>69.0.3</Version>
         <IsAutoDownload value="false" />
         <FolderId value="3" />
         <LibraryPackageVersionId value="null" />
-        <Name>Mozilla Firefox v68.0.0 (customized)</Name>
-        <Path>Installers\Mozilla Firefox v68.0.0 (customized)</Path>
+        <Name>Mozilla Firefox v69.0.3 (customized)</Name>
+        <Path>Installers\Mozilla Firefox v69.0.3 (customized)</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -2701,12 +2701,12 @@ If the target machine is on a domain, the login format is as follows:
  * These customizations come from the file '\autoconfig\cck2.cfg' in the package directory. If you want to change them, edit or delete this file. The config file was generated with the CCK2 addon for Firefox.</Description>
         <NewLibraryPackageVersionId value="null" />
         <OriginalId value="null" />
-        <Version>68.0.0</Version>
+        <Version>69.0.3</Version>
         <IsAutoDownload value="false" />
         <FolderId value="3" />
         <LibraryPackageVersionId value="null" />
-        <Name>Mozilla Firefox v68.0.0 (customized) (x86)</Name>
-        <Path>Installers\Mozilla Firefox v68.0.0 (customized) (x86)</Path>
+        <Name>Mozilla Firefox v69.0.3 (customized) (x86)</Name>
+        <Path>Installers\Mozilla Firefox v69.0.3 (customized) (x86)</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -2988,12 +2988,12 @@ If the target machine is on a domain, the login format is as follows:
 * If you wish to disable these settings, remove the three *.js files in the package directory</Description>
         <NewLibraryPackageVersionId value="null" />
         <OriginalId value="null" />
-        <Version>60.8.0</Version>
+        <Version>68.1.2</Version>
         <IsAutoDownload value="false" />
         <FolderId value="3" />
         <LibraryPackageVersionId value="null" />
-        <Name>Mozilla Thunderbird v60.8.0 (customized) (x86)</Name>
-        <Path>Installers\Mozilla Thunderbird v60.8.0 (customized) (x86)</Path>
+        <Name>Mozilla Thunderbird v68.1.2 (customized) (x86)</Name>
+        <Path>Installers\Mozilla Thunderbird v68.1.2 (customized) (x86)</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -3074,12 +3074,12 @@ If the target machine is on a domain, the login format is as follows:
  - Deletes the DSpellCheck plugin</Description>
         <NewLibraryPackageVersionId value="null" />
         <OriginalId value="null" />
-        <Version>7.7.1</Version>
+        <Version>7.8.0</Version>
         <IsAutoDownload value="false" />
         <FolderId value="3" />
         <LibraryPackageVersionId value="null" />
-        <Name>Notepad++ v7.7.1</Name>
-        <Path>Installers\Notepad++ v7.7.1</Path>
+        <Name>Notepad++ v7.8.0</Name>
+        <Path>Installers\Notepad++ v7.8.0</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -3862,12 +3862,12 @@ and paste the resulting password in the 'ultravnc.ini' file in the same director
  - Associates .scp file extensions with WinSCP</Description>
         <NewLibraryPackageVersionId value="null" />
         <OriginalId value="null" />
-        <Version>5.15.2</Version>
+        <Version>5.15.5</Version>
         <IsAutoDownload value="false" />
         <FolderId value="3" />
         <LibraryPackageVersionId value="null" />
-        <Name>WinSCP v5.15.2 (x86)</Name>
-        <Path>Installers\WinSCP v5.15.2 (x86)</Path>
+        <Name>WinSCP v5.15.5 (x86)</Name>
+        <Path>Installers\WinSCP v5.15.5 (x86)</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
