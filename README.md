@@ -20,9 +20,9 @@ Please submit fixes and suggestions either in the reddit thread or here on Githu
 
 # Notes
 
-For each release I generate and sign `checksums.txt`, a text file containing SHA256 hashes of every file included in the download. You can use my included PGP public key (Key ID: [0x07d1490f82a211a2](http://pool.sks-keyservers.net:11371/pks/lookup?op=get&search=0x07D1490F82A211A2)) to verify nothing has been tampered with.
+Each release contains `checksums.txt`, which contains SHA256 hashes of every file included in the download. You can use my included PGP public key (Key ID: [0x07d1490f82a211a2](http://pool.sks-keyservers.net:11371/pks/lookup?op=get&search=0x07D1490F82A211A2)) to verify nothing has been tampered with.
 
-v8.0 introduced an optional download, Microsoft Offline Update packages. It's not included with the main PDQ package because it's very large, and I presume most organizations use WSUS or SCCM to manage their Windows and Office updates anyway. But if you're like me, with some non-Internet-connected computers to update, or don't have a WSUS/SCCM server, then the offline packages are very helpful.
+v8.0 introduced an optional download, Microsoft Offline Update packages. It's not included with the main PDQ package because it's very large, and I presume most organizations use WSUS or SCCM to manage their Windows and Office updates. But if you're like me, with some non-Internet-connected computers to update, or don't have a WSUS/SCCM server, then the offline packages are very helpful.
 
 If you download this package make sure to read the instructions that come with it, otherwise you'll run it, nothing will happen, and you'll feel silly.
 
