@@ -16,7 +16,7 @@ set LOGFILE=
 
 :: Package to install. Do not use trailing slashes (\)
 set LOCATION=
-set BINARY_VERSION=
+set BINARY_VERSION=x86
 set FLAGS=ALLUSERS=1 /q /norestart
 
 :: Create the log directory if it doesn't exist
