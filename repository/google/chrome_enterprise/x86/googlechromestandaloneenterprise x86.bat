@@ -13,8 +13,8 @@
 :: VARIABLES :: -- Set these to your desired values
 :::::::::::::::
 :: Log location and name. Do not use trailing slashes (\)
-set LOGPATH=%SystemDrive%\Logs
-set LOGFILE=
+set LOGPATH=%SystemDrive%\logs
+set LOGFILE=%COMPUTERNAME%_Google_Chrome_x86_install.log
 
 :: Package to install. Do not use trailing slashes (\)
 set BINARY=googlechromestandaloneenterprise x86.msi
