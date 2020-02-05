@@ -1,0 +1,36 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Pale Moon PDQ Deploy installer package license
+
+Licensed to: Vocatus Gate (vocatus.gate@gmail.com)
+
+Pale Moon has been licensed for incorporation in the PDQ Deploy server 
+administrator packages as a standalone binary module with required 
+configuration changes.
+This license is restricted to non-commercial availability and use
+of the PDQ Deploy installer packages.
+
+This incorporation is on an AS-IS basis, and any maintenance and configuration
+required for inclusion in the package, as well as the integrity of included
+binaries, is the responsibility of the PDQ Deployment package project owner(s).
+
+NO rights are granted to the Pale Moon name and logo or other items protected
+by intellectual property rights. Incorporation of the browser binaries with
+offical branding, as-built, is permitted use of the Pale Moon name and logo
+under this license.
+
+For any questions about Pale Moon licensing in the PDQ Deploy installer package,
+please contact the Pale Moon lead developer via e-mail at moonchild@palemoon.org
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.11 (MingW32)
+
+iQEcBAEBAgAGBQJSTslWAAoJEKxqDlWrbd269ckIAOvRpCfTH6AuFhE4EfijF+aE
+U34GwSH7WFmBFebQbqfH8hJpyk8Z05e/MMQTH+wQewhWQYis8V3VC49BUx5XUuDo
+KOGtl91bgZ5zL6djIC+iE8sL51ZLMDz8Uzsb5+Y+edMLSlhVBYwPicmaKy6NNhfC
+z/N0DTP47QyWknQ74d1CtNnXEzawNjmNtvI6fQ/sHxJwtwVYErYpCSz12a0w4Vk4
+P3c0caucFH25iWmUj+RYQL89JiC3HRo80ykAzMCPoJSEAXc50CzpiWnb/yv/GTnY
+9Sd1I6QfYMYC9QdJl33Snz1lkk/d7LPGdi9YQ8YG7++N1qoq0+aTNO+ia4U+2CM=
+=Us04
+-----END PGP SIGNATURE-----
