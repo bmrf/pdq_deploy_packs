@@ -1,7 +1,8 @@
 :: Purpose:       Installs a package
 :: Requirements:  Run this script with Administrator rights
 :: Author:        vocatus on reddit.com/r/sysadmin ( vocatus.gate@gmail.com ) // PGP key ID: 0x07d1490f82a211a2
-:: Version:       1.0.2 + Add additional commands to remove Adobe scheduled tasks
+:: Version:       1.0.3 + Add proper console and logfile logging
+::                1.0.2 + Add additional commands to remove Adobe scheduled tasks
 ::                1.0.1 * Expand wildcard mask to catch additional Flash Player Updater scheduled tasks
 ::                1.0.0 + Initial write
 
@@ -10,8 +11,8 @@
 :: Prep :: -- Don't change anything in this section
 ::::::::::
 @echo off
-set SCRIPT_VERSION=1.0.2
-set SCRIPT_UPDATED=2019-10-09
+set SCRIPT_VERSION=1.0.3
+set SCRIPT_UPDATED=2020-02-05
 :: Get the date into ISO 8601 standard date format (yyyy-mm-dd) so we can use it
 FOR /f %%a in ('WMIC OS GET LocalDateTime ^| find "."') DO set DTS=%%a
 set CUR_DATE=%DTS:~0,4%-%DTS:~4,2%-%DTS:~6,2%
@@ -24,7 +25,7 @@ pushd "%~dp0"
 :: VARIABLES :: -- Set these to your desired values
 :::::::::::::::
 :: Log location and name. Do not use trailing slashes (\)
-set LOGPATH=%SystemDrive%\Logs
+set LOGPATH=%SystemDrive%\logs
 set LOGFILE=%COMPUTERNAME%_Adobe_Flash_IE_install.log
 
 :: Package to install. Do not use trailing slashes (\)
@@ -39,15 +40,32 @@ if not exist %LOGPATH% mkdir %LOGPATH%
 :: INSTALLATION ::
 ::::::::::::::::::
 :: attempt to kill any running instances first
+echo %CUR_DATE% %TIME% Killing any running Internet Explorer-based browsers first, please wait...
+echo %CUR_DATE% %TIME% Killing any running Internet Explorer-based browsers first, please wait...>> "%LOGPATH%\%LOGFILE%" 2>NUL
 taskkill /f /im iexplore.exe /t >> "%LOGPATH%\%LOGFILE%" 2>NUL
 taskkill /f /im iexplorer.exe /t >> "%LOGPATH%\%LOGFILE%" 2>NUL
+echo %CUR_DATE% %TIME% Done.
+echo %CUR_DATE% %TIME% Done.>> "%LOGPATH%\%LOGFILE%" 2>NUL
+
 
 :: Remove prior versions of the Flash player
+echo %CUR_DATE% %TIME% Removing prior versions, please wait...
+echo %CUR_DATE% %TIME% Removing prior versions, please wait...>> "%LOGPATH%\%LOGFILE%" 2>NUL
 wmic product where "name like 'Adobe Flash Player%%ActiveX'" uninstall /nointeractive >> "%LOGPATH%\%LOGFILE%" 2>NUL
+echo %CUR_DATE% %TIME% Done.
+echo %CUR_DATE% %TIME% Done.>> "%LOGPATH%\%LOGFILE%" 2>NUL
+
 
 :: Install the package from the local folder (if all files are in the same directory)
+echo %CUR_DATE% %TIME% Installing package...
+echo %CUR_DATE% %TIME% Installing package...>> "%LOGPATH%\%LOGFILE%" 2>NUL
 msiexec /i "%BINARY%" %FLAGS% >> "%LOGPATH%\%LOGFILE%" 2>NUL
+echo %CUR_DATE% %TIME% Done.
+echo %CUR_DATE% %TIME% Done.>> "%LOGPATH%\%LOGFILE%" 2>NUL
 
+
+echo %CUR_DATE% %TIME% Disabling telemetry and cleaning up...
+echo %CUR_DATE% %TIME% Disabling telemetry and cleaning up...>> "%LOGPATH%\%LOGFILE%" 2>NUL
 :: Delete the Adobe Acrobat Update Service
 net stop AdobeARMservice >> "%LOGPATH%\%LOGFILE%" 2>NUL
 sc delete AdobeARMservice >> "%LOGPATH%\%LOGFILE%" 2>NUL
@@ -83,6 +101,9 @@ if exist "%WinDir%\System32\Macromed\Flash\" (
 if exist "%WinDir%\SysWow64\Macromed\Flash\" (
 	copy mms.cfg %WinDir%\SysWow64\Macromed\Flash\mms.cfg /Y >> "%LOGPATH%\%LOGFILE%" 2>NUL
 )
+
+echo %CUR_DATE% %TIME% Done.
+echo %CUR_DATE% %TIME% Done.>> "%LOGPATH%\%LOGFILE%" 2>NUL
 
 :: Pop back to original directory. This isn't necessary in stand-alone runs of the script, but is needed when being called from another script
 popd
