@@ -49,8 +49,8 @@ cls
 :: Kill any running instances of Chrome before installing. This is to avoid the UAC popup for Google Update which occurs if you push the installation while Chrome is running in a user session
 echo %CUR_DATE% %TIME% Killing any running Chrome-based browsers, please wait...
 echo %CUR_DATE% %TIME% Killing any running Chrome-based browsers, please wait...>> "%LOGPATH%\%LOGFILE%" 2>NUL
-%SystemDrive%\windows\system32\taskkill.exe /F /IM chrome.exe /T 2>NUL
-wmic process where name="chrome.exe" call terminate 2>NUL
+%SystemDrive%\windows\system32\taskkill.exe /F /IM chrome.exe /T >> "%LOGPATH%\%LOGFILE%" 2>NUL
+wmic process where name="chrome.exe" call terminate >> "%LOGPATH%\%LOGFILE%" 2>NUL
 echo %CUR_DATE% %TIME% Done.
 echo %CUR_DATE% %TIME% Done.>> "%LOGPATH%\%LOGFILE%" 2>NUL
 
@@ -58,7 +58,7 @@ echo %CUR_DATE% %TIME% Done.>> "%LOGPATH%\%LOGFILE%" 2>NUL
 :: Uninstall existing versions of Chrome
 echo %CUR_DATE% %TIME% Removing previous versions, please wait...
 echo %CUR_DATE% %TIME% Removing previous versions, please wait...>> "%LOGPATH%\%LOGFILE%" 2>NUL
-wmic product where "name like 'Google Chrome'" call uninstall /nointeractive
+wmic product where "name like 'Google Chrome'" call uninstall /nointeractive >> "%LOGPATH%\%LOGFILE%" 2>NUL
 echo %CUR_DATE% %TIME% Done.
 echo %CUR_DATE% %TIME% Done.>> "%LOGPATH%\%LOGFILE%" 2>NUL
 
@@ -76,14 +76,14 @@ echo %CUR_DATE% %TIME% Disabling telemetry and cleaning up...
 echo %CUR_DATE% %TIME% Disabling telemetry and cleaning up...>> "%LOGPATH%\%LOGFILE%" 2>NUL
 
 :: Import the reg file that disables Chrome auto-updater
-regedit /s Tweak_Disable_Chrome_Auto-Update.reg
+regedit /s Tweak_Disable_Chrome_Auto-Update.reg >> "%LOGPATH%\%LOGFILE%" 2>NUL
 
 :: Delete auto-update tasks that Google installs
-del /f /q %WinDir%\Tasks\GoogleUpdate*
-del /f /q %WinDir%\System32\Tasks\GoogleUpdate*
-del /f /q %WinDir%\System32\Tasks_Migrated\GoogleUpdate*
-schtasks /delete /F /TN "\GoogleUpdateTaskMachineCore"
-schtasks /delete /F /TN "\GoogleUpdateTaskMachineUA"
+del /f /q %WinDir%\Tasks\GoogleUpdate* >> "%LOGPATH%\%LOGFILE%" 2>NUL
+del /f /q %WinDir%\System32\Tasks\GoogleUpdate* >> "%LOGPATH%\%LOGFILE%" 2>NUL
+del /f /q %WinDir%\System32\Tasks_Migrated\GoogleUpdate* >> "%LOGPATH%\%LOGFILE%" 2>NUL
+schtasks /delete /F /TN "\GoogleUpdateTaskMachineCore" >> "%LOGPATH%\%LOGFILE%" 2>NUL
+schtasks /delete /F /TN "\GoogleUpdateTaskMachineUA" >> "%LOGPATH%\%LOGFILE%" 2>NUL
 
 :: Disable, then delete Google Update services
 net stop gupdatem 2>NUL
