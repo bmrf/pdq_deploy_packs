@@ -33,7 +33,7 @@ set LOGPATH=%SystemDrive%\logs
 set LOGFILE=%COMPUTERNAME%_Notepadpp_x86_install.log
 
 :: Package to install. Do not use trailing slashes (\)
-set BINARY=npp.7.8.2.Installer.exe
+set BINARY=npp.7.8.4.Installer.exe
 set FLAGS=/S
 
 
@@ -53,7 +53,7 @@ echo %CUR_DATE% %TIME% Done.>> "%LOGPATH%\%LOGFILE%" 2>NUL
 :: Install the package from a local directory (if all files are in the same directory)
 echo %CUR_DATE% %TIME% Installing package...
 echo %CUR_DATE% %TIME% Installing package...>> "%LOGPATH%\%LOGFILE%" 2>NUL
-"%BINARY%" %FLAGS%
+"%BINARY%" %FLAGS% >> "%LOGPATH%\%LOGFILE%" 2>NUL
 echo %CUR_DATE% %TIME% Done.
 echo %CUR_DATE% %TIME% Done.>> "%LOGPATH%\%LOGFILE%" 2>NUL
 
@@ -62,20 +62,20 @@ echo %CUR_DATE% %TIME% Done.>> "%LOGPATH%\%LOGFILE%" 2>NUL
 echo %CUR_DATE% %TIME% Finishing configuration and cleaning up...
 echo %CUR_DATE% %TIME% Finishing configuration and cleaning up...>> "%LOGPATH%\%LOGFILE%" 2>NUL
 :: Create allowAppDataPlugins.xml file so plugins are installed to %appdata%. Thanks to /u/ObiWanBaloney
-if exist "%ProgramFiles%\Notepad++" copy NUL "%ProgramFiles%\Notepad++\allowAppDataPlugins.xml"
-if exist "%ProgramFiles(x86)%\Notepad++" copy NUL "%ProgramFiles(x86)%\Notepad++\allowAppDataPlugins.xml"
+if exist "%ProgramFiles%\Notepad++" copy NUL "%ProgramFiles%\Notepad++\allowAppDataPlugins.xml" >> "%LOGPATH%\%LOGFILE%" 2>NUL
+if exist "%ProgramFiles(x86)%\Notepad++" copy NUL "%ProgramFiles(x86)%\Notepad++\allowAppDataPlugins.xml" >> "%LOGPATH%\%LOGFILE%" 2>NUL
 
 :: Delete the updater plugin
-if exist "%SystemDrive%\Program Files (x86)\Notepad++\updater" rmdir /s /q "%SystemDrive%\Program Files (x86)\Notepad++\updater" 2>NUL
-if exist "%SystemDrive%\Program Files\Notepad++\updater" rmdir /s /q "%SystemDrive%\Program Files\Notepad++\updater" 2>NUL
+if exist "%SystemDrive%\Program Files (x86)\Notepad++\updater" rmdir /s /q "%SystemDrive%\Program Files (x86)\Notepad++\updater" >> "%LOGPATH%\%LOGFILE%" 2>NUL
+if exist "%SystemDrive%\Program Files\Notepad++\updater" rmdir /s /q "%SystemDrive%\Program Files\Notepad++\updater" >> "%LOGPATH%\%LOGFILE%" 2>NUL
 
 :: Delete the DSpellCheck plugin
-del /f /q "%SystemDrive%\Program Files\Notepad++\plugins\DSpellCheck.dll" 2>NUL
-del /f /q "%SystemDrive%\Program Files (x86)\Notepad++\plugins\DSpellCheck.dll" 2>NUL
+del /f /q "%SystemDrive%\Program Files\Notepad++\plugins\DSpellCheck.dll" >> "%LOGPATH%\%LOGFILE%" 2>NUL
+del /f /q "%SystemDrive%\Program Files (x86)\Notepad++\plugins\DSpellCheck.dll" >> "%LOGPATH%\%LOGFILE%" 2>NUL
 
 :: Delete the Start Menu directory
 if %PRESERVE_SHORTCUTS%==no (
-	if exist "%ALLUSERSPROFILE%\Start Menu\Programs\Notepad++" rmdir /s /q "%ALLUSERSPROFILE%\Start Menu\Programs\Notepad++" 
+	if exist "%ALLUSERSPROFILE%\Start Menu\Programs\Notepad++" rmdir /s /q "%ALLUSERSPROFILE%\Start Menu\Programs\Notepad++" >> "%LOGPATH%\%LOGFILE%" 2>NUL
 )
 
 echo %CUR_DATE% %TIME% Done.
