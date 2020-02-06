@@ -49,16 +49,16 @@ cls
 :: Kill any running instances of Chrome before installing. This is to avoid the UAC popup for Google Update which occurs if you push the installation while Chrome is running in a user session
 echo %CUR_DATE% %TIME% Killing any running Chrome-based browsers, please wait...
 echo %CUR_DATE% %TIME% Killing any running Chrome-based browsers, please wait...>> "%LOGPATH%\%LOGFILE%" 2>NUL
-%SystemDrive%\windows\system32\taskkill.exe /F /IM chrome.exe /T 2>NUL
-wmic process where name="chrome.exe" call terminate 2>NUL
+%SystemDrive%\windows\system32\taskkill.exe /F /IM chrome.exe /T  >> "%LOGPATH%\%LOGFILE%" 2>NUL
+wmic process where name="chrome.exe" call terminate  >> "%LOGPATH%\%LOGFILE%" 2>NUL
 echo %CUR_DATE% %TIME% Done.
-echo %CUR_DATE% %TIME% Done.>> "%LOGPATH%\%LOGFILE%" 2>NUL
+echo %CUR_DATE% %TIME% Done.>> "%LOGPATH%\%LOGFILE%"  >> "%LOGPATH%\%LOGFILE%" 2>NUL
 
 
 :: Uninstall existing versions of Chrome
 echo %CUR_DATE% %TIME% Removing previous versions, please wait...
 echo %CUR_DATE% %TIME% Removing previous versions, please wait...>> "%LOGPATH%\%LOGFILE%" 2>NUL
-wmic product where "name like 'Google Chrome'" call uninstall /nointeractive
+wmic product where "name like 'Google Chrome'" call uninstall /nointeractive >> "%LOGPATH%\%LOGFILE%" 2>NUL
 echo %CUR_DATE% %TIME% Done.
 echo %CUR_DATE% %TIME% Done.>> "%LOGPATH%\%LOGFILE%" 2>NUL
 
@@ -66,7 +66,7 @@ echo %CUR_DATE% %TIME% Done.>> "%LOGPATH%\%LOGFILE%" 2>NUL
 :: Install package from local directory (if all files are in the same directory)
 echo %CUR_DATE% %TIME% Installing package...
 echo %CUR_DATE% %TIME% Installing package...>> "%LOGPATH%\%LOGFILE%" 2>NUL
-msiexec.exe /i "%BINARY%" %FLAGS%
+msiexec.exe /i "%BINARY%" %FLAGS% >> "%LOGPATH%\%LOGFILE%" 2>NUL
 echo %CUR_DATE% %TIME% Done.
 echo %CUR_DATE% %TIME% Done.>> "%LOGPATH%\%LOGFILE%" 2>NUL
 
@@ -79,31 +79,31 @@ echo %CUR_DATE% %TIME% Disabling telemetry and cleaning up...>> "%LOGPATH%\%LOGF
 regedit /s Tweak_Disable_Chrome_Auto-Update.reg
 
 :: Delete auto-update tasks that Google installs
-del /f /q %WinDir%\Tasks\GoogleUpdate*
-del /f /q %WinDir%\System32\Tasks\GoogleUpdate*
-del /f /q %WinDir%\System32\Tasks_Migrated\GoogleUpdate*
-schtasks /delete /F /TN "\GoogleUpdateTaskMachineCore"
-schtasks /delete /F /TN "\GoogleUpdateTaskMachineUA"
+del /f /q %WinDir%\Tasks\GoogleUpdate* >> "%LOGPATH%\%LOGFILE%" 2>NUL
+del /f /q %WinDir%\System32\Tasks\GoogleUpdate* >> "%LOGPATH%\%LOGFILE%" 2>NUL
+del /f /q %WinDir%\System32\Tasks_Migrated\GoogleUpdate* >> "%LOGPATH%\%LOGFILE%" 2>NUL
+schtasks /delete /F /TN "\GoogleUpdateTaskMachineCore" >> "%LOGPATH%\%LOGFILE%" 2>NUL
+schtasks /delete /F /TN "\GoogleUpdateTaskMachineUA" >> "%LOGPATH%\%LOGFILE%" 2>NUL
 
 :: Disable, then delete Google Update services
-net stop gupdatem 2>NUL
-net stop gupdate 2>NUL
-sc delete gupdatem 2>NUL
-sc delete gupdate 2>NUL
+net stop gupdatem  >> "%LOGPATH%\%LOGFILE%" 2>NUL
+net stop gupdate  >> "%LOGPATH%\%LOGFILE%" 2>NUL
+sc delete gupdatem  >> "%LOGPATH%\%LOGFILE%" 2>NUL
+sc delete gupdate  >> "%LOGPATH%\%LOGFILE%" 2>NUL
 
 :: Remove Google Update directory
-if exist "%ProgramFiles(x86)%\Google\Update" rmdir /s /q "%ProgramFiles(x86)%\Google\Update"
-if exist "%ProgramFiles%\Google\Update" rmdir /s /q "%ProgramFiles%\Google\Update"
+if exist "%ProgramFiles(x86)%\Google\Update" rmdir /s /q "%ProgramFiles(x86)%\Google\Update" >> "%LOGPATH%\%LOGFILE%" 2>NUL
+if exist "%ProgramFiles%\Google\Update" rmdir /s /q "%ProgramFiles%\Google\Update" >> "%LOGPATH%\%LOGFILE%" 2>NUL
 
 :: Remove Software Reporter tool
-if exist "%localappdata%\google\chrome\User Data\SwReporter\" rmdir /s /q "%localappdata%\google\chrome\User Data\SwReporter\"
+if exist "%localappdata%\google\chrome\User Data\SwReporter\" rmdir /s /q "%localappdata%\google\chrome\User Data\SwReporter\" >> "%LOGPATH%\%LOGFILE%" 2>NUL
 
 :: Remove desktop icons
 if %PRESERVE_SHORTCUTS%==no (
 	:: Windows XP
-	if exist "%allusersprofile%\Desktop\Google Chrome.lnk" del "%allusersprofile%\Desktop\Google Chrome.lnk" /S
+	if exist "%allusersprofile%\Desktop\Google Chrome.lnk" del "%allusersprofile%\Desktop\Google Chrome.lnk" /S >> "%LOGPATH%\%LOGFILE%" 2>NUL
 	:: Windows 7
-	if exist "%public%\Desktop\Google Chrome.lnk" del "%public%\Desktop\Google Chrome.lnk"
+	if exist "%public%\Desktop\Google Chrome.lnk" del "%public%\Desktop\Google Chrome.lnk" >> "%LOGPATH%\%LOGFILE%" 2>NUL
 )
 
 echo %CUR_DATE% %TIME% Done.
