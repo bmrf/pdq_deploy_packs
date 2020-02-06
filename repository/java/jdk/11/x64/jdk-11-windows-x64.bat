@@ -28,7 +28,7 @@ set LOGPATH=%SystemDrive%\logs
 set LOGFILE=jdk11_x64_install.log
 
 :: Package to install. Do not use trailing slashes (\)
-set BINARY=jdk-11.0.5-x64.exe
+set BINARY=jdk-11.0.6-x64.exe
 set FLAGS=/s /l %LOGPATH%\%LOGFILE% ADDLOCAL="ToolsFeature"
 
 :: Create the log directory if it doesn't exist
@@ -52,7 +52,7 @@ echo %CUR_DATE% %TIME% Done.>> "%LOGPATH%\%LOGFILE%" 2>NUL
 :: Install the package from a local folder (if all files are in the same directory)
 echo %CUR_DATE% %TIME% Installing package...
 echo %CUR_DATE% %TIME% Installing package...>> "%LOGPATH%\%LOGFILE%" 2>NUL
-"%BINARY%" %FLAGS%
+"%BINARY%" %FLAGS% >> "%LOGPATH%\%LOGFILE%" 2>NUL
 echo %CUR_DATE% %TIME% Done.
 echo %CUR_DATE% %TIME% Done.>> "%LOGPATH%\%LOGFILE%" 2>NUL
 
@@ -63,7 +63,7 @@ echo %CUR_DATE% %TIME% Disabling telemetry and cleaning up...>> "%LOGPATH%\%LOGF
 regedit /s Tweak_Disable_Java_Auto-Update.reg >> %LOGPATH%\%LOGFILE% 2>nul
 
 :: Uninstall the Java Auto Updater from Add/Remove Programs because it sometimes sneaks through
-wmic product where "name like 'Java Auto Updater'" call uninstall /nointeractive 2>NUL
+wmic product where "name like 'Java Auto Updater'" call uninstall /nointeractive  >> "%LOGPATH%\%LOGFILE%" 2>NUL
 
 :: Stop the Java Quickstarter service
 net stop JavaQuickStarterService>> "%LOGPATH%\%LOGFILE%" 2>NUL
