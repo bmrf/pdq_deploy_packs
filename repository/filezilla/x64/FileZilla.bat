@@ -28,7 +28,7 @@ set LOGPATH=%SystemDrive%\Logs
 set LOGFILE=%COMPUTERNAME%_FileZilla_x64_install.log
 
 :: Package to install. Do not use trailing slashes (\)
-set BINARY=FileZilla v3.46.3.exe
+set BINARY=FileZilla v3.48.1.exe
 set FLAGS=/S
 
 :: Create the log directory if it doesn't exist
