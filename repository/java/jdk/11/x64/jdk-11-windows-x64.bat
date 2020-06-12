@@ -28,7 +28,7 @@ set LOGPATH=%SystemDrive%\logs
 set LOGFILE=jdk11_x64_install.log
 
 :: Package to install. Do not use trailing slashes (\)
-set BINARY=jdk-11.0.6-x64.exe
+set BINARY=jdk-11.0.7-x64.exe
 set FLAGS=/s /l %LOGPATH%\%LOGFILE% ADDLOCAL="ToolsFeature"
 
 :: Create the log directory if it doesn't exist
