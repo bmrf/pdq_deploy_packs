@@ -27,8 +27,8 @@ if not exist %LOGPATH% mkdir %LOGPATH%
 :: Prep :: -- Don't change anything in this section
 ::::::::::
 @echo off
-set SCRIPT_VERSION=1.0.3
-set SCRIPT_UPDATED=2020-02-05
+set SCRIPT_VERSION=1.0.4
+set SCRIPT_UPDATED=2020-06-12
 :: Get the date into ISO 8601 standard date format (yyyy-mm-dd) so we can use it
 FOR /f %%a in ('WMIC OS GET LocalDateTime ^| find "."') DO set DTS=%%a
 set CUR_DATE=%DTS:~0,4%-%DTS:~4,2%-%DTS:~6,2%
