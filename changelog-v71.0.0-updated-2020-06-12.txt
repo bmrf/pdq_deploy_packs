@@ -12,7 +12,7 @@ Do not withold good from those who deserve it, when it is in your power to act. 
 
 
 v71.0.0 // 2020-06-12
-URL: 
+URL: https://www.reddit.com/r/pdq/comments/h7pspu/pdq_deploy_packs_v7100_20200612/
 ====================================================================================================
  ! Note: All packages are x64 architecture unless otherwise specified
 
