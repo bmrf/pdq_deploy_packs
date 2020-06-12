@@ -10,8 +10,130 @@ Legend:
 Do not withold good from those who deserve it, when it is in your power to act. -p3:27
 
 
+
+v71.0.0 // 2020-06-12
+URL: 
+====================================================================================================
+ ! Note: All packages are x64 architecture unless otherwise specified
+
+ . 7-Zip v19.00 (x86)                                      //
+ . 7-Zip v19.00                                            //
+ * Adobe Acrobat Reader DC v20.009.20063                   //
+ . Adobe AIR v32.0.0.125                                   //
+ * Adobe Flash Player v32.0.0.387 (Chrome)                 //
+ * Adobe Flash Player v32.0.0.387 (Firefox)                //
+ * Adobe Flash Player v32.0.0.387 (Internet Explorer)      //
+ . Apple iTunes v12.5.1.21                                 //
+ . CDBurnerXP v4.5.8.7128                                  //
+ * FileZilla Client v3.48.1                                //
+ * Gimp v2.10.20                                           //
+ * Google Chrome v83.0.4103.97 (Enterprise)                //
+ * Google Chrome v83.0.4103.97 (Enterprise) (x86)          //
+ * Google Earth Pro v7.3.3                                 //
+ . Java Development Kit 8 update 241                       //
+ . Java Development Kit 8 update 241 (x86)                 //
+ * Java Development Kit update 11.0.7                      //
+ . Java Runtime 8 update 241                               //
+ . Java Runtime 8 update 241 (x86)                         //
+ . Java Runtime 10.0.2                                     //
+ . KTS KypM Telnet/SSH Server v1.19c (x86)                 //
+ * LibreOffice v6.4.4                                      //
+ . Microsoft .NET Framework v3.5.1 SP1 (x86)               //
+ . Microsoft Silverlight v5.1.50918.0                      //
+ * Mozilla Firefox v77.0.1                                 // NOTE: Firefox auto-loads uBlock Origin ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox v77.0.1 (x86)                           // NOTE: Firefox auto-loads uBlock Origin ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox ESR v68.9.0                             // NOTE: Firefox ESR now loads uBlock Origin plugin
+ * Mozilla Firefox ESR v68.9.0 (x86)                       // NOTE: Firefox ESR now loads uBlock Origin plugin
+ * Mozilla Thunderbird v68.9.0 (x86)                       //
+ * Notepad++ v7.8.7 (x86)                                  //
+ * Pale Moon v28.10.0                                      //
+ * Pale Moon v28.10.0 (x86)                                //
+ . Spark v2.8.3 (x86)                                      //
+ . TightVNC v2.8.27                                        // remote connection password: nettech2
+ . TightVNC v2.8.27 (x86)                                  // remote connection password: nettech2
+ . UltraVNC v1.2.4.0 (x86)                                 // remote connection password: nettech2
+ * VLC media player v3.0.10                                // ! NOTE: x86 version removed; switched to x64 only
+ * WinSCP v5.17.6 (x86)                                    //
+
+Utilities:
+ . Clean Up All Printers                                   //
+ . Clean Up Orphaned Printers                              //
+ . Empty All Recycle Bins                                  //
+ . Enable Remote Desktop                                   //
+ . Install PKI Certificates                                //
+ . Reboot (force target reboot in 15 seconds)              //
+ . Remove Adobe Flash Player (all versions) v2.0.0         //
+ . Remove Java Runtime (all versions) v1.8.7               //
+ . Remove Microsoft Silverlight (all versions)             //
+ . Remove VNC Servers (TightVNC, UltraVNC, RealVNC)        //
+ . Temp File Cleanup v3.7.0 (clean temp folders on target) //
+ . USB Device Cleanup v1.2.0                               //
+
+
+
+v70.0.0 // 2020-03-31
+URL: https://www.reddit.com/r/pdq/comments/fsifg2/pdq_deploy_packs_v7000_20200331/
+====================================================================================================
+ ! Note: All packages are x64 architecture unless otherwise specified
+
+ . 7-Zip v19.00 (x86)                                      //
+ . 7-Zip v19.00                                            //
+ * Adobe Acrobat Reader DC v20.006.20042                   //
+ . Adobe AIR v32.0.0.125                                   //
+ * Adobe Flash Player v32.0.0.344 (Chrome)                 //
+ * Adobe Flash Player v32.0.0.344 (Firefox)                //
+ * Adobe Flash Player v32.0.0.344 (Internet Explorer)      //
+ . Apple iTunes v12.5.1.21                                 //
+ . CDBurnerXP v4.5.8.7128                                  //
+ . CutePDF v3.0 (PDF printer) (x86)                        // ! REMOVED; Since Windows natively supports PDF printing now there's no reason to keep this in the pack
+ * FileZilla Client v3.47.2.1                              //
+ * Gimp v2.10.18                                           //
+ * Google Chrome v80.0.3987.149 (Enterprise)               //
+ * Google Chrome v80.0.3987.149 (Enterprise) (x86)         //
+ . Google Earth Pro v7.3.2                                 //
+ * Java Development Kit 8 update 241                       //
+ * Java Development Kit 8 update 241 (x86)                 //
+ . Java Development Kit 11.0.6                             //
+ * Java Runtime 8 update 241                               //
+ * Java Runtime 8 update 241 (x86)                         //
+ . Java Runtime 10.0.2                                     //
+ . KTS KypM Telnet/SSH Server v1.19c (x86)                 //
+ * LibreOffice v6.4.2                                      //
+ . Microsoft .NET Framework v3.5.1 SP1 (x86)               //
+ . Microsoft Silverlight v5.1.50918.0                      //
+ . Mozilla Firefox v74.0.0                                 // NOTE: Firefox auto-loads uBlock Origin ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
+ . Mozilla Firefox v74.0.0 (x86)                           // NOTE: Firefox auto-loads uBlock Origin ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox ESR v68.6.0                             // NOTE: Firefox ESR does not auto-load uBlock Origin
+ * Mozilla Firefox ESR v68.6.0 (x86)                       // NOTE: Firefox ESR does not auto-load uBlock Origin
+ * Mozilla Thunderbird v68.6.0 (x86)                       //
+ * Notepad++ v7.8.5 (x86)                                  //
+ * Pale Moon v28.9.0.2                                     //
+ * Pale Moon v28.9.0.2 (x86)                               //
+ . Spark v2.8.3 (x86)                                      //
+ . TightVNC v2.8.27                                        // remote connection password: nettech2
+ . TightVNC v2.8.27 (x86)                                  // remote connection password: nettech2
+ * UltraVNC v1.2.4.0 (x86)                                 // remote connection password: nettech2
+ . VLC media player v3.0.8 (x86)                           //
+ * WinSCP v5.17.2 (x86)                                    //
+
+Utilities:
+ . Clean Up All Printers                                   //
+ . Clean Up Orphaned Printers                              //
+ . Empty All Recycle Bins                                  //
+ . Enable Remote Desktop                                   //
+ . Install PKI Certificates                                //
+ . Reboot (force target reboot in 15 seconds)              //
+ . Remove Adobe Flash Player (all versions) v2.0.0         //
+ . Remove Java Runtime (all versions) v1.8.7               //
+ . Remove Microsoft Silverlight (all versions)             //
+ . Remove VNC Servers (TightVNC, UltraVNC, RealVNC)        //
+ . Temp File Cleanup v3.7.0 (clean temp folders on target) //
+ . USB Device Cleanup v1.2.0                               //
+
+
+
 v69.0.0 // 2020-02-06
-URL:
+URL: https://www.reddit.com/r/pdq/comments/ezs325/pdq_deploy_packs_v6900_20200206/
 ====================================================================================================
  ! Note: All packages are x64 architecture unless otherwise specified
  * Improvement pack-wide for v69, ALL packages now properly log to the console (if launched directly) AND
@@ -4797,5 +4919,5 @@ Uninstallers:
 
 
 # Deployment script helper
-PACK_VERSION=69.0.0
-PACK_DATE=2020-02-06
+PACK_VERSION=71.0.0
+PACK_DATE=2020-06-12
