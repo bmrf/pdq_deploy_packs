@@ -2,7 +2,7 @@
 :: Requirements:  1. Run this script with Administrator rights
 :: Author:        vocatus on reddit.com/r/sysadmin ( vocatus.gate@gmail.com ) // PGP key ID: 0x07d1490f82a211a2
 :: History:       1.0.4 + Update installer to v7.3.3
-::								1.0.3 + Add proper console and logfile logging
+::                1.0.3 + Add proper console and logfile logging
 ::                1.0.2 + Add deletion of additional Google Update scheduled tasks
 ::                1.0.1 * Add command line argument to preserve shortcuts, default to False
 ::                1.0.0 + Initial write
