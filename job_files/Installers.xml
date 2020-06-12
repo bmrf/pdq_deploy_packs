@@ -1229,8 +1229,8 @@ Gimp v2.10.14 x86.exe /verysilent /norestart</Description>
         <IsAutoDownload value="false" />
         <FolderId value="4" />
         <LibraryPackageVersionId value="null" />
-        <Name>Google Earth Pro v7.3.2</Name>
-        <Path>Installers\Google Earth Pro v7.3.2</Path>
+        <Name>Google Earth Pro v7.3.3</Name>
+        <Path>Installers\Google Earth Pro v7.3.3</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
