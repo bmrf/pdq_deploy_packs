@@ -1,7 +1,8 @@
 :: Purpose:       Installs a package
 :: Requirements:  1. Run this script with Administrator rights
 :: Author:        vocatus on reddit.com/r/sysadmin ( vocatus.gate@gmail.com ) // PGP key ID: 0x07d1490f82a211a2
-:: History:       1.0.4 + Add Remove Software Reporter tool. Thanks to u/pushpak359
+:: History:       1.0.5 + Add removal of GoogleChromeElevationService
+::                1.0.4 + Add Remove Software Reporter tool. Thanks to u/pushpak359
 ::                      + Add proper console and logfile logging
 ::                1.0.3 + Add removal of any pre-existing Chrome installations prior to installing
 ::                1.0.2 + Add deletion of additional Google Update scheduled tasks
@@ -21,15 +22,15 @@ set BINARY=googlechromestandaloneenterprise x86.msi
 set FLAGS=ALLUSERS=1 /q /norestart
 
 :: Create the log directory if it doesn't exist
-if not exist %LOGPATH% mkdir %LOGPATH%
+if not exist "%LOGPATH%" mkdir "%LOGPATH%"
 
 
 ::::::::::
 :: Prep :: -- Don't change anything in this section
 ::::::::::
 @echo off
-set SCRIPT_VERSION=1.0.4
-set SCRIPT_UPDATED=2020-02-05
+set SCRIPT_VERSION=1.0.5
+set SCRIPT_UPDATED=2020-09-18
 :: Get the date into ISO 8601 standard date format (yyyy-mm-dd) so we can use it
 FOR /f %%a in ('WMIC OS GET LocalDateTime ^| find "."') DO set DTS=%%a
 set CUR_DATE=%DTS:~0,4%-%DTS:~4,2%-%DTS:~6,2%
@@ -71,7 +72,6 @@ echo %CUR_DATE% %TIME% Done.
 echo %CUR_DATE% %TIME% Done.>> "%LOGPATH%\%LOGFILE%" 2>NUL
 
 
-
 echo %CUR_DATE% %TIME% Disabling telemetry and cleaning up...
 echo %CUR_DATE% %TIME% Disabling telemetry and cleaning up...>> "%LOGPATH%\%LOGFILE%" 2>NUL
 
@@ -86,10 +86,13 @@ schtasks /delete /F /TN "\GoogleUpdateTaskMachineCore" >> "%LOGPATH%\%LOGFILE%" 
 schtasks /delete /F /TN "\GoogleUpdateTaskMachineUA" >> "%LOGPATH%\%LOGFILE%" 2>NUL
 
 :: Disable, then delete Google Update services
-net stop gupdatem  >> "%LOGPATH%\%LOGFILE%" 2>NUL
-net stop gupdate  >> "%LOGPATH%\%LOGFILE%" 2>NUL
-sc delete gupdatem  >> "%LOGPATH%\%LOGFILE%" 2>NUL
-sc delete gupdate  >> "%LOGPATH%\%LOGFILE%" 2>NUL
+net stop gupdatem >> "%LOGPATH%\%LOGFILE%" 2>NUL
+net stop gupdate >> "%LOGPATH%\%LOGFILE%" 2>NUL
+net stop GoogleChromeElevationService >> "%LOGPATH%\%LOGFILE%" 2>NUL
+sc delete gupdatem >> "%LOGPATH%\%LOGFILE%" 2>NUL
+sc delete gupdate >> "%LOGPATH%\%LOGFILE%" 2>NUL
+sc delete GoogleChromeElevationService >> "%LOGPATH%\%LOGFILE%" 2>NUL
+
 
 :: Remove Google Update directory
 if exist "%ProgramFiles(x86)%\Google\Update" rmdir /s /q "%ProgramFiles(x86)%\Google\Update" >> "%LOGPATH%\%LOGFILE%" 2>NUL
