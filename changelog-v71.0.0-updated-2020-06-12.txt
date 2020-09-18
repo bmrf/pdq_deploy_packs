@@ -11,6 +11,66 @@ Do not withold good from those who deserve it, when it is in your power to act. 
 
 
 
+v72.0.0 // 2020-09-18
+URL: https://www.reddit.com/r/pdq/comments/iv9gz5/pdq_deploy_packs_v7200_20200918/
+====================================================================================================
+ ! Note: All packages are x64 architecture unless otherwise specified
+
+ . 7-Zip v19.00 (x86)                                      //
+ . 7-Zip v19.00                                            //
+ * Adobe Acrobat Reader DC v20.012.20041                   //
+ . Adobe AIR v32.0.0.125                                   //
+ * Adobe Flash Player v32.0.0.433 (Chrome)                 //
+ * Adobe Flash Player v32.0.0.433 (Firefox)                //
+ * Adobe Flash Player v32.0.0.433 (Internet Explorer)      //
+ . Apple iTunes v12.5.1.21                                 //
+ . CDBurnerXP v4.5.8.7128                                  //
+ * FileZilla Client v3.50.0                                //
+ . Gimp v2.10.20                                           //
+ * Google Chrome v85.0.4183.102 (Enterprise)               //
+ * Google Chrome v85.0.4183.102 (Enterprise) (x86)         //
+ . Google Earth Pro v7.3.3                                 //
+ * Java Development Kit 8 update 261                       //
+ * Java Development Kit 8 update 261 (x86)                 //
+ . Java Development Kit update 11.0.7                      //
+ * Java Runtime 8 update 261                               //
+ * Java Runtime 8 update 261 (x86)                         //
+ . Java Runtime 10.0.2                                     //
+ . KTS KypM Telnet/SSH Server v1.19c (x86)                 //
+ * LibreOffice v7.0.1                                      //
+ . Microsoft .NET Framework v3.5.1 SP1 (x86)               //
+ . Microsoft Silverlight v5.1.50918.0                      //
+ * Mozilla Firefox v80.0.1                                 // NOTE: Firefox auto-loads uBlock Origin ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox v80.0.1 (x86)                           // NOTE: Firefox auto-loads uBlock Origin ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox ESR v68.12.0                            // NOTE: Firefox ESR now loads uBlock Origin plugin
+ * Mozilla Firefox ESR v68.12.0 (x86)                      // NOTE: Firefox ESR now loads uBlock Origin plugin
+ * Mozilla Thunderbird v78.2.2 (x86)                       //
+ * Notepad++ v7.8.9 (x86)                                  //
+ * Pale Moon v28.13.0                                      //
+ * Pale Moon v28.13.0 (x86)                                //
+ * Spark v2.9.2 (x86)                                      //
+ . TightVNC v2.8.27                                        // remote connection password: nettech2
+ . TightVNC v2.8.27 (x86)                                  // remote connection password: nettech2
+ . UltraVNC v1.2.4.0 (x86)                                 // remote connection password: nettech2
+ * VLC media player v3.0.11                                //
+ * WinSCP v5.17.7 (x86)                                    //
+
+Utilities:
+ . Clean Up All Printers                                   //
+ . Clean Up Orphaned Printers                              //
+ . Empty All Recycle Bins                                  //
+ . Enable Remote Desktop                                   //
+ . Install PKI Certificates                                //
+ . Reboot (force target reboot in 15 seconds)              //
+ . Remove Adobe Flash Player (all versions) v2.0.0         //
+ . Remove Java Runtime (all versions) v1.8.7               //
+ . Remove Microsoft Silverlight (all versions)             //
+ . Remove VNC Servers (TightVNC, UltraVNC, RealVNC)        //
+ . Temp File Cleanup v3.7.0 (clean temp folders on target) //
+ . USB Device Cleanup v1.2.0                               //
+
+
+
 v71.0.0 // 2020-06-12
 URL: https://www.reddit.com/r/pdq/comments/h7pspu/pdq_deploy_packs_v7100_20200612/
 ====================================================================================================
@@ -4919,5 +4979,5 @@ Uninstallers:
 
 
 # Deployment script helper
-PACK_VERSION=71.0.0
-PACK_DATE=2020-06-12
+PACK_VERSION=72.0.0
+PACK_DATE=2020-09-18
