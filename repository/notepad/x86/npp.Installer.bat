@@ -25,6 +25,7 @@ set PRESERVE_SHORTCUTS=no
 for %%i in (%*) do ( if /i %%i==--preserve-shortcuts set PRESERVE_SHORTCUTS=yes )
 
 
+
 :::::::::::::::
 :: VARIABLES :: -- Set these to your desired values
 :::::::::::::::
@@ -33,9 +34,12 @@ set LOGPATH=%SystemDrive%\logs
 set LOGFILE=%COMPUTERNAME%_Notepadpp_x86_install.log
 
 :: Package to install. Do not use trailing slashes (\)
-set BINARY=npp.7.8.7.Installer.exe
+set BINARY=npp.7.8.9.Installer.exe
 set FLAGS=/S
 
+
+:: Create the log directory if it doesn't exist
+if not exist "%LOGPATH%" mkdir "%LOGPATH%"
 
 
 ::::::::::::::::::
