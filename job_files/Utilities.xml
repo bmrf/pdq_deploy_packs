@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <AdminArsenal.Export Code="PDQDeploy" Name="PDQ Deploy" Version="17.2.0.0" MinimumVersion="15.0">
   <Folder>
-    <Created>2019-05-23T17:20:12.0000000-06:00</Created>
-    <Id value="4" />
-    <Modified>2019-05-23T17:20:12.0000000-06:00</Modified>
+    <Created>2019-10-18T07:41:05.0000000-06:00</Created>
+    <Id value="5" />
+    <Modified>2019-10-18T07:41:05.0000000-06:00</Modified>
     <Name>Utilities</Name>
     <ParentId value="null" />
     <Path>Utilities</Path>
     <FolderDisplaySettings name="DisplaySettings">
       <DisplayType>Normal</DisplayType>
       <IconKey>Icon-Folder</IconKey>
-      <SortOrder value="8" />
+      <SortOrder value="7" />
     </FolderDisplaySettings>
     <Children type="list">
       <Package>
@@ -88,7 +88,7 @@ Thanks to reddit.com/user/Calvus for this script, which he originally posted to 
         <OriginalId value="null" />
         <Version>1.0</Version>
         <IsAutoDownload value="false" />
-        <FolderId value="4" />
+        <FolderId value="5" />
         <LibraryPackageVersionId value="null" />
         <Name>Clean Up All Printers</Name>
         <Path>Utilities\Clean Up All Printers</Path>
@@ -171,7 +171,7 @@ Thanks to reddit.com/user/Calvus for this script, which he originally posted to 
         <OriginalId value="null" />
         <Version></Version>
         <IsAutoDownload value="false" />
-        <FolderId value="4" />
+        <FolderId value="5" />
         <LibraryPackageVersionId value="null" />
         <Name>Clean Up Orphaned Printers</Name>
         <Path>Utilities\Clean Up Orphaned Printers</Path>
@@ -254,7 +254,7 @@ Thanks to reddit.com/user/Calvus for this script, which he originally posted to 
         <OriginalId value="null" />
         <Version></Version>
         <IsAutoDownload value="false" />
-        <FolderId value="4" />
+        <FolderId value="5" />
         <LibraryPackageVersionId value="null" />
         <Name>Empty All Recycle Bins</Name>
         <Path>Utilities\Empty All Recycle Bins</Path>
@@ -343,7 +343,7 @@ Thanks to reddit.com/user/diggity801 for idea and script</Description>
         <OriginalId value="null" />
         <Version>1.0</Version>
         <IsAutoDownload value="false" />
-        <FolderId value="4" />
+        <FolderId value="5" />
         <LibraryPackageVersionId value="null" />
         <Name>Enable Remote Desktop</Name>
         <Path>Utilities\Enable Remote Desktop</Path>
@@ -433,7 +433,7 @@ Note: certmgr.exe was incredibly hard to track down - recommend not deleting it 
         <OriginalId value="null" />
         <Version>1.0.0</Version>
         <IsAutoDownload value="false" />
-        <FolderId value="4" />
+        <FolderId value="5" />
         <LibraryPackageVersionId value="null" />
         <Name>Install PKI Certificates</Name>
         <Path>Utilities\Install PKI Certificates</Path>
@@ -518,7 +518,7 @@ Edit "Parameters" under Step 1 of this job to specify the number of seconds to w
         <OriginalId value="null" />
         <Version></Version>
         <IsAutoDownload value="false" />
-        <FolderId value="4" />
+        <FolderId value="5" />
         <LibraryPackageVersionId value="null" />
         <Name>Reboot</Name>
         <Path>Utilities\Reboot</Path>
@@ -611,7 +611,7 @@ http://www.reddit.com/r/usefulscripts/comments/1v4qus/batch_adobe_flash_removal_
         <OriginalId value="null" />
         <Version>2.0.0</Version>
         <IsAutoDownload value="false" />
-        <FolderId value="4" />
+        <FolderId value="5" />
         <LibraryPackageVersionId value="null" />
         <Name>Remove Adobe Flash Player (all versions)</Name>
         <Path>Utilities\Remove Adobe Flash Player (all versions)</Path>
@@ -705,10 +705,98 @@ http://www.reddit.com/r/usefulscripts/comments/2hzt5c/batch_java_runtime_nuker_p
         <OriginalId value="null" />
         <Version>1.8.6</Version>
         <IsAutoDownload value="false" />
-        <FolderId value="4" />
+        <FolderId value="5" />
         <LibraryPackageVersionId value="null" />
         <Name>Remove Java Runtime (all versions)</Name>
         <Path>Utilities\Remove Java Runtime (all versions)</Path>
+        <PackageDisplaySettings name="DisplaySettings">
+          <DisplayType>Normal</DisplayType>
+          <IconKey>Icon-Package</IconKey>
+          <SortOrder value="7" />
+        </PackageDisplaySettings>
+      </Package>
+      <Package>
+        <CurrentLibraryPackageVersionId value="null" />
+        <PackageDefinition name="Definition">
+          <Conditions type="list">
+            <PackageStepCondition>
+              <Architecture>Both</Architecture>
+              <Version>All</Version>
+              <TypeName>OperatingSystem</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
+              <TypeName>LoggedOnUser</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <ConditionMode>None</ConditionMode>
+              <InventoryCollectionId value="null" />
+              <InventoryCollectionName></InventoryCollectionName>
+              <TypeName>Collection</TypeName>
+            </PackageStepCondition>
+          </Conditions>
+          <CopyMode>Default</CopyMode>
+          <DelayedApprovalTimeSpan>7.00:00:00</DelayedApprovalTimeSpan>
+          <DownloadApprovalMode>Manual</DownloadApprovalMode>
+          <InventoryScanProfileId value="null" />
+          <IsDownloadApprovalModeInherited value="true" />
+          <ScanAfterDeployment value="null" />
+          <Steps type="list">
+            <InstallStep>
+              <CustomCommandLine></CustomCommandLine>
+              <FileName>$(Repository)\utilities\remove_microsoft_silverlight\microsoft_silverlight_nuker.bat</FileName>
+              <Files></Files>
+              <IncludeDirectory value="true" />
+              <LeaveInstallFile value="false" />
+              <MsiOperation>Install</MsiOperation>
+              <MsiQuiet value="true" />
+              <MsiRestart>Never</MsiRestart>
+              <Parameters></Parameters>
+              <SuccessCodes>0,1641,3010</SuccessCodes>
+              <RunAs value="null" />
+              <Conditions type="list">
+                <PackageStepCondition>
+                  <Architecture>Both</Architecture>
+                  <Version>All</Version>
+                  <TypeName>OperatingSystem</TypeName>
+                </PackageStepCondition>
+                <PackageStepCondition>
+                  <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
+                  <TypeName>LoggedOnUser</TypeName>
+                </PackageStepCondition>
+                <PackageStepCondition>
+                  <ConditionMode>None</ConditionMode>
+                  <InventoryCollectionId value="null" />
+                  <InventoryCollectionName></InventoryCollectionName>
+                  <TypeName>Collection</TypeName>
+                </PackageStepCondition>
+              </Conditions>
+              <ErrorMode>StopDeploymentFail</ErrorMode>
+              <Title>Remove Microsoft Silverlight</Title>
+              <TypeName>Install</TypeName>
+              <IsEnabled value="true" />
+              <IsPostStep value="false" />
+              <IsPreStep value="false" />
+            </InstallStep>
+          </Steps>
+          <Timeout value="60" />
+          <UseCustomTimeout value="false" />
+          <RunAs value="null" />
+        </PackageDefinition>
+        <Description>Removes ALL versions of Microsoft Silverlight.
+
+By default logs to 'C:\Logs\%COMPUTERNAME%_adobe_flash_player_nuker.log'
+
+Script also available here:
+https://github.com/bmrf/standalone_scripts/blob/master/microsoft_silverlight_nuker.bat</Description>
+        <NewLibraryPackageVersionId value="null" />
+        <OriginalId value="null" />
+        <Version>1.0.0</Version>
+        <IsAutoDownload value="false" />
+        <FolderId value="5" />
+        <LibraryPackageVersionId value="null" />
+        <Name>Remove Microsoft Silverlight (all versions)</Name>
+        <Path>Utilities\Remove Microsoft Silverlight (all versions)</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -800,7 +888,7 @@ This script will:
         <OriginalId value="null" />
         <Version>1.1</Version>
         <IsAutoDownload value="false" />
-        <FolderId value="4" />
+        <FolderId value="5" />
         <LibraryPackageVersionId value="null" />
         <Name>Remove VNC Servers (TightVNC, UltraVNC, RealVNC)</Name>
         <Path>Utilities\Remove VNC Servers (TightVNC, UltraVNC, RealVNC)</Path>
@@ -886,7 +974,7 @@ http://www.reddit.com/r/usefulscripts/comments/2gk3v6/batch_tempfilecleanup/</De
         <OriginalId value="null" />
         <Version>3.6.0</Version>
         <IsAutoDownload value="false" />
-        <FolderId value="4" />
+        <FolderId value="5" />
         <LibraryPackageVersionId value="null" />
         <Name>Temp File Cleanup</Name>
         <Path>Utilities\Temp File Cleanup</Path>
@@ -976,7 +1064,7 @@ Thanks to Uwe Sieber ( www.uwe-sieber.de ) for DeviceCleanup.exe</Description>
         <OriginalId value="null" />
         <Version>1.2.0</Version>
         <IsAutoDownload value="false" />
-        <FolderId value="4" />
+        <FolderId value="5" />
         <LibraryPackageVersionId value="null" />
         <Name>USB Device Cleanup</Name>
         <Path>Utilities\USB Device Cleanup</Path>

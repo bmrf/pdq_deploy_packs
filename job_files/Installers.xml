@@ -438,12 +438,12 @@
  - Removes the Adobe Update scheduled task that gets installed (C:\Windows\tasks\Adobe Flash Player Updater.job)</Description>
         <NewLibraryPackageVersionId value="null" />
         <OriginalId value="null" />
-        <Version>32.0.0.433</Version>
+        <Version>32.0.0.445</Version>
         <IsAutoDownload value="false" />
         <FolderId value="6" />
         <LibraryPackageVersionId value="null" />
-        <Name>Adobe Flash Player v32.0.0.433 (Chrome)</Name>
-        <Path>Installers\Adobe Flash Player v32.0.0.433 (Chrome)</Path>
+        <Name>Adobe Flash Player v32.0.0.445 (Chrome)</Name>
+        <Path>Installers\Adobe Flash Player v32.0.0.445 (Chrome)</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -525,12 +525,12 @@
  - Removes the Adobe Update scheduled task that gets installed (C:\Windows\tasks\Adobe Flash Player Updater.job)</Description>
         <NewLibraryPackageVersionId value="null" />
         <OriginalId value="null" />
-        <Version>32.0.0.433</Version>
+        <Version>32.0.0.445</Version>
         <IsAutoDownload value="false" />
         <FolderId value="6" />
         <LibraryPackageVersionId value="null" />
-        <Name>Adobe Flash Player v32.0.0.433 (Firefox)</Name>
-        <Path>Installers\Adobe Flash Player v32.0.0.433 (Firefox)</Path>
+        <Name>Adobe Flash Player v32.0.0.445 (Firefox)</Name>
+        <Path>Installers\Adobe Flash Player v32.0.0.445 (Firefox)</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -612,12 +612,12 @@
  - Removes the Adobe Update scheduled task that gets installed (C:\Windows\tasks\Adobe Flash Player Updater.job)</Description>
         <NewLibraryPackageVersionId value="null" />
         <OriginalId value="null" />
-        <Version>32.0.0.433</Version>
+        <Version>32.0.0.445</Version>
         <IsAutoDownload value="false" />
         <FolderId value="6" />
         <LibraryPackageVersionId value="null" />
-        <Name>Adobe Flash Player v32.0.0.433 (IE)</Name>
-        <Path>Installers\Adobe Flash Player v32.0.0.433 (IE)</Path>
+        <Name>Adobe Flash Player v32.0.0.445 (IE)</Name>
+        <Path>Installers\Adobe Flash Player v32.0.0.445 (IE)</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -911,7 +911,7 @@
           <Steps type="list">
             <InstallStep>
               <CustomCommandLine></CustomCommandLine>
-              <FileName>$(Repository)\gimp\x86\Gimp v2.10.20 x86.exe</FileName>
+              <FileName>$(Repository)\gimp\x86\Gimp v2.10.22 x86.exe</FileName>
               <Files></Files>
               <IncludeDirectory value="true" />
               <LeaveInstallFile value="false" />
@@ -952,15 +952,15 @@
         </PackageDefinition>
         <Description>Installs Gimp silently with the following flags:
 
-Gimp v2.10.20 x86.exe /verysilent /norestart</Description>
+Gimp v2.10.22 x86.exe /verysilent /norestart</Description>
         <NewLibraryPackageVersionId value="null" />
         <OriginalId value="null" />
         <Version>2.10.10</Version>
         <IsAutoDownload value="false" />
         <FolderId value="6" />
         <LibraryPackageVersionId value="null" />
-        <Name>Gimp v2.10.20 (x86)</Name>
-        <Path>Installers\Gimp v2.10.20 (x86)</Path>
+        <Name>Gimp v2.10.22 (x86)</Name>
+        <Path>Installers\Gimp v2.10.22 (x86)</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -1324,12 +1324,12 @@ Thus, if you already had JRE8 installed when you install JDK and instruct it not
 There is no option to JUST install JDK8 without touching JRE8 installations.</Description>
         <NewLibraryPackageVersionId value="null" />
         <OriginalId value="null" />
-        <Version>8.0.241</Version>
+        <Version>8.0.271</Version>
         <IsAutoDownload value="false" />
         <FolderId value="6" />
         <LibraryPackageVersionId value="null" />
-        <Name>Java Development Kit 8 update 261</Name>
-        <Path>Installers\Java Development Kit 8 update 261</Path>
+        <Name>Java Development Kit 8 update 271</Name>
+        <Path>Installers\Java Development Kit 8 update 271</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -1423,12 +1423,12 @@ Thus, if you already had JRE8 installed when you install JDK and instruct it not
 There is no option to JUST install JDK8 without touching JRE8 installations.</Description>
         <NewLibraryPackageVersionId value="null" />
         <OriginalId value="null" />
-        <Version>8.0.241</Version>
+        <Version>8.0.271</Version>
         <IsAutoDownload value="false" />
         <FolderId value="6" />
         <LibraryPackageVersionId value="null" />
-        <Name>Java Development Kit 8 update 261 (x86)</Name>
-        <Path>Installers\Java Development Kit 8 update 261 (x86)</Path>
+        <Name>Java Development Kit 8 update 271 (x86)</Name>
+        <Path>Installers\Java Development Kit 8 update 271 (x86)</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -1611,12 +1611,12 @@ There is no option to JUST install JDK10 without touching JRE8 installations.</D
  * If you wish to disable this behavior, edit the 'deployment.properties' file and comment out or delete the line that reads 'deployment.security.level.locked'</Description>
         <NewLibraryPackageVersionId value="null" />
         <OriginalId value="null" />
-        <Version>8.0.241</Version>
+        <Version>8.0.271</Version>
         <IsAutoDownload value="false" />
         <FolderId value="6" />
         <LibraryPackageVersionId value="null" />
-        <Name>Java Runtime 8 update 261</Name>
-        <Path>Installers\Java Runtime 8 update 261</Path>
+        <Name>Java Runtime 8 update 271</Name>
+        <Path>Installers\Java Runtime 8 update 271</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -1700,12 +1700,12 @@ There is no option to JUST install JDK10 without touching JRE8 installations.</D
  * If you wish to disable this behavior, edit the 'deployment.properties' file and comment out or delete the line that reads 'deployment.security.level.locked'</Description>
         <NewLibraryPackageVersionId value="null" />
         <OriginalId value="null" />
-        <Version>8.0.241</Version>
+        <Version>8.0.271</Version>
         <IsAutoDownload value="false" />
         <FolderId value="6" />
         <LibraryPackageVersionId value="null" />
-        <Name>Java Runtime 8 update 261 (x86)</Name>
-        <Path>Installers\Java Runtime 8 update 261 (x86)</Path>
+        <Name>Java Runtime 8 update 271 (x86)</Name>
+        <Path>Installers\Java Runtime 8 update 271 (x86)</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -1966,12 +1966,12 @@ If the target machine is on a domain, the login format is as follows:
  - Removes all language files except English (US)</Description>
         <NewLibraryPackageVersionId value="null" />
         <OriginalId value="null" />
-        <Version>6.4.4</Version>
+        <Version>7.0.3</Version>
         <IsAutoDownload value="false" />
         <FolderId value="6" />
         <LibraryPackageVersionId value="null" />
-        <Name>LibreOffice v6.4.4</Name>
-        <Path>Installers\LibreOffice v6.4.4</Path>
+        <Name>LibreOffice v7.0.3</Name>
+        <Path>Installers\LibreOffice v7.0.3</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -2233,12 +2233,12 @@ If the target machine is on a domain, the login format is as follows:
  * These customizations come from the file '\autoconfig\cck2.cfg' in the package directory. If you want to change them, edit or delete this file. The config file was generated with the CCK2 addon for Firefox.</Description>
         <NewLibraryPackageVersionId value="null" />
         <OriginalId value="null" />
-        <Version>68.9.0</Version>
+        <Version>78.4.0</Version>
         <IsAutoDownload value="false" />
         <FolderId value="6" />
         <LibraryPackageVersionId value="null" />
-        <Name>Mozilla Firefox v68.9.0 ESR (customized)</Name>
-        <Path>Installers\Mozilla Firefox v68.9.0 ESR (customized)</Path>
+        <Name>Mozilla Firefox v78.4.0 ESR (customized)</Name>
+        <Path>Installers\Mozilla Firefox v78.4.0 ESR (customized)</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -2330,12 +2330,12 @@ If the target machine is on a domain, the login format is as follows:
  * These customizations come from the file '\autoconfig\cck2.cfg' in the package directory. If you want to change them, edit or delete this file. The config file was generated with the CCK2 addon for Firefox.</Description>
         <NewLibraryPackageVersionId value="null" />
         <OriginalId value="null" />
-        <Version>68.9.0</Version>
+        <Version>78.4.0</Version>
         <IsAutoDownload value="false" />
         <FolderId value="6" />
         <LibraryPackageVersionId value="null" />
-        <Name>Mozilla Firefox v68.9.0 ESR (customized) (x86)</Name>
-        <Path>Installers\Mozilla Firefox v68.9.0 ESR (customized) (x86)</Path>
+        <Name>Mozilla Firefox v78.4.0 ESR (customized) (x86)</Name>
+        <Path>Installers\Mozilla Firefox v78.4.0 ESR (customized) (x86)</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -2428,12 +2428,12 @@ If the target machine is on a domain, the login format is as follows:
  * These customizations come from the file '\autoconfig\cck2.cfg' in the package directory. If you want to change them, edit or delete this file. The config file was generated with the CCK2 addon for Firefox.</Description>
         <NewLibraryPackageVersionId value="null" />
         <OriginalId value="null" />
-        <Version>80.0.1</Version>
+        <Version>82.0.2</Version>
         <IsAutoDownload value="false" />
         <FolderId value="6" />
         <LibraryPackageVersionId value="null" />
-        <Name>Mozilla Firefox v80.0.1 (customized)</Name>
-        <Path>Installers\Mozilla Firefox v80.0.1 (customized)</Path>
+        <Name>Mozilla Firefox v82.0.2 (customized)</Name>
+        <Path>Installers\Mozilla Firefox v82.0.2 (customized)</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -2526,12 +2526,12 @@ If the target machine is on a domain, the login format is as follows:
  * These customizations come from the file '\autoconfig\cck2.cfg' in the package directory. If you want to change them, edit or delete this file. The config file was generated with the CCK2 addon for Firefox.</Description>
         <NewLibraryPackageVersionId value="null" />
         <OriginalId value="null" />
-        <Version>80.0.1</Version>
+        <Version>82.0.2</Version>
         <IsAutoDownload value="false" />
         <FolderId value="6" />
         <LibraryPackageVersionId value="null" />
-        <Name>Mozilla Firefox v80.0.1 (customized) (x86)</Name>
-        <Path>Installers\Mozilla Firefox v80.0.1 (customized) (x86)</Path>
+        <Name>Mozilla Firefox v82.0.2 (customized) (x86)</Name>
+        <Path>Installers\Mozilla Firefox v82.0.2 (customized) (x86)</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -2619,12 +2619,12 @@ If the target machine is on a domain, the login format is as follows:
 * If you wish to disable these settings, remove the three *.js files in the package directory</Description>
         <NewLibraryPackageVersionId value="null" />
         <OriginalId value="null" />
-        <Version>78.2.2</Version>
+        <Version>78.4.1</Version>
         <IsAutoDownload value="false" />
         <FolderId value="6" />
         <LibraryPackageVersionId value="null" />
-        <Name>Mozilla Thunderbird v78.2.2 (customized) (x86)</Name>
-        <Path>Installers\Mozilla Thunderbird v78.2.2 (customized) (x86)</Path>
+        <Name>Mozilla Thunderbird v78.4.1 (customized) (x86)</Name>
+        <Path>Installers\Mozilla Thunderbird v78.4.1 (customized) (x86)</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -2705,12 +2705,12 @@ If the target machine is on a domain, the login format is as follows:
  - Deletes the DSpellCheck plugin</Description>
         <NewLibraryPackageVersionId value="null" />
         <OriginalId value="null" />
-        <Version>7.8.9</Version>
+        <Version>7.9.1</Version>
         <IsAutoDownload value="false" />
         <FolderId value="6" />
         <LibraryPackageVersionId value="null" />
-        <Name>Notepad++ v7.8.9</Name>
-        <Path>Installers\Notepad++ v7.8.9</Path>
+        <Name>Notepad++ v7.9.1</Name>
+        <Path>Installers\Notepad++ v7.9.1</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -2792,12 +2792,12 @@ If the target machine is on a domain, the login format is as follows:
 Thanks to Moonchild ( http://www.palemoon.org/ ) for redistribution permission.</Description>
         <NewLibraryPackageVersionId value="null" />
         <OriginalId value="null" />
-        <Version>28.13.0</Version>
+        <Version>28.15.0</Version>
         <IsAutoDownload value="false" />
         <FolderId value="6" />
         <LibraryPackageVersionId value="null" />
-        <Name>Pale Moon v28.13.0</Name>
-        <Path>Installers\Pale Moon v28.13.0</Path>
+        <Name>Pale Moon v28.15.0</Name>
+        <Path>Installers\Pale Moon v28.15.0</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -2879,12 +2879,12 @@ Thanks to Moonchild ( http://www.palemoon.org/ ) for redistribution permission.<
 Thanks to Moonchild ( http://www.palemoon.org/ ) for redistribution permission.</Description>
         <NewLibraryPackageVersionId value="null" />
         <OriginalId value="null" />
-        <Version>28.13.0</Version>
+        <Version>28.15.0</Version>
         <IsAutoDownload value="false" />
         <FolderId value="6" />
         <LibraryPackageVersionId value="null" />
-        <Name>Pale Moon v28.13.0 (x86)</Name>
-        <Path>Installers\Pale Moon v28.13.0 (x86)</Path>
+        <Name>Pale Moon v28.15.0 (x86)</Name>
+        <Path>Installers\Pale Moon v28.15.0 (x86)</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -2965,12 +2965,12 @@ Thanks to Moonchild ( http://www.palemoon.org/ ) for redistribution permission.<
  - Deletes the OTR ("Off the Record") encryption plugin</Description>
         <NewLibraryPackageVersionId value="null" />
         <OriginalId value="null" />
-        <Version>2.9.2</Version>
+        <Version>2.9.3</Version>
         <IsAutoDownload value="false" />
         <FolderId value="6" />
         <LibraryPackageVersionId value="null" />
-        <Name>Spark v2.9.2 (x86)</Name>
-        <Path>Installers\Spark v2.9.2 (x86)</Path>
+        <Name>Spark v2.9.3 (x86)</Name>
+        <Path>Installers\Spark v2.9.3 (x86)</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -3410,12 +3410,12 @@ and paste the resulting password in the 'ultravnc.ini' file in the same director
  - Associates .scp file extensions with WinSCP</Description>
         <NewLibraryPackageVersionId value="null" />
         <OriginalId value="null" />
-        <Version>5.17.7</Version>
+        <Version>5.17.8</Version>
         <IsAutoDownload value="false" />
         <FolderId value="6" />
         <LibraryPackageVersionId value="null" />
-        <Name>WinSCP v5.17.7 (x86)</Name>
-        <Path>Installers\WinSCP v5.17.7 (x86)</Path>
+        <Name>WinSCP v5.17.8 (x86)</Name>
+        <Path>Installers\WinSCP v5.17.8 (x86)</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
