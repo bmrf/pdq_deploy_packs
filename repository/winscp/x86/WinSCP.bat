@@ -29,7 +29,7 @@ set LOGFILE=%COMPUTERNAME%_WinSCP_x86_install.log
 
 :: Package to install. Do not use trailing slashes (\)
 set BINARY=WinSCP x86.exe
-set FLAGS=/VERYSILENT /NOCANDY /NORESTART /MERGETASKS="!desktopicon"
+set FLAGS=/VERYSILENT /ALLUSERS /NOCANDY /NORESTART /MERGETASKS="!desktopicon"
 
 :: Create the log directory if it doesn't exist
 if not exist %LOGPATH% mkdir %LOGPATH%
