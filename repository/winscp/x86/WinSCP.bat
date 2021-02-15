@@ -1,7 +1,8 @@
 :: Purpose:       Installs a package
 :: Requirements:  Run this script with Administrator rights
 :: Author:        vocatus on reddit.com/r/sysadmin ( vocatus.gate@gmail.com ) // PGP key ID: 0x07d1490f82a211a2
-:: Version:       1.0.1 + Add proper console and logfile logging
+:: Version:       1.0.2 ! Fix installation hang due to missing /ALLUSERS command. Thanks to github:AJDurant
+::                1.0.1 + Add proper console and logfile logging
 ::                1.0.0 + Initial write
 
 
@@ -9,8 +10,8 @@
 :: Prep :: -- Don't change anything in this section
 ::::::::::
 @echo off
-set SCRIPT_VERSION=1.0.1
-set SCRIPT_UPDATED=2020-02-05
+set SCRIPT_VERSION=1.0.2
+set SCRIPT_UPDATED=2021-02-15
 :: Get the date into ISO 8601 standard date format (yyyy-mm-dd) so we can use it
 FOR /f %%a in ('WMIC OS GET LocalDateTime ^| find "."') DO set DTS=%%a
 set CUR_DATE=%DTS:~0,4%-%DTS:~4,2%-%DTS:~6,2%
@@ -32,7 +33,7 @@ set BINARY=WinSCP x86.exe
 set FLAGS=/VERYSILENT /ALLUSERS /NOCANDY /NORESTART /MERGETASKS="!desktopicon"
 
 :: Create the log directory if it doesn't exist
-if not exist %LOGPATH% mkdir %LOGPATH%
+if not exist "%LOGPATH%" mkdir "%LOGPATH%"
 
 
 ::::::::::::::::::
