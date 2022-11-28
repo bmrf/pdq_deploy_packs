@@ -1,13 +1,16 @@
 :: Purpose:       Installs a package
 :: Requirements:  1. Run this script with Administrator rights
 :: Author:        vocatus on reddit.com/r/sysadmin ( vocatus.gate@gmail.com ) // PGP key ID: 0x07d1490f82a211a2
-:: History:       1.0.5 + Add removal of GoogleChromeElevationService
+:: History:       1.0.7 * Improve removal of GoogleUpdate tasks in task scheduler
+::                1.0.6 * Improve removal of GoogleUpdate tasks in task scheduler
+::                1.0.5 + Add removal of GoogleChromeElevationService
 ::                1.0.4 + Add Remove Software Reporter tool. Thanks to u/pushpak359
 ::                      + Add proper console and logfile logging
 ::                1.0.3 + Add removal of any pre-existing Chrome installations prior to installing
 ::                1.0.2 + Add deletion of additional Google Update scheduled tasks
 ::                1.0.1 * Add command line argument to preserve shortcuts, default to False
 ::                1.0.0 + Initial write
+@echo off
 
 
 :::::::::::::::
@@ -28,9 +31,9 @@ if not exist "%LOGPATH%" mkdir "%LOGPATH%"
 ::::::::::
 :: Prep :: -- Don't change anything in this section
 ::::::::::
-@echo off
-set SCRIPT_VERSION=1.0.5
-set SCRIPT_UPDATED=2020-09-18
+::@echo off
+set SCRIPT_VERSION=1.0.7
+set SCRIPT_UPDATED=2022-05-31
 :: Get the date into ISO 8601 standard date format (yyyy-mm-dd) so we can use it
 FOR /f %%a in ('WMIC OS GET LocalDateTime ^| find "."') DO set DTS=%%a
 set CUR_DATE=%DTS:~0,4%-%DTS:~4,2%-%DTS:~6,2%
@@ -82,8 +85,7 @@ regedit /s Tweak_Disable_Chrome_Auto-Update.reg >> "%LOGPATH%\%LOGFILE%" 2>NUL
 del /f /q %WinDir%\Tasks\GoogleUpdate* >> "%LOGPATH%\%LOGFILE%" 2>NUL
 del /f /q %WinDir%\System32\Tasks\GoogleUpdate* >> "%LOGPATH%\%LOGFILE%" 2>NUL
 del /f /q %WinDir%\System32\Tasks_Migrated\GoogleUpdate* >> "%LOGPATH%\%LOGFILE%" 2>NUL
-schtasks /delete /F /TN "\GoogleUpdateTaskMachineCore" >> "%LOGPATH%\%LOGFILE%" 2>NUL
-schtasks /delete /F /TN "\GoogleUpdateTaskMachineUA" >> "%LOGPATH%\%LOGFILE%" 2>NUL
+for /f "tokens=2 delims=\" %%i in ('schtasks /query /fo:list ^| findstr ^^GoogleUpdate') do schtasks /Delete /TN %%i /F >> "%LOGPATH%\%LOGFILE%" 2>NUL
 
 :: Disable, then delete Google Update services
 net stop gupdatem >> "%LOGPATH%\%LOGFILE%" 2>NUL
