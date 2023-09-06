@@ -10,6 +10,702 @@ Legend:
 Do not withold good from those who deserve it, when it is in your power to act. -p3:27
 
 
+
+
+v88.0.0 // 2023-09-05
+URL: https://www.reddit.com/r/pdq/comments/16b54gp/pdq_deploy_packages_v8800_20230905/
+====================================================================================================
+ ! Note: All packages are x64 architecture unless otherwise specified
+
+ . 7-Zip v23.01 (x86)                                      //
+ . 7-Zip v23.01                                            //
+ * Adobe Acrobat Reader DC v23.003.20284                   //
+ . CDBurnerXP v4.5.8.7128                                  //
+ . FileZilla Client v3.65.0                                //
+ . Gimp v2.10.34 (x86)                                     //
+ * Google Chrome v116.0.5845.180 (Enterprise)              //
+ * Google Chrome v116.0.5845.180 (Enterprise) (x86)        //
+ . Java Development Kit 8 update 341                       //
+ . Java Development Kit 8 update 341 (x86)                 //
+ . Java Development Kit update 11.0.16                     //
+ . Java Runtime 10.0.2                                     // 
+ . KTS KypM Telnet/SSH Server v1.19c (x86)                 //
+ * LibreOffice v7.6.6                                      //
+ . Microsoft .NET Framework v3.5.1 SP1 (x86)               //
+ . Microsoft Silverlight v5.1.50918.0                      //
+ * Mozilla Firefox v117.0.0                                // NOTE: Firefox loads the uBlock Origin adblock plugin
+ * Mozilla Firefox v117.0.0 (x86)                          // NOTE: Firefox loads the uBlock Origin adblock plugin
+ * Mozilla Firefox ESR v102.15.0                           // NOTE: Firefox ESR loads uBlock Origin adblock plugin
+ * Mozilla Firefox ESR v102.15.0 (x86)                     // NOTE: Firefox ESR loads uBlock Origin adblock plugin
+ * Mozilla Thunderbird v115.2.0 (x86)                      //
+ * Notepad++ v8.5.6                                        //
+ * Pale Moon v32.4.1                                       //
+ . Spark v3.0.2 (x86)                                      //
+ . TightVNC v2.8.81                                        // remote connection password: nettech2
+ . TightVNC v2.8.81 (x86)                                  // remote connection password: nettech2
+ . UltraVNC v1.4.3.1 (x86)                                 // remote connection password: nettech2
+ . VLC media player v3.0.18                                //
+ . WinSCP v6.1.1 (x86)                                     //
+
+Utilities:
+ . Clean Up All Printers                                   //
+ . Clean Up Orphaned Printers                              //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
+ . Enable Remote Desktop (enable RDP on target)            //
+ . Install PKI Certificates                                //
+ . Reboot (force target reboot in 15 seconds)              //
+ . Remove Adobe Flash Player (all versions) v2.0.0         //
+ . Remove Java Runtime (all versions) v1.8.8               //
+ . Remove Microsoft Silverlight (all versions)             //
+ . Remove VNC Servers (TightVNC, UltraVNC, RealVNC)        //
+ . Temp File Cleanup v3.7.0 (clean temp folders on target) //
+ . USB Device Cleanup v1.6.3                               //
+
+
+v87.0.0 // 2023-07-25
+URL: https://www.reddit.com/r/pdq/comments/159nqfi/pdq_deploy_packages_v8700_20230725
+====================================================================================================
+ ! Note: All packages are x64 architecture unless otherwise specified
+
+ * 7-Zip v23.01 (x86)                                      //
+ * 7-Zip v23.01                                            //
+ * Adobe Acrobat Reader DC v23.003.20244                   //
+ . CDBurnerXP v4.5.8.7128                                  //
+ * FileZilla Client v3.65.0                                //
+ . Gimp v2.10.34 (x86)                                     //
+ * Google Chrome v115.0.5790.102 (Enterprise)              //
+ * Google Chrome v115.0.5790.102 (Enterprise) (x86)        //
+ . Java Development Kit 8 update 341                       //
+ . Java Development Kit 8 update 341 (x86)                 //
+ . Java Development Kit update 11.0.16                     //
+ . Java Runtime 10.0.2                                     // 
+ . KTS KypM Telnet/SSH Server v1.19c (x86)                 //
+ * LibreOffice v7.5.5                                      //
+ . Microsoft .NET Framework v3.5.1 SP1 (x86)               //
+ . Microsoft Silverlight v5.1.50918.0                      //
+ * Mozilla Firefox v115.0.2                                // NOTE: Firefox loads the uBlock Origin adblock plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox v115.0.2 (x86)                          // NOTE: Firefox loads the uBlock Origin adblock plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox ESR v102.13.0                           // NOTE: Firefox ESR loads uBlock Origin plugin
+ * Mozilla Firefox ESR v102.13.0 (x86)                     // NOTE: Firefox ESR loads uBlock Origin plugin
+ * Mozilla Thunderbird v115.0.1 (x86)                      //
+ * Notepad++ v8.5.4                                        //
+ * Pale Moon v32.3.1                                       //
+ . Spark v3.0.2 (x86)                                      //
+ . TightVNC v2.8.81                                        // remote connection password: nettech2
+ . TightVNC v2.8.81 (x86)                                  // remote connection password: nettech2
+ * UltraVNC v1.4.3.1 (x86)                                 // remote connection password: nettech2
+ . VLC media player v3.0.18                                //
+ * WinSCP v6.1.1 (x86)                                     //
+
+Utilities:
+ . Clean Up All Printers                                   //
+ . Clean Up Orphaned Printers                              //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
+ . Enable Remote Desktop (enable RDP on target)            //
+ . Install PKI Certificates                                //
+ . Reboot (force target reboot in 15 seconds)              //
+ . Remove Adobe Flash Player (all versions) v2.0.0         //
+ . Remove Java Runtime (all versions) v1.8.8               //
+ . Remove Microsoft Silverlight (all versions)             //
+ . Remove VNC Servers (TightVNC, UltraVNC, RealVNC)        //
+ . Temp File Cleanup v3.7.0 (clean temp folders on target) //
+ . USB Device Cleanup v1.6.3                               //
+
+
+v86.0.0 // 2023-06-05
+URL: https://www.reddit.com/r/pdq/comments/141i7pr/pdq_deploy_packages_v8600_20230605
+====================================================================================================
+ ! Note: All packages are x64 architecture unless otherwise specified
+
+ . 7-Zip v22.01 (x86)                                      //
+ . 7-Zip v22.01                                            //
+ * Adobe Acrobat Reader DC v23.001.20174                   //
+ - Apple iTunes v12.5.1.21                                 // ! -- REMOVED
+ . CDBurnerXP v4.5.8.7128                                  //
+ * FileZilla Client v3.64.0                                //
+ . Gimp v2.10.34 (x86)                                     //
+ * Google Chrome v114.0.5735.91 (Enterprise)               //
+ * Google Chrome v114.0.5735.91 (Enterprise) (x86)         //
+ - Google Earth Pro v7.3.4                                 // ! -- REMOVED
+ . Java Development Kit 8 update 341                       //
+ . Java Development Kit 8 update 341 (x86)                 //
+ . Java Development Kit update 11.0.16                     //
+ . Java Runtime 10.0.2                                     // 
+ . KTS KypM Telnet/SSH Server v1.19c (x86)                 //
+ * LibreOffice v7.5.3                                      //
+ . Microsoft .NET Framework v3.5.1 SP1 (x86)               //
+ . Microsoft Silverlight v5.1.50918.0                      //
+ * Mozilla Firefox v113.0.2                                // NOTE: Firefox loads the uBlock Origin adblock plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox v113.0.2 (x86)                          // NOTE: Firefox loads the uBlock Origin adblock plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox ESR v102.11.0                           // NOTE: Firefox ESR loads uBlock Origin plugin
+ * Mozilla Firefox ESR v102.11.0 (x86)                     // NOTE: Firefox ESR loads uBlock Origin plugin
+ * Mozilla Thunderbird v102.11.2 (x86)                     //
+ * Notepad++ v8.5.3                                        //
+ * Pale Moon v32.2.0                                       //
+ * Spark v3.0.2 (x86)                                      //
+ * TightVNC v2.8.81                                        // remote connection password: nettech2
+ * TightVNC v2.8.81 (x86)                                  // remote connection password: nettech2
+ * UltraVNC v1.4.2.0 (x86)                                 // remote connection password: nettech2
+ . VLC media player v3.0.18                                //
+ * WinSCP v6.1 (x86)                                       //
+
+Utilities:
+ . Clean Up All Printers                                   //
+ . Clean Up Orphaned Printers                              //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
+ . Enable Remote Desktop (enable RDP on target)            //
+ . Install PKI Certificates                                //
+ . Reboot (force target reboot in 15 seconds)              //
+ . Remove Adobe Flash Player (all versions) v2.0.0         //
+ . Remove Java Runtime (all versions) v1.8.8               //
+ . Remove Microsoft Silverlight (all versions)             //
+ . Remove VNC Servers (TightVNC, UltraVNC, RealVNC)        //
+ . Temp File Cleanup v3.7.0 (clean temp folders on target) //
+ . USB Device Cleanup v1.6.3                               //
+
+
+v85.0.0 // 2023-03-04
+URL: http://bmrf.org/repos/pdq_packs/
+====================================================================================================
+ ! Note: All packages are x64 architecture unless otherwise specified
+
+ . 7-Zip v22.01 (x86)                                      //
+ . 7-Zip v22.01                                            //
+ * Adobe Acrobat Reader DC v22.003.20322                   //
+ . Apple iTunes v12.5.1.21                                 //
+ . CDBurnerXP v4.5.8.7128                                  //
+ * FileZilla Client v3.63.2.1                              //
+ * Gimp v2.10.34 (x86)                                     //
+ * Google Chrome v110.0.5481.178 (Enterprise)              //
+ * Google Chrome v110.0.5481.178 (Enterprise) (x86)        //
+ . Google Earth Pro v7.3.4                                 //
+ . Java Development Kit 8 update 341                       //
+ . Java Development Kit 8 update 341 (x86)                 //
+ . Java Development Kit update 11.0.16                     //
+ . Java Runtime 10.0.2                                     // 
+ . KTS KypM Telnet/SSH Server v1.19c (x86)                 //
+ * LibreOffice v7.5.1                                      //
+ . Microsoft .NET Framework v3.5.1 SP1 (x86)               //
+ . Microsoft Silverlight v5.1.50918.0                      //
+ * Mozilla Firefox v110.0.1                                // NOTE: Firefox loads the uBlock Origin adblock plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox v110.0.1 (x86)                          // NOTE: Firefox loads the uBlock Origin adblock plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox ESR v102.8.0                            // NOTE: Firefox ESR loads uBlock Origin plugin
+ * Mozilla Firefox ESR v102.8.0 (x86)                      // NOTE: Firefox ESR loads uBlock Origin plugin
+ * Mozilla Thunderbird v102.8.0 (x86)                      //
+ * Notepad++ v8.4.9                                        //
+ * Pale Moon v32.0.1                                       //
+ - Pale Moon v32.0.1 (x86)                                 // ! -- REMOVED
+ * Spark v3.0.1 (x86)                                      //
+ * TightVNC v2.8.75                                        // remote connection password: nettech2
+ * TightVNC v2.8.75 (x86)                                  // remote connection password: nettech2
+ * UltraVNC v1.4.0.6 (x86)                                 // remote connection password: nettech2
+ * VLC media player v3.0.18                                //
+ * WinSCP v5.21.7 (x86)                                    //
+
+Utilities:
+ . Clean Up All Printers                                   //
+ . Clean Up Orphaned Printers                              //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
+ . Enable Remote Desktop (enable RDP on target)            //
+ . Install PKI Certificates                                //
+ . Reboot (force target reboot in 15 seconds)              //
+ . Remove Adobe Flash Player (all versions) v2.0.0         //
+ . Remove Java Runtime (all versions) v1.8.8               //
+ . Remove Microsoft Silverlight (all versions)             //
+ . Remove VNC Servers (TightVNC, UltraVNC, RealVNC)        //
+ . Temp File Cleanup v3.7.0 (clean temp folders on target) //
+ . USB Device Cleanup v1.6.3                               //
+
+
+v84.0.0 // 2022-11-29
+URL: https://www.reddit.com/r/pdq/comments/z7ufch/pdq_deploy_packages_v8400_20221129_includes
+====================================================================================================
+ ! Note: All packages are x64 architecture unless otherwise specified
+
+ . 7-Zip v22.01 (x86)                                      //
+ . 7-Zip v22.01                                            //
+ * Adobe Acrobat Reader DC v22.003.20322                   //
+ . Apple iTunes v12.5.1.21                                 //
+ . CDBurnerXP v4.5.8.7128                                  //
+ * FileZilla Client v3.62.2                                //
+ . Gimp v2.10.32 (x86)                                     //
+ * Google Chrome v107.0.5304.122 (Enterprise)              //
+ * Google Chrome v107.0.5304.122 (Enterprise) (x86)        //
+ . Google Earth Pro v7.3.4                                 //
+ . Java Development Kit 8 update 341                       //
+ . Java Development Kit 8 update 341 (x86)                 //
+ . Java Development Kit update 11.0.16                     //
+ . Java Runtime 10.0.2                                     // 
+ . KTS KypM Telnet/SSH Server v1.19c (x86)                 //
+ . LibreOffice v7.4.0                                      //
+ . Microsoft .NET Framework v3.5.1 SP1 (x86)               //
+ . Microsoft Silverlight v5.1.50918.0                      //
+ * Mozilla Firefox v107.0.0                                // NOTE: Firefox loads the uBlock Origin adblock plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox v107.0.0 (x86)                          // NOTE: Firefox loads the uBlock Origin adblock plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox ESR v102.5.0                            // NOTE: Firefox ESR loads uBlock Origin plugin
+ * Mozilla Firefox ESR v102.5.0 (x86)                      // NOTE: Firefox ESR loads uBlock Origin plugin
+ * Mozilla Thunderbird v102.5.2 (x86)                      //
+ * Notepad++ v8.4.5                                        //
+ * Pale Moon v31.4.0.0                                     //
+ * Pale Moon v31.4.0.0 (x86)                               //
+ * Spark v3.0.0 (x86)                                      //
+ . TightVNC v2.8.63                                        // remote connection password: nettech2
+ . TightVNC v2.8.63 (x86)                                  // remote connection password: nettech2
+ . UltraVNC v1.3.8.10 (x86)                                // remote connection password: nettech2
+ . VLC media player v3.0.17.4                              //
+ * WinSCP v5.21.5 (x86)                                    //
+
+Utilities:
+ . Clean Up All Printers                                   //
+ . Clean Up Orphaned Printers                              //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
+ . Enable Remote Desktop (enable RDP on target)            //
+ . Install PKI Certificates                                //
+ . Reboot (force target reboot in 15 seconds)              //
+ . Remove Adobe Flash Player (all versions) v2.0.0         //
+ . Remove Java Runtime (all versions) v1.8.8               //
+ . Remove Microsoft Silverlight (all versions)             //
+ . Remove VNC Servers (TightVNC, UltraVNC, RealVNC)        //
+ . Temp File Cleanup v3.7.0 (clean temp folders on target) //
+ * USB Device Cleanup v1.6.3                               //
+
+
+v83.0.0 // 2022-09-11
+URL: https://www.reddit.com/r/pdq/comments/xbqh1a/pdq_deploy_packs_v8300_20220911
+====================================================================================================
+ ! Note: All packages are x64 architecture unless otherwise specified
+
+ . 7-Zip v22.01 (x86)                                      //
+ . 7-Zip v22.01                                            //
+ . Adobe Acrobat Reader DC v22.002.20191                   //
+ . Apple iTunes v12.5.1.21                                 //
+ . CDBurnerXP v4.5.8.7128                                  //
+ . FileZilla Client v3.60.2                                //
+ . Gimp v2.10.32 (x86)                                     //
+ * Google Chrome v105.0.5195.102 (Enterprise)              //
+ * Google Chrome v105.0.5195.102 (Enterprise) (x86)        //
+ . Google Earth Pro v7.3.4                                 //
+ . Java Development Kit 8 update 341                       //
+ . Java Development Kit 8 update 341 (x86)                 //
+ . Java Development Kit update 11.0.16                     //
+ . Java Runtime 10.0.2                                     // 
+ . KTS KypM Telnet/SSH Server v1.19c (x86)                 //
+ * LibreOffice v7.4.0                                      //
+ . Microsoft .NET Framework v3.5.1 SP1 (x86)               //
+ . Microsoft Silverlight v5.1.50918.0                      //
+ * Mozilla Firefox v104.0.2                                // NOTE: Firefox loads the uBlock Origin adblock plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox v104.0.2 (x86)                          // NOTE: Firefox loads the uBlock Origin adblock plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox ESR v91.13.0                            // NOTE: Firefox ESR loads uBlock Origin plugin
+ * Mozilla Firefox ESR v91.13.0 (x86)                      // NOTE: Firefox ESR loads uBlock Origin plugin
+ * Mozilla Thunderbird v102.2.2 (x86)                      //
+ * Notepad++ v8.4.5                                        //
+ . Pale Moon v31.2.0.1                                     //
+ . Pale Moon v31.2.0.1 (x86)                               //
+ . Spark v2.9.4 (x86)                                      //
+ . TightVNC v2.8.63                                        // remote connection password: nettech2
+ . TightVNC v2.8.63 (x86)                                  // remote connection password: nettech2
+ . UltraVNC v1.3.8.10 (x86)                                // remote connection password: nettech2
+ . VLC media player v3.0.17.4                              //
+ * WinSCP v5.21.3 (x86)                                    //
+
+Utilities:
+ . Clean Up All Printers                                   //
+ . Clean Up Orphaned Printers                              //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
+ . Enable Remote Desktop (enable RDP on target)            //
+ . Install PKI Certificates                                //
+ . Reboot (force target reboot in 15 seconds)              //
+ . Remove Adobe Flash Player (all versions) v2.0.0         //
+ . Remove Java Runtime (all versions) v1.8.8               //
+ . Remove Microsoft Silverlight (all versions)             //
+ . Remove VNC Servers (TightVNC, UltraVNC, RealVNC)        //
+ . Temp File Cleanup v3.7.0 (clean temp folders on target) //
+ . USB Device Cleanup v1.2.0                               //
+
+
+v82.0.0 // 2022-08-16
+URL: https://www.reddit.com/r/pdq/comments/wprg1w/pdq_deploy_packs_v8200_20220816/
+====================================================================================================
+ ! Note: All packages are x64 architecture unless otherwise specified
+
+ * 7-Zip v21.07 (x86)                                      //
+ * 7-Zip v21.07                                            //
+ * Adobe Acrobat Reader DC v22.022.20191                   //
+ . Apple iTunes v12.5.1.21                                 //
+ . CDBurnerXP v4.5.8.7128                                  //
+ * FileZilla Client v3.60.2                                //
+ * Gimp v2.10.32 (x86)                                     //
+ * Google Chrome v104.0.5112.81 (Enterprise)               //
+ * Google Chrome v104.0.5112.81 (Enterprise) (x86)         //
+ . Google Earth Pro v7.3.4                                 //
+ . Java Development Kit 8 update 341                       //
+ . Java Development Kit 8 update 341 (x86)                 //
+ * Java Development Kit update 11.0.16                     //
+ . Java Runtime 10.0.2                                     // 
+ . KTS KypM Telnet/SSH Server v1.19c (x86)                 //
+ * LibreOffice v7.3.5                                      //
+ . Microsoft .NET Framework v3.5.1 SP1 (x86)               //
+ . Microsoft Silverlight v5.1.50918.0                      //
+ * Mozilla Firefox v103.0.2                                // NOTE: Firefox loads the uBlock Origin adblock plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox v103.0.2 (x86)                          // NOTE: Firefox loads the uBlock Origin adblock plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox ESR v91.12.0                            // NOTE: Firefox ESR loads uBlock Origin plugin
+ * Mozilla Firefox ESR v91.12.0 (x86)                      // NOTE: Firefox ESR loads uBlock Origin plugin
+ * Mozilla Thunderbird v102.1.2 (x86)                      //
+ * Notepad++ v8.4.4                                        //
+ * Pale Moon v31.2.0.1                                     //
+ * Pale Moon v31.2.0.1 (x86)                               //
+ . Spark v2.9.4 (x86)                                      //
+ . TightVNC v2.8.63                                        // remote connection password: nettech2
+ . TightVNC v2.8.63 (x86)                                  // remote connection password: nettech2
+ . UltraVNC v1.3.8.10 (x86)                                // remote connection password: nettech2
+ . VLC media player v3.0.17.4                              //
+ * WinSCP v5.21.6 (x86)                                    //
+
+Utilities:
+ . Clean Up All Printers                                   //
+ . Clean Up Orphaned Printers                              //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
+ . Enable Remote Desktop (enable RDP on target)            //
+ . Install PKI Certificates                                //
+ . Reboot (force target reboot in 15 seconds)              //
+ . Remove Adobe Flash Player (all versions) v2.0.0         //
+ . Remove Java Runtime (all versions) v1.8.8               //
+ . Remove Microsoft Silverlight (all versions)             //
+ . Remove VNC Servers (TightVNC, UltraVNC, RealVNC)        //
+ . Temp File Cleanup v3.7.0 (clean temp folders on target) //
+ . USB Device Cleanup v1.2.0                               //
+
+
+v81.0.0 // 2022-05-31
+URL: https://www.reddit.com/r/pdq/comments/v28430/pdq_deploy_packs_v8100_20220531
+====================================================================================================
+ ! Note: All packages are x64 architecture unless otherwise specified
+
+ . 7-Zip v21.07 (x86)                                      //
+ . 7-Zip v21.07                                            //
+ * Adobe Acrobat Reader DC v22.012.20085                   //
+ . Apple iTunes v12.5.1.21                                 //
+ . CDBurnerXP v4.5.8.7128                                  //
+ * FileZilla Client v3.60.0                                //
+ . Gimp v2.10.30 (x86)                                     //
+ * Google Chrome v102.0.5005.63 (Enterprise)               //
+ * Google Chrome v102.0.5005.63 (Enterprise) (x86)         //
+ . Google Earth Pro v7.3.4                                 //
+ * Java Development Kit 8 update 333                       //
+ * Java Development Kit 8 update 333 (x86)                 //
+ . Java Development Kit update 11.0.13                     //
+ - Java Runtime 8 update 321                               // REMOVED (see previous release note below)
+ - Java Runtime 8 update 321 (x86)                         // REMOVED (see previous release note below)
+ . Java Runtime 10.0.2                                     // 
+ . KTS KypM Telnet/SSH Server v1.19c (x86)                 //
+ * LibreOffice v7.3.3                                      //
+ . Microsoft .NET Framework v3.5.1 SP1 (x86)               //
+ . Microsoft Silverlight v5.1.50918.0                      //
+ * Mozilla Firefox v101.0.0                                // NOTE: Firefox auto-loads uBlock Origin adblock plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox v101.0.0 (x86)                          // NOTE: Firefox auto-loads uBlock Origin adblock plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox ESR v91.10.0                            // NOTE: Firefox ESR loads uBlock Origin plugin
+ * Mozilla Firefox ESR v91.10.0 (x86)                      // NOTE: Firefox ESR loads uBlock Origin plugin
+ * Mozilla Thunderbird v91.10.0 (x86)                      //
+ * Notepad++ v8.4.1                                        //
+ * Pale Moon v31.0.0                                       //
+ * Pale Moon v31.0.0 (x86)                                 //
+ . Spark v2.9.4 (x86)                                      //
+ . TightVNC v2.8.63                                        // remote connection password: nettech2
+ . TightVNC v2.8.63 (x86)                                  // remote connection password: nettech2
+ . UltraVNC v1.3.8.10 (x86)                                // remote connection password: nettech2
+ * VLC media player v3.0.17.4                              //
+ . WinSCP v5.19.6 (x86)                                    //
+
+Utilities:
+ . Clean Up All Printers                                   //
+ . Clean Up Orphaned Printers                              //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
+ . Enable Remote Desktop (enable RDP on target)            //
+ . Install PKI Certificates                                //
+ . Reboot (force target reboot in 15 seconds)              //
+ . Remove Adobe Flash Player (all versions) v2.0.0         //
+ . Remove Java Runtime (all versions) v1.8.8               //
+ . Remove Microsoft Silverlight (all versions)             //
+ . Remove VNC Servers (TightVNC, UltraVNC, RealVNC)        //
+ . Temp File Cleanup v3.7.0 (clean temp folders on target) //
+ . USB Device Cleanup v1.2.0                               //
+
+
+v80.0.0 // 2022-03-28
+URL: https://www.reddit.com/r/pdq/comments/tqtrfb/pdq_deploy_packs_v8000_20220328
+====================================================================================================
+ ! Note: All packages are x64 architecture unless otherwise specified
+
+ . 7-Zip v21.07 (x86)                                      //
+ . 7-Zip v21.07                                            //
+ * Adobe Acrobat Reader DC v22.001.20085                   //
+ . Apple iTunes v12.5.1.21                                 //
+ . CDBurnerXP v4.5.8.7128                                  //
+ * FileZilla Client v3.58.0                                //
+ . Gimp v2.10.30 (x86)                                     //
+ * Google Chrome v99.0.4844.84 (Enterprise)                //
+ * Google Chrome v99.0.4844.84 (Enterprise) (x86)          //
+ . Google Earth Pro v7.3.4                                 //
+ . Java Development Kit 8 update 311                       //
+ . Java Development Kit 8 update 311 (x86)                 //
+ . Java Development Kit update 11.0.13                     //
+ * Java Runtime 8 update 321                               // NOTE: Oracle has stopped providing MSI's for JRE8. Will be removed in next pack
+ * Java Runtime 8 update 321 (x86)                         // NOTE: Oracle has stopped providing MSI's for JRE8. Will be removed in next pack
+ . Java Runtime 10.0.2                                     // 
+ . KTS KypM Telnet/SSH Server v1.19c (x86)                 //
+ * LibreOffice v7.3.1                                      //
+ . Microsoft .NET Framework v3.5.1 SP1 (x86)               //
+ . Microsoft Silverlight v5.1.50918.0                      //
+ * Mozilla Firefox v98.0.2                                 // NOTE: Firefox auto-loads uBlock Origin adblock plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox v98.0.2 (x86)                           // NOTE: Firefox auto-loads uBlock Origin adblock plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox ESR v91.7.1                             // NOTE: Firefox ESR loads uBlock Origin plugin
+ * Mozilla Firefox ESR v91.7.1 (x86)                       // NOTE: Firefox ESR loads uBlock Origin plugin
+ * Mozilla Thunderbird v91.7.0 (x86)                       //
+ * Notepad++ v8.3.3                                        //
+ * Pale Moon v29.4.5                                       //
+ * Pale Moon v29.4.5 (x86)                                 //
+ . Spark v2.9.4 (x86)                                      //
+ . TightVNC v2.8.63                                        // remote connection password: nettech2
+ . TightVNC v2.8.63 (x86)                                  // remote connection password: nettech2
+ * UltraVNC v1.3.8.10 (x86)                                // remote connection password: nettech2
+ . VLC media player v3.0.16                                //
+ * WinSCP v5.19.6 (x86)                                    //
+
+Utilities:
+ . Clean Up All Printers                                   //
+ . Clean Up Orphaned Printers                              //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
+ . Enable Remote Desktop (enable RDP on target)            //
+ . Install PKI Certificates                                //
+ . Reboot (force target reboot in 15 seconds)              //
+ . Remove Adobe Flash Player (all versions) v2.0.0         //
+ . Remove Java Runtime (all versions) v1.8.8               //
+ . Remove Microsoft Silverlight (all versions)             //
+ . Remove VNC Servers (TightVNC, UltraVNC, RealVNC)        //
+ . Temp File Cleanup v3.7.0 (clean temp folders on target) //
+ . USB Device Cleanup v1.2.0                               //
+
+
+v79.0.0 // 2022-01-12
+URL: https://www.reddit.com/r/pdq/comments/s2jvj0/pdq_deploy_packs_v7900_20220112
+====================================================================================================
+ ! Note: All packages are x64 architecture unless otherwise specified
+
+ * 7-Zip v21.07 (x86)                                      //
+ * 7-Zip v21.07                                            //
+ * Adobe Acrobat Reader DC v21.011.20039                   //
+ . Apple iTunes v12.5.1.21                                 //
+ . CDBurnerXP v4.5.8.7128                                  //
+ * FileZilla Client v3.57.0                                //
+ * Gimp v2.10.30 (x86)                                     //
+ * Google Chrome v97.0.4692.71 (Enterprise)                //
+ * Google Chrome v97.0.4692.71 (Enterprise) (x86)          //
+ * Google Earth Pro v7.3.4                                 //
+ * Java Development Kit 8 update 311                       //
+ * Java Development Kit 8 update 311 (x86)                 //
+ * Java Development Kit update 11.0.13                     //
+ . Java Runtime 8 update 301                               // NOTE: Oracle has stopped providing MSI's for JRE8. Will be removed in next pack
+ . Java Runtime 8 update 301 (x86)                         // NOTE: Oracle has stopped providing MSI's for JRE8. Will be removed in next pack
+ . Java Runtime 10.0.2                                     // 
+ . KTS KypM Telnet/SSH Server v1.19c (x86)                 //
+ * LibreOffice v7.2.5                                      //
+ . Microsoft .NET Framework v3.5.1 SP1 (x86)               //
+ . Microsoft Silverlight v5.1.50918.0                      //
+ * Mozilla Firefox v96.0.0                                 // NOTE: Firefox auto-loads uBlock Origin adblock plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox v96.0.0 (x86)                           // NOTE: Firefox auto-loads uBlock Origin adblock plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox ESR v91.5.0                             // NOTE: Firefox ESR loads uBlock Origin plugin
+ * Mozilla Firefox ESR v91.5.0 (x86)                       // NOTE: Firefox ESR loads uBlock Origin plugin
+ * Mozilla Thunderbird v91.1.2 (x86)                       //
+ * Notepad++ v8.2.0                                        //
+ * Pale Moon v29.4.3                                       //
+ * Pale Moon v29.4.3 (x86)                                 //
+ . Spark v2.9.4 (x86)                                      //
+ . TightVNC v2.8.63                                        // remote connection password: nettech2
+ . TightVNC v2.8.63 (x86)                                  // remote connection password: nettech2
+ * UltraVNC v1.3.6.0 (x86)                                 // remote connection password: nettech2
+ . VLC media player v3.0.16                                //
+ * WinSCP v5.19.5 (x86)                                    //
+
+Utilities:
+ . Clean Up All Printers                                   //
+ . Clean Up Orphaned Printers                              //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
+ . Enable Remote Desktop (enable RDP on target)            //
+ . Install PKI Certificates                                //
+ . Reboot (force target reboot in 15 seconds)              //
+ . Remove Adobe Flash Player (all versions) v2.0.0         //
+ . Remove Java Runtime (all versions) v1.8.8               //
+ . Remove Microsoft Silverlight (all versions)             //
+ . Remove VNC Servers (TightVNC, UltraVNC, RealVNC)        //
+ . Temp File Cleanup v3.7.0 (clean temp folders on target) //
+ . USB Device Cleanup v1.2.0                               //
+
+ 
+v78.0.0 // 2021-09-28
+URL: https://www.reddit.com/r/pdq/comments/pxok4y/pdq_deploy_packs_v7800_20210928
+====================================================================================================
+ ! Note: All packages are x64 architecture unless otherwise specified
+
+ . 7-Zip v19.00 (x86)                                      //
+ . 7-Zip v19.00                                            //
+ * Adobe Acrobat Reader DC v21.007.20091                   //
+ . Apple iTunes v12.5.1.21                                 //
+ . CDBurnerXP v4.5.8.7128                                  //
+ . FileZilla Client v3.55.1                                //
+ * Gimp v2.10.28 (x86)                                     //
+ * Google Chrome v94.0.4606.61 (Enterprise)                //
+ * Google Chrome v94.0.4606.61 (Enterprise) (x86)          //
+ . Google Earth Pro v7.3.3                                 //
+ . Java Development Kit 8 update 301                       //
+ . Java Development Kit 8 update 301 (x86)                 //
+ . Java Development Kit update 11.0.12                     //
+ . Java Runtime 8 update 301                               //
+ . Java Runtime 8 update 301 (x86)                         //
+ . Java Runtime 10.0.2                                     //
+ . KTS KypM Telnet/SSH Server v1.19c (x86)                 //
+ * LibreOffice v7.2.1                                      //
+ . Microsoft .NET Framework v3.5.1 SP1 (x86)               //
+ . Microsoft Silverlight v5.1.50918.0                      //
+ * Mozilla Firefox v92.0.1                                 // NOTE: Firefox auto-loads uBlock Origin adblock plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox v92.0.1 (x86)                           // NOTE: Firefox auto-loads uBlock Origin adblock plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox ESR v78.14.0                            // NOTE: Firefox ESR loads uBlock Origin plugin
+ * Mozilla Firefox ESR v78.14.0 (x86)                      // NOTE: Firefox ESR loads uBlock Origin plugin
+ * Mozilla Thunderbird v91.1.2 (x86)                       //
+ * Notepad++ v8.1.5 (x86)                                  //
+ * Pale Moon v29.4.1                                       //
+ * Pale Moon v29.4.1 (x86)                                 //
+ . Spark v2.9.4 (x86)                                      //
+ * TightVNC v2.8.63                                        // remote connection password: nettech2
+ * TightVNC v2.8.63 (x86)                                  // remote connection password: nettech2
+ * UltraVNC v1.3.4.1 (x86)                                 // remote connection password: nettech2
+ . VLC media player v3.0.16                                //
+ . WinSCP v5.19.2 (x86)                                    //
+
+Utilities:
+ . Clean Up All Printers                                   //
+ . Clean Up Orphaned Printers                              //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
+ . Enable Remote Desktop (enable RDP on target)            //
+ . Install PKI Certificates                                //
+ . Reboot (force target reboot in 15 seconds)              //
+ . Remove Adobe Flash Player (all versions) v2.0.0         //
+ . Remove Java Runtime (all versions) v1.8.8               //
+ . Remove Microsoft Silverlight (all versions)             //
+ . Remove VNC Servers (TightVNC, UltraVNC, RealVNC)        //
+ . Temp File Cleanup v3.7.0 (clean temp folders on target) //
+ . USB Device Cleanup v1.2.0                               //
+ 
+
+v77.0.0 // 2021-08-18
+URL: https://www.reddit.com/r/pdq/comments/p6wghb/pdq_deploy_packs_v7700_20210818/
+====================================================================================================
+ ! Note: All packages are x64 architecture unless otherwise specified
+
+ . 7-Zip v19.00 (x86)                                      //
+ . 7-Zip v19.00                                            //
+ * Adobe Acrobat Reader DC v21.005.20060                   //
+ . Apple iTunes v12.5.1.21                                 //
+ . CDBurnerXP v4.5.8.7128                                  //
+ * FileZilla Client v3.55.1                                //
+ . Gimp v2.10.24                                           //
+ * Google Chrome v92.0.4515.159 (Enterprise)               //
+ * Google Chrome v92.0.4515.159 (Enterprise) (x86)         //
+ . Google Earth Pro v7.3.3                                 //
+ * Java Development Kit 8 update 301                       //
+ * Java Development Kit 8 update 301 (x86)                 //
+ * Java Development Kit update 11.0.12                     //
+ * Java Runtime 8 update 301                               //
+ * Java Runtime 8 update 301 (x86)                         //
+ . Java Runtime 10.0.2                                     //
+ . KTS KypM Telnet/SSH Server v1.19c (x86)                 //
+ * LibreOffice v7.1.5                                      //
+ . Microsoft .NET Framework v3.5.1 SP1 (x86)               //
+ . Microsoft Silverlight v5.1.50918.0                      //
+ * Mozilla Firefox v91.0.1                                 // NOTE: Firefox auto-loads uBlock Origin adblock plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox v91.0.1 (x86)                           // NOTE: Firefox auto-loads uBlock Origin adblock plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox ESR v78.13.0                            // NOTE: Firefox ESR loads uBlock Origin plugin
+ * Mozilla Firefox ESR v78.13.0 (x86)                      // NOTE: Firefox ESR loads uBlock Origin plugin
+ * Mozilla Thunderbird v91.0.1 (x86)                       //
+ * Notepad++ v8.1.3 (x86)                                  //
+ * Pale Moon v29.4.0                                       //
+ * Pale Moon v29.4.0 (x86)                                 //
+ . Spark v2.9.4 (x86)                                      //
+ . TightVNC v2.8.59                                        // remote connection password: nettech2
+ . TightVNC v2.8.59 (x86)                                  // remote connection password: nettech2
+ . UltraVNC v1.3.2.0 (x86)                                 // remote connection password: nettech2
+ * VLC media player v3.0.16                                //
+ * WinSCP v5.19.2 (x86)                                    //
+
+Utilities:
+ . Clean Up All Printers                                   //
+ . Clean Up Orphaned Printers                              //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
+ . Enable Remote Desktop (enable RDP on target)            //
+ . Install PKI Certificates                                //
+ . Reboot (force target reboot in 15 seconds)              //
+ . Remove Adobe Flash Player (all versions) v2.0.0         //
+ . Remove Java Runtime (all versions) v1.8.8               //
+ . Remove Microsoft Silverlight (all versions)             //
+ . Remove VNC Servers (TightVNC, UltraVNC, RealVNC)        //
+ . Temp File Cleanup v3.7.0 (clean temp folders on target) //
+ . USB Device Cleanup v1.2.0                               //
+
+
+v76.0.0 // 2021-06-09
+URL: 
+====================================================================================================
+ ! Note: All packages are x64 architecture unless otherwise specified
+
+ . 7-Zip v19.00 (x86)                                      //
+ . 7-Zip v19.00                                            //
+ * Adobe Acrobat Reader DC v21.005.20048                   //
+ . Apple iTunes v12.5.1.21                                 //
+ . CDBurnerXP v4.5.8.7128                                  //
+ * FileZilla Client v3.54.1                                //
+ . Gimp v2.10.24                                           //
+ * Google Chrome v91.0.4472.77 (Enterprise)                //
+ * Google Chrome v91.0.4472.77 (Enterprise) (x86)          //
+ . Google Earth Pro v7.3.3                                 //
+ * Java Development Kit 8 update 291                       //
+ * Java Development Kit 8 update 291 (x86)                 //
+ . Java Development Kit update 11.0.10                     //
+ * Java Runtime 8 update 291                               //
+ * Java Runtime 8 update 291 (x86)                         //
+ . Java Runtime 10.0.2                                     //
+ . KTS KypM Telnet/SSH Server v1.19c (x86)                 //
+ * LibreOffice v7.1.3                                      //
+ . Microsoft .NET Framework v3.5.1 SP1 (x86)               //
+ . Microsoft Silverlight v5.1.50918.0                      //
+ * Mozilla Firefox v89.0.0                                 // NOTE: Firefox auto-loads uBlock Origin adblock plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox v89.0.0 (x86)                           // NOTE: Firefox auto-loads uBlock Origin adblock plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox ESR v78.11.0                            // NOTE: Firefox ESR loads uBlock Origin plugin
+ * Mozilla Firefox ESR v78.11.0 (x86)                      // NOTE: Firefox ESR loads uBlock Origin plugin
+ * Mozilla Thunderbird v78.11.0 (x86)                      //
+ . Notepad++ v7.9.5 (x86)                                  //
+ * Pale Moon v29.2.1                                       //
+ * Pale Moon v29.2.1 (x86)                                 //
+ . Spark v2.9.4 (x86)                                      //
+ . TightVNC v2.8.59                                        // remote connection password: nettech2
+ . TightVNC v2.8.59 (x86)                                  // remote connection password: nettech2
+ . UltraVNC v1.3.2.0 (x86)                                 // remote connection password: nettech2
+ * VLC media player v3.0.14                                //
+ . WinSCP v5.17.10 (x86)                                   //
+
+Utilities:
+ . Clean Up All Printers                                   //
+ . Clean Up Orphaned Printers                              //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
+ . Enable Remote Desktop (enable RDP on target)            //
+ . Install PKI Certificates                                //
+ . Reboot (force target reboot in 15 seconds)              //
+ . Remove Adobe Flash Player (all versions) v2.0.0         //
+ . Remove Java Runtime (all versions) v1.8.8               //
+ . Remove Microsoft Silverlight (all versions)             //
+ . Remove VNC Servers (TightVNC, UltraVNC, RealVNC)        //
+ . Temp File Cleanup v3.7.0 (clean temp folders on target) //
+ . USB Device Cleanup v1.2.0                               //
+
+
 v75.0.0 // 2021-04-13
 URL: https://www.reddit.com/r/pdq/comments/mq9ohi/pdq_deploy_packs_v7500_20210413/
 ====================================================================================================
@@ -35,8 +731,8 @@ URL: https://www.reddit.com/r/pdq/comments/mq9ohi/pdq_deploy_packs_v7500_2021041
  * LibreOffice v7.1.2                                      //
  . Microsoft .NET Framework v3.5.1 SP1 (x86)               //
  . Microsoft Silverlight v5.1.50918.0                      //
- * Mozilla Firefox v87.0.0                                 // NOTE: Firefox auto-loads uBlock Origin ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
- * Mozilla Firefox v87.0.0 (x86)                           // NOTE: Firefox auto-loads uBlock Origin ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox v87.0.0                                 // NOTE: Firefox auto-loads uBlock Origin adblocking plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox v87.0.0 (x86)                           // NOTE: Firefox auto-loads uBlock Origin adblocking plugin. Read package description in PDQ if you want to disable this behavior
  * Mozilla Firefox ESR v78.9.0                             // NOTE: Firefox ESR now loads uBlock Origin plugin
  * Mozilla Firefox ESR v78.9.0 (x86)                       // NOTE: Firefox ESR now loads uBlock Origin plugin
  * Mozilla Thunderbird v78.9.1 (x86)                       //
@@ -53,8 +749,8 @@ URL: https://www.reddit.com/r/pdq/comments/mq9ohi/pdq_deploy_packs_v7500_2021041
 Utilities:
  . Clean Up All Printers                                   //
  . Clean Up Orphaned Printers                              //
- . Empty All Recycle Bins                                  //
- . Enable Remote Desktop                                   //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
+ . Enable Remote Desktop (enable RDP on target)            //
  . Install PKI Certificates                                //
  . Reboot (force target reboot in 15 seconds)              //
  . Remove Adobe Flash Player (all versions) v2.0.0         //
@@ -94,8 +790,8 @@ URL: https://www.reddit.com/r/pdq/comments/l8q66o/pdq_deploy_packs_v7400_2021013
  . LibreOffice v7.0.3                                      //
  . Microsoft .NET Framework v3.5.1 SP1 (x86)               //
  . Microsoft Silverlight v5.1.50918.0                      //
- * Mozilla Firefox v85.0.0                                 // NOTE: Firefox auto-loads uBlock Origin ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
- * Mozilla Firefox v85.0.0 (x86)                           // NOTE: Firefox auto-loads uBlock Origin ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox v85.0.0                                 // NOTE: Firefox auto-loads uBlock Origin adblocking plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox v85.0.0 (x86)                           // NOTE: Firefox auto-loads uBlock Origin adblocking plugin. Read package description in PDQ if you want to disable this behavior
  * Mozilla Firefox ESR v78.7.0                             // NOTE: Firefox ESR now loads uBlock Origin plugin
  * Mozilla Firefox ESR v78.7.0 (x86)                       // NOTE: Firefox ESR now loads uBlock Origin plugin
  * Mozilla Thunderbird v78.7.0 (x86)                       //
@@ -112,8 +808,8 @@ URL: https://www.reddit.com/r/pdq/comments/l8q66o/pdq_deploy_packs_v7400_2021013
 Utilities:
  . Clean Up All Printers                                   //
  . Clean Up Orphaned Printers                              //
- . Empty All Recycle Bins                                  //
- . Enable Remote Desktop                                   //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
+ . Enable Remote Desktop (enable RDP on target)            //
  . Install PKI Certificates                                //
  . Reboot (force target reboot in 15 seconds)              //
  . Remove Adobe Flash Player (all versions) v2.0.0         //
@@ -153,8 +849,8 @@ URL: https://www.reddit.com/r/pdq/comments/jpbnv1/pdq_deploy_packs_v7300_2020110
  * LibreOffice v7.0.3                                      //
  . Microsoft .NET Framework v3.5.1 SP1 (x86)               //
  . Microsoft Silverlight v5.1.50918.0                      //
- * Mozilla Firefox v82.0.2                                 // NOTE: Firefox auto-loads uBlock Origin ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
- * Mozilla Firefox v82.0.2 (x86)                           // NOTE: Firefox auto-loads uBlock Origin ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox v82.0.2                                 // NOTE: Firefox auto-loads uBlock Origin adblocking plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox v82.0.2 (x86)                           // NOTE: Firefox auto-loads uBlock Origin adblocking plugin. Read package description in PDQ if you want to disable this behavior
  * Mozilla Firefox ESR v78.4.0                             // NOTE: Firefox ESR now loads uBlock Origin plugin
  * Mozilla Firefox ESR v78.4.0 (x86)                       // NOTE: Firefox ESR now loads uBlock Origin plugin
  * Mozilla Thunderbird v78.4.1 (x86)                       //
@@ -171,8 +867,8 @@ URL: https://www.reddit.com/r/pdq/comments/jpbnv1/pdq_deploy_packs_v7300_2020110
 Utilities:
  . Clean Up All Printers                                   //
  . Clean Up Orphaned Printers                              //
- . Empty All Recycle Bins                                  //
- . Enable Remote Desktop                                   //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
+ . Enable Remote Desktop (enable RDP on target)            //
  . Install PKI Certificates                                //
  . Reboot (force target reboot in 15 seconds)              //
  . Remove Adobe Flash Player (all versions) v2.0.0         //
@@ -213,8 +909,8 @@ URL: https://www.reddit.com/r/pdq/comments/iv9gz5/pdq_deploy_packs_v7200_2020091
  * LibreOffice v7.0.1                                      //
  . Microsoft .NET Framework v3.5.1 SP1 (x86)               //
  . Microsoft Silverlight v5.1.50918.0                      //
- * Mozilla Firefox v80.0.1                                 // NOTE: Firefox auto-loads uBlock Origin ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
- * Mozilla Firefox v80.0.1 (x86)                           // NOTE: Firefox auto-loads uBlock Origin ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox v80.0.1                                 // NOTE: Firefox auto-loads uBlock Origin adblocking plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox v80.0.1 (x86)                           // NOTE: Firefox auto-loads uBlock Origin adblocking plugin. Read package description in PDQ if you want to disable this behavior
  * Mozilla Firefox ESR v68.12.0                            // NOTE: Firefox ESR now loads uBlock Origin plugin
  * Mozilla Firefox ESR v68.12.0 (x86)                      // NOTE: Firefox ESR now loads uBlock Origin plugin
  * Mozilla Thunderbird v78.2.2 (x86)                       //
@@ -231,8 +927,8 @@ URL: https://www.reddit.com/r/pdq/comments/iv9gz5/pdq_deploy_packs_v7200_2020091
 Utilities:
  . Clean Up All Printers                                   //
  . Clean Up Orphaned Printers                              //
- . Empty All Recycle Bins                                  //
- . Enable Remote Desktop                                   //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
+ . Enable Remote Desktop (enable RDP on target)            //
  . Install PKI Certificates                                //
  . Reboot (force target reboot in 15 seconds)              //
  . Remove Adobe Flash Player (all versions) v2.0.0         //
@@ -273,8 +969,8 @@ URL: https://www.reddit.com/r/pdq/comments/h7pspu/pdq_deploy_packs_v7100_2020061
  * LibreOffice v6.4.4                                      //
  . Microsoft .NET Framework v3.5.1 SP1 (x86)               //
  . Microsoft Silverlight v5.1.50918.0                      //
- * Mozilla Firefox v77.0.1                                 // NOTE: Firefox auto-loads uBlock Origin ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
- * Mozilla Firefox v77.0.1 (x86)                           // NOTE: Firefox auto-loads uBlock Origin ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox v77.0.1                                 // NOTE: Firefox auto-loads uBlock Origin adblocking plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox v77.0.1 (x86)                           // NOTE: Firefox auto-loads uBlock Origin adblocking plugin. Read package description in PDQ if you want to disable this behavior
  * Mozilla Firefox ESR v68.9.0                             // NOTE: Firefox ESR now loads uBlock Origin plugin
  * Mozilla Firefox ESR v68.9.0 (x86)                       // NOTE: Firefox ESR now loads uBlock Origin plugin
  * Mozilla Thunderbird v68.9.0 (x86)                       //
@@ -291,8 +987,8 @@ URL: https://www.reddit.com/r/pdq/comments/h7pspu/pdq_deploy_packs_v7100_2020061
 Utilities:
  . Clean Up All Printers                                   //
  . Clean Up Orphaned Printers                              //
- . Empty All Recycle Bins                                  //
- . Enable Remote Desktop                                   //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
+ . Enable Remote Desktop (enable RDP on target)            //
  . Install PKI Certificates                                //
  . Reboot (force target reboot in 15 seconds)              //
  . Remove Adobe Flash Player (all versions) v2.0.0         //
@@ -334,8 +1030,8 @@ URL: https://www.reddit.com/r/pdq/comments/fsifg2/pdq_deploy_packs_v7000_2020033
  * LibreOffice v6.4.2                                      //
  . Microsoft .NET Framework v3.5.1 SP1 (x86)               //
  . Microsoft Silverlight v5.1.50918.0                      //
- . Mozilla Firefox v74.0.0                                 // NOTE: Firefox auto-loads uBlock Origin ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
- . Mozilla Firefox v74.0.0 (x86)                           // NOTE: Firefox auto-loads uBlock Origin ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
+ . Mozilla Firefox v74.0.0                                 // NOTE: Firefox auto-loads uBlock Origin adblocking plugin. Read package description in PDQ if you want to disable this behavior
+ . Mozilla Firefox v74.0.0 (x86)                           // NOTE: Firefox auto-loads uBlock Origin adblocking plugin. Read package description in PDQ if you want to disable this behavior
  * Mozilla Firefox ESR v68.6.0                             // NOTE: Firefox ESR does not auto-load uBlock Origin
  * Mozilla Firefox ESR v68.6.0 (x86)                       // NOTE: Firefox ESR does not auto-load uBlock Origin
  * Mozilla Thunderbird v68.6.0 (x86)                       //
@@ -352,8 +1048,8 @@ URL: https://www.reddit.com/r/pdq/comments/fsifg2/pdq_deploy_packs_v7000_2020033
 Utilities:
  . Clean Up All Printers                                   //
  . Clean Up Orphaned Printers                              //
- . Empty All Recycle Bins                                  //
- . Enable Remote Desktop                                   //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
+ . Enable Remote Desktop (enable RDP on target)            //
  . Install PKI Certificates                                //
  . Reboot (force target reboot in 15 seconds)              //
  . Remove Adobe Flash Player (all versions) v2.0.0         //
@@ -397,8 +1093,8 @@ URL: https://www.reddit.com/r/pdq/comments/ezs325/pdq_deploy_packs_v6900_2020020
  * LibreOffice v6.4.0                                      //
  . Microsoft .NET Framework v3.5.1 SP1 (x86)               //
  . Microsoft Silverlight v5.1.50918.0                      //
- * Mozilla Firefox v72.0.2                                 // NOTE: Firefox auto-loads uBlock Origin ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
- * Mozilla Firefox v72.0.2 (x86)                           // NOTE: Firefox auto-loads uBlock Origin ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox v72.0.2                                 // NOTE: Firefox auto-loads uBlock Origin adblocking plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox v72.0.2 (x86)                           // NOTE: Firefox auto-loads uBlock Origin adblocking plugin. Read package description in PDQ if you want to disable this behavior
  * Mozilla Firefox ESR v68.4.2                             // NOTE: Firefox ESR does not auto-load uBlock Origin
  * Mozilla Firefox ESR v68.4.2 (x86)                       // NOTE: Firefox ESR does not auto-load uBlock Origin
  * Mozilla Thunderbird v68.4.2 (x86)                       //
@@ -415,8 +1111,8 @@ URL: https://www.reddit.com/r/pdq/comments/ezs325/pdq_deploy_packs_v6900_2020020
 Utilities:
  . Clean Up All Printers                                   //
  . Clean Up Orphaned Printers                              //
- . Empty All Recycle Bins                                  //
- . Enable Remote Desktop                                   //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
+ . Enable Remote Desktop (enable RDP on target)            //
  . Install PKI Certificates                                //
  . Reboot (force target reboot in 15 seconds)              //
  . Remove Adobe Flash Player (all versions) v2.0.0         //
@@ -458,8 +1154,8 @@ URL: https://www.reddit.com/r/pdq/comments/ened9p/pdq_deploy_packs_v6800_2020011
  * LibreOffice v6.3.4                                      //
  . Microsoft .NET Framework v3.5.1 SP1 (x86)               //
  . Microsoft Silverlight v5.1.50918.0                      //
- * Mozilla Firefox v72.0.1                                 // NOTE: Firefox auto-loads uBlock Origin ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
- * Mozilla Firefox v72.0.1 (x86)                           // NOTE: Firefox auto-loads uBlock Origin ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox v72.0.1                                 // NOTE: Firefox auto-loads uBlock Origin adblocking plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox v72.0.1 (x86)                           // NOTE: Firefox auto-loads uBlock Origin adblocking plugin. Read package description in PDQ if you want to disable this behavior
  * Mozilla Firefox ESR v68.4.1                             // NOTE: Firefox ESR does not auto-load uBlock Origin
  * Mozilla Firefox ESR v68.4.1 (x86)                       // NOTE: Firefox ESR does not auto-load uBlock Origin
  * Mozilla Thunderbird v68.4.1 (x86)                       //
@@ -476,8 +1172,8 @@ URL: https://www.reddit.com/r/pdq/comments/ened9p/pdq_deploy_packs_v6800_2020011
 Utilities:
  . Clean Up All Printers                                   //
  . Clean Up Orphaned Printers                              //
- . Empty All Recycle Bins                                  //
- . Enable Remote Desktop                                   //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
+ . Enable Remote Desktop (enable RDP on target)            //
  . Install PKI Certificates                                //
  . Reboot (force target reboot in 15 seconds)              //
  . Remove Adobe Flash Player (all versions) v2.0.0         //
@@ -520,8 +1216,8 @@ URL: https://www.reddit.com/r/pdq/comments/dlhyr3/pdq_deploy_packs_v6700_2019102
  . Microsoft .NET Framework v3.5.1 SP1 (x86)               //
  - Microsoft Silverlight v5.1.50901.0 (x86)                // ! REMOVED
  * Microsoft Silverlight v5.1.50918.0                      //
- * Mozilla Firefox v69.0.3                                 // NOTE: Firefox auto-loads uBlock Origin ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
- * Mozilla Firefox v69.0.3 (x86)                           // NOTE: Firefox auto-loads uBlock Origin ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox v69.0.3                                 // NOTE: Firefox auto-loads uBlock Origin adblocking plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox v69.0.3 (x86)                           // NOTE: Firefox auto-loads uBlock Origin adblocking plugin. Read package description in PDQ if you want to disable this behavior
  . Mozilla Firefox ESR v68.1.0                             // NOTE: Firefox ESR does not auto-load uBlock Origin
  . Mozilla Firefox ESR v68.1.0 (x86)                       // NOTE: Firefox ESR does not auto-load uBlock Origin
  * Mozilla Thunderbird v68.1.2 (x86)                       //
@@ -538,8 +1234,8 @@ URL: https://www.reddit.com/r/pdq/comments/dlhyr3/pdq_deploy_packs_v6700_2019102
 Utilities:
  . Clean Up All Printers                                   //
  . Clean Up Orphaned Printers                              //
- . Empty All Recycle Bins                                  //
- . Enable Remote Desktop                                   //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
+ . Enable Remote Desktop (enable RDP on target)            //
  . Install PKI Certificates                                //
  . Reboot (force target reboot in 15 seconds)              //
  . Remove Adobe Flash Player (all versions) v2.0.0         //
@@ -583,8 +1279,8 @@ URL: https://www.reddit.com/r/pdq/comments/d5akum/pdq_deploy_packs_v6600_2019091
  . Microsoft .NET Framework v3.5.1 SP1 (x86)               //
  . Microsoft Silverlight v5.1.50901.0 (x86)                //
  . Microsoft Silverlight v5.1.50901.0                      //
- * Mozilla Firefox v69.0.0                                 // NOTE: Firefox auto-loads uBlock Origin ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
- * Mozilla Firefox v69.0.0 (x86)                           // NOTE: Firefox auto-loads uBlock Origin ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox v69.0.0                                 // NOTE: Firefox auto-loads uBlock Origin adblocking plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox v69.0.0 (x86)                           // NOTE: Firefox auto-loads uBlock Origin adblocking plugin. Read package description in PDQ if you want to disable this behavior
  * Mozilla Firefox ESR v68.1.0                             // NOTE: Firefox ESR does not auto-load uBlock Origin
  * Mozilla Firefox ESR v68.1.0 (x86)                       // NOTE: Firefox ESR does not auto-load uBlock Origin
  * Mozilla Thunderbird v68.1.0 (x86)                       //
@@ -601,8 +1297,8 @@ URL: https://www.reddit.com/r/pdq/comments/d5akum/pdq_deploy_packs_v6600_2019091
 Utilities:
  . Clean Up All Printers                                   //
  . Clean Up Orphaned Printers                              //
- . Empty All Recycle Bins                                  //
- . Enable Remote Desktop                                   //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
+ . Enable Remote Desktop (enable RDP on target)            //
  . Install PKI Certificates                                //
  . Reboot (force target reboot in 15 seconds)              //
  . Remove Adobe Flash Player (all versions) v2.0.0         //
@@ -649,8 +1345,8 @@ URL: https://www.reddit.com/r/pdq/comments/cbjq9e/pdq_deploy_packs_v6500_2019071
  . Microsoft .NET Framework v3.5.1 SP1 (x86)               //
  . Microsoft Silverlight v5.1.50901.0 (x86)                //
  . Microsoft Silverlight v5.1.50901.0                      //
- * Mozilla Firefox v68.0.0                                 // NOTE: Firefox auto-loads uBlock Origin ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
- * Mozilla Firefox v68.0.0 (x86)                           // NOTE: Firefox auto-loads uBlock Origin ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox v68.0.0                                 // NOTE: Firefox auto-loads uBlock Origin adblocking plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox v68.0.0 (x86)                           // NOTE: Firefox auto-loads uBlock Origin adblocking plugin. Read package description in PDQ if you want to disable this behavior
  * Mozilla Firefox ESR v68.0.0                             // NOTE: Firefox ESR does not auto-load uBlock Origin
  * Mozilla Firefox ESR v68.0.0 (x86)                       // NOTE: Firefox ESR does not auto-load uBlock Origin
  * Mozilla Thunderbird v60.8.0 (x86)                       //
@@ -667,8 +1363,8 @@ URL: https://www.reddit.com/r/pdq/comments/cbjq9e/pdq_deploy_packs_v6500_2019071
 Utilities:
  . Clean Up All Printers                                   //
  . Clean Up Orphaned Printers                              //
- . Empty All Recycle Bins                                  //
- . Enable Remote Desktop                                   //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
+ . Enable Remote Desktop (enable RDP on target)            //
  . Install PKI Certificates                                //
  . Reboot (force target reboot in 15 seconds)              //
  . Remove Adobe Flash Player (all versions) v2.0.0         //
@@ -716,8 +1412,8 @@ URL: https://www.reddit.com/r/pdq/comments/bpk8fa/pdq_deploy_packs_v6400_2019051
  . Microsoft .NET Framework v3.5.1 SP1 (x86)               //
  . Microsoft Silverlight v5.1.50901.0 (x86)                //
  . Microsoft Silverlight v5.1.50901.0                      //
- * Mozilla Firefox v66.0.5                                 // NOTE: Firefox auto-loads uBlock Origin ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
- * Mozilla Firefox v66.0.5 (x86)                           // NOTE: Firefox auto-loads uBlock Origin ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox v66.0.5                                 // NOTE: Firefox auto-loads uBlock Origin adblocking plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox v66.0.5 (x86)                           // NOTE: Firefox auto-loads uBlock Origin adblocking plugin. Read package description in PDQ if you want to disable this behavior
  * Mozilla Firefox ESR v60.6.3                             // NOTE: Firefox ESR does not auto-load uBlock Origin
  * Mozilla Firefox ESR v60.6.3 (x86)                       // NOTE: Firefox ESR does not auto-load uBlock Origin
  * Mozilla Thunderbird v60.6.1 (x86)                       //
@@ -734,8 +1430,8 @@ URL: https://www.reddit.com/r/pdq/comments/bpk8fa/pdq_deploy_packs_v6400_2019051
 Utilities:
  . Clean Up All Printers                                   //
  . Clean Up Orphaned Printers                              //
- . Empty All Recycle Bins                                  //
- . Enable Remote Desktop                                   //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
+ . Enable Remote Desktop (enable RDP on target)            //
  . Install PKI Certificates                                //
  . Reboot (force target reboot in 15 seconds)              //
  . Remove Adobe Flash Player (all versions) v2.0.0         //
@@ -783,8 +1479,8 @@ URL: https://www.reddit.com/r/pdq/comments/b0pbko/pdq_deploy_packs_v6300_2019031
  . Microsoft .NET Framework v3.5.1 SP1 (x86)               //
  . Microsoft Silverlight v5.1.50901.0 (x86)                //
  . Microsoft Silverlight v5.1.50901.0                      //
- * Mozilla Firefox v65.0.2                                 // NOTE: Firefox auto-loads uBlock Origin ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
- * Mozilla Firefox v65.0.2 (x86)                           // NOTE: Firefox auto-loads uBlock Origin ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox v65.0.2                                 // NOTE: Firefox auto-loads uBlock Origin adblocking plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox v65.0.2 (x86)                           // NOTE: Firefox auto-loads uBlock Origin adblocking plugin. Read package description in PDQ if you want to disable this behavior
  * Mozilla Firefox ESR v60.5.2                             // NOTE: Firefox ESR does not auto-load uBlock Origin
  * Mozilla Firefox ESR v60.5.2 (x86)                       // NOTE: Firefox ESR does not auto-load uBlock Origin
  * Mozilla Thunderbird v60.5.3 (x86)                       //
@@ -801,8 +1497,8 @@ URL: https://www.reddit.com/r/pdq/comments/b0pbko/pdq_deploy_packs_v6300_2019031
 Utilities:
  . Clean Up All Printers                                   //
  . Clean Up Orphaned Printers                              //
- . Empty All Recycle Bins                                  //
- . Enable Remote Desktop                                   //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
+ . Enable Remote Desktop (enable RDP on target)            //
  . Install PKI Certificates                                //
  . Reboot (force target reboot in 15 seconds)              //
  . Remove Adobe Flash Player (all versions) v2.0.0         //
@@ -850,8 +1546,8 @@ URL: https://www.reddit.com/r/sysadmin/comments/ar0c4c/pdq_deploy_packs_v6201_20
  . Microsoft .NET Framework v3.5.1 SP1 (x86)               //
  . Microsoft Silverlight v5.1.50901.0 (x86)                //
  . Microsoft Silverlight v5.1.50901.0                      //
- * Mozilla Firefox v65.0.1                                 // NOTE: Firefox auto-loads uBlock Origin ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
- * Mozilla Firefox v65.0.1 (x86)                           // NOTE: Firefox auto-loads uBlock Origin ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox v65.0.1                                 // NOTE: Firefox auto-loads uBlock Origin adblocking plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox v65.0.1 (x86)                           // NOTE: Firefox auto-loads uBlock Origin adblocking plugin. Read package description in PDQ if you want to disable this behavior
  * Mozilla Firefox ESR v60.5.1                             // NOTE: Firefox ESR does not auto-load uBlock Origin
  * Mozilla Firefox ESR v60.5.1 (x86)                       // NOTE: Firefox ESR does not auto-load uBlock Origin
  * Mozilla Thunderbird v60.5.1 (x86)                       //
@@ -868,8 +1564,8 @@ URL: https://www.reddit.com/r/sysadmin/comments/ar0c4c/pdq_deploy_packs_v6201_20
 Utilities:
  . Clean Up All Printers                                   //
  . Clean Up Orphaned Printers                              //
- . Empty All Recycle Bins                                  //
- . Enable Remote Desktop                                   //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
+ . Enable Remote Desktop (enable RDP on target)            //
  . Install PKI Certificates                                //
  . Reboot (force target reboot in 15 seconds)              //
  . Remove Adobe Flash Player (all versions) v2.0.0         //
@@ -917,8 +1613,8 @@ URL: https://www.reddit.com/r/sysadmin/comments/akqk9b/pdq_deploy_packs_v6200_20
  . Microsoft .NET Framework v3.5.1 SP1 (x86)               //
  . Microsoft Silverlight v5.1.50901.0 (x86)                //
  . Microsoft Silverlight v5.1.50901.0                      //
- * Mozilla Firefox v64.0.2                                 // NOTE: Firefox auto-loads uBlock Origin ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
- * Mozilla Firefox v64.0.2 (x86)                           // NOTE: Firefox auto-loads uBlock Origin ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox v64.0.2                                 // NOTE: Firefox auto-loads uBlock Origin adblocking plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox v64.0.2 (x86)                           // NOTE: Firefox auto-loads uBlock Origin adblocking plugin. Read package description in PDQ if you want to disable this behavior
  . Mozilla Firefox ESR v60.4.0                             // NOTE: Firefox ESR does not auto-load uBlock Origin
  . Mozilla Firefox ESR v60.4.0 (x86)                       // NOTE: Firefox ESR does not auto-load uBlock Origin
  * Mozilla Thunderbird v60.4.0 (x86)                       //
@@ -935,8 +1631,8 @@ URL: https://www.reddit.com/r/sysadmin/comments/akqk9b/pdq_deploy_packs_v6200_20
 Utilities:
  . Clean Up All Printers                                   //
  . Clean Up Orphaned Printers                              //
- . Empty All Recycle Bins                                  //
- . Enable Remote Desktop                                   //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
+ . Enable Remote Desktop (enable RDP on target)            //
  . Install PKI Certificates                                //
  . Reboot (force target reboot in 15 seconds)              //
  . Remove Adobe Flash Player (all versions) v2.0.0         //
@@ -985,8 +1681,8 @@ URL: https://www.reddit.com/r/sysadmin/comments/a5zla3/pdq_deploy_packs_v6100_20
  . Microsoft .NET Framework v3.5.1 SP1 (x86)               //
  . Microsoft Silverlight v5.1.50901.0 (x86)                //
  . Microsoft Silverlight v5.1.50901.0                      //
- * Mozilla Firefox v64.0.0                                 // NOTE: Firefox auto-loads uBlock Origin ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
- * Mozilla Firefox v64.0.0 (x86)                           // NOTE: Firefox auto-loads uBlock Origin ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox v64.0.0                                 // NOTE: Firefox auto-loads uBlock Origin adblocking plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox v64.0.0 (x86)                           // NOTE: Firefox auto-loads uBlock Origin adblocking plugin. Read package description in PDQ if you want to disable this behavior
  * Mozilla Firefox ESR v60.4.0                             // NOTE: Firefox ESR does not auto-load uBlock Origin
  * Mozilla Firefox ESR v60.4.0 (x86)                       // NOTE: Firefox ESR does not auto-load uBlock Origin
  * Mozilla Thunderbird v60.3.3 (x86)                       //
@@ -1003,8 +1699,8 @@ URL: https://www.reddit.com/r/sysadmin/comments/a5zla3/pdq_deploy_packs_v6100_20
 Utilities:
  . Clean Up All Printers                                   //
  . Clean Up Orphaned Printers                              //
- . Empty All Recycle Bins                                  //
- . Enable Remote Desktop                                   //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
+ . Enable Remote Desktop (enable RDP on target)            //
  . Install PKI Certificates                                //
  . Reboot (force target reboot in 15 seconds)              //
  . Remove Adobe Flash Player (all versions) v2.0.0         //
@@ -1053,8 +1749,8 @@ URL: https://www.reddit.com/r/sysadmin/comments/9l30hd/pdq_deploy_packs_v6000_20
  . Microsoft .NET Framework v3.5.1 SP1 (x86)               //
  . Microsoft Silverlight v5.1.50901.0 (x86)                //
  . Microsoft Silverlight v5.1.50901.0                      //
- * Mozilla Firefox v62.0.3                                 // NOTE: Firefox auto-loads uBlock Origin ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
- * Mozilla Firefox v62.0.3 (x86)                           // NOTE: Firefox auto-loads uBlock Origin ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox v62.0.3                                 // NOTE: Firefox auto-loads uBlock Origin adblocking plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox v62.0.3 (x86)                           // NOTE: Firefox auto-loads uBlock Origin adblocking plugin. Read package description in PDQ if you want to disable this behavior
  * Mozilla Firefox ESR v60.2.2                             // NOTE: Firefox ESR does not auto-load uBlock Origin
  * Mozilla Firefox ESR v60.2.2 (x86)                       // NOTE: Firefox ESR does not auto-load uBlock Origin
  * Mozilla Thunderbird v60.2.1 (x86)                       //
@@ -1071,8 +1767,8 @@ URL: https://www.reddit.com/r/sysadmin/comments/9l30hd/pdq_deploy_packs_v6000_20
 Utilities:
  . Clean Up All Printers                                   //
  . Clean Up Orphaned Printers                              //
- . Empty All Recycle Bins                                  //
- . Enable Remote Desktop                                   //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
+ . Enable Remote Desktop (enable RDP on target)            //
  . Install PKI Certificates                                //
  . Reboot (force target reboot in 15 seconds)              //
  . Remove Adobe Flash Player (all versions) v2.0.0         //
@@ -1121,8 +1817,8 @@ URL: https://www.reddit.com/r/sysadmin/comments/9dlktf/pdq_deploy_packs_v5900_20
  . Microsoft .NET Framework v3.5.1 SP1 (x86)               //
  . Microsoft Silverlight v5.1.50901.0 (x86)                //
  . Microsoft Silverlight v5.1.50901.0                      //
- * Mozilla Firefox v62.0.0                                 // NOTE: Firefox auto-loads uBlock Origin ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
- * Mozilla Firefox v62.0.0 (x86)                           // NOTE: Firefox auto-loads uBlock Origin ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox v62.0.0                                 // NOTE: Firefox auto-loads uBlock Origin adblocking plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox v62.0.0 (x86)                           // NOTE: Firefox auto-loads uBlock Origin adblocking plugin. Read package description in PDQ if you want to disable this behavior
  * Mozilla Firefox ESR v60.2.0                             // NOTE: Firefox ESR does not auto-load uBlock Origin
  * Mozilla Firefox ESR v60.2.0 (x86)                       // NOTE: Firefox ESR does not auto-load uBlock Origin
  * Mozilla Thunderbird v60.0.0 (x86)                       //
@@ -1138,8 +1834,8 @@ URL: https://www.reddit.com/r/sysadmin/comments/9dlktf/pdq_deploy_packs_v5900_20
 Utilities:
  . Clean Up All Printers                                   //
  . Clean Up Orphaned Printers                              //
- . Empty All Recycle Bins                                  //
- . Enable Remote Desktop                                   //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
+ . Enable Remote Desktop (enable RDP on target)            //
  . Install PKI Certificates                                //
  . Reboot (force target reboot in 15 seconds)              //
  . Remove Adobe Flash Player (all versions) v2.0.0         //
@@ -1188,8 +1884,8 @@ URL: https://www.reddit.com/r/sysadmin/comments/900ini/pdq_deploy_packs_v5800_20
  . Microsoft .NET Framework v3.5.1 SP1 (x86)               //
  . Microsoft Silverlight v5.1.50901.0 (x86)                //
  . Microsoft Silverlight v5.1.50901.0                      //
- * Mozilla Firefox v61.0.1                                 // NOTE: Firefox auto-loads uBlock Origin ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
- * Mozilla Firefox v61.0.1 (x86)                           // NOTE: Firefox auto-loads uBlock Origin ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox v61.0.1                                 // NOTE: Firefox auto-loads uBlock Origin adblocking plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox v61.0.1 (x86)                           // NOTE: Firefox auto-loads uBlock Origin adblocking plugin. Read package description in PDQ if you want to disable this behavior
  * Mozilla Firefox ESR v60.1.0                             // NOTE: Firefox ESR does not auto-load uBlock Origin
  * Mozilla Firefox ESR v60.1.0 (x86)                       // NOTE: Firefox ESR does not auto-load uBlock Origin
  * Mozilla Thunderbird v52.9.1 (x86)                       //
@@ -1205,8 +1901,8 @@ URL: https://www.reddit.com/r/sysadmin/comments/900ini/pdq_deploy_packs_v5800_20
 Utilities:
  . Clean Up All Printers                                   //
  . Clean Up Orphaned Printers                              //
- . Empty All Recycle Bins                                  //
- . Enable Remote Desktop                                   //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
+ . Enable Remote Desktop (enable RDP on target)            //
  . Install PKI Certificates                                //
  . Reboot (force target reboot in 15 seconds)              //
  . Remove Adobe Flash Player (all versions) v2.0.0         //
@@ -1255,8 +1951,8 @@ URL: https://www.reddit.com/r/sysadmin/comments/8nmswr/pdq_deploy_packs_v5700_20
  . Microsoft .NET Framework v3.5.1 SP1 (x86)               //
  . Microsoft Silverlight v5.1.50901.0 (x86)                //
  . Microsoft Silverlight v5.1.50901.0                      //
- * Mozilla Firefox v60.0.1                                 // NOTE: Firefox auto-loads uBlock Origin ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
- * Mozilla Firefox v60.0.1 (x86)                           // NOTE: Firefox auto-loads uBlock Origin ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox v60.0.1                                 // NOTE: Firefox auto-loads uBlock Origin adblocking plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox v60.0.1 (x86)                           // NOTE: Firefox auto-loads uBlock Origin adblocking plugin. Read package description in PDQ if you want to disable this behavior
  * Mozilla Firefox ESR v60.0.1                             // NOTE: Firefox ESR does not auto-load uBlock Origin
  * Mozilla Firefox ESR v60.0.1 (x86)                       // NOTE: Firefox ESR does not auto-load uBlock Origin
  * Mozilla Thunderbird v52.8.0 (x86)                       //
@@ -1272,8 +1968,8 @@ URL: https://www.reddit.com/r/sysadmin/comments/8nmswr/pdq_deploy_packs_v5700_20
 Utilities:
  . Clean Up All Printers                                   //
  . Clean Up Orphaned Printers                              //
- . Empty All Recycle Bins                                  //
- . Enable Remote Desktop                                   //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
+ . Enable Remote Desktop (enable RDP on target)            //
  . Install PKI Certificates                                //
  . Reboot (force target reboot in 15 seconds)              //
  . Remove Adobe Flash Player (all versions) v2.0.0         //
@@ -1326,8 +2022,8 @@ URL: https://www.reddit.com/r/sysadmin/comments/8ban1j/pdq_deploy_packs_v5600_20
  . Microsoft .NET Framework v3.5.1 SP1 (x86)               //
  . Microsoft Silverlight v5.1.50901.0 (x86)                //
  . Microsoft Silverlight v5.1.50901.0                      //
- * Mozilla Firefox v59.0.2                                 // NOTE: Firefox auto-loads uBlock Origin ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
- * Mozilla Firefox v59.0.2 (x86)                           // NOTE: Firefox auto-loads uBlock Origin ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox v59.0.2                                 // NOTE: Firefox auto-loads uBlock Origin adblocking plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox v59.0.2 (x86)                           // NOTE: Firefox auto-loads uBlock Origin adblocking plugin. Read package description in PDQ if you want to disable this behavior
  . Mozilla Firefox ESR v52.7.3                             // NOTE: Firefox ESR does not auto-load uBlock Origin
  . Mozilla Firefox ESR v52.7.3 (x86)                       // NOTE: Firefox ESR does not auto-load uBlock Origin
  * Mozilla Thunderbird v52.7.0 (x86)                       //
@@ -1343,8 +2039,8 @@ URL: https://www.reddit.com/r/sysadmin/comments/8ban1j/pdq_deploy_packs_v5600_20
 Utilities:
  . Clean Up All Printers                                   //
  . Clean Up Orphaned Printers                              //
- . Empty All Recycle Bins                                  //
- . Enable Remote Desktop                                   //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
+ . Enable Remote Desktop (enable RDP on target)            //
  . Install PKI Certificates                                //
  . Reboot (force target reboot in 15 seconds)              //
  . Remove Adobe Flash Player (all versions) v2.0.0         //
@@ -1398,8 +2094,8 @@ URL: https://www.reddit.com/r/sysadmin/comments/7zys14/pdq_deploy_packs_v5500_20
  . Microsoft .NET Framework v3.5.1 SP1 (x86)               //
  . Microsoft Silverlight v5.1.50901.0 (x86)                //
  . Microsoft Silverlight v5.1.50901.0                      //
- * Mozilla Firefox v58.0.2                                 // NOTE: Firefox auto-loads uBlock Origin ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
- * Mozilla Firefox v58.0.2 (x86)                           // NOTE: Firefox auto-loads uBlock Origin ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox v58.0.2                                 // NOTE: Firefox auto-loads uBlock Origin adblocking plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox v58.0.2 (x86)                           // NOTE: Firefox auto-loads uBlock Origin adblocking plugin. Read package description in PDQ if you want to disable this behavior
  * Mozilla Firefox ESR v52.6.0                             // NOTE: Firefox ESR does not auto-load uBlock Origin
  * Mozilla Firefox ESR v52.6.0 (x86)                       // NOTE: Firefox ESR does not auto-load uBlock Origin
  * Mozilla Thunderbird v52.6.0 (x86)                       //
@@ -1415,8 +2111,8 @@ URL: https://www.reddit.com/r/sysadmin/comments/7zys14/pdq_deploy_packs_v5500_20
 Utilities:
  . Clean Up All Printers                                   //
  . Clean Up Orphaned Printers                              //
- . Empty All Recycle Bins                                  //
- . Enable Remote Desktop                                   //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
+ . Enable Remote Desktop (enable RDP on target)            //
  . Install PKI Certificates                                //
  . Reboot (force target reboot in 15 seconds)              //
  . Remove Adobe Flash Player (all versions) v2.0.0         //
@@ -1470,8 +2166,8 @@ URL: https://www.reddit.com/r/sysadmin/comments/7rlafb/pdq_deploy_packs_v5400_20
  . Microsoft .NET Framework v3.5.1 SP1 (x86)               //
  . Microsoft Silverlight v5.1.50901.0 (x86)                //
  . Microsoft Silverlight v5.1.50901.0                      //
- * Mozilla Firefox v57.0.4                                 // NOTE: Firefox auto-loads uBlock Origin ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
- * Mozilla Firefox v57.0.4 (x86)                           // NOTE: Firefox auto-loads uBlock Origin ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox v57.0.4                                 // NOTE: Firefox auto-loads uBlock Origin adblocking plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox v57.0.4 (x86)                           // NOTE: Firefox auto-loads uBlock Origin adblocking plugin. Read package description in PDQ if you want to disable this behavior
  * Mozilla Firefox ESR v52.5.3                             // NOTE: Firefox ESR does not auto-load uBlock Origin
  * Mozilla Firefox ESR v52.5.3 (x86)                       // NOTE: Firefox ESR does not auto-load uBlock Origin
  * Mozilla Thunderbird v52.5.2 (x86)                       //
@@ -1487,8 +2183,8 @@ URL: https://www.reddit.com/r/sysadmin/comments/7rlafb/pdq_deploy_packs_v5400_20
 Utilities:
  . Clean Up All Printers                                   //
  . Clean Up Orphaned Printers                              //
- . Empty All Recycle Bins                                  //
- . Enable Remote Desktop                                   //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
+ . Enable Remote Desktop (enable RDP on target)            //
  . Install PKI Certificates                                //
  . Reboot (force target reboot in 15 seconds)              //
  . Remove Adobe Flash Player (all versions) v2.0.0         //
@@ -1542,8 +2238,8 @@ URL:
  . Microsoft .NET Framework v3.5.1 SP1 (x86)               //
  . Microsoft Silverlight v5.1.50901.0 (x86)                //
  . Microsoft Silverlight v5.1.50901.0                      //
- * Mozilla Firefox v57.0.2                                 // NOTE: Firefox auto-loads uBlock Origin ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
- * Mozilla Firefox v57.0.2 (x86)                           // NOTE: Firefox auto-loads uBlock Origin ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox v57.0.2                                 // NOTE: Firefox auto-loads uBlock Origin adblocking plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox v57.0.2 (x86)                           // NOTE: Firefox auto-loads uBlock Origin adblocking plugin. Read package description in PDQ if you want to disable this behavior
  * Mozilla Firefox ESR v52.5.2                             // NOTE: Firefox ESR does not auto-load uBlock Origin
  * Mozilla Firefox ESR v52.5.2 (x86)                       // NOTE: Firefox ESR does not auto-load uBlock Origin
  * Mozilla Thunderbird v52.5.0 (x86)                       //
@@ -1559,8 +2255,8 @@ URL:
 Utilities:
  . Clean Up All Printers                                   //
  . Clean Up Orphaned Printers                              //
- . Empty All Recycle Bins                                  //
- . Enable Remote Desktop                                   //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
+ . Enable Remote Desktop (enable RDP on target)            //
  . Install PKI Certificates                                //
  . Reboot (force target reboot in 15 seconds)              //
  . Remove Adobe Flash Player (all versions) v2.0.0         //
@@ -1614,8 +2310,8 @@ URL: https://www.reddit.com/r/sysadmin/comments/749zit/pdq_deploy_packs_v5200_20
  . Microsoft .NET Framework v3.5.1 SP1 (x86)               //
  . Microsoft Silverlight v5.1.50901.0 (x86)                //
  . Microsoft Silverlight v5.1.50901.0                      //
- * Mozilla Firefox v56.0.0                                 // NOTE: Firefox auto-loads uBlock Origin ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
- * Mozilla Firefox v56.0.0 (x86)                           // NOTE: Firefox auto-loads uBlock Origin ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox v56.0.0                                 // NOTE: Firefox auto-loads uBlock Origin adblocking plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox v56.0.0 (x86)                           // NOTE: Firefox auto-loads uBlock Origin adblocking plugin. Read package description in PDQ if you want to disable this behavior
  * Mozilla Firefox ESR v52.4.0                             // NOTE: Firefox ESR does not auto-load uBlock Origin
  * Mozilla Firefox ESR v52.4.0 (x86)                       // NOTE: Firefox ESR does not auto-load uBlock Origin
  * Mozilla Thunderbird v52.3.0 (x86)                       //
@@ -1631,8 +2327,8 @@ URL: https://www.reddit.com/r/sysadmin/comments/749zit/pdq_deploy_packs_v5200_20
 Utilities:
  . Clean Up All Printers                                   //
  . Clean Up Orphaned Printers                              //
- . Empty All Recycle Bins                                  //
- . Enable Remote Desktop                                   //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
+ . Enable Remote Desktop (enable RDP on target)            //
  . Install PKI Certificates                                //
  . Reboot (force target reboot in 15 seconds)              //
  . Remove Adobe Flash Player (all versions) v2.0.0         //
@@ -1684,8 +2380,8 @@ URL: https://www.reddit.com/r/sysadmin/comments/6tqgdr/pdq_deploy_packs_v5100_20
  . Microsoft .NET Framework v3.5.1 SP1 (x86)               //
  . Microsoft Silverlight v5.1.50901.0 (x86)                //
  . Microsoft Silverlight v5.1.50901.0                      //
- * Mozilla Firefox v55.0.1                                 // NOTE: Firefox auto-loads uBlock Origin ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
- * Mozilla Firefox v55.0.1 (x86)                           // NOTE: Firefox auto-loads uBlock Origin ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox v55.0.1                                 // NOTE: Firefox auto-loads uBlock Origin adblocking plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox v55.0.1 (x86)                           // NOTE: Firefox auto-loads uBlock Origin adblocking plugin. Read package description in PDQ if you want to disable this behavior
  * Mozilla Firefox ESR v52.3.0                             // NOTE: Firefox ESR does not auto-load uBlock Origin
  * Mozilla Firefox ESR v52.3.0 (x86)                       // NOTE: Firefox ESR does not auto-load uBlock Origin
  * Mozilla Thunderbird v52.2.1 (x86)                       //
@@ -1701,8 +2397,8 @@ URL: https://www.reddit.com/r/sysadmin/comments/6tqgdr/pdq_deploy_packs_v5100_20
 Utilities:
  . Clean Up All Printers                                   //
  . Clean Up Orphaned Printers                              //
- . Empty All Recycle Bins                                  //
- . Enable Remote Desktop                                   //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
+ . Enable Remote Desktop (enable RDP on target)            //
  . Install PKI Certificates                                //
  . Reboot (force target reboot in 15 seconds)              //
  . Remove Adobe Flash Player (all versions) v2.0.0         //
@@ -1754,8 +2450,8 @@ URL: https://www.reddit.com/r/sysadmin/comments/6ggzy9/pdq_deploy_packs_v5000_20
  . Microsoft .NET Framework v3.5.1 SP1 (x86)               //
  . Microsoft Silverlight v5.1.50901.0 (x86)                //
  . Microsoft Silverlight v5.1.50901.0                      //
- * Mozilla Firefox v53.0.3                                 // NOTE: Firefox auto-loads uBlock ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
- * Mozilla Firefox v53.0.3 (x86)                           // NOTE: Firefox auto-loads uBlock ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox v53.0.3                                 // NOTE: Firefox auto-loads uBlock adblocking plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox v53.0.3 (x86)                           // NOTE: Firefox auto-loads uBlock adblocking plugin. Read package description in PDQ if you want to disable this behavior
  * Mozilla Firefox ESR v52.1.2                             // NOTE: Firefox ESR does not auto-load uBlock Origin
  * Mozilla Firefox ESR v52.1.2 (x86)                       // NOTE: Firefox ESR does not auto-load uBlock Origin
  * Mozilla Thunderbird v52.1.1 (x86)                       //
@@ -1771,8 +2467,8 @@ URL: https://www.reddit.com/r/sysadmin/comments/6ggzy9/pdq_deploy_packs_v5000_20
 Utilities:
  . Clean Up All Printers                                   //
  . Clean Up Orphaned Printers                              //
- . Empty All Recycle Bins                                  //
- . Enable Remote Desktop                                   //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
+ . Enable Remote Desktop (enable RDP on target)            //
  . Install PKI Certificates                                //
  . Reboot (force target reboot in 15 seconds)              //
  . Remove Adobe Flash Player (all versions) v2.0.0         //
@@ -1824,8 +2520,8 @@ URL: https://www.reddit.com/r/sysadmin/comments/68a94e/pdq_deploy_packs_v4900_20
  . Microsoft .NET Framework v3.5.1 SP1 (x86)               //
  . Microsoft Silverlight v5.1.50901.0 (x86)                //
  . Microsoft Silverlight v5.1.50901.0                      //
- * Mozilla Firefox v53.0.0                                 // NOTE: Firefox auto-loads uBlock ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
- * Mozilla Firefox v53.0.0 (x86)                           // NOTE: Firefox auto-loads uBlock ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox v53.0.0                                 // NOTE: Firefox auto-loads uBlock adblocking plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox v53.0.0 (x86)                           // NOTE: Firefox auto-loads uBlock adblocking plugin. Read package description in PDQ if you want to disable this behavior
  * Mozilla Firefox ESR v52.1.0                             // NOTE: Firefox ESR does not auto-load uBlock Origin
  * Mozilla Firefox ESR v52.1.0 (x86)                       // NOTE: Firefox ESR does not auto-load uBlock Origin
  * Mozilla Thunderbird v52.0.1 (x86)                       //
@@ -1841,8 +2537,8 @@ URL: https://www.reddit.com/r/sysadmin/comments/68a94e/pdq_deploy_packs_v4900_20
 Utilities:
  . Clean Up All Printers                                   //
  . Clean Up Orphaned Printers                              //
- . Empty All Recycle Bins                                  //
- . Enable Remote Desktop                                   //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
+ . Enable Remote Desktop (enable RDP on target)            //
  . Install PKI Certificates                                //
  . Reboot (force target reboot in 15 seconds)              //
  . Remove Adobe Flash Player (all versions) v2.0.0         //
@@ -1894,8 +2590,8 @@ URL: https://www.reddit.com/r/sysadmin/comments/62bnuu/pdq_deploy_packs_v4800_20
  . Microsoft .NET Framework v3.5.1 SP1 (x86)               //
  . Microsoft Silverlight v5.1.50901.0 (x86)                //
  . Microsoft Silverlight v5.1.50901.0                      //
- * Mozilla Firefox v52.0.2                                 // NOTE: Firefox auto-loads uBlock ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
- * Mozilla Firefox v52.0.2 (x86)                           // NOTE: Firefox auto-loads uBlock ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox v52.0.2                                 // NOTE: Firefox auto-loads uBlock adblocking plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox v52.0.2 (x86)                           // NOTE: Firefox auto-loads uBlock adblocking plugin. Read package description in PDQ if you want to disable this behavior
  + Mozilla Firefox ESR v52.0.2                             // NOTE: Firefox ESR does not auto-load uBlock Origin
  + Mozilla Firefox ESR v52.0.2 (x86)                       // NOTE: Firefox ESR does not auto-load uBlock Origin
  * Mozilla Thunderbird v45.8.0 (x86)                       //
@@ -1911,8 +2607,8 @@ URL: https://www.reddit.com/r/sysadmin/comments/62bnuu/pdq_deploy_packs_v4800_20
 Utilities:
  . Clean Up All Printers                                   //
  . Clean Up Orphaned Printers                              //
- . Empty All Recycle Bins                                  //
- . Enable Remote Desktop                                   //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
+ . Enable Remote Desktop (enable RDP on target)            //
  . Install PKI Certificates                                //
  . Reboot (force target reboot in 15 seconds)              //
  . Remove Adobe Flash Player (all versions) v2.0.0         //
@@ -1962,8 +2658,8 @@ URL: No URL; Resilio Sync point release only
  . Microsoft .NET Framework v3.5.1 SP1 (x86)               //
  . Microsoft Silverlight v5.1.50901.0 (x86)                //
  . Microsoft Silverlight v5.1.50901.0                      //
- . Mozilla Firefox v51.0.1                                 // NOTE: Firefox auto-loads uBlock ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
- . Mozilla Firefox v51.0.1 (x86)                           // NOTE: Firefox auto-loads uBlock ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
+ . Mozilla Firefox v51.0.1                                 // NOTE: Firefox auto-loads uBlock adblocking plugin. Read package description in PDQ if you want to disable this behavior
+ . Mozilla Firefox v51.0.1 (x86)                           // NOTE: Firefox auto-loads uBlock adblocking plugin. Read package description in PDQ if you want to disable this behavior
  . Mozilla Thunderbird v45.7.1 (x86)                       //
  . Notepad++ v7.3.1 (x86)                                  //
  . Pale Moon v27.1.0 (x86)                                 //
@@ -1977,8 +2673,8 @@ URL: No URL; Resilio Sync point release only
 Utilities:
  . Clean Up All Printers                                   //
  . Clean Up Orphaned Printers                              //
- . Empty All Recycle Bins                                  //
- . Enable Remote Desktop                                   //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
+ . Enable Remote Desktop (enable RDP on target)            //
  . Install PKI Certificates                                //
  . Reboot (force target reboot in 15 seconds)              //
  . Remove Adobe Flash Player (all versions) v2.0.0         //
@@ -2027,8 +2723,8 @@ URL: https://www.reddit.com/r/sysadmin/comments/5tuudv/pdq_deploy_packs_v4700_20
  . Microsoft .NET Framework v3.5.1 SP1 (x86)               //
  . Microsoft Silverlight v5.1.50901.0 (x86)                //
  . Microsoft Silverlight v5.1.50901.0                      //
- . Mozilla Firefox v51.0.1                                 // NOTE: Firefox auto-loads uBlock ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
- . Mozilla Firefox v51.0.1 (x86)                           // NOTE: Firefox auto-loads uBlock ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
+ . Mozilla Firefox v51.0.1                                 // NOTE: Firefox auto-loads uBlock adblocking plugin. Read package description in PDQ if you want to disable this behavior
+ . Mozilla Firefox v51.0.1 (x86)                           // NOTE: Firefox auto-loads uBlock adblocking plugin. Read package description in PDQ if you want to disable this behavior
  * Mozilla Thunderbird v45.7.1 (x86)                       //
  . Notepad++ v7.3.1 (x86)                                  //
  * Pale Moon v27.1.0 (x86)                                 //
@@ -2042,8 +2738,8 @@ URL: https://www.reddit.com/r/sysadmin/comments/5tuudv/pdq_deploy_packs_v4700_20
 Utilities:
  . Clean Up All Printers                                   //
  . Clean Up Orphaned Printers                              //
- . Empty All Recycle Bins                                  //
- . Enable Remote Desktop                                   //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
+ . Enable Remote Desktop (enable RDP on target)            //
  . Install PKI Certificates                                //
  . Reboot (force target reboot in 15 seconds)              //
  . Remove Adobe Flash Player (all versions) v2.0.0         //
@@ -2092,8 +2788,8 @@ URL: Point release, no Reddit post
  . Microsoft .NET Framework v3.5.1 SP1 (x86)               //
  . Microsoft Silverlight v5.1.50901.0 (x86)                //
  . Microsoft Silverlight v5.1.50901.0                      //
- . Mozilla Firefox v51.0.1                                 // NOTE: Firefox auto-loads uBlock ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
- . Mozilla Firefox v51.0.1 (x86)                           // NOTE: Firefox auto-loads uBlock ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
+ . Mozilla Firefox v51.0.1                                 // NOTE: Firefox auto-loads uBlock adblocking plugin. Read package description in PDQ if you want to disable this behavior
+ . Mozilla Firefox v51.0.1 (x86)                           // NOTE: Firefox auto-loads uBlock adblocking plugin. Read package description in PDQ if you want to disable this behavior
  * Mozilla Thunderbird v45.7.0 (x86)                       //
  * Notepad++ v7.3.1 (x86)                                  //
  . Pale Moon v27.0.3 (x86)                                 //
@@ -2107,8 +2803,8 @@ URL: Point release, no Reddit post
 Utilities:
  . Clean Up All Printers                                   //
  . Clean Up Orphaned Printers                              //
- . Empty All Recycle Bins                                  //
- . Enable Remote Desktop                                   //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
+ . Enable Remote Desktop (enable RDP on target)            //
  . Install PKI Certificates                                //
  . Reboot (force target reboot in 15 seconds)              //
  . Remove Adobe Flash Player (all versions) v2.0.0         //
@@ -2157,8 +2853,8 @@ URL: https://www.reddit.com/r/sysadmin/comments/5ojbum/pdq_deploy_packs_v461_201
  . Microsoft .NET Framework v3.5.1 SP1 (x86)               //
  . Microsoft Silverlight v5.1.50901.0 (x86)                //
  . Microsoft Silverlight v5.1.50901.0                      //
- . Mozilla Firefox v50.1.0                                 // NOTE: Firefox auto-loads uBlock ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
- . Mozilla Firefox v50.1.0 (x86)                           // NOTE: Firefox auto-loads uBlock ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
+ . Mozilla Firefox v50.1.0                                 // NOTE: Firefox auto-loads uBlock adblocking plugin. Read package description in PDQ if you want to disable this behavior
+ . Mozilla Firefox v50.1.0 (x86)                           // NOTE: Firefox auto-loads uBlock adblocking plugin. Read package description in PDQ if you want to disable this behavior
  * Mozilla Thunderbird v45.6.0 (x86)                       //
  * Notepad++ v7.3.0 (x86)                                  //
  . Pale Moon v27.0.3 (x86)                                 //
@@ -2172,8 +2868,8 @@ URL: https://www.reddit.com/r/sysadmin/comments/5ojbum/pdq_deploy_packs_v461_201
 Utilities:
  . Clean Up All Printers                                   //
  . Clean Up Orphaned Printers                              //
- . Empty All Recycle Bins                                  //
- . Enable Remote Desktop                                   //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
+ . Enable Remote Desktop (enable RDP on target)            //
  . Install PKI Certificates                                //
  . Reboot (force target reboot in 15 seconds)              //
  . Remove Adobe Flash Player (all versions) v2.0.0         //
@@ -2222,8 +2918,8 @@ URL: https://www.reddit.com/r/sysadmin/comments/5l570y/pdq_deploy_packs_v460_201
  . Microsoft .NET Framework v3.5.1 SP1 (x86)               //
  . Microsoft Silverlight v5.1.50901.0 (x86)                //
  . Microsoft Silverlight v5.1.50901.0                      //
- * Mozilla Firefox v50.1.0                                 // NOTE: Firefox auto-loads uBlock ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
- * Mozilla Firefox v50.1.0 (x86)                           // NOTE: Firefox auto-loads uBlock ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox v50.1.0                                 // NOTE: Firefox auto-loads uBlock adblocking plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox v50.1.0 (x86)                           // NOTE: Firefox auto-loads uBlock adblocking plugin. Read package description in PDQ if you want to disable this behavior
  * Mozilla Thunderbird v45.5.1 (x86)                       //
  * Notepad++ v7.2.2 (x86)                                  //
  * Pale Moon v27.0.3 (x86)                                 //
@@ -2237,8 +2933,8 @@ URL: https://www.reddit.com/r/sysadmin/comments/5l570y/pdq_deploy_packs_v460_201
 Utilities:
  . Clean Up All Printers                                   //
  . Clean Up Orphaned Printers                              //
- . Empty All Recycle Bins                                  //
- . Enable Remote Desktop                                   //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
+ . Enable Remote Desktop (enable RDP on target)            //
  . Install PKI Certificates                                //
  . Reboot (force target reboot in 15 seconds)              //
  . Remove Adobe Flash Player (all versions) v2.0.0         //
@@ -2287,8 +2983,8 @@ URL: https://www.reddit.com/r/sysadmin/comments/5h0nks/pdq_deploy_packs_v450_201
  . Microsoft .NET Framework v3.5.1 SP1 (x86)               //
  . Microsoft Silverlight v5.1.40416.0 (x86)                //
  . Microsoft Silverlight v5.1.40416.0                      //
- * Mozilla Firefox v50.0.2                                 // NOTE: Firefox auto-loads uBlock ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
- * Mozilla Firefox v50.0.2 (x86)                           // NOTE: Firefox auto-loads uBlock ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox v50.0.2                                 // NOTE: Firefox auto-loads uBlock adblocking plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox v50.0.2 (x86)                           // NOTE: Firefox auto-loads uBlock adblocking plugin. Read package description in PDQ if you want to disable this behavior
  * Mozilla Thunderbird v45.5.1 (x86)                       //
  * Notepad++ v7.2.2 (x86)                                  //
  * Pale Moon v27.0.2 (x86)                                 //
@@ -2302,8 +2998,8 @@ URL: https://www.reddit.com/r/sysadmin/comments/5h0nks/pdq_deploy_packs_v450_201
 Utilities:
  . Clean Up All Printers                                   //
  . Clean Up Orphaned Printers                              //
- . Empty All Recycle Bins                                  //
- . Enable Remote Desktop                                   //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
+ . Enable Remote Desktop (enable RDP on target)            //
  . Install PKI Certificates                                //
  . Reboot (force target reboot in 15 seconds)              //
  . Remove Adobe Flash Player (all versions) v2.0.0         //
@@ -2352,8 +3048,8 @@ URL: https://www.reddit.com/r/sysadmin/comments/5a2pfa/pdq_deploy_packs_v440_201
  . Microsoft .NET Framework v3.5.1 SP1 (x86)               //
  . Microsoft Silverlight v5.1.40416.0 (x86)                //
  . Microsoft Silverlight v5.1.40416.0                      //
- * Mozilla Firefox v49.0.2                                 // NOTE: Firefox auto-loads uBlock ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
- * Mozilla Firefox v49.0.2 (x86)                           // NOTE: Firefox auto-loads uBlock ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox v49.0.2                                 // NOTE: Firefox auto-loads uBlock adblocking plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox v49.0.2 (x86)                           // NOTE: Firefox auto-loads uBlock adblocking plugin. Read package description in PDQ if you want to disable this behavior
  * Mozilla Thunderbird v45.4.0 (x86)                       //
  * Notepad++ v7.1.0 (x86)                                  //
  * Pale Moon v26.5.0 (x86)                                 //
@@ -2367,8 +3063,8 @@ URL: https://www.reddit.com/r/sysadmin/comments/5a2pfa/pdq_deploy_packs_v440_201
 Utilities:
  . Clean Up All Printers                                   //
  . Clean Up Orphaned Printers                              //
- . Empty All Recycle Bins                                  //
- . Enable Remote Desktop                                   //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
+ . Enable Remote Desktop (enable RDP on target)            //
  . Install PKI Certificates                                //
  . Reboot (force target reboot in 15 seconds)              //
  * Remove Adobe Flash Player (all versions) v2.0.0         //
@@ -2417,8 +3113,8 @@ URL: https://www.reddit.com/r/sysadmin/comments/51wtvn/pdq_deploy_packs_v430_201
  . Microsoft .NET Framework v3.5.1 SP1 (x86)               //
  . Microsoft Silverlight v5.1.40416.0 (x86)                //
  . Microsoft Silverlight v5.1.40416.0                      //
- * Mozilla Firefox v48.0.2                                 // NOTE: Firefox auto-loads uBlock ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
- * Mozilla Firefox v48.0.2 (x86)                           // NOTE: Firefox auto-loads uBlock ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox v48.0.2                                 // NOTE: Firefox auto-loads uBlock adblocking plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox v48.0.2 (x86)                           // NOTE: Firefox auto-loads uBlock adblocking plugin. Read package description in PDQ if you want to disable this behavior
  . Mozilla Thunderbird v45.2.0 (x86)                       //
  . Notepad++ v6.9.2 (x86)                                  //
  * Pale Moon v26.4.0 (x86)                                 //
@@ -2432,8 +3128,8 @@ URL: https://www.reddit.com/r/sysadmin/comments/51wtvn/pdq_deploy_packs_v430_201
 Utilities:
  . Clean Up All Printers                                   //
  . Clean Up Orphaned Printers                              //
- . Empty All Recycle Bins                                  //
- . Enable Remote Desktop                                   //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
+ . Enable Remote Desktop (enable RDP on target)            //
  . Install PKI Certificates                                //
  . Reboot (force target reboot in 15 seconds)              //
  * Remove Adobe Flash Player (all versions) v2.0.0         //
@@ -2482,8 +3178,8 @@ URL: https://www.reddit.com/r/sysadmin/comments/4wq5xc/pdq_deploy_packs_v420_201
  . Microsoft .NET Framework v3.5.1 SP1 (x86)               //
  . Microsoft Silverlight v5.1.40416.0 (x86)                //
  . Microsoft Silverlight v5.1.40416.0                      //
- + Mozilla Firefox v48.0.0                                 // NOTE: as of this release, Firefox auto-loads the open-source uBlock ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
- * Mozilla Firefox v48.0.0 (x86)                           // NOTE: as of this release, Firefox auto-loads the open-source uBlock ad-blocking plugin. Read package description in PDQ if you want to disable this behavior
+ + Mozilla Firefox v48.0.0                                 // NOTE: as of this release, Firefox auto-loads the open-source uBlock adblocking plugin. Read package description in PDQ if you want to disable this behavior
+ * Mozilla Firefox v48.0.0 (x86)                           // NOTE: as of this release, Firefox auto-loads the open-source uBlock adblocking plugin. Read package description in PDQ if you want to disable this behavior
  * Mozilla Thunderbird v45.2.0 (x86)                       //
  * Notepad++ v6.9.2 (x86)                                  //
  * Pale Moon v26.3.3 (x86)                                 //
@@ -2497,8 +3193,8 @@ URL: https://www.reddit.com/r/sysadmin/comments/4wq5xc/pdq_deploy_packs_v420_201
 Utilities:
  . Clean Up All Printers                                   //
  . Clean Up Orphaned Printers                              //
- . Empty All Recycle Bins                                  //
- . Enable Remote Desktop                                   //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
+ . Enable Remote Desktop (enable RDP on target)            //
  . Install PKI Certificates                                //
  - Orbital Cached Profile Nuker                            // REMOVED
  . Reboot (force target reboot in 15 seconds)              //
@@ -2564,8 +3260,8 @@ URL: https://www.reddit.com/r/sysadmin/comments/4jl2yb/pdq_deploy_packs_v410_201
 Utilities:
  . Clean Up All Printers                                   //
  . Clean Up Orphaned Printers                              //
- . Empty All Recycle Bins                                  //
- . Enable Remote Desktop                                   //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
+ . Enable Remote Desktop (enable RDP on target)            //
  . Install PKI Certificates                                //
  . Orbital Cached Profile Nuker                            //
  . Reboot (force target reboot in 15 seconds)              //
@@ -2627,8 +3323,8 @@ URL: https://www.reddit.com/r/sysadmin/comments/4bo016/pdq_deploy_packs_v400_201
 Utilities:
  . Clean Up All Printers                                   //
  . Clean Up Orphaned Printers                              //
- . Empty All Recycle Bins                                  //
- . Enable Remote Desktop                                   //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
+ . Enable Remote Desktop (enable RDP on target)            //
  . Install PKI Certificates                                //
  . Orbital Cached Profile Nuker                            //
  . Reboot (force target reboot in 15 seconds)              //
@@ -2706,8 +3402,8 @@ URL: BT Sync only
 Utilities:
  . Clean Up All Printers                                   //
  . Clean Up Orphaned Printers                              //
- . Empty All Recycle Bins                                  //
- . Enable Remote Desktop                                   //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
+ . Enable Remote Desktop (enable RDP on target)            //
  . Install PKI Certificates                                //
  . Orbital Cached Profile Nuker                            //
  . Reboot (force target reboot in 15 seconds)              //
@@ -2768,8 +3464,8 @@ URL: https://www.reddit.com/r/sysadmin/comments/427fy2/pdq_deploy_packs_v390_201
 Utilities:
  . Clean Up All Printers                                   //
  . Clean Up Orphaned Printers                              //
- . Empty All Recycle Bins                                  //
- . Enable Remote Desktop                                   //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
+ . Enable Remote Desktop (enable RDP on target)            //
  . Install PKI Certificates                                //
  . Orbital Cached Profile Nuker                            //
  . Reboot (force target reboot in 15 seconds)              //
@@ -2839,8 +3535,8 @@ URL: https://www.reddit.com/r/sysadmin/comments/3ysy5p/pdq_deploy_packs_v380_201
 Utilities:
  . Clean Up All Printers                                   //
  . Clean Up Orphaned Printers                              //
- . Empty All Recycle Bins                                  //
- . Enable Remote Desktop                                   //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
+ . Enable Remote Desktop (enable RDP on target)            //
  . Install PKI Certificates                                //
  . Orbital Cached Profile Nuker                            //
  . Reboot (force target reboot in 15 seconds)              //
@@ -2901,8 +3597,8 @@ URL: https://www.reddit.com/r/sysadmin/comments/3wxy6f/pdq_deploy_packs_v370_201
 Utilities:
  . Clean Up All Printers                                   //
  . Clean Up Orphaned Printers                              //
- . Empty All Recycle Bins                                  //
- . Enable Remote Desktop                                   //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
+ . Enable Remote Desktop (enable RDP on target)            //
  . Install PKI Certificates                                //
  . Orbital Cached Profile Nuker                            //
  . Reboot (force target reboot in 15 seconds)              //
@@ -2970,8 +3666,8 @@ URL: https://www.reddit.com/r/sysadmin/comments/3tao2y/pdq_deploy_packs_v360_201
 Utilities:
  . Clean Up All Printers                                   //
  . Clean Up Orphaned Printers                              //
- . Empty All Recycle Bins                                  //
- . Enable Remote Desktop                                   //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
+ . Enable Remote Desktop (enable RDP on target)            //
  . Install PKI Certificates                                //
  . Orbital Cached Profile Nuker                            //
  . Reboot (force target reboot in 15 seconds)              //
@@ -3048,8 +3744,8 @@ URL: https://www.reddit.com/r/sysadmin/comments/3ozyh5/pdq_deploy_packs_v350_201
 Utilities:
  . Clean Up All Printers                                   //
  . Clean Up Orphaned Printers                              //
- . Empty All Recycle Bins                                  //
- . Enable Remote Desktop                                   //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
+ . Enable Remote Desktop (enable RDP on target)            //
  . Install PKI Certificates                                //
  . Orbital Cached Profile Nuker                            //
  . Reboot (force target reboot in 15 seconds)              //
@@ -3143,8 +3839,8 @@ URL: https://www.reddit.com/r/sysadmin/comments/3drbfd/pdq_deploy_packs_v330_201
 Utilities:
  . Clean Up All Printers                                   //
  . Clean Up Orphaned Printers                              //
- . Empty All Recycle Bins                                  //
- . Enable Remote Desktop                                   //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
+ . Enable Remote Desktop (enable RDP on target)            //
  . Install PKI Certificates                                //
  . Orbital Cached Profile Nuker                            //
  . Reboot (force target reboot in 15 seconds)              //
@@ -3203,8 +3899,8 @@ URL: https://www.reddit.com/r/sysadmin/comments/38dcz3/pdq_deploy_packs_v320_201
 Utilities:
  . Clean Up All Printers                                   //
  . Clean Up Orphaned Printers                              //
- . Empty All Recycle Bins                                  //
- . Enable Remote Desktop                                   //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
+ . Enable Remote Desktop (enable RDP on target)            //
  . Install PKI Certificates                                //
  . Orbital Cached Profile Nuker                            //
  . Reboot (force target reboot in 15 seconds)              //
@@ -3262,8 +3958,8 @@ URL: https://www.reddit.com/r/sysadmin/comments/34aqzq/pdq_deploy_packs_v310_201
 Utilities:
  . Clean Up All Printers                                   //
  . Clean Up Orphaned Printers                              //
- . Empty All Recycle Bins                                  //
- . Enable Remote Desktop                                   //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
+ . Enable Remote Desktop (enable RDP on target)            //
  . Install PKI Certificates                                //
  . Orbital Cached Profile Nuker                            //
  . Reboot (force target reboot in 15 seconds)              //
@@ -3321,8 +4017,8 @@ URL: https://www.reddit.com/r/sysadmin/comments/32q0in/pdq_deploy_packs_v300_201
 Utilities:
  . Clean Up All Printers                                   //
  . Clean Up Orphaned Printers                              //
- . Empty All Recycle Bins                                  //
- . Enable Remote Desktop                                   //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
+ . Enable Remote Desktop (enable RDP on target)            //
  . Install PKI Certificates                                //
  . Orbital Cached Profile Nuker                            //
  . Reboot (force target reboot in 15 seconds)              //
@@ -3380,8 +4076,8 @@ URL: https://www.reddit.com/r/sysadmin/comments/2yolwn/pdq_deploy_packs_v290_201
 Utilities:
  . Clean Up All Printers                                   //
  . Clean Up Orphaned Printers                              //
- . Empty All Recycle Bins                                  //
- . Enable Remote Desktop                                   //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
+ . Enable Remote Desktop (enable RDP on target)            //
  . Install PKI Certificates                                //
  . Orbital Cached Profile Nuker                            //
  . Reboot (force target reboot in 15 seconds)              //
@@ -3453,8 +4149,8 @@ URL: https://www.reddit.com/r/sysadmin/comments/2vgin5/pdq_deploy_packs_v280_201
 Utilities:
  . Clean Up All Printers                                   //
  . Clean Up Orphaned Printers                              //
- . Empty All Recycle Bins                                  //
- . Enable Remote Desktop                                   //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
+ . Enable Remote Desktop (enable RDP on target)            //
  . Install PKI Certificates                                //
  . Orbital Cached Profile Nuker                            //
  . Reboot (force target reboot in 15 seconds)              //
@@ -3533,8 +4229,8 @@ URL: http://www.reddit.com/r/sysadmin/comments/2sew6m/pdq_deploy_packs_v270_2014
 Utilities:
  . Clean Up All Printers                                   //
  . Clean Up Orphaned Printers                              //
- . Empty All Recycle Bins                                  //
- . Enable Remote Desktop                                   //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
+ . Enable Remote Desktop (enable RDP on target)            //
  . Install PKI Certificates                                //
  . Orbital Cached Profile Nuker                            //
  . Reboot (force target reboot in 15 seconds)              //
@@ -3594,8 +4290,8 @@ URL: http://www.reddit.com/r/sysadmin/comments/2pkq0e/pdq_deploy_packs_v260_2014
 Utilities:
  . Clean Up All Printers                                   //
  . Clean Up Orphaned Printers                              //
- . Empty All Recycle Bins                                  //
- . Enable Remote Desktop                                   //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
+ . Enable Remote Desktop (enable RDP on target)            //
  . Install PKI Certificates                                //
  . Orbital Cached Profile Nuker                            //
  . Reboot (force target reboot in 15 seconds)              //
@@ -3651,8 +4347,8 @@ URL: http://www.reddit.com/r/sysadmin/comments/2mkd3s/pdq_deploy_packs_v250_2014
 Utilities:
  . Clean Up All Printers                                   //
  . Clean Up Orphaned Printers                              //
- . Empty All Recycle Bins                                  //
- . Enable Remote Desktop                                   //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
+ . Enable Remote Desktop (enable RDP on target)            //
  . Install PKI Certificates                                //
  . Orbital Cached Profile Nuker                            //
  . Reboot (force target reboot in 15 seconds)              //
@@ -3710,8 +4406,8 @@ URL: http://www.reddit.com/r/sysadmin/comments/2j919v/pdq_deploy_packs_v240_2014
 Utilities:
  . Clean Up All Printers                                   //
  . Clean Up Orphaned Printers                              //
- . Empty All Recycle Bins                                  //
- . Enable Remote Desktop                                   //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
+ . Enable Remote Desktop (enable RDP on target)            //
  . Install PKI Certificates                                //
  . Orbital Cached Profile Nuker                            //
  . Reboot (force target reboot in 15 seconds)              //
@@ -3767,8 +4463,8 @@ URL: http://www.reddit.com/r/sysadmin/comments/2gvf9k/pdq_deploy_packages_v230_2
 Utilities:
  . Clean Up All Printers                                   //
  . Clean Up Orphaned Printers                              //
- . Empty All Recycle Bins                                  //
- . Enable Remote Desktop                                   //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
+ . Enable Remote Desktop (enable RDP on target)            //
  . Install PKI Certificates                                //
  . Orbital Cached Profile Nuker                            //
  . Reboot (force target reboot in 15 seconds)              //
@@ -3827,8 +4523,8 @@ Utilities:
  . Clean Up All Printers                                   //
  . Clean Up Orphaned Printers                              //
  . Disabled IPv6 on all NICs                               //
- . Empty All Recycle Bins                                  //
- . Enable Remote Desktop                                   //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
+ . Enable Remote Desktop (enable RDP on target)            //
  . Install PKI Certificates                                //
  . Orbital Cached Profile Nuker v3.2.2                     //
  . Reboot (force target reboot in 15 seconds)              //
@@ -3895,8 +4591,8 @@ Utilities:
  . Clean Up All Printers                                   //
  . Clean Up Orphaned Printers                              //
  . Disabled IPv6 on all NICs                               //
- . Empty All Recycle Bins                                  //
- . Enable Remote Desktop                                   //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
+ . Enable Remote Desktop (enable RDP on target)            //
  * Install PKI Certificates                                //
  * Orbital Cached Profile Nuker v3.2.2                     //
  . Reboot (force target reboot in 15 seconds)              //
@@ -3956,8 +4652,8 @@ Utilities:
  . Clean Up All Printers                                   //
  . Clean Up Orphaned Printers                              //
  . Disabled IPv6 on all NICs                               //
- . Empty All Recycle Bins                                  //
- . Enable Remote Desktop                                   //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
+ . Enable Remote Desktop (enable RDP on target)            //
  * Install PKI Certificates                                //
  * Orbital Cached Profile Nuker v3.3                       //
  . Reboot (force target reboot in 15 seconds)              //
@@ -4015,8 +4711,8 @@ Utilities:
  . Clean Up All Printers                                   //
  . Clean Up Orphaned Printers                              //
  . Disabled IPv6 on all NICs                               //
- . Empty All Recycle Bins                                  //
- . Enable Remote Desktop                                   //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
+ . Enable Remote Desktop (enable RDP on target)            //
  . Install PKI Certificates                                //
  . Orbital Cached Profile Nuker v3.2                       //
  . Reboot (force target reboot in 15 seconds)              //
@@ -4071,8 +4767,8 @@ Utilities:
  . Clean Up All Printers                                   //
  . Clean Up Orphaned Printers                              //
  . Disabled IPv6 on all NICs                               //
- . Empty All Recycle Bins                                  //
- . Enable Remote Desktop                                   //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
+ . Enable Remote Desktop (enable RDP on target)            //
  . Install PKI Certificates                                //
  . Orbital Cached Profile Nuker v3.2                       //
  . Reboot (force target reboot in 15 seconds)              //
@@ -4129,8 +4825,8 @@ Utilities:
  . Clean Up All Printers                                   //
  . Clean Up Orphaned Printers                              //
  . Disabled IPv6 on all NICs                               //
- . Empty All Recycle Bins                                  //
- . Enable Remote Desktop                                   //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
+ . Enable Remote Desktop (enable RDP on target)            //
  . Install PKI Certificates                                //
  + Orbital Cached Profile Nuker v3.2                       // New, deletes old cached profiles from target that haven't
                                                               been logged into for the specified number of days (default 60)
@@ -4183,8 +4879,8 @@ Utilities:
  . Clean Up All Printers                                   //
  . Clean Up Orphaned Printers                              //
  . Disabled IPv6 on all NICs                               //
- . Empty All Recycle Bins                                  //
- . Enable Remote Desktop                                   //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
+ . Enable Remote Desktop (enable RDP on target)            //
  + Install PKI Certificates                                // New, installs all .cer files in the same directory as the script
                                                               to the LocalMachine "root" certificate store on target.
  . Reboot (force target reboot in 15 seconds)              //
@@ -4236,8 +4932,8 @@ Utilities:
  . Clean Up All Printers                                   //
  . Clean Up Orphaned Printers                              //
  . Disabled IPv6 on all NICs                               //
- . Empty All Recycle Bins                                  //
- . Enable Remote Desktop                                   //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
+ . Enable Remote Desktop (enable RDP on target)            //
  . Reboot (force target reboot in 15 seconds)              //
  . Remove Adobe Flash Player (all versions)                //
  . Remove Java Runtime (all versions)                      //
@@ -4286,8 +4982,8 @@ Utilities:
  + Clean Up All Printers                                   // + new . purges ALL printers from target
  . Clean Up Orphaned Printers                              //
  . Disabled IPv6 on all NICs                               //
- . Empty All Recycle Bins                                  //
- . Enable Remote Desktop                                   //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
+ . Enable Remote Desktop (enable RDP on target)            //
  . Reboot (force target reboot in 15 seconds)              //
  * Remove Adobe Flash Player (all versions)                // PDQ package with version
  * Remove Java Runtime (all versions)                      // PDQ package with version
@@ -4334,8 +5030,8 @@ URL: http://www.reddit.com/r/sysadmin/comments/1ujqp9/pdq_deploy_packages_v130_h
 Utilities:
  . Clean Up Orphaned Printers                              //
  . Disabled IPv6 on all NICs                               //
- . Empty All Recycle Bins                                  //
- . Enable Remote Desktop                                   //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
+ . Enable Remote Desktop (enable RDP on target)            //
  . Reboot (force target reboot in 15 seconds)              //
  . Remove Adobe Flash Player (all versions)                //
  . Remove Java Runtime (all versions)                      //
@@ -4388,7 +5084,7 @@ URL: http://www.reddit.com/r/sysadmin/comments/1s43ig/pdq_deploy_packages_v120/
 Utilities:
  . Clean Up Orphaned Printers                              //
  . Disabled IPv6 on all NICs                               //
- . Empty All Recycle Bins                                  //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
  + Enable Remote Desktop                                   // new! (enable remote desktop on target)
  . Reboot (force target reboot in 15 seconds)              //
  . Remove Adobe Flash Player (all versions)                //
@@ -4437,7 +5133,7 @@ URL: BT Sync only
 Utilities:
  . Clean Up Orphaned Printers                              //
  . Disabled IPv6 on all NICs                               //
- . Empty All Recycle Bins                                  //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
  + Enable Remote Desktop                                   // new! (enables remote desktop on target)
  . Reboot (force target reboot in 15 seconds)              //
  . Remove Adobe Flash Player (all versions)                //
@@ -4486,7 +5182,7 @@ URL: BT Sync only
 Utilities:
  . Clean Up Orphaned Printers                              //
  . Disabled IPv6 on all NICs                               //
- . Empty All Recycle Bins                                  //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
  + Enable Remote Desktop                                   // new! (enables remote desktop on target)
  . Reboot (force target reboot in 15 seconds)              //
  . Remove Adobe Flash Player (all versions)                //
@@ -4535,7 +5231,7 @@ URL: http://www.reddit.com/r/sysadmin/comments/1pmmrq/pdq_deploy_packages_v110/
 Utilities:
  . Clean Up Orphaned Printers                              //
  . Disabled IPv6 on all NICs                               //
- . Empty All Recycle Bins                                  //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
  . Reboot (force target reboot in 15 seconds)              //
  . Remove Adobe Flash Player (all versions)                //
  . Remove InfraRecorder v0.53 and older (x86/x64)          //
@@ -4583,7 +5279,7 @@ URL: BT Sync-only
 Utilities:
  . Clean Up Orphaned Printers                              //
  . Disabled IPv6 on all NICs                               //
- . Empty All Recycle Bins                                  //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
  . Reboot (force target reboot in 15 seconds)              //
  . Remove Adobe Flash Player (all versions)                //
  . Remove InfraRecorder v0.53 and older (x86/x64)          //
@@ -4641,7 +5337,7 @@ URL: http://www.reddit.com/r/sysadmin/comments/1nqx6x/pdq_deploy_installer_packa
 Utilities:
  . Clean Up Orphaned Printers                              //
  . Disabled IPv6 on all NICs                               //
- . Empty All Recycle Bins                                  //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
  . Reboot (force target reboot in 15 seconds)              //
  . Remove Adobe Flash Player (all versions)                //
  . Remove InfraRecorder v0.53 and older (x86/x64)          //
@@ -4690,7 +5386,7 @@ URL: BT Sync-only
 Utilities:
  . Clean Up Orphaned Printers                              //
  . Disabled IPv6 on all NICs                               //
- . Empty All Recycle Bins                                  //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
  . Reboot (force target reboot in 15 seconds)              //
  . Remove Adobe Flash Player (all versions)                //
  . Remove InfraRecorder v0.53 and older (x86/x64)          //
@@ -4733,7 +5429,7 @@ URL: BT Sync-only
 Utilities:
  . Clean Up Orphaned Printers                              //
  . Disabled IPv6 on all NICs                               //
- . Empty All Recycle Bins                                  //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
  . Reboot (force target reboot in 15 seconds)              //
  . Remove Adobe Flash Player (all versions)                //
  . Remove InfraRecorder v0.53 and older (x86/x64)          //
@@ -4782,7 +5478,7 @@ URL: http://www.reddit.com/r/sysadmin/comments/1m789n/pdq_deploy_installer_packa
 Utilities:
  . Clean Up Orphaned Printers                              //
  . Disabled IPv6 on all NICs                               //
- . Empty All Recycle Bins                                  //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
  . Reboot (force target reboot in 15 seconds)              //
  . Remove Adobe Flash Player (all versions)                //
  . Remove InfraRecorder v0.53 and older (x86/x64)          //
@@ -4831,7 +5527,7 @@ URL: BT Sync-only
 Utilities:
  . Clean Up Orphaned Printers                              //
  . Disabled IPv6 on all NICs                               //
- . Empty All Recycle Bins                                  //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
  . Reboot (force target reboot in 15 seconds)              //
  . Remove Adobe Flash Player (all versions)                //
  . Remove InfraRecorder v0.53 and older (x86/x64)          //
@@ -4882,7 +5578,7 @@ Uninstallers:                                              // collapsed into Uti
 Utilities:
  . Clean Up Orphaned Printers                              //
  * Disabled IPv6 on all NICs                               // new
- . Empty All Recycle Bins                                  //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
  . Reboot (force target reboot in 15 seconds)              //
  * Remove Adobe Flash Player (all versions)                //
  . Remove InfraRecorder v0.53 and older (x86/x64)          //
@@ -4933,7 +5629,7 @@ Uninstallers:
 
 Utilities:
  . Clean Up Orphaned Printers                              //
- . Empty All Recycle Bins                                  //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
  . Reboot (forces target reboot in 15 seconds)             //
  . Temp File Cleanup v2.7c (clean temp folders on target)       //
 
@@ -4974,7 +5670,7 @@ Uninstallers:
 
 Utilities:
  . Clean Up Orphaned Printers                              //
- . Empty All Recycle Bins                                  // new; forces emptying of all recycle bins for ALL users on the target
+ . Empty All Recycle Bins (wipe all user bins on target)   // new; forces emptying of all recycle bins for ALL users on the target
  . Reboot (forces reboot in 15 seconds)                    //
  . Temp File Cleanup v2.7c (clean temp folders on target)       //
 
@@ -5011,7 +5707,7 @@ Uninstallers:
 
 Utilities:
  . Clean Up Orphaned Printers                              //
- . Empty All Recycle Bins                                  // new; empty recycle bins for ALL users on target machine
+ . Empty All Recycle Bins (wipe all user bins on target)   // new; empty recycle bins for ALL users on target machine
  . Reboot (forces reboot in 15 seconds)                    //
  . Temp File Cleanup v2.7c (clean temp folders on target)       // from v2.7
 
@@ -5152,5 +5848,5 @@ Uninstallers:
 
 
 # Deployment script helper
-PACK_VERSION=75.0.0
-PACK_DATE=2021-04-13
+PACK_VERSION=88.0.0
+PACK_DATE=2023-09-05
