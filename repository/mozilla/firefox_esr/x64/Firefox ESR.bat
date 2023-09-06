@@ -1,7 +1,8 @@
 :: Purpose:       Installs a package
 :: Requirements:  Run this script with Administrator rights
 :: Author:        vocatus on reddit.com/r/sysadmin ( vocatus.gate@gmail.com ) // PGP key ID: 0x07d1490f82a211a2
-:: History:       1.0.5 + Add proper console and logfile logging
+:: History:       1.0.6 * Update to support new policies.json Firefox config format
+::                1.0.5 + Add proper console and logfile logging
 ::                1.0.4 ! Remove pre-existing autoconfig.js to prevent installation hang. Thanks to u/dimm0k
 ::                1.0.3 + Add additional uninstall commands make sure we fully remove old versions first. Thanks to github:abulgatz
 ::                1.0.2 * Add command line argument to preserve shortcuts, default to False
@@ -13,8 +14,8 @@
 :: Prep :: -- Don't change anything in this section
 ::::::::::
 @echo off
-set SCRIPT_VERSION=1.0.5
-set SCRIPT_UPDATED=2020-02-05
+set SCRIPT_VERSION=1.0.6
+set SCRIPT_UPDATED=2020-06-02
 :: Get the date into ISO 8601 standard date format (yyyy-mm-dd) so we can use it
 FOR /f %%a in ('WMIC OS GET LocalDateTime ^| find "."') DO set DTS=%%a
 set CUR_DATE=%DTS:~0,4%-%DTS:~4,2%-%DTS:~6,2%
@@ -40,7 +41,7 @@ set BINARY=Mozilla Firefox ESR.exe
 set FLAGS=/INI="%CD%\configuration.ini"
 
 :: Create the log directory if it doesn't exist
-if not exist %LOGPATH% mkdir %LOGPATH%
+if not exist "%LOGPATH%" mkdir "%LOGPATH%"
 
 
 ::::::::::::::::::
