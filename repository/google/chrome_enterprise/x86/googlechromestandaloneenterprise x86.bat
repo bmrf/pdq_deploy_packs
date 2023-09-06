@@ -1,7 +1,8 @@
-:: Purpose:       Installs a package
+:: Purpose:       Silently installs Google Chrome Enterprise and disables auto-update and telemetry collection
 :: Requirements:  1. Run this script with Administrator rights
 :: Author:        vocatus on reddit.com/r/sysadmin ( vocatus.gate@gmail.com ) // PGP key ID: 0x07d1490f82a211a2
-:: History:       1.0.7 * Improve removal of GoogleUpdate tasks in task scheduler
+:: History:       1.0.8 + Add additional registry entires to further disable GoogleUpdate. Thanks to jasonbergner@silentinstallhq.com
+::                1.0.7 * Improve removal of GoogleUpdate tasks in task scheduler
 ::                1.0.6 * Improve removal of GoogleUpdate tasks in task scheduler
 ::                1.0.5 + Add removal of GoogleChromeElevationService
 ::                1.0.4 + Add Remove Software Reporter tool. Thanks to u/pushpak359
@@ -18,7 +19,7 @@
 :::::::::::::::
 :: Log location and name. Do not use trailing slashes (\)
 set LOGPATH=%SystemDrive%\logs
-set LOGFILE=%COMPUTERNAME%_Google_Chrome_x86_install.log
+set LOGFILE=%COMPUTERNAME%_Google_Chrome_x64_install.log
 
 :: Package to install. Do not use trailing slashes (\)
 set BINARY=googlechromestandaloneenterprise x86.msi
@@ -31,9 +32,9 @@ if not exist "%LOGPATH%" mkdir "%LOGPATH%"
 ::::::::::
 :: Prep :: -- Don't change anything in this section
 ::::::::::
-@echo off
-set SCRIPT_VERSION=1.0.7
-set SCRIPT_UPDATED=2022-05-31
+::@echo off
+set SCRIPT_VERSION=1.0.8
+set SCRIPT_UPDATED=2023-09-06
 :: Get the date into ISO 8601 standard date format (yyyy-mm-dd) so we can use it
 FOR /f %%a in ('WMIC OS GET LocalDateTime ^| find "."') DO set DTS=%%a
 set CUR_DATE=%DTS:~0,4%-%DTS:~4,2%-%DTS:~6,2%
@@ -53,10 +54,10 @@ cls
 :: Kill any running instances of Chrome before installing. This is to avoid the UAC popup for Google Update which occurs if you push the installation while Chrome is running in a user session
 echo %CUR_DATE% %TIME% Killing any running Chrome-based browsers, please wait...
 echo %CUR_DATE% %TIME% Killing any running Chrome-based browsers, please wait...>> "%LOGPATH%\%LOGFILE%" 2>NUL
-%SystemDrive%\windows\system32\taskkill.exe /F /IM chrome.exe /T  >> "%LOGPATH%\%LOGFILE%" 2>NUL
-wmic process where name="chrome.exe" call terminate  >> "%LOGPATH%\%LOGFILE%" 2>NUL
+%SystemDrive%\windows\system32\taskkill.exe /F /IM chrome.exe /T >> "%LOGPATH%\%LOGFILE%" 2>NUL
+wmic process where name="chrome.exe" call terminate >> "%LOGPATH%\%LOGFILE%" 2>NUL
 echo %CUR_DATE% %TIME% Done.
-echo %CUR_DATE% %TIME% Done.>> "%LOGPATH%\%LOGFILE%"  >> "%LOGPATH%\%LOGFILE%" 2>NUL
+echo %CUR_DATE% %TIME% Done.>> "%LOGPATH%\%LOGFILE%" 2>NUL
 
 
 :: Uninstall existing versions of Chrome
@@ -70,7 +71,7 @@ echo %CUR_DATE% %TIME% Done.>> "%LOGPATH%\%LOGFILE%" 2>NUL
 :: Install package from local directory (if all files are in the same directory)
 echo %CUR_DATE% %TIME% Installing package...
 echo %CUR_DATE% %TIME% Installing package...>> "%LOGPATH%\%LOGFILE%" 2>NUL
-msiexec.exe /i "%BINARY%" %FLAGS% >> "%LOGPATH%\%LOGFILE%" 2>NUL
+msiexec.exe /i "%BINARY%" %FLAGS%
 echo %CUR_DATE% %TIME% Done.
 echo %CUR_DATE% %TIME% Done.>> "%LOGPATH%\%LOGFILE%" 2>NUL
 
@@ -79,7 +80,7 @@ echo %CUR_DATE% %TIME% Disabling telemetry and cleaning up...
 echo %CUR_DATE% %TIME% Disabling telemetry and cleaning up...>> "%LOGPATH%\%LOGFILE%" 2>NUL
 
 :: Import the reg file that disables Chrome auto-updater
-regedit /s Tweak_Disable_Chrome_Auto-Update.reg
+regedit /s Tweak_Disable_Chrome_Auto-Update.reg >> "%LOGPATH%\%LOGFILE%" 2>NUL
 
 :: Delete auto-update tasks that Google installs
 del /f /q %WinDir%\Tasks\GoogleUpdate* >> "%LOGPATH%\%LOGFILE%" 2>NUL
@@ -95,20 +96,28 @@ sc delete gupdatem >> "%LOGPATH%\%LOGFILE%" 2>NUL
 sc delete gupdate >> "%LOGPATH%\%LOGFILE%" 2>NUL
 sc delete GoogleChromeElevationService >> "%LOGPATH%\%LOGFILE%" 2>NUL
 
+:: Additional Google Update registry entries to disable auto-updates
+reg add "HKLM\SOFTWARE\Policies\Google\Update" /v UpdateDefault /t REG_DWORD /d 0 /f
+reg add "HKLM\SOFTWARE\Policies\Google\Update" /v DisableAutoUpdateChecksCheckboxValue /t REG_DWORD /d 1 /f
+reg add "HKLM\SOFTWARE\Policies\Google\Update" /v AutoUpdateCheckPeriodMinutes /t REG_DWORD /d 0 /f
+reg add "HKLM\SOFTWARE\Wow6432Node\Google\Update" /v UpdateDefault /t REG_DWORD /d 0 /f
+reg add "HKLM\SOFTWARE\Wow6432Node\Google\Update" /v DisableAutoUpdateChecksCheckboxValue /t REG_DWORD /d 1 /f
+reg add "HKLM\SOFTWARE\Wow6432Node\Google\Update" /v AutoUpdateCheckPeriodMinutes /t REG_DWORD /d 0 /f
+
 
 :: Remove Google Update directory
-if exist "%ProgramFiles(x86)%\Google\Update" rmdir /s /q "%ProgramFiles(x86)%\Google\Update" >> "%LOGPATH%\%LOGFILE%" 2>NUL
-if exist "%ProgramFiles%\Google\Update" rmdir /s /q "%ProgramFiles%\Google\Update" >> "%LOGPATH%\%LOGFILE%" 2>NUL
+if exist "%ProgramFiles(x86)%\Google\Update" rmdir /s /q "%ProgramFiles(x86)%\Google\Update"
+if exist "%ProgramFiles%\Google\Update" rmdir /s /q "%ProgramFiles%\Google\Update"
 
 :: Remove Software Reporter tool
-if exist "%localappdata%\google\chrome\User Data\SwReporter\" rmdir /s /q "%localappdata%\google\chrome\User Data\SwReporter\" >> "%LOGPATH%\%LOGFILE%" 2>NUL
+if exist "%localappdata%\google\chrome\User Data\SwReporter\" rmdir /s /q "%localappdata%\google\chrome\User Data\SwReporter\"
 
 :: Remove desktop icons
 if %PRESERVE_SHORTCUTS%==no (
 	:: Windows XP
-	if exist "%allusersprofile%\Desktop\Google Chrome.lnk" del "%allusersprofile%\Desktop\Google Chrome.lnk" /S >> "%LOGPATH%\%LOGFILE%" 2>NUL
+	if exist "%allusersprofile%\Desktop\Google Chrome.lnk" del "%allusersprofile%\Desktop\Google Chrome.lnk" /S
 	:: Windows 7
-	if exist "%public%\Desktop\Google Chrome.lnk" del "%public%\Desktop\Google Chrome.lnk" >> "%LOGPATH%\%LOGFILE%" 2>NUL
+	if exist "%public%\Desktop\Google Chrome.lnk" del "%public%\Desktop\Google Chrome.lnk"
 )
 
 echo %CUR_DATE% %TIME% Done.
