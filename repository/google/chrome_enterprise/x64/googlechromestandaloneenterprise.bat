@@ -106,7 +106,6 @@ reg add "HKLM\SOFTWARE\Wow6432Node\Google\Update" /v UpdateDefault /t REG_DWORD 
 reg add "HKLM\SOFTWARE\Wow6432Node\Google\Update" /v DisableAutoUpdateChecksCheckboxValue /t REG_DWORD /d 1 /f
 reg add "HKLM\SOFTWARE\Wow6432Node\Google\Update" /v AutoUpdateCheckPeriodMinutes /t REG_DWORD /d 0 /f
 
-
 :: Remove Google Update directory
 if exist "%ProgramFiles(x86)%\Google\Update" rmdir /s /q "%ProgramFiles(x86)%\Google\Update"
 if exist "%ProgramFiles%\Google\Update" rmdir /s /q "%ProgramFiles%\Google\Update"
