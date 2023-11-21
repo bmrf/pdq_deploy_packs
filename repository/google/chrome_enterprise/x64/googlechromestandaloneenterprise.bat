@@ -1,7 +1,9 @@
 :: Purpose:       Silently installs Google Chrome Enterprise and disables auto-update and telemetry collection
 :: Requirements:  1. Run this script with Administrator rights
 :: Author:        vocatus on reddit.com/r/sysadmin ( vocatus.gate@gmail.com ) // PGP key ID: 0x07d1490f82a211a2
-:: History:       1.0.8 + Add additional registry entires to further disable GoogleUpdate. Thanks to jasonbergner@silentinstallhq.com
+:: History:       
+::                1.0.9 - Remove WMIC task kill and uninstall commands as they're unneeded and slow down the script
+::                1.0.8 + Add additional registry entires to further disable GoogleUpdate. Thanks to jasonbergner@silentinstallhq.com
 ::                1.0.7 * Improve removal of GoogleUpdate tasks in task scheduler
 ::                1.0.6 * Improve removal of GoogleUpdate tasks in task scheduler
 ::                1.0.5 + Add removal of GoogleChromeElevationService
@@ -33,8 +35,8 @@ if not exist "%LOGPATH%" mkdir "%LOGPATH%"
 :: Prep :: -- Don't change anything in this section
 ::::::::::
 ::@echo off
-set SCRIPT_VERSION=1.0.8
-set SCRIPT_UPDATED=2023-09-06
+set SCRIPT_VERSION=1.0.9
+set SCRIPT_UPDATED=2023-11-21
 :: Get the date into ISO 8601 standard date format (yyyy-mm-dd) so we can use it
 FOR /f %%a in ('WMIC OS GET LocalDateTime ^| find "."') DO set DTS=%%a
 set CUR_DATE=%DTS:~0,4%-%DTS:~4,2%-%DTS:~6,2%
@@ -55,17 +57,17 @@ cls
 echo %CUR_DATE% %TIME% Killing any running Chrome-based browsers, please wait...
 echo %CUR_DATE% %TIME% Killing any running Chrome-based browsers, please wait...>> "%LOGPATH%\%LOGFILE%" 2>NUL
 %SystemDrive%\windows\system32\taskkill.exe /F /IM chrome.exe /T >> "%LOGPATH%\%LOGFILE%" 2>NUL
-wmic process where name="chrome.exe" call terminate >> "%LOGPATH%\%LOGFILE%" 2>NUL
 echo %CUR_DATE% %TIME% Done.
 echo %CUR_DATE% %TIME% Done.>> "%LOGPATH%\%LOGFILE%" 2>NUL
 
 
 :: Uninstall existing versions of Chrome
-echo %CUR_DATE% %TIME% Removing previous versions, please wait...
-echo %CUR_DATE% %TIME% Removing previous versions, please wait...>> "%LOGPATH%\%LOGFILE%" 2>NUL
-wmic product where "name like 'Google Chrome'" call uninstall /nointeractive >> "%LOGPATH%\%LOGFILE%" 2>NUL
-echo %CUR_DATE% %TIME% Done.
-echo %CUR_DATE% %TIME% Done.>> "%LOGPATH%\%LOGFILE%" 2>NUL
+:: Disabled for now as modern versions of Chrome don't require removal before updating
+:: echo %CUR_DATE% %TIME% Removing previous versions, please wait...
+:: echo %CUR_DATE% %TIME% Removing previous versions, please wait...>> "%LOGPATH%\%LOGFILE%" 2>NUL
+:: wmic product where "name like 'Google Chrome'" call uninstall /nointeractive >> "%LOGPATH%\%LOGFILE%" 2>NUL
+:: echo %CUR_DATE% %TIME% Done.
+:: echo %CUR_DATE% %TIME% Done.>> "%LOGPATH%\%LOGFILE%" 2>NUL
 
 
 :: Install package from local directory (if all files are in the same directory)
