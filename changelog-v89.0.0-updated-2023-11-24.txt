@@ -12,6 +12,56 @@ Do not withold good from those who deserve it, when it is in your power to act. 
 
 
 
+v89.0.0 // 2023-11-24
+URL: https://www.reddit.com/r/pdq/comments/182ygs7/pdq_deploy_packages_v8900_20231124/
+====================================================================================================
+ ! Note: All packages are x64 architecture unless otherwise specified
+
+ . 7-Zip v23.01 (x86)                                      //
+ . 7-Zip v23.01                                            //
+ * Adobe Acrobat Reader DC v23.006.20380                   //
+ . CDBurnerXP v4.5.8.7128                                  //
+ * FileZilla Client v3.66.1                                //
+ * Gimp v2.10.36 (x86)                                     //
+ * Google Chrome v119.0.6045.160 (Enterprise)              //
+ * Google Chrome v119.0.6045.160 (Enterprise) (x86)        //
+ . Java Development Kit 8 update 341                       //
+ . Java Development Kit 8 update 341 (x86)                 //
+ . Java Development Kit update 11.0.16                     //
+ . Java Runtime 10.0.2                                     // 
+ . KTS KypM Telnet/SSH Server v1.19c (x86)                 //
+ * LibreOffice v7.6.3                                      //
+ . Microsoft .NET Framework v3.5.1 SP1 (x86)               //
+ - Microsoft Silverlight v5.1.50918.0                      // ! -- REMOVED
+ * Mozilla Firefox v120.0.0                                // NOTE: Firefox loads the uBlock Origin adblock plugin
+ * Mozilla Firefox v120.0.0 (x86)                          // NOTE: Firefox loads the uBlock Origin adblock plugin
+ * Mozilla Firefox ESR v115.5.0                            // NOTE: Firefox ESR loads uBlock Origin adblock plugin
+ * Mozilla Firefox ESR v115.5.0 (x86)                      // NOTE: Firefox ESR loads uBlock Origin adblock plugin
+ * Mozilla Thunderbird v115.5.0 (x86)                      //
+ * Notepad++ v8.6.0                                        //
+ * Pale Moon v32.5.0                                       //
+ . Spark v3.0.2 (x86)                                      //
+ . TightVNC v2.8.81                                        // remote connection password: nettech2
+ . TightVNC v2.8.81 (x86)                                  // remote connection password: nettech2
+ * UltraVNC v1.4.3.6 (x86)                                 // remote connection password: nettech2
+ * VLC media player v3.0.20                                //
+ * WinSCP v6.1.2 (x86)                                     //
+
+Utilities:
+ . Clean Up All Printers                                   //
+ . Clean Up Orphaned Printers                              //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
+ . Enable Remote Desktop (enable RDP on target)            //
+ . Install PKI Certificates                                //
+ . Reboot (force target reboot in 15 seconds)              //
+ . Remove Adobe Flash Player (all versions) v2.0.0         //
+ . Remove Java Runtime (all versions) v1.8.8               //
+ . Remove Microsoft Silverlight (all versions)             //
+ . Remove VNC Servers (TightVNC, UltraVNC, RealVNC)        //
+ . Temp File Cleanup v3.7.0 (clean temp folders on target) //
+ * USB Device Cleanup v1.6.4                               //
+
+
 v88.0.0 // 2023-09-05
 URL: https://www.reddit.com/r/pdq/comments/16b54gp/pdq_deploy_packages_v8800_20230905/
 ====================================================================================================
