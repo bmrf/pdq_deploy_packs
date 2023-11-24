@@ -34,7 +34,7 @@ set LOGPATH=%SystemDrive%\logs
 set LOGFILE=%COMPUTERNAME%_Notepadpp_x86_install.log
 
 :: Package to install. Do not use trailing slashes (\)
-set BINARY=npp.8.5.4.Installer.exe
+set BINARY=npp.8.6.0.Installer.exe
 set FLAGS=/S
 
 
