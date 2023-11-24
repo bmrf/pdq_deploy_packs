@@ -5898,5 +5898,5 @@ Uninstallers:
 
 
 # Deployment script helper
-PACK_VERSION=88.0.0
-PACK_DATE=2023-09-05
+PACK_VERSION=89.0.0
+PACK_DATE=2023-11-24
