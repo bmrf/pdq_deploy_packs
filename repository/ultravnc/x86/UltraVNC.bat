@@ -29,11 +29,11 @@ set LOGPATH=%SystemDrive%\logs
 set LOGFILE=%COMPUTERNAME%_UltraVNC_x86_install.log
 
 :: Package to install. Do not use trailing slashes (\)
-set BINARY=UltraVNC v1.2.2.4 x86.exe
+set BINARY=UltraVNC v1.4.3.6 x86.exe
 set FLAGS=/SP- /verysilent /norestart /loadinf=config.inf ADDLOCAL="Server,Viewer"
 
 :: Create the log directory if it doesn't exist
-if not exist %LOGPATH% mkdir %LOGPATH%
+if not exist "%LOGPATH%" mkdir "%LOGPATH%"
 
 
 ::::::::::::::::::
