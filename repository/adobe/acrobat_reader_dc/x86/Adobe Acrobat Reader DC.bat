@@ -1,7 +1,7 @@
 :: Purpose:       Installs a package
 :: Requirements:  Run this script with Administrator rights
 :: Author:        vocatus on reddit.com/r/sysadmin ( vocatus.gate@gmail.com ) // PGP key ID: 0x07d1490f82a211a2
-:: Version:       1.0.7 + Add basic status messages ("Installing base package" "Cleaning up" etc)
+:: Version:       1.0.7 + Add proper console and logfile logging
 ::                1.0.6 + Add deletion of the desktop icon. Thanks to github:abulgatz
 ::                1.0.5 + Add removal of previous installations prior to running new installation. Thanks to u/devoar999
 ::                1.0.4 + Add associating PDF files to Acrobat after installation. Thanks to u/dimm0k
@@ -35,40 +35,40 @@ set LOGFILE=%COMPUTERNAME%_Adobe_Acrobat_DC_install.log
 
 :: Package to install. Do not use trailing slashes (\)
 set BINARY_VERSION=15.007.20033
-set PATCH_VERSION=19.021.20047
-set FLAGS=ALLUSERS=1 /qn /norestart TRANSFORMS="Adobe Acrobat Reader DC v%BINARY_VERSION%_customizations.mst"
+set PATCH_VERSION=23.006.20380
+set FLAGS=ALLUSERS=1 /qn /norestart TRANSFORMS="customizations.mst"
 
 :: Create the log directory if it doesn't exist
-if not exist %LOGPATH% mkdir %LOGPATH%
+if not exist "%LOGPATH%" mkdir "%LOGPATH%"
 
 
 ::::::::::::::::::
 :: INSTALLATION ::
 ::::::::::::::::::
 :: Remove prior package
-echo %TIME% Removing prior versions, please wait...
-echo %TIME% Removing prior versions, please wait...>> "%LOGPATH%\%LOGFILE%" 2>NUL
+echo %CUR_DATE% %TIME% Removing previous versions, please wait...
+echo %CUR_DATE% %TIME% Removing previous versions, please wait...>> "%LOGPATH%\%LOGFILE%" 2>NUL
 %WMIC% product where "name like 'Adobe Acrobat Reader%%'" uninstall /nointeractive >> "%LOGPATH%\%LOGFILE%" 2>NUL
-echo %TIME% Done.
-echo %TIME% Done.>> "%LOGPATH%\%LOGFILE%" 2>NUL
+echo %CUR_DATE% %TIME% Done.
+echo %CUR_DATE% %TIME% Done.>> "%LOGPATH%\%LOGFILE%" 2>NUL
 
 :: Install base package
-echo %TIME% Installing base package...
-echo %TIME% Installing base package...>> "%LOGPATH%\%LOGFILE%" 2>NUL
+echo %CUR_DATE% %TIME% Installing base package...
+echo %CUR_DATE% %TIME% Installing base package...>> "%LOGPATH%\%LOGFILE%" 2>NUL
 msiexec /i "Adobe Acrobat Reader DC v%BINARY_VERSION%.msi" %FLAGS% >> "%LOGPATH%\%LOGFILE%" 2>NUL
-echo %TIME% Done.
-echo %TIME% Done.>> "%LOGPATH%\%LOGFILE%" 2>NUL
+echo %CUR_DATE% %TIME% Done.
+echo %CUR_DATE% %TIME% Done.>> "%LOGPATH%\%LOGFILE%" 2>NUL
 
 :: Install patch
-echo %TIME% Installing updates...
-echo %TIME% Installing updates...>> "%LOGPATH%\%LOGFILE%" 2>NUL
+echo %CUR_DATE% %TIME% Installing updates...
+echo %CUR_DATE% %TIME% Installing updates...>> "%LOGPATH%\%LOGFILE%" 2>NUL
 msiexec /p "Adobe Acrobat Reader DC v%PATCH_VERSION%_patch.msp" REINSTALL=ALL REINSTALLMODE=omus /qn >> "%LOGPATH%\%LOGFILE%" 2>NUL
-echo %TIME% Done.
-echo %TIME% Done.>> "%LOGPATH%\%LOGFILE%" 2>NUL
+echo %CUR_DATE% %TIME% Done.
+echo %CUR_DATE% %TIME% Done.>> "%LOGPATH%\%LOGFILE%" 2>NUL
 
 :: Disable Adobe Updater via registry; both methods
-echo %TIME% Disabling telemetry and cleaning up...
-echo %TIME% Disabling telemetry and cleaning up...>> "%LOGPATH%\%LOGFILE%" 2>NUL
+echo %CUR_DATE% %TIME% Disabling telemetry and cleaning up...
+echo %CUR_DATE% %TIME% Disabling telemetry and cleaning up...>> "%LOGPATH%\%LOGFILE%" 2>NUL
 reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Adobe\Acrobat Reader\11.0\FeatureLockDown" /v bUpdater /t REG_DWORD /d 00000000 /f >> "%LOGPATH%\%LOGFILE%" 2>NUL
 %SystemRoot%\System32\reg.exe delete "HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Run" /v "Adobe ARM" /f >> "%LOGPATH%\%LOGFILE%" 2>NUL
 
@@ -108,8 +108,8 @@ reg delete HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Google\Chrome\Extensions\efai
 :: Associate PDF files to Acrobat
 "%ProgramFiles(x86)%\Adobe\Acrobat Reader DC\Reader\ADelRCP.exe"
 
-echo %TIME% Done.
-echo %TIME% Done.>> "%LOGPATH%\%LOGFILE%" 2>NUL
+echo %CUR_DATE% %TIME% Done.
+echo %CUR_DATE% %TIME% Done.>> "%LOGPATH%\%LOGFILE%" 2>NUL
 
 :: Pop back to original directory. This isn't necessary in stand-alone runs of the script, but is needed when being called from another script
 popd
