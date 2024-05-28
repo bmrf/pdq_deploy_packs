@@ -691,7 +691,7 @@ http://www.reddit.com/r/usefulscripts/comments/1v4qus/batch_adobe_flash_removal_
         </PackageDefinition>
         <Description>This script will:
 
- - Remove all versions of the Java Runtime (series 3-8, x64 and x86)
+ - Remove all versions of the Java Runtime (series 3-11, x64 and x86)
  - Remove JavaFX
  - Remove Java Update Scheduler service and associated registry entries
  - Remove Java Quickstart service and associated registry entries
@@ -1062,7 +1062,7 @@ Saves log to C:\Logs\&lt;computername&gt;_usb_device_cleanup.log
 Thanks to Uwe Sieber ( www.uwe-sieber.de ) for DeviceCleanup.exe</Description>
         <NewLibraryPackageVersionId value="null" />
         <OriginalId value="null" />
-        <Version>1.2.0</Version>
+        <Version>1.6.5</Version>
         <IsAutoDownload value="false" />
         <FolderId value="5" />
         <LibraryPackageVersionId value="null" />
