@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <AdminArsenal.Export Code="PDQDeploy" Name="PDQ Deploy" Version="18.1.0.0" MinimumVersion="15.0">
   <Folder>
-    <Created>2023-11-24T10:29:34.0000000-07:00</Created>
-    <Id value="12" />
-    <Modified>2023-11-24T10:29:34.0000000-07:00</Modified>
+    <Created>2024-05-28T09:09:44.0000000-07:00</Created>
+    <Id value="14" />
+    <Modified>2024-05-28T09:09:44.0000000-07:00</Modified>
     <Name>Installers</Name>
     <ParentId value="null" />
     <Path>Installers</Path>
@@ -89,10 +89,10 @@
         <OriginalId value="null" />
         <Version>22.01</Version>
         <IsAutoDownload value="false" />
-        <FolderId value="12" />
+        <FolderId value="14" />
         <LibraryPackageVersionId value="null" />
-        <Name>7-Zip v23.01</Name>
-        <Path>Installers\7-Zip v23.01</Path>
+        <Name>7-Zip v24.06</Name>
+        <Path>Installers\7-Zip v24.06</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -177,10 +177,10 @@
         <OriginalId value="null" />
         <Version>22.01</Version>
         <IsAutoDownload value="false" />
-        <FolderId value="12" />
+        <FolderId value="14" />
         <LibraryPackageVersionId value="null" />
-        <Name>7-Zip v23.01 (x86)</Name>
-        <Path>Installers\7-Zip v23.01 (x86)</Path>
+        <Name>7-Zip v24.06 (x86)</Name>
+        <Path>Installers\7-Zip v24.06 (x86)</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -263,9 +263,9 @@
  - Disable all third-party service connectors (Dropbox, Google Drive, SharePoint, etc) via the bundled customization file</Description>
         <NewLibraryPackageVersionId value="null" />
         <OriginalId value="null" />
-        <Version>23.006.20380</Version>
+        <Version>24.002.20759</Version>
         <IsAutoDownload value="false" />
-        <FolderId value="12" />
+        <FolderId value="14" />
         <LibraryPackageVersionId value="null" />
         <Name>Adobe Acrobat Reader DC</Name>
         <Path>Installers\Adobe Acrobat Reader DC</Path>
@@ -352,7 +352,7 @@
         <OriginalId value="null" />
         <Version>4.5.8.7128</Version>
         <IsAutoDownload value="false" />
-        <FolderId value="12" />
+        <FolderId value="14" />
         <LibraryPackageVersionId value="null" />
         <Name>CDBurnerXP v4.5.8.7128</Name>
         <Path>Installers\CDBurnerXP v4.5.8.7128</Path>
@@ -434,12 +434,12 @@
  - Removes any previous versions before installing</Description>
         <NewLibraryPackageVersionId value="null" />
         <OriginalId value="null" />
-        <Version>3.66.1</Version>
+        <Version>3.67.0</Version>
         <IsAutoDownload value="false" />
-        <FolderId value="12" />
+        <FolderId value="14" />
         <LibraryPackageVersionId value="null" />
-        <Name>FileZilla Client v3.66.1</Name>
-        <Path>Installers\FileZilla Client v3.66.1</Path>
+        <Name>FileZilla Client v3.67.0</Name>
+        <Path>Installers\FileZilla Client v3.67.0</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -475,7 +475,7 @@
           <Steps type="list">
             <InstallStep>
               <CustomCommandLine></CustomCommandLine>
-              <FileName>$(Repository)\gimp\x86\Gimp v2.10.36 x86.exe</FileName>
+              <FileName>$(Repository)\gimp\x64\Gimp v2.10.38.exe</FileName>
               <Files></Files>
               <IncludeDirectory value="true" />
               <LeaveInstallFile value="false" />
@@ -516,15 +516,15 @@
         </PackageDefinition>
         <Description>Installs Gimp silently with the following flags:
 
-Gimp v2.10.36 x86.exe /verysilent /norestart</Description>
+Gimp v2.10.38.exe /verysilent /norestart</Description>
         <NewLibraryPackageVersionId value="null" />
         <OriginalId value="null" />
         <Version>2.10.10</Version>
         <IsAutoDownload value="false" />
-        <FolderId value="12" />
+        <FolderId value="14" />
         <LibraryPackageVersionId value="null" />
-        <Name>Gimp v2.10.36 (x86)</Name>
-        <Path>Installers\Gimp v2.10.36 (x86)</Path>
+        <Name>Gimp v2.10.38</Name>
+        <Path>Installers\Gimp v2.10.38</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -609,12 +609,12 @@ Gimp v2.10.36 x86.exe /verysilent /norestart</Description>
  * If you wish to disable this behavior, edit the batch file and remove the two lines that start with "sc delete"</Description>
         <NewLibraryPackageVersionId value="null" />
         <OriginalId value="null" />
-        <Version>119.0.6045.160</Version>
+        <Version>125.0.6422.112</Version>
         <IsAutoDownload value="false" />
-        <FolderId value="12" />
+        <FolderId value="14" />
         <LibraryPackageVersionId value="null" />
-        <Name>Google Chrome v119.0.6045.160 (Enterprise)</Name>
-        <Path>Installers\Google Chrome v119.0.6045.160 (Enterprise)</Path>
+        <Name>Google Chrome v125.0.6422.112 (Enterprise)</Name>
+        <Path>Installers\Google Chrome v125.0.6422.112 (Enterprise)</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -699,12 +699,12 @@ Gimp v2.10.36 x86.exe /verysilent /norestart</Description>
  * If you wish to disable this behavior, edit the batch file and remove the two lines that start with "sc delete"</Description>
         <NewLibraryPackageVersionId value="null" />
         <OriginalId value="null" />
-        <Version>119.0.6045.160</Version>
+        <Version>125.0.6422.112</Version>
         <IsAutoDownload value="false" />
-        <FolderId value="12" />
+        <FolderId value="14" />
         <LibraryPackageVersionId value="null" />
-        <Name>Google Chrome v119.0.6045.160 (Enterprise) (x86)</Name>
-        <Path>Installers\Google Chrome v119.0.6045.160 (Enterprise) (x86)</Path>
+        <Name>Google Chrome v125.0.6422.112 (Enterprise) (x86)</Name>
+        <Path>Installers\Google Chrome v125.0.6422.112 (Enterprise) (x86)</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -798,12 +798,12 @@ Thus, if you already had JRE8 installed when you install JDK and instruct it not
 There is no option to JUST install JDK8 without touching JRE8 installations.</Description>
         <NewLibraryPackageVersionId value="null" />
         <OriginalId value="null" />
-        <Version>8.0.333</Version>
+        <Version>8.0.401</Version>
         <IsAutoDownload value="false" />
-        <FolderId value="12" />
+        <FolderId value="14" />
         <LibraryPackageVersionId value="null" />
-        <Name>Java Development Kit 8 update 341</Name>
-        <Path>Installers\Java Development Kit 8 update 341</Path>
+        <Name>Java Development Kit 8 update 401</Name>
+        <Path>Installers\Java Development Kit 8 update 401</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -899,10 +899,10 @@ There is no option to JUST install JDK8 without touching JRE8 installations.</De
         <OriginalId value="null" />
         <Version>8.0.333</Version>
         <IsAutoDownload value="false" />
-        <FolderId value="12" />
+        <FolderId value="14" />
         <LibraryPackageVersionId value="null" />
-        <Name>Java Development Kit 8 update 341 (x86)</Name>
-        <Path>Installers\Java Development Kit 8 update 341 (x86)</Path>
+        <Name>Java Development Kit 8 update 401 (x86)</Name>
+        <Path>Installers\Java Development Kit 8 update 401 (x86)</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -977,7 +977,7 @@ There is no option to JUST install JDK8 without touching JRE8 installations.</De
           <UseCustomTimeout value="false" />
           <RunAs value="null" />
         </PackageDefinition>
-        <Description>Installs Java Development Kit 11.0.16, with the following customizations:
+        <Description>Installs Java Development Kit 11, with the following customizations:
  - Removes all previous JDK10 x64 installations first (leaves any JDK7 or JDK8 x86 installations intact)
  - Adds "Development Tools" feature
  * Installs matching JRE 9 version ("PublicJreFeature feature")
@@ -996,12 +996,12 @@ Thus, if you already had JRE9 installed when you install JDK and instruct it not
 There is no option to JUST install JDK10 without touching JRE8 installations.</Description>
         <NewLibraryPackageVersionId value="null" />
         <OriginalId value="null" />
-        <Version>11.0.16</Version>
+        <Version>11.0.22</Version>
         <IsAutoDownload value="false" />
-        <FolderId value="12" />
+        <FolderId value="14" />
         <LibraryPackageVersionId value="null" />
-        <Name>Java Development Kit 11.0.16 (x64)</Name>
-        <Path>Installers\Java Development Kit 11.0.16 (x64)</Path>
+        <Name>Java Development Kit 11.0.22 (x64)</Name>
+        <Path>Installers\Java Development Kit 11.0.22 (x64)</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -1087,7 +1087,7 @@ There is no option to JUST install JDK10 without touching JRE8 installations.</D
         <OriginalId value="null" />
         <Version>11.0.2</Version>
         <IsAutoDownload value="false" />
-        <FolderId value="12" />
+        <FolderId value="14" />
         <LibraryPackageVersionId value="null" />
         <Name>Java Runtime 11.0.2 (x64)</Name>
         <Path>Installers\Java Runtime 11.0.2 (x64)</Path>
@@ -1177,7 +1177,7 @@ If the target machine is on a domain, the login format is as follows:
         <OriginalId value="null" />
         <Version>1.19c</Version>
         <IsAutoDownload value="false" />
-        <FolderId value="12" />
+        <FolderId value="14" />
         <LibraryPackageVersionId value="null" />
         <Name>KpyM Telnet/SSH Server v1.19c (x86)</Name>
         <Path>Installers\KpyM Telnet/SSH Server v1.19c (x86)</Path>
@@ -1262,12 +1262,12 @@ If the target machine is on a domain, the login format is as follows:
  - Removes all language files except English (US)</Description>
         <NewLibraryPackageVersionId value="null" />
         <OriginalId value="null" />
-        <Version>7.6.3</Version>
+        <Version>7.6.7</Version>
         <IsAutoDownload value="false" />
-        <FolderId value="12" />
+        <FolderId value="14" />
         <LibraryPackageVersionId value="null" />
-        <Name>LibreOffice v7.6.3</Name>
-        <Path>Installers\LibreOffice v7.6.3</Path>
+        <Name>LibreOffice v7.6.7</Name>
+        <Path>Installers\LibreOffice v7.6.7</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -1347,7 +1347,7 @@ If the target machine is on a domain, the login format is as follows:
         <OriginalId value="null" />
         <Version>3.5.1</Version>
         <IsAutoDownload value="false" />
-        <FolderId value="12" />
+        <FolderId value="14" />
         <LibraryPackageVersionId value="null" />
         <Name>Microsoft .NET Framework 3.5 SP1 v3.5.1</Name>
         <Path>Installers\Microsoft .NET Framework 3.5 SP1 v3.5.1</Path>
@@ -1442,12 +1442,12 @@ If the target machine is on a domain, the login format is as follows:
  * These customizations come from the file '\autoconfig\cck2.cfg' in the package directory. If you want to change them, edit or delete this file. The config file was generated with the CCK2 addon for Firefox.</Description>
         <NewLibraryPackageVersionId value="null" />
         <OriginalId value="null" />
-        <Version>102.15.0</Version>
+        <Version>115.11.0</Version>
         <IsAutoDownload value="false" />
-        <FolderId value="12" />
+        <FolderId value="14" />
         <LibraryPackageVersionId value="null" />
-        <Name>Mozilla Firefox v102.15.0 ESR (customized)</Name>
-        <Path>Installers\Mozilla Firefox v102.15.0 ESR (customized)</Path>
+        <Name>Mozilla Firefox v115.11.0 ESR (customized)</Name>
+        <Path>Installers\Mozilla Firefox v115.11.0 ESR (customized)</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -1539,12 +1539,12 @@ If the target machine is on a domain, the login format is as follows:
  * These customizations come from the file '\autoconfig\cck2.cfg' in the package directory. If you want to change them, edit or delete this file. The config file was generated with the CCK2 addon for Firefox.</Description>
         <NewLibraryPackageVersionId value="null" />
         <OriginalId value="null" />
-        <Version>102.15.0</Version>
+        <Version>115.11.0</Version>
         <IsAutoDownload value="false" />
-        <FolderId value="12" />
+        <FolderId value="14" />
         <LibraryPackageVersionId value="null" />
-        <Name>Mozilla Firefox v102.15.0 ESR (customized) (x86)</Name>
-        <Path>Installers\Mozilla Firefox v102.15.0 ESR (customized) (x86)</Path>
+        <Name>Mozilla Firefox v115.11.0 ESR (customized) (x86)</Name>
+        <Path>Installers\Mozilla Firefox v115.11.0 ESR (customized) (x86)</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -1639,10 +1639,10 @@ If the target machine is on a domain, the login format is as follows:
         <OriginalId value="null" />
         <Version>120.0.0</Version>
         <IsAutoDownload value="false" />
-        <FolderId value="12" />
+        <FolderId value="14" />
         <LibraryPackageVersionId value="null" />
-        <Name>Mozilla Firefox v120.0.0 (customized)</Name>
-        <Path>Installers\Mozilla Firefox v120.0.0 (customized)</Path>
+        <Name>Mozilla Firefox v126.0.1(customized)</Name>
+        <Path>Installers\Mozilla Firefox v126.0.1(customized)</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -1737,10 +1737,10 @@ If the target machine is on a domain, the login format is as follows:
         <OriginalId value="null" />
         <Version>120.0.0</Version>
         <IsAutoDownload value="false" />
-        <FolderId value="12" />
+        <FolderId value="14" />
         <LibraryPackageVersionId value="null" />
-        <Name>Mozilla Firefox v120.0.0 (customized) (x86)</Name>
-        <Path>Installers\Mozilla Firefox v120.0.0 (customized) (x86)</Path>
+        <Name>Mozilla Firefox v126.0.1(customized) (x86)</Name>
+        <Path>Installers\Mozilla Firefox v126.0.1(customized) (x86)</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -1828,12 +1828,12 @@ If the target machine is on a domain, the login format is as follows:
 * If you wish to disable these settings, remove the three *.js files in the package directory</Description>
         <NewLibraryPackageVersionId value="null" />
         <OriginalId value="null" />
-        <Version>115.5.0</Version>
+        <Version>115.11.0</Version>
         <IsAutoDownload value="false" />
-        <FolderId value="12" />
+        <FolderId value="14" />
         <LibraryPackageVersionId value="null" />
-        <Name>Mozilla Thunderbird v115.5.0 (customized) (x86)</Name>
-        <Path>Installers\Mozilla Thunderbird v115.5.0 (customized) (x86)</Path>
+        <Name>Mozilla Thunderbird v115.11.0 (customized) (x86)</Name>
+        <Path>Installers\Mozilla Thunderbird v115.11.0 (customized) (x86)</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -1914,12 +1914,12 @@ If the target machine is on a domain, the login format is as follows:
  - Deletes the DSpellCheck plugin</Description>
         <NewLibraryPackageVersionId value="null" />
         <OriginalId value="null" />
-        <Version>8.5.6</Version>
+        <Version>8.6.7</Version>
         <IsAutoDownload value="false" />
-        <FolderId value="12" />
+        <FolderId value="14" />
         <LibraryPackageVersionId value="null" />
-        <Name>Notepad++ v8.5.6</Name>
-        <Path>Installers\Notepad++ v8.5.6</Path>
+        <Name>Notepad++ v8.6.7</Name>
+        <Path>Installers\Notepad++ v8.6.7</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -2001,12 +2001,12 @@ If the target machine is on a domain, the login format is as follows:
 Thanks to Moonchild ( http://www.palemoon.org/ ) for redistribution permission.</Description>
         <NewLibraryPackageVersionId value="null" />
         <OriginalId value="null" />
-        <Version>32.5.0</Version>
+        <Version>33.1.1</Version>
         <IsAutoDownload value="false" />
-        <FolderId value="12" />
+        <FolderId value="14" />
         <LibraryPackageVersionId value="null" />
-        <Name>Pale Moon v32.5.0</Name>
-        <Path>Installers\Pale Moon v32.5.0</Path>
+        <Name>Pale Moon v33.1.1</Name>
+        <Path>Installers\Pale Moon v33.1.1</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -2089,7 +2089,7 @@ Thanks to Moonchild ( http://www.palemoon.org/ ) for redistribution permission.<
         <OriginalId value="null" />
         <Version>3.0.0</Version>
         <IsAutoDownload value="false" />
-        <FolderId value="12" />
+        <FolderId value="14" />
         <LibraryPackageVersionId value="null" />
         <Name>Spark v3.0.0 (x86)</Name>
         <Path>Installers\Spark v3.0.0 (x86)</Path>
@@ -2179,12 +2179,12 @@ Thanks to Moonchild ( http://www.palemoon.org/ ) for redistribution permission.<
  * These settings come from the registry file that gets imported. If you wish to disable these customizations, remove the registry file.</Description>
         <NewLibraryPackageVersionId value="null" />
         <OriginalId value="null" />
-        <Version>2.8.81</Version>
+        <Version>2.8.84</Version>
         <IsAutoDownload value="false" />
-        <FolderId value="12" />
+        <FolderId value="14" />
         <LibraryPackageVersionId value="null" />
-        <Name>TightVNC v2.8.81</Name>
-        <Path>Installers\TightVNC v2.8.81</Path>
+        <Name>TightVNC v2.8.84</Name>
+        <Path>Installers\TightVNC v2.8.84</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -2271,12 +2271,12 @@ Thanks to Moonchild ( http://www.palemoon.org/ ) for redistribution permission.<
  * These settings come from the registry file that gets imported. If you wish to disable these customizations, remove the registry file.</Description>
         <NewLibraryPackageVersionId value="null" />
         <OriginalId value="null" />
-        <Version>2.8.81</Version>
+        <Version>2.8.84</Version>
         <IsAutoDownload value="false" />
-        <FolderId value="12" />
+        <FolderId value="14" />
         <LibraryPackageVersionId value="null" />
-        <Name>TightVNC v2.8.81 (x86)</Name>
-        <Path>Installers\TightVNC v2.8.81 (x86)</Path>
+        <Name>TightVNC v2.8.84 (x86)</Name>
+        <Path>Installers\TightVNC v2.8.84 (x86)</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -2364,7 +2364,7 @@ and paste the resulting password in the 'ultravnc.ini' file in the same director
         <OriginalId value="null" />
         <Version>1.4.3.6</Version>
         <IsAutoDownload value="false" />
-        <FolderId value="12" />
+        <FolderId value="14" />
         <LibraryPackageVersionId value="null" />
         <Name>UltraVNC v1.4.3.6 (x86)</Name>
         <Path>Installers\UltraVNC v1.4.3.6 (x86)</Path>
@@ -2447,7 +2447,7 @@ and paste the resulting password in the 'ultravnc.ini' file in the same director
         <OriginalId value="null" />
         <Version>3.0.20</Version>
         <IsAutoDownload value="false" />
-        <FolderId value="12" />
+        <FolderId value="14" />
         <LibraryPackageVersionId value="null" />
         <Name>VLC Media Player v3.0.20</Name>
         <Path>Installers\VLC Media Player v3.0.20</Path>
@@ -2532,12 +2532,95 @@ and paste the resulting password in the 'ultravnc.ini' file in the same director
  - Associates .scp file extensions with WinSCP</Description>
         <NewLibraryPackageVersionId value="null" />
         <OriginalId value="null" />
-        <Version>6.1.2</Version>
+        <Version>6.3.3</Version>
         <IsAutoDownload value="false" />
-        <FolderId value="12" />
+        <FolderId value="14" />
         <LibraryPackageVersionId value="null" />
-        <Name>WinSCP v6.1.2 (x86)</Name>
-        <Path>Installers\WinSCP v6.1.2 (x86)</Path>
+        <Name>WinSCP v6.3.3 (x86)</Name>
+        <Path>Installers\WinSCP v6.3.3 (x86)</Path>
+        <PackageDisplaySettings name="DisplaySettings">
+          <DisplayType>Normal</DisplayType>
+          <IconKey>Icon-Package</IconKey>
+          <SortOrder value="7" />
+        </PackageDisplaySettings>
+      </Package>
+      <Package>
+        <CurrentLibraryPackageVersionId value="null" />
+        <PackageDefinition name="Definition">
+          <Conditions type="list">
+            <PackageStepCondition>
+              <Architecture>Both</Architecture>
+              <Version>All</Version>
+              <TypeName>OperatingSystem</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
+              <TypeName>LoggedOnUser</TypeName>
+            </PackageStepCondition>
+            <PackageStepCondition>
+              <ConditionMode>None</ConditionMode>
+              <InventoryCollectionId value="null" />
+              <InventoryCollectionName></InventoryCollectionName>
+              <TypeName>Collection</TypeName>
+            </PackageStepCondition>
+          </Conditions>
+          <CopyMode>Default</CopyMode>
+          <DelayedApprovalTimeSpan>7.00:00:00</DelayedApprovalTimeSpan>
+          <DownloadApprovalMode>Manual</DownloadApprovalMode>
+          <InventoryScanProfileId value="null" />
+          <IsDownloadApprovalModeInherited value="true" />
+          <ScanAfterDeployment value="null" />
+          <Steps type="list">
+            <InstallStep>
+              <CustomCommandLine></CustomCommandLine>
+              <FileName>$(Repository)\wireshark\Wireshark v4.2.5.exe</FileName>
+              <Files></Files>
+              <IncludeDirectory value="false" />
+              <LeaveInstallFile value="false" />
+              <MsiOperation>Install</MsiOperation>
+              <MsiQuiet value="true" />
+              <MsiRestart>Never</MsiRestart>
+              <Parameters>/S</Parameters>
+              <SuccessCodes>0,1641,3010,2359302</SuccessCodes>
+              <RunAs value="null" />
+              <Conditions type="list">
+                <PackageStepCondition>
+                  <Architecture>Both</Architecture>
+                  <Version>All</Version>
+                  <TypeName>OperatingSystem</TypeName>
+                </PackageStepCondition>
+                <PackageStepCondition>
+                  <IsUserLoggedOn>AlwaysRun</IsUserLoggedOn>
+                  <TypeName>LoggedOnUser</TypeName>
+                </PackageStepCondition>
+                <PackageStepCondition>
+                  <ConditionMode>None</ConditionMode>
+                  <InventoryCollectionId value="null" />
+                  <InventoryCollectionName></InventoryCollectionName>
+                  <TypeName>Collection</TypeName>
+                </PackageStepCondition>
+              </Conditions>
+              <ErrorMode>StopDeploymentFail</ErrorMode>
+              <Title></Title>
+              <TypeName>Install</TypeName>
+              <IsEnabled value="true" />
+              <IsPostStep value="false" />
+              <IsPreStep value="false" />
+            </InstallStep>
+          </Steps>
+          <Timeout value="60" />
+          <UseCustomTimeout value="false" />
+          <RunAs value="null" />
+        </PackageDefinition>
+        <Description>Installs Wireshark x64 silently.</Description>
+        <NewLibraryPackageVersionId value="null" />
+        <OriginalId value="null" />
+        <Version>4.2.5</Version>
+        <IsAutoDownload value="false" />
+        <FolderId value="14" />
+        <LibraryPackageVersionId value="null" />
+        <Name>Wireshark v4.2.5</Name>
+        <Path>Installers\Wireshark v4.2.5</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
