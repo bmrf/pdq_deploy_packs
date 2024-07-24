@@ -35,7 +35,7 @@ set LOGFILE=%COMPUTERNAME%_Adobe_Acrobat_DC_install.log
 
 :: Package to install. Do not use trailing slashes (\)
 set BINARY_VERSION=15.007.20033
-set PATCH_VERSION=23.006.20380
+set PATCH_VERSION=24.002.20857
 set FLAGS=ALLUSERS=1 /qn /norestart TRANSFORMS="customizations.mst"
 
 :: Create the log directory if it doesn't exist
