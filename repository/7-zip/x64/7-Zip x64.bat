@@ -37,25 +37,25 @@ set LOGPATH=%SystemDrive%\Logs
 set LOGFILE=%COMPUTERNAME%_7-zip_x64_install.log
 
 :: Package to install. Do not use trailing slashes (\)
-set LOCATION=
-set BINARY=7-Zip v19.00 x64.msi
+set BINARY=7-Zip v24.07.msi
 set FLAGS=ALLUSERS=1 /q /norestart INSTALLDIR="C:\Program Files\7-Zip"
 
 :: Create the log directory if it doesn't exist
-if not exist %LOGPATH% mkdir %LOGPATH%
+if not exist "%LOGPATH%" mkdir "%LOGPATH%"
 
 
 ::::::::::::::::::
 :: INSTALLATION ::
 ::::::::::::::::::
 :: Uninstall other versions of 7-zip
-echo %CUR_DATE% %TIME% Removing prior versions, please wait...
-echo %CUR_DATE% %TIME% Removing prior versions, please wait...>> "%LOGPATH%\%LOGFILE%" 2>NUL
+echo %CUR_DATE% %TIME% Removing previous versions, please wait...
+echo %CUR_DATE% %TIME% Removing previous versions, please wait...>> "%LOGPATH%\%LOGFILE%" 2>NUL
 IF EXIST "%ProgramFiles%\7-Zip\Uninstall.exe" "%ProgramFiles%\7-Zip\Uninstall.exe" /S /V"/qn /norestart"
 IF EXIST "%ProgramFiles(x86)%\7-Zip\Uninstall.exe" "%ProgramFiles(x86)%\7-Zip\Uninstall.exe" /S /V"/qn /norestart"
 wmic product where "name like '7-Zip%%'" uninstall /nointeractive
 echo %CUR_DATE% %TIME% Done.
 echo %CUR_DATE% %TIME% Done.>> "%LOGPATH%\%LOGFILE%" 2>NUL
+
 
 :: Install the package from the local folder (if all files are in the same directory)
 echo %CUR_DATE% %TIME% Installing package...
@@ -63,6 +63,7 @@ echo %CUR_DATE% %TIME% Installing package...>> "%LOGPATH%\%LOGFILE%" 2>NUL
 "%BINARY%" %FLAGS%
 echo %CUR_DATE% %TIME% Done.
 echo %CUR_DATE% %TIME% Done.>> "%LOGPATH%\%LOGFILE%" 2>NUL
+
 
 :: Create file associations
 :: Basically we just use a couple FOR loops to iterate through the list since it's prettier than using individual 'assoc' and 'ftype' commands
