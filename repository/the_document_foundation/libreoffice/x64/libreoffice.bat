@@ -31,7 +31,7 @@ set LOGPATH=%SystemDrive%\logs
 set LOGFILE=%COMPUTERNAME%_LibreOffice_x64_install.log
 
 :: Package to install. Do not use trailing slashes on paths (\)
-set BINARY=LibreOffice v7.6.3.msi
+set BINARY=LibreOffice v24.2.5.msi
 set FLAGS=/q /norestart
 
 :: Create the log directory if it doesn't exist
