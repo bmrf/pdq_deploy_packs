@@ -35,11 +35,11 @@ set LOGFILE=
 
 :: Package to install. Do not use trailing slashes (\)
 set LOCATION=
-set BINARY=7-Zip v19.00 x86.msi
+set BINARY=7-Zip v24.07 x86.msi
 set FLAGS=ALLUSERS=1 /q /norestart INSTALLDIR="C:\Program Files\7-Zip"
 
 :: Create the log directory if it doesn't exist
-if not exist %LOGPATH% mkdir %LOGPATH%
+if not exist "%LOGPATH%" mkdir "%LOGPATH%"
 
 :: Get into the correct directory
 pushd "%~dp0"
@@ -49,8 +49,8 @@ pushd "%~dp0"
 :: INSTALLATION ::
 ::::::::::::::::::
 :: Uninstall other versions of 7-zip
-echo %CUR_DATE% %TIME% Removing prior versions, please wait...
-echo %CUR_DATE% %TIME% Removing prior versions, please wait...>> "%LOGPATH%\%LOGFILE%" 2>NUL
+echo %CUR_DATE% %TIME% Removing previous versions, please wait...
+echo %CUR_DATE% %TIME% Removing previous versions, please wait...>> "%LOGPATH%\%LOGFILE%" 2>NUL
 IF EXIST "%ProgramFiles%\7-Zip\Uninstall.exe" "%ProgramFiles%\7-Zip\Uninstall.exe" /S /V"/qn /norestart"
 IF EXIST "%ProgramFiles(x86)%\7-Zip\Uninstall.exe" "%ProgramFiles(x86)%\7-Zip\Uninstall.exe" /S /V"/qn /norestart"
 wmic product where "name like '7-Zip%%'" uninstall /nointeractive
