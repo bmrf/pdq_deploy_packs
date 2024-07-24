@@ -30,7 +30,7 @@ set LOGFILE=%COMPUTERNAME%_VLC_x64_install.log
 
 
 :: Package to install. Do not use trailing slashes (\)
-set BINARY=VLC v3.0.20 x64.exe
+set BINARY=VLC v3.0.21 x64.exe
 set FLAGS=ALLUSERS=1 /L=1033 /S INSTALLDIR="C:\Program Files (x86)\VLC"
 
 :: Create the log directory if it doesn't exist
