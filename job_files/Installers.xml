@@ -87,12 +87,12 @@
 * If you wish to associate with ALL the file extensions 7-Zip supports, go to "Step 1" of this installer and change the argument that's passed to the installer from "associate_common" to "associate_all"</Description>
         <NewLibraryPackageVersionId value="null" />
         <OriginalId value="null" />
-        <Version>24.07</Version>
+        <Version>24.0.8</Version>
         <IsAutoDownload value="false" />
         <FolderId value="14" />
         <LibraryPackageVersionId value="null" />
-        <Name>7-Zip v24.07</Name>
-        <Path>Installers\7-Zip v24.07</Path>
+        <Name>7-Zip v24.0.8</Name>
+        <Path>Installers\7-Zip v24.0.8</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -175,12 +175,12 @@
 * If you wish to associate with ALL the file extensions 7-Zip supports, go to "Step 1" of this installer and change the argument that's passed to the installer from "associate_common" to "associate_all"</Description>
         <NewLibraryPackageVersionId value="null" />
         <OriginalId value="null" />
-        <Version>24.07</Version>
+        <Version>24.0.8</Version>
         <IsAutoDownload value="false" />
         <FolderId value="14" />
         <LibraryPackageVersionId value="null" />
-        <Name>7-Zip v24.07 (x86)</Name>
-        <Path>Installers\7-Zip v24.07 (x86)</Path>
+        <Name>7-Zip v24.0.8 (x86)</Name>
+        <Path>Installers\7-Zip v24.0.8 (x86)</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -263,7 +263,7 @@
  - Disable all third-party service connectors (Dropbox, Google Drive, SharePoint, etc) via the bundled customization file</Description>
         <NewLibraryPackageVersionId value="null" />
         <OriginalId value="null" />
-        <Version>24.002.20857</Version>
+        <Version>24.003.20112</Version>
         <IsAutoDownload value="false" />
         <FolderId value="14" />
         <LibraryPackageVersionId value="null" />
@@ -609,12 +609,12 @@ Gimp v2.10.38.exe /verysilent /norestart</Description>
  * If you wish to disable this behavior, edit the batch file and remove the two lines that start with "sc delete"</Description>
         <NewLibraryPackageVersionId value="null" />
         <OriginalId value="null" />
-        <Version>127.0.6533.73</Version>
+        <Version>129.0.6668.71</Version>
         <IsAutoDownload value="false" />
         <FolderId value="14" />
         <LibraryPackageVersionId value="null" />
-        <Name>Google Chrome v127.0.6533.73 (Enterprise)</Name>
-        <Path>Installers\Google Chrome v127.0.6533.73 (Enterprise)</Path>
+        <Name>Google Chrome v129.0.6668.71 (Enterprise)</Name>
+        <Path>Installers\Google Chrome v129.0.6668.71 (Enterprise)</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -699,12 +699,12 @@ Gimp v2.10.38.exe /verysilent /norestart</Description>
  * If you wish to disable this behavior, edit the batch file and remove the two lines that start with "sc delete"</Description>
         <NewLibraryPackageVersionId value="null" />
         <OriginalId value="null" />
-        <Version>127.0.6533.73</Version>
+        <Version>129.0.6668.71</Version>
         <IsAutoDownload value="false" />
         <FolderId value="14" />
         <LibraryPackageVersionId value="null" />
-        <Name>Google Chrome v127.0.6533.73 (Enterprise) (x86)</Name>
-        <Path>Installers\Google Chrome v127.0.6533.73 (Enterprise) (x86)</Path>
+        <Name>Google Chrome v129.0.6668.71 (Enterprise) (x86)</Name>
+        <Path>Installers\Google Chrome v129.0.6668.71 (Enterprise) (x86)</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -1262,12 +1262,12 @@ If the target machine is on a domain, the login format is as follows:
  - Removes all language files except English (US)</Description>
         <NewLibraryPackageVersionId value="null" />
         <OriginalId value="null" />
-        <Version>24.2.5</Version>
+        <Version>24.8.2</Version>
         <IsAutoDownload value="false" />
         <FolderId value="14" />
         <LibraryPackageVersionId value="null" />
-        <Name>LibreOffice v24.2.5</Name>
-        <Path>Installers\LibreOffice v24.2.5</Path>
+        <Name>LibreOffice v24.8.2</Name>
+        <Path>Installers\LibreOffice v24.8.2</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -1442,12 +1442,12 @@ If the target machine is on a domain, the login format is as follows:
  * These customizations come from the file '\autoconfig\cck2.cfg' in the package directory. If you want to change them, edit or delete this file. The config file was generated with the CCK2 addon for Firefox.</Description>
         <NewLibraryPackageVersionId value="null" />
         <OriginalId value="null" />
-        <Version>115.13.0</Version>
+        <Version>128.2.0</Version>
         <IsAutoDownload value="false" />
         <FolderId value="14" />
         <LibraryPackageVersionId value="null" />
-        <Name>Mozilla Firefox v115.13.0 ESR (customized)</Name>
-        <Path>Installers\Mozilla Firefox v115.13.0 ESR (customized)</Path>
+        <Name>Mozilla Firefox v128.2.0 ESR (customized)</Name>
+        <Path>Installers\Mozilla Firefox v128.2.0 ESR (customized)</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -1539,12 +1539,12 @@ If the target machine is on a domain, the login format is as follows:
  * These customizations come from the file '\autoconfig\cck2.cfg' in the package directory. If you want to change them, edit or delete this file. The config file was generated with the CCK2 addon for Firefox.</Description>
         <NewLibraryPackageVersionId value="null" />
         <OriginalId value="null" />
-        <Version>115.13.0</Version>
+        <Version>128.2.0</Version>
         <IsAutoDownload value="false" />
         <FolderId value="14" />
         <LibraryPackageVersionId value="null" />
-        <Name>Mozilla Firefox v115.13.0 ESR (customized) (x86)</Name>
-        <Path>Installers\Mozilla Firefox v115.13.0 ESR (customized) (x86)</Path>
+        <Name>Mozilla Firefox v128.2.0 ESR (customized) (x86)</Name>
+        <Path>Installers\Mozilla Firefox v128.2.0 ESR (customized) (x86)</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -1641,8 +1641,8 @@ If the target machine is on a domain, the login format is as follows:
         <IsAutoDownload value="false" />
         <FolderId value="14" />
         <LibraryPackageVersionId value="null" />
-        <Name>Mozilla Firefox v128.0.2 (customized)</Name>
-        <Path>Installers\Mozilla Firefox v128.0.2 (customized)</Path>
+        <Name>Mozilla Firefox v130.0.1 (customized)</Name>
+        <Path>Installers\Mozilla Firefox v130.0.1 (customized)</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -1739,8 +1739,8 @@ If the target machine is on a domain, the login format is as follows:
         <IsAutoDownload value="false" />
         <FolderId value="14" />
         <LibraryPackageVersionId value="null" />
-        <Name>Mozilla Firefox v128.0.2 (customized) (x86)</Name>
-        <Path>Installers\Mozilla Firefox v128.0.2 (customized) (x86)</Path>
+        <Name>Mozilla Firefox v130.0.1 (customized) (x86)</Name>
+        <Path>Installers\Mozilla Firefox v130.0.1 (customized) (x86)</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -1828,12 +1828,12 @@ If the target machine is on a domain, the login format is as follows:
 * If you wish to disable these settings, remove the three *.js files in the package directory</Description>
         <NewLibraryPackageVersionId value="null" />
         <OriginalId value="null" />
-        <Version>115.13.0</Version>
+        <Version>128.2.3</Version>
         <IsAutoDownload value="false" />
         <FolderId value="14" />
         <LibraryPackageVersionId value="null" />
-        <Name>Mozilla Thunderbird v115.13.0 (customized) (x86)</Name>
-        <Path>Installers\Mozilla Thunderbird v115.13.0 (customized) (x86)</Path>
+        <Name>Mozilla Thunderbird v128.2.3 (customized) (x86)</Name>
+        <Path>Installers\Mozilla Thunderbird v128.2.3 (customized) (x86)</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -1914,12 +1914,12 @@ If the target machine is on a domain, the login format is as follows:
  - Deletes the DSpellCheck plugin</Description>
         <NewLibraryPackageVersionId value="null" />
         <OriginalId value="null" />
-        <Version>8.6.9</Version>
+        <Version>8.7.0</Version>
         <IsAutoDownload value="false" />
         <FolderId value="14" />
         <LibraryPackageVersionId value="null" />
-        <Name>Notepad++ v8.6.9</Name>
-        <Path>Installers\Notepad++ v8.6.9</Path>
+        <Name>Notepad++ v8.7.0</Name>
+        <Path>Installers\Notepad++ v8.7.0</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -2001,12 +2001,12 @@ If the target machine is on a domain, the login format is as follows:
 Thanks to Moonchild ( http://www.palemoon.org/ ) for redistribution permission.</Description>
         <NewLibraryPackageVersionId value="null" />
         <OriginalId value="null" />
-        <Version>33.2.1</Version>
+        <Version>33.3.1</Version>
         <IsAutoDownload value="false" />
         <FolderId value="14" />
         <LibraryPackageVersionId value="null" />
-        <Name>Pale Moon v33.2.1</Name>
-        <Path>Installers\Pale Moon v33.2.1</Path>
+        <Name>Pale Moon v33.3.1</Name>
+        <Path>Installers\Pale Moon v33.3.1</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -2179,12 +2179,12 @@ Thanks to Moonchild ( http://www.palemoon.org/ ) for redistribution permission.<
  * These settings come from the registry file that gets imported. If you wish to disable these customizations, remove the registry file.</Description>
         <NewLibraryPackageVersionId value="null" />
         <OriginalId value="null" />
-        <Version>2.8.84</Version>
+        <Version>2.8.85</Version>
         <IsAutoDownload value="false" />
         <FolderId value="14" />
         <LibraryPackageVersionId value="null" />
-        <Name>TightVNC v2.8.84</Name>
-        <Path>Installers\TightVNC v2.8.84</Path>
+        <Name>TightVNC v2.8.85</Name>
+        <Path>Installers\TightVNC v2.8.85</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -2271,12 +2271,12 @@ Thanks to Moonchild ( http://www.palemoon.org/ ) for redistribution permission.<
  * These settings come from the registry file that gets imported. If you wish to disable these customizations, remove the registry file.</Description>
         <NewLibraryPackageVersionId value="null" />
         <OriginalId value="null" />
-        <Version>2.8.84</Version>
+        <Version>2.8.85</Version>
         <IsAutoDownload value="false" />
         <FolderId value="14" />
         <LibraryPackageVersionId value="null" />
-        <Name>TightVNC v2.8.84 (x86)</Name>
-        <Path>Installers\TightVNC v2.8.84 (x86)</Path>
+        <Name>TightVNC v2.8.85 (x86)</Name>
+        <Path>Installers\TightVNC v2.8.85 (x86)</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -2532,12 +2532,12 @@ and paste the resulting password in the 'ultravnc.ini' file in the same director
  - Associates .scp file extensions with WinSCP</Description>
         <NewLibraryPackageVersionId value="null" />
         <OriginalId value="null" />
-        <Version>6.3.4</Version>
+        <Version>6.3.5</Version>
         <IsAutoDownload value="false" />
         <FolderId value="14" />
         <LibraryPackageVersionId value="null" />
-        <Name>WinSCP v6.3.4 (x86)</Name>
-        <Path>Installers\WinSCP v6.3.4 (x86)</Path>
+        <Name>WinSCP v6.3.5 (x86)</Name>
+        <Path>Installers\WinSCP v6.3.5 (x86)</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
@@ -2573,7 +2573,7 @@ and paste the resulting password in the 'ultravnc.ini' file in the same director
           <Steps type="list">
             <InstallStep>
               <CustomCommandLine></CustomCommandLine>
-              <FileName>$(Repository)\wireshark\Wireshark v4.2.6.exe</FileName>
+              <FileName>$(Repository)\wireshark\Wireshark v4.4.0.exe</FileName>
               <Files></Files>
               <IncludeDirectory value="false" />
               <LeaveInstallFile value="false" />
@@ -2615,12 +2615,12 @@ and paste the resulting password in the 'ultravnc.ini' file in the same director
         <Description>Installs Wireshark x64 silently.</Description>
         <NewLibraryPackageVersionId value="null" />
         <OriginalId value="null" />
-        <Version>4.2.6</Version>
+        <Version>4.4.0</Version>
         <IsAutoDownload value="false" />
         <FolderId value="14" />
         <LibraryPackageVersionId value="null" />
-        <Name>Wireshark v4.2.6</Name>
-        <Path>Installers\Wireshark v4.2.6</Path>
+        <Name>Wireshark v4.4.0</Name>
+        <Path>Installers\Wireshark v4.4.0</Path>
         <PackageDisplaySettings name="DisplaySettings">
           <DisplayType>Normal</DisplayType>
           <IconKey>Icon-Package</IconKey>
