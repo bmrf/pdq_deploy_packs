@@ -11,6 +11,57 @@ Do not withold good from those who deserve it, when it is in your power to act. 
 
 
 
+v92.0.0 // 2024-09-30
+URL: 
+====================================================================================================
+ ! Note: All packages are x64 architecture unless otherwise specified
+
+ * 7-Zip v24.08 (x86)                                      //
+ * 7-Zip v24.08                                            //
+ * Adobe Acrobat Reader DC v24.003.20112                   //
+ . CDBurnerXP v4.5.8.7128                                  //
+ . FileZilla Client v3.67.1                                //
+ . Gimp v2.10.38                                           //
+ * Google Chrome v129.0.6668.71 (Enterprise)               //
+ * Google Chrome v129.0.6668.71 (Enterprise) (x86)         //
+ . Java Development Kit 8 update 421                       //
+ . Java Development Kit 8 update 421 (x86)                 //
+ . Java Development Kit update 11.0.22                     //
+ . Java Runtime 10.0.2                                     // 
+ . KTS KypM Telnet/SSH Server v1.19c (x86)                 //
+ * LibreOffice v24.8.2                                     //
+ . Microsoft .NET Framework v3.5.1 SP1 (x86)               //
+ * Mozilla Firefox v130.0.1                                // NOTE: Firefox loads the uBlock Origin adblock plugin
+ * Mozilla Firefox v130.0.1 (x86)                          // NOTE: Firefox loads the uBlock Origin adblock plugin
+ * Mozilla Firefox ESR v128.2.0                            // NOTE: Firefox ESR loads uBlock Origin adblock plugin
+ * Mozilla Firefox ESR v128.2.0 (x86)                      // NOTE: Firefox ESR loads uBlock Origin adblock plugin
+ * Mozilla Thunderbird v128.2.3 (x86)                      //
+ * Notepad++ v8.7.0                                        //
+ * Pale Moon v33.3.1                                       //
+ . Spark v3.0.2 (x86)                                      //
+ * TightVNC v2.8.85                                        // remote connection password: nettech2
+ * TightVNC v2.8.85 (x86)                                  // remote connection password: nettech2
+ . UltraVNC v1.4.3.6 (x86)                                 // remote connection password: nettech2
+ . VLC media player v3.0.21                                //
+ * WinSCP v6.3.5 (x86)                                     //
+ * Wireshark v4.4.0                                        //
+ 
+
+Utilities:
+ . Clean Up All Printers                                   //
+ . Clean Up Orphaned Printers                              //
+ . Empty All Recycle Bins (wipe all user bins on target)   //
+ . Enable Remote Desktop (enable RDP on target)            //
+ . Install PKI Certificates                                //
+ . Reboot (force target reboot in 15 seconds)              //
+ . Remove Adobe Flash Player (all versions) v2.0.0         //
+ . Remove Java Runtime (all versions) v1.8.8               //
+ . Remove Microsoft Silverlight (all versions)             //
+ . Remove VNC Servers (TightVNC, UltraVNC, RealVNC)        //
+ . Temp File Cleanup v3.7.0 (clean temp folders on target) //
+ . USB Device Cleanup v1.6.5                               //
+
+
 v91.0.0 // 2024-07-24
 URL: https://www.reddit.com/r/pdq/comments/1ebb4qq/pdq_deploy_packages_v9100_20240724/
 ====================================================================================================
@@ -5999,5 +6050,5 @@ Uninstallers:
 
 
 # Deployment script helper
-PACK_VERSION=91.0.0
-PACK_DATE=2024-07-24
+PACK_VERSION=92.0.0
+PACK_DATE=2024-09-30
