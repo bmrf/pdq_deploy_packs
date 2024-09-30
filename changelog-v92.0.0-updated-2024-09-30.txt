@@ -12,7 +12,7 @@ Do not withold good from those who deserve it, when it is in your power to act. 
 
 
 v92.0.0 // 2024-09-30
-URL: 
+URL: https://www.reddit.com/r/pdq/comments/1fsy75l/pdq_deploy_packages_v9200_20240930/
 ====================================================================================================
  ! Note: All packages are x64 architecture unless otherwise specified
 
