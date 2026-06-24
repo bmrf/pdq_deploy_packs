@@ -37,7 +37,7 @@ set LOGPATH=%SystemDrive%\Logs
 set LOGFILE=%COMPUTERNAME%_7-zip_x64_install.log
 
 :: Package to install. Do not use trailing slashes (\)
-set BINARY=7-Zip v24.07.msi
+set BINARY=7-Zip v26.01.msi
 set FLAGS=ALLUSERS=1 /q /norestart INSTALLDIR="C:\Program Files\7-Zip"
 
 :: Create the log directory if it doesn't exist
